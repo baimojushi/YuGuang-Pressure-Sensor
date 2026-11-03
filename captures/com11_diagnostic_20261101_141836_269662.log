@@ -1,0 +1,321 @@
+2026-11-01T14:18:37.973 [0001.70] ESP-ROM:esp32s3-20210327
+2026-11-01T14:18:37.973 [0001.70] Build:Mar 27 2021
+2026-11-01T14:18:37.973 [0001.70] rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+2026-11-01T14:18:37.973 [0001.70] SPIWP:0xee
+2026-11-01T14:18:37.973 [0001.70] mode:DIO, clock div:1
+2026-11-01T14:18:37.973 [0001.70] load:0x3fce2820,len:0x135c
+2026-11-01T14:18:37.973 [0001.70] load:0x403c8700,len:0x4
+2026-11-01T14:18:37.973 [0001.70] load:0x403c8704,len:0xea8
+2026-11-01T14:18:37.973 [0001.70] load:0x403cb700,len:0x30dc
+2026-11-01T14:18:37.973 [0001.70] entry 0x403c8940
+2026-11-01T14:18:37.973 [0001.70] I (27) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+2026-11-01T14:18:37.973 [0001.70] I (27) boot: compile time Nov  1 2026 04:17:03
+2026-11-01T14:18:37.973 [0001.70] I (27) boot: Multicore bootloader
+2026-11-01T14:18:37.973 [0001.70] I (28) boot: chip revision: v0.2
+2026-11-01T14:18:37.973 [0001.70] I (31) boot: efuse block revision: v1.4
+2026-11-01T14:18:37.973 [0001.70] I (34) qio_mode: Enabling default flash chip QIO
+2026-11-01T14:18:37.973 [0001.70] I (39) boot.esp32s3: Boot SPI Speed : 80MHz
+2026-11-01T14:18:37.973 [0001.70] I (43) boot.esp32s3: SPI Mode       : QIO
+2026-11-01T14:18:37.973 [0001.70] I (46) boot.esp32s3: SPI Flash Size : 16MB
+2026-11-01T14:18:37.973 [0001.70] I (50) boot: Enabling RNG early entropy source...
+2026-11-01T14:18:37.973 [0001.70] I (55) boot: Partition Table:
+2026-11-01T14:18:37.973 [0001.70] I (57) boot: ## Label            Usage          Type ST Offset   Length
+2026-11-01T14:18:37.973 [0001.70] I (64) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+2026-11-01T14:18:37.973 [0001.70] I (70) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+2026-11-01T14:18:37.973 [0001.70] I (77) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+2026-11-01T14:18:37.973 [0001.70] I (83) boot:  3 ota_0            OTA app          00 10 00020000 003f0000
+2026-11-01T14:18:37.973 [0001.70] I (90) boot:  4 ota_1            OTA app          00 11 00410000 003f0000
+2026-11-01T14:18:37.973 [0001.70] I (96) boot:  5 lvgl             Unknown data     01 82 00800000 00010000
+2026-11-01T14:18:37.973 [0001.70] I (103) boot:  6 coco_pose        Unknown data     01 40 00810000 00320000
+2026-11-01T14:18:37.973 [0001.70] I (109) boot:  7 spiffs_data      Unknown data     01 82 00b30000 00100000
+2026-11-01T14:18:37.973 [0001.70] I (116) boot:  8 model            Unknown data     01 82 00c30000 00300000
+2026-11-01T14:18:37.973 [0001.70] I (123) boot: End of partition table
+2026-11-01T14:18:37.973 [0001.70] I (126) esp_image: segment 0: paddr=00020020 vaddr=3c150020 size=66238h (418360) map
+2026-11-01T14:18:37.973 [0001.70] I (195) esp_image: segment 1: paddr=00086260 vaddr=3fca5500 size=077a8h ( 30632) load
+2026-11-01T14:18:37.973 [0001.70] I (201) esp_image: segment 2: paddr=0008da10 vaddr=40378000 size=02608h (  9736) load
+2026-11-01T14:18:37.973 [0001.70] I (203) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=14440ch (1328140) map
+2026-11-01T14:18:37.973 [0001.70] I (404) esp_image: segment 4: paddr=001d4434 vaddr=4037a608 size=1ae00h (110080) load
+2026-11-01T14:18:37.973 [0001.70] I (425) esp_image: segment 5: paddr=001ef23c vaddr=600fe100 size=0001ch (    28) load
+2026-11-01T14:18:37.973 [0001.70] I (437) boot: Loaded app from partition at offset 0x20000
+2026-11-01T14:18:37.973 [0001.70] I (437) boot: Disabling RNG early entropy source...
+2026-11-01T14:18:37.973 [0001.70] W (447) flash HPM: HPM mode is optional feature that depends on flash model. Read Docs First!
+2026-11-01T14:18:37.973 [0001.70] W (447) flash HPM: HPM mode with DC adjustment is disabled. Some flash models may not be supported. Read Docs First!
+2026-11-01T14:18:37.973 [0001.70] W (454) flash HPM: High performance mode of this flash model hasn't been supported.
+2026-11-01T14:18:37.974 [0001.70] I (462) MSPI Timing: Flash timing tuning index: 2
+2026-11-01T14:18:37.974 [0001.70] I (466) octal_psram: vendor id    : 0x0d (AP)
+2026-11-01T14:18:37.974 [0001.70] I (470) octal_psram: dev id       : 0x02 (generation 3)
+2026-11-01T14:18:37.974 [0001.70] I (475) octal_psram: density      : 0x03 (64 Mbit)
+2026-11-01T14:18:37.974 [0001.70] I (480) octal_psram: good-die     : 0x01 (Pass)
+2026-11-01T14:18:37.974 [0001.70] I (484) octal_psram: Latency      : 0x01 (Fixed)
+2026-11-01T14:18:37.974 [0001.70] I (488) octal_psram: VCC          : 0x01 (3V)
+2026-11-01T14:18:37.974 [0001.70] I (492) octal_psram: SRF          : 0x01 (Fast Refresh)
+2026-11-01T14:18:37.974 [0001.70] I (497) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+2026-11-01T14:18:37.974 [0001.70] I (502) octal_psram: BurstLen     : 0x01 (32 Byte)
+2026-11-01T14:18:37.974 [0001.70] I (507) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+2026-11-01T14:18:37.974 [0001.70] I (512) octal_psram: DriveStrength: 0x00 (1/1)
+2026-11-01T14:18:37.974 [0001.70] I (521) MSPI Timing: PSRAM timing tuning index: 2
+2026-11-01T14:18:37.974 [0001.70] I (521) esp_psram: Found 8MB PSRAM device
+2026-11-01T14:18:37.974 [0001.70] I (524) esp_psram: Speed: 120MHz
+2026-11-01T14:18:37.974 [0001.70] I (547) mmu_psram: Read only data copied and mapped to SPIRAM
+2026-11-01T14:18:37.974 [0001.70] I (621) mmu_psram: Instructions copied and mapped to SPIRAM
+2026-11-01T14:18:37.974 [0001.70] I (621) cpu_start: Multicore app
+2026-11-01T14:18:37.974 [0001.70] I (630) cpu_start: Pro cpu start user code
+2026-11-01T14:18:37.974 [0001.70] I (630) cpu_start: cpu freq: 240000000 Hz
+2026-11-01T14:18:37.974 [0001.70] I (630) app_init: Application information:
+2026-11-01T14:18:37.974 [0001.70] I (630) app_init: Project name:     vb701n
+2026-11-01T14:18:37.974 [0001.70] I (634) app_init: App version:      1
+2026-11-01T14:18:37.974 [0001.70] I (637) app_init: Compile time:     Nov  1 2026 14:09:48
+2026-11-01T14:18:37.974 [0001.70] I (642) app_init: ELF file SHA256:  42549a642...
+2026-11-01T14:18:37.974 [0001.70] I (646) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+2026-11-01T14:18:37.974 [0001.70] I (651) efuse_init: Min chip rev:     v0.0
+2026-11-01T14:18:37.974 [0001.70] I (655) efuse_init: Max chip rev:     v0.99 
+2026-11-01T14:18:37.974 [0001.70] I (659) efuse_init: Chip rev:         v0.2
+2026-11-01T14:18:37.974 [0001.70] I (663) heap_init: Initializing. RAM available for dynamic allocation:
+2026-11-01T14:18:37.974 [0001.70] I (669) heap_init: At 3FCB2EE8 len 00036828 (218 KiB): RAM
+2026-11-01T14:18:37.974 [0001.70] I (674) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+2026-11-01T14:18:37.974 [0001.70] I (679) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+2026-11-01T14:18:37.974 [0001.70] I (685) esp_psram: Adding pool of 6387K of PSRAM memory to heap allocator
+2026-11-01T14:18:37.974 [0001.70] I (691) spi_flash: detected chip: generic
+2026-11-01T14:18:37.974 [0001.70] I (695) spi_flash: flash io: qio
+2026-11-01T14:18:37.974 [0001.70] I (698) coexist: coex firmware version: e727207
+2026-11-01T14:18:37.974 [0001.70] I (735) coexist: coexist rom version e7ae62f
+2026-11-01T14:18:37.974 [0001.70] I (735) main_task: Started on CPU0
+2026-11-01T14:18:37.974 [0001.70] I ([000063]<I> system KV init ret=0
+2026-11-01T14:18:37.974 [0001.70] I (748) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T14:18:37.974 [0001.70] [000063]<I> init ok gpio0
+2026-11-01T14:18:37.974 [0001.70] [000066]<I> init ok gpio1 leds 8
+2026-11-01T14:18:37.974 [0001.70] I (753) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+2026-11-01T14:18:37.974 [0001.70] I (762) yg-a-uart: fallback RX ready uart=2 gpio=17 baud=460800
+2026-11-01T14:18:37.974 [0001.70] I (767) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T14:18:37.974 [0001.70] [000091]<I> arbiter init
+2026-11-01T14:18:37.974 [0001.70] [000093]<E> playback init failed
+2026-11-01T14:18:37.974 [0001.70] [000096]<I> init done
+2026-11-01T14:18:37.974 [0001.70] [000098]<E> system KV get failed ret=-1 key=course_cfg key_len=10
+2026-11-01T14:18:37.974 [0001.70] [000104]<I> no valid flash data, key=course_cfg
+2026-11-01T14:18:37.975 [0001.70] [000108]<I> iot event listener registered
+2026-11-01T14:18:37.975 [0001.70] [000112]<I> down_register ret=0 (method=course)
+2026-11-01T14:18:37.975 [0001.70] [000116]<I> init ok: synced=0 entries=0
+2026-11-01T14:18:37.975 [0001.70] [000120]<I> dynreg env=2
+2026-11-01T14:18:37.975 [0001.70] [000123]<I> saved wifi, skip ble
+2026-11-01T14:18:37.975 [0001.70] I (812) pp: pp rom version: e7ae62f
+2026-11-01T14:18:37.975 [0001.70] I (814) net80211: net80211 rom version: e7ae62f
+2026-11-01T14:18:37.975 [0001.70] I (819) wifi:wifi driver task: 3fcd046c, prio:23, stack:6144, core=0
+2026-11-01T14:18:37.975 [0001.70] I (824) wifi:wifi firmware version: 79fa3f41ba
+2026-11-01T14:18:37.975 [0001.70] I (828) wifi:wifi certification version: v7.0
+2026-11-01T14:18:37.975 [0001.70] I (832) wifi:config NVS flash: disabled
+2026-11-01T14:18:37.975 [0001.70] I (836) wifi:config nano formatting: enabled
+2026-11-01T14:18:37.975 [0001.70] I (840) wifi:Init data frame dynamic rx buffer num: 32
+2026-11-01T14:18:37.975 [0001.70] I (845) wifi:Init static rx mgmt buffer num: 5
+2026-11-01T14:18:37.975 [0001.70] I (849) wifi:Init management short buffer num: 32
+2026-11-01T14:18:37.975 [0001.70] I (853) wifi:Init static tx buffer num: 8
+2026-11-01T14:18:37.975 [0001.70] I (857) wifi:Init tx cache buffer num: 32
+2026-11-01T14:18:37.975 [0001.70] I (861) wifi:Init static tx FG buffer num: 2
+2026-11-01T14:18:37.975 [0001.70] I (865) wifi:Init static rx buffer size: 1600
+2026-11-01T14:18:37.975 [0001.70] I (869) wifi:Init static rx buffer num: 10
+2026-11-01T14:18:37.975 [0001.70] I (873) wifi:Init dynamic rx buffer num: 32
+2026-11-01T14:18:37.975 [0001.70] I (877) wifi_init: rx ba win: 12
+2026-11-01T14:18:37.975 [0001.70] I (880) wifi_init: accept mbox: 6
+2026-11-01T14:18:37.975 [0001.70] I (883) wifi_init: tcpip mbox: 32
+2026-11-01T14:18:37.975 [0001.70] I (886) wifi_init: udp mbox: 16
+2026-11-01T14:18:37.975 [0001.70] I (888) wifi_init: tcp mbox: 6
+2026-11-01T14:18:37.975 [0001.70] I (891) wifi_init: tcp tx win: 5760
+2026-11-01T14:18:37.975 [0001.70] I (894) wifi_init: tcp rx win: 5760
+2026-11-01T14:18:37.975 [0001.70] I (898) wifi_init: tcp mss: 1440
+2026-11-01T14:18:37.975 [0001.70] I (901) wifi_init: WiFi/LWIP prefer SPIRAM
+2026-11-01T14:18:37.975 [0001.70] I (904) wifi_init: WiFi IRAM OP enabled
+2026-11-01T14:18:37.975 [0001.70] I (908) wifi_init: WiFi RX IRAM OP enabled
+2026-11-01T14:18:37.975 [0001.70] I (912) wifi_init: LWIP IRAM OP enabled
+2026-11-01T14:18:37.975 [0001.70] W (915) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+2026-11-01T14:18:37.975 [0001.70] I (924) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+2026-11-01T14:18:37.975 [0001.70] I (965) wifi:mode : sta (68:ee:8f:44:bd:b4)
+2026-11-01T14:18:37.975 [0001.70] I (965) wifi:enable tsf
+2026-11-01T14:18:37.975 [0001.70] [000280]<I> wifi sta start
+2026-11-01T14:18:37.975 [0001.70] [000281]<E> system KV get failed ret=-1 key=qmalarm.meta key_len=12
+2026-11-01T14:18:37.975 [0001.70] [000283]<I> ready, cloud=on
+2026-11-01T14:18:37.975 [0001.70] [000286]<I> app init done: internal free=142323, largest=63488, psram free=6422912
+2026-11-01T14:18:37.975 [0001.70] I (978) main_task: Returned from app_main()
+2026-11-01T14:18:37.975 [0001.70] I (1170) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+2026-11-01T14:18:37.975 [0001.70] I (1170) wifi:state: init -> auth (0xb0)
+2026-11-01T14:18:37.975 [0001.70] I (1183) wifi:state: auth -> assoc (0x0)
+2026-11-01T14:18:37.975 [0001.70] I (1186) wifi:state: assoc -> run (0x10)
+2026-11-01T14:18:37.975 [0001.70] I (1284) wifi:[ADDBA]RX DELBA, reason:39, delete tid:0, initiator:1(originator)
+2026-11-01T14:18:37.975 [0001.70] I (1285) wifi:[ADDBA]RX DELBA, reason:39, delete tid:0, initiator:0(recipient)
+2026-11-01T14:18:37.975 [0001.70] I (1287) wifi:[ADDBA]RX DELBA, reason:39, delete tid:3, initiator:1(originator)
+2026-11-01T14:18:37.975 [0001.70] I (1306) wifi:connected with INTERCITYHACK-NB-PLAYER-2.4G, aid = 2, channel 1, BW20, bssid = 5a:b4:bb:39:13:8a
+2026-11-01T14:18:37.975 [0001.70] I (1306) wifi:security: WPA2-PSK, phy: bgn, rssi: -49
+2026-11-01T14:18:37.975 [0001.70] I (1309) wifi:pm start, type: 1
+2026-11-01T14:18:37.975 [0001.70] 
+2026-11-01T14:18:37.975 [0001.70] I (1312) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+2026-11-01T14:18:37.976 [0001.70] I (1320) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+2026-11-01T14:18:37.976 [0001.70] I (1329) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+2026-11-01T14:18:38.423 [0002.16] [001098]<W> report failed -10
+2026-11-01T14:18:39.744 [0003.48] [001665]<I> wifi got ip
+2026-11-01T14:18:39.744 [0003.48] I (2350) esp_netif_handlers: sta ip: 10.20.0.141, mask: 255.255.254.0, gw: 10.20.0.1
+2026-11-01T14:18:39.744 [0003.48] [001665]<I> network update state=1
+2026-11-01T14:18:39.744 [0003.48] [001667]<D> iot event 4
+2026-11-01T14:18:39.744 [0003.48] [001669]<E> dynreg request payload={"sn":"68EE8F44BDB6","pid":"11879","timestamp":"1667","signature":"<redacted>","nonce":20048} signature_len=40
+2026-11-01T14:18:39.744 [0003.48] [001682]<I> tls connect start host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca=0 mtls=0
+2026-11-01T14:18:39.744 [0003.48] [001691]<I> tls establish host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca_bytes=0 ca_type=bundle client_crt_bytes=0 client_crt_type=none client_key_bytes=0 client_key_type=none
+2026-11-01T14:18:39.744 [0003.48] I (2406) wifi:<ba-add>idx:0 (ifx:0, 5a:b4:bb:39:13:8a), tid:0, ssn:372, winSize:64
+2026-11-01T14:18:39.744 [0003.48] I (2437) wifi:<ba-add>idx:1 (ifx:0, 5a:b4:bb:39:13:8a), tid:3, ssn:16, winSize:64
+2026-11-01T14:18:39.744 [0003.48] I (2570) esp-x509-crt-bundle: Certificate validated
+2026-11-01T14:18:39.744 [0003.48] [002098]<W> report failed -10
+2026-11-01T14:18:39.744 [0003.48] [002171]<I> transport connected host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 secure=1
+2026-11-01T14:18:39.744 [0003.48] [002171]<D> request state reset timeout=10000 rx_buf=512 keep_alive=0 auth=0
+2026-11-01T14:18:39.744 [0003.48] [002177]<I> tls write ok fd=52 wrote=208 requested=208
+2026-11-01T14:18:39.744 [0003.48] [002345]<I> response finished status=200 bytes=4564
+2026-11-01T14:18:39.744 [0003.48] [002346]<I> close connection active=1 status=200
+2026-11-01T14:18:39.744 [0003.48] [002346]<I> cleanup client
+2026-11-01T14:18:39.744 [0003.48] [002346]<I> close connection active=0 status=200
+2026-11-01T14:18:39.744 [0003.48] [002360]<I> dynreg did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883
+2026-11-01T14:18:39.744 [0003.48] [002365]<I> reset marker already clear
+2026-11-01T14:18:39.744 [0003.48] [002365]<I> start begin
+2026-11-01T14:18:39.744 [0003.48] [002365]<I> reset_info.is_reset=0,0
+2026-11-01T14:18:39.744 [0003.48] [002368]<I> cloud credential summary pid=11879 did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn host_len=50 port=8883
+2026-11-01T14:18:39.744 [0003.48] [002381]<I> start done
+2026-11-01T14:18:39.744 [0003.48] [002383]<I> network update state=1
+2026-11-01T14:18:39.744 [0003.48] [002386]<D> iot event 4
+2026-11-01T14:18:39.744 [0003.48] [002388]<I> iot start ok
+2026-11-01T14:18:39.744 [0003.48] [002390]<I> cloud connecting
+2026-11-01T14:18:39.744 [0003.48] [002393]<I> MQTT init success!
+2026-11-01T14:18:39.744 [0003.48] [002396]<I> tls establish host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883 ca_bytes=1188 ca_type=certificate client_crt_bytes=1221 client_crt_type=certificate client_key_bytes=1676 client_key_type=rsa-private-key
+2026-11-01T14:18:40.426 [0004.16] [003098]<W> report failed -10
+2026-11-01T14:18:41.769 [0005.50] [003654]<D> start MQTT connection with parameters: clientid=11879_68EE8F44BDB6
+2026-11-01T14:18:41.769 [0005.50] [003655]<I> tls write ok fd=52 wrote=32 requested=32
+2026-11-01T14:18:41.769 [0005.50] [003767]<D> mqtt connect success!
+2026-11-01T14:18:41.769 [0005.50] [003767]<D> mqtt connect success
+2026-11-01T14:18:41.769 [0005.50] [003769]<I> mqtt subscribe success,topic= /11879/100000808/device/down
+2026-11-01T14:18:41.769 [0005.50] [003769]<I> mqtt subscribe success,topic= /11879/100000808/cloud/set
+2026-11-01T14:18:41.769 [0005.50] [003775]<I> mqtt subscribe success,topic= /11879/100000808/device/getReply
+2026-11-01T14:18:41.769 [0005.50] [003781]<I> mqtt subscribe success,topic= /11879/100000808/cloud/get
+2026-11-01T14:18:41.769 [0005.50] [003787]<I> mqtt subscribe success,topic= $aws/things/100000808/shadow/update
+2026-11-01T14:18:41.769 [0005.50] [003843]<D> SUBACK
+2026-11-01T14:18:41.769 [0005.50] [003843]<D> suback: 5, topic count: 5
+2026-11-01T14:18:41.769 [0005.50] [003940]<D> PUBLISH
+2026-11-01T14:18:41.769 [0005.50] [003940]<D>         Packet Ident : 00000000
+2026-11-01T14:18:41.769 [0005.50] [003940]<D>         Topic Length : 28
+2026-11-01T14:18:41.769 [0005.50] [003940]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T14:18:41.769 [0005.50] [003944]<D>     Payload Len/Room : 60 / 8112
+2026-11-01T14:18:41.769 [0005.50] [003948]<D>       Receive Buflen : 8144
+2026-11-01T14:18:41.769 [0005.50] [003952]<D> delivering msg ...
+2026-11-01T14:18:41.770 [0005.50] [003955]<D> topic be matched
+2026-11-01T14:18:41.770 [0005.50] [003957]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+2026-11-01T14:18:41.770 [0005.50] [003995]<I> cloud connected
+2026-11-01T14:18:41.770 [0005.50] [003995]<I> down registered: chat
+2026-11-01T14:18:41.770 [0005.50] [003995]<I> down registered: care
+2026-11-01T14:18:41.770 [0005.50] [003995]<I> down registered: voice
+2026-11-01T14:18:41.770 [0005.50] [003996]<I> down registered: player
+2026-11-01T14:18:41.770 [0005.50] [003999]<I> start: internal free=138115 largest=47104
+2026-11-01T14:18:41.770 [0005.50] I (4689) BLE_INIT: BT controller compile version [d74042a]
+2026-11-01T14:18:41.770 [0005.50] I (4694) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:bd:b6
+2026-11-01T14:18:41.770 [0005.50] [004024]<W> UNENCRYPTED DEBUG: fixed B only; no confidentiality or authenticated identity
+2026-11-01T14:18:41.770 [0005.50] [004024]<I> GATT central started; peer pinned=0
+2026-11-01T14:18:41.770 [0005.50] [004026]<I> ntp sync started
+2026-11-01T14:18:41.770 [0005.50] [004029]<I> down registered: pomodoro
+2026-11-01T14:18:41.770 [0005.50] [004032]<I> down_register ret=0 (method=course)
+2026-11-01T14:18:41.771 [0005.50] [004039]<D> publish devinfo topic_len=26 payload_len=175
+2026-11-01T14:18:41.771 [0005.50] [004133]<D> The host IP 116.62.13.223, port is 123
+2026-11-01T14:18:41.771 [0005.50] 
+2026-11-01T14:18:41.771 [0005.50] [004133]<D> PUBLISH
+2026-11-01T14:18:41.771 [0005.50] [004133]<D>         Packet Ident : 00000000
+2026-11-01T14:18:41.771 [0005.50] [004134]<D>         Topic Length : 28
+2026-11-01T14:18:41.771 [0005.50] [004136]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T14:18:41.771 [0005.50] [004142]<D>     Payload Len/Room : 60 / 8112
+2026-11-01T14:18:41.771 [0005.50] [004146]<D>       Receive Buflen : 8144
+2026-11-01T14:18:41.771 [0005.50] [004150]<I> ntp synced, now=14:18:41
+2026-11-01T14:18:41.771 [0005.50] [004153]<D> delivering msg ...
+2026-11-01T14:18:41.771 [0005.50] [004156]<D> topic be matched
+2026-11-01T14:18:41.771 [0005.50] [004159]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+2026-11-01T14:18:41.771 [0005.50] [004313]<D> PUBLISH
+2026-11-01T14:18:41.771 [0005.50] [004313]<D>         Packet Ident : 00000000
+2026-11-01T14:18:41.771 [0005.50] [004314]<D>         Topic Length : 35
+2026-11-01T14:18:41.771 [0005.50] [004314]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T14:18:41.771 [0005.50] [004318]<D>     Payload Len/Room : 76 / 8105
+2026-11-01T14:18:41.771 [0005.50] [004322]<D>       Receive Buflen : 8144
+2026-11-01T14:18:41.771 [0005.50] [004326]<D> delivering msg ...
+2026-11-01T14:18:41.771 [0005.50] [004329]<D> topic be matched
+2026-11-01T14:18:41.771 [0005.50] [004331]<E> desired find failed!!
+2026-11-01T14:18:41.771 [0005.50] [004357]<D> PUBLISH
+2026-11-01T14:18:41.771 [0005.50] [004357]<D>         Packet Ident : 00000000
+2026-11-01T14:18:41.771 [0005.50] [004357]<D>         Topic Length : 28
+2026-11-01T14:18:41.772 [0005.50] [004357]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T14:18:41.772 [0005.50] [004361]<D>     Payload Len/Room : 64 / 8112
+2026-11-01T14:18:41.772 [0005.50] [004365]<D>       Receive Buflen : 8144
+2026-11-01T14:18:41.772 [0005.50] [004369]<D> delivering msg ...
+2026-11-01T14:18:41.772 [0005.50] [004372]<D> topic be matched
+2026-11-01T14:18:41.772 [0005.50] [004414]<D> PUBLISH
+2026-11-01T14:18:41.772 [0005.50] [004414]<D>         Packet Ident : 00000000
+2026-11-01T14:18:41.772 [0005.50] [004414]<D>         Topic Length : 28
+2026-11-01T14:18:41.772 [0005.50] [004415]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T14:18:41.772 [0005.50] [004418]<D>     Payload Len/Room : 95 / 8112
+2026-11-01T14:18:41.772 [0005.50] [004422]<D>       Receive Buflen : 8144
+2026-11-01T14:18:41.772 [0005.50] [004426]<D> delivering msg ...
+2026-11-01T14:18:41.772 [0005.50] [004429]<D> topic be matched
+2026-11-01T14:18:43.030 [0006.77] [005620]<I> peer adv rssi=-35 allowed=1
+2026-11-01T14:18:43.030 [0006.77] [005706]<I> open status=0
+2026-11-01T14:18:43.030 [0006.77] [005706]<I> UNENCRYPTED DEBUG: discovering fixed B service
+2026-11-01T14:18:43.981 [0007.72] [006650]<I> breath RX count=1 seq=609 flags=0x00 age=65535
+2026-11-01T14:18:44.574 [0008.31] [007251]<I> status RX valid; sensor boot=1716763957
+2026-11-01T14:18:44.978 [0008.72] [007626]<D> PUBLISH
+2026-11-01T14:18:44.978 [0008.72] [007626]<D>         Packet Ident : 00000000
+2026-11-01T14:18:44.978 [0008.72] [007627]<D>         Topic Length : 35
+2026-11-01T14:18:44.978 [0008.72] [007627]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T14:18:44.978 [0008.72] [007631]<D>     Payload Len/Room : 122 / 8104
+2026-11-01T14:18:44.978 [0008.72] [007635]<D>       Receive Buflen : 8144
+2026-11-01T14:18:44.978 [0008.72] [007639]<D> delivering msg ...
+2026-11-01T14:18:44.978 [0008.72] [007642]<D> topic be matched
+2026-11-01T14:18:44.978 [0008.72] [007644]<E> desired find failed!!
+2026-11-01T14:18:54.048 [0017.78] [016730]<I> breath RX count=51 seq=659 flags=0x00 age=65535
+2026-11-01T14:19:04.133 [0027.86] [026810]<I> breath RX count=101 seq=709 flags=0x00 age=65535
+2026-11-01T14:19:14.212 [0037.94] [036890]<I> breath RX count=151 seq=759 flags=0x00 age=28
+2026-11-01T14:19:15.659 [0039.39] [038306]<D> PUBLISH
+2026-11-01T14:19:15.659 [0039.39] [038306]<D>         Packet Ident : 00000000
+2026-11-01T14:19:15.659 [0039.39] [038306]<D>         Topic Length : 35
+2026-11-01T14:19:15.659 [0039.39] [038306]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T14:19:15.659 [0039.39] [038310]<D>     Payload Len/Room : 76 / 8105
+2026-11-01T14:19:15.659 [0039.39] [038314]<D>       Receive Buflen : 8144
+2026-11-01T14:19:15.659 [0039.39] [038318]<D> delivering msg ...
+2026-11-01T14:19:15.659 [0039.39] [038321]<D> topic be matched
+2026-11-01T14:19:15.659 [0039.39] [038323]<E> desired find failed!!
+2026-11-01T14:19:19.687 [0043.42] [042340]<D> PUBLISH
+2026-11-01T14:19:19.687 [0043.42] [042340]<D>         Packet Ident : 00000000
+2026-11-01T14:19:19.687 [0043.42] [042340]<D>         Topic Length : 35
+2026-11-01T14:19:19.687 [0043.42] [042340]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T14:19:19.687 [0043.42] [042345]<D>     Payload Len/Room : 76 / 8105
+2026-11-01T14:19:19.687 [0043.42] [042349]<D>       Receive Buflen : 8144
+2026-11-01T14:19:19.687 [0043.42] [042352]<D> delivering msg ...
+2026-11-01T14:19:19.687 [0043.42] [042355]<D> topic be matched
+2026-11-01T14:19:19.687 [0043.42] [042358]<E> desired find failed!!
+2026-11-01T14:19:24.290 [0048.02] [046970]<I> breath RX count=201 seq=809 flags=0x00 age=65535
+2026-11-01T14:19:34.382 [0058.11] [057050]<I> breath RX count=251 seq=859 flags=0x00 age=65535
+2026-11-01T14:19:41.165 [0064.89] [063805]<I> send MQTT ping...
+2026-11-01T14:19:41.165 [0064.89] [063840]<I> receive ping response!
+2026-11-01T14:19:44.458 [0068.19] [067130]<I> breath RX count=301 seq=909 flags=0x00 age=65535
+2026-11-01T14:19:45.251 [0068.98] [067899]<D> PUBLISH
+2026-11-01T14:19:45.251 [0068.98] [067899]<D>         Packet Ident : 00000000
+2026-11-01T14:19:45.251 [0068.98] [067899]<D>         Topic Length : 35
+2026-11-01T14:19:45.251 [0068.98] [067899]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T14:19:45.251 [0068.98] [067904]<D>     Payload Len/Room : 122 / 8104
+2026-11-01T14:19:45.251 [0068.98] [067908]<D>       Receive Buflen : 8144
+2026-11-01T14:19:45.251 [0068.98] [067912]<D> delivering msg ...
+2026-11-01T14:19:45.251 [0068.98] [067915]<D> topic be matched
+2026-11-01T14:19:45.251 [0068.98] [067917]<E> desired find failed!!
+2026-11-01T14:19:54.542 [0078.28] [077210]<I> breath RX count=351 seq=959 flags=0x00 age=65535
+2026-11-01T14:20:04.622 [0088.36] [087290]<I> breath RX count=401 seq=1009 flags=0x00 age=65535
+2026-11-01T14:20:14.698 [0098.44] [097370]<I> breath RX count=451 seq=1059 flags=0x00 age=65535
+2026-11-01T14:20:24.779 [0108.52] [107450]<I> breath RX count=501 seq=1109 flags=0x00 age=65535
+2026-11-01T14:20:34.854 [0118.59] [117530]<I> breath RX count=551 seq=1159 flags=0x00 age=65535
+2026-11-01T14:20:41.350 [0125.08] [123901]<I> send MQTT ping...
+2026-11-01T14:20:41.350 [0125.08] [124029]<I> receive ping response!
+2026-11-01T14:20:44.969 [0128.70] [127640]<I> breath RX count=601 seq=1209 flags=0x00 age=65535
+2026-11-01T14:20:45.466 [0129.20] [128115]<D> PUBLISH
+2026-11-01T14:20:45.466 [0129.20] [128115]<D>         Packet Ident : 00000000
+2026-11-01T14:20:45.466 [0129.20] [128115]<D>         Topic Length : 35
+2026-11-01T14:20:45.466 [0129.20] [128115]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T14:20:45.466 [0129.20] [128120]<D>     Payload Len/Room : 122 / 8104
+2026-11-01T14:20:45.466 [0129.20] [128124]<D>       Receive Buflen : 8144
+2026-11-01T14:20:45.466 [0129.20] [128128]<D> delivering msg ...
+2026-11-01T14:20:45.466 [0129.20] [128131]<D> topic be matched
+2026-11-01T14:20:45.466 [0129.20] [128133]<E> desired find failed!!
+2026-11-01T14:20:55.019 [0138.75] [137690]<I> breath RX count=651 seq=1259 flags=0x00 age=65535
+2026-11-01T14:21:05.121 [0148.86] [147800]<I> breath RX count=701 seq=1309 flags=0x00 age=65535

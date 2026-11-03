@@ -1,0 +1,93 @@
+{
+    "type": "wifi",
+    "basicConfig": {
+        "defaultData": true
+    },
+    "info": {
+        "displayName": "奥普灯具"
+    },
+    "data": {
+        "Light_Power": {
+            "key": "prop.2.1",
+            "value": false
+        },
+        "Light_Brightness": {
+            "key": "prop.2.2",
+            "value": 1
+        },
+        "Light_Mode": {
+            "key": "prop.2.3",
+            "value": 0
+        },
+        "WallSwitch": {
+            "key": "prop.3.1",
+            "value": false
+        },
+        "WallSwitchBrightness1": {
+            "key": "prop.3.2",
+            "value": 50
+        },
+        "WallSwitchBrightness2": {
+            "key": "prop.3.3",
+            "value": 50
+        },
+        "WallSwitchMode1": {
+            "key": "prop.3.4",
+            "value": 0
+        },
+        "WallSwitchMode2": {
+            "key": "prop.3.5",
+            "value": 0
+        },
+        "NightLight": {
+            "key": "prop.4.1",
+            "value": false
+        },
+        "NightLightStartTime": {
+            "key": "prop.4.2",
+            "value": 0
+        },
+        "NightLightEndTime": {
+            "key": "prop.4.3",
+            "value": 0
+        },
+        
+        "AutoSensor": {
+            "key": "prop.5.1",
+            "value": false
+        },
+        "NooneDuration": {
+            "key": "prop.5.2",
+            "value": 1
+        },
+        "SensingDistance": {
+            "key": "prop.5.3",
+            "value": 1
+        },
+        "AmbientLightRange": {
+            "key": "prop.5.4",
+            "value": 0
+        },
+        "AutoSensorStartTime": {
+            "key": "prop.5.5",
+            "value": 0
+        },
+        "AutoSensorEndTime": {
+            "key": "prop.5.6",
+            "value": 0
+        },
+
+        "Delay": {
+            "key": "prop.6.1",
+            "value": false
+        },
+        "DelayTime": {
+            "key": "prop.6.2",
+            "value": 1
+        },
+        "DelayRemainTime": {
+            "key": "prop.6.3",
+            "value": 1
+        }
+    }
+}

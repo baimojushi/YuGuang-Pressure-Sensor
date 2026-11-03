@@ -1,0 +1,5 @@
+# Install only if a high-FPS PC USB eye camera and compatible MediaPipe runtime exist.
+mediapipe==0.10.21  # Legacy FaceMesh API used by eyes.py (Python 3.11)
+# For tests
+pytest>=8,<10
+httpx>=0.27,<1

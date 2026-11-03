@@ -1,0 +1,95 @@
+{
+    "type": "wifi",
+    "basicConfig": {
+        "defaultData": true
+    },
+    "info": {
+        "displayName": "奥普浴霸S2-S"
+    },
+    "data": {
+        "Light_Switch": {
+            "key": "prop.2.1",
+            "value": false
+        },
+        "Fault": {
+            "key": "prop.3.1",
+            "value": 0
+        },
+        "Mode": {
+            "key": "prop.3.2",
+            "value": 0
+        },
+        "TargetTemperature": {
+            "key": "prop.3.3",
+            "value": 30
+        },
+        "Temperature": {
+            "key": "prop.4.1",
+            "value": 0
+        },
+        "HorizontalSwing": {
+            "key": "prop.5.1",
+            "value": 0
+        },
+        "Fan_level": {
+            "key": "prop.5.2",
+            "value": 1
+        },
+        "ExternalLight": {
+            "key": "prop.6.3",
+            "value": false
+        },
+        "NightLight": {
+            "key": "prop.6.4",
+            "value": false
+        },
+        "VentLevel": {
+            "key": "prop.6.5",
+            "value": 1
+        },
+        "TimingInteScene": {
+            "key": "prop.6.6",
+            "value": ""
+        },
+        "InteSceneSet": {
+            "key": "prop.6.7",
+            "value": 17
+        },
+        "WorkedTime": {
+            "key": "prop.6.8",
+            "value": 0
+        },
+        "VacationMode": {
+            "key": "prop.6.9",
+            "value": false
+        },
+        "TimingHeat": {
+            "key": "prop.6.10",
+            "value": ""
+        },
+        "TimingFunc": {
+            "key": "prop.6.11",
+            "value": ""
+        },
+        "IdleInduction": {
+            "key": "prop.6.12",
+            "value": false
+        },
+        "TimingHeatWarn": {
+            "key": "prop.6.13",
+            "value": 0
+        },
+        "TimingNightLight": {
+            "key": "prop.6.14",
+            "value": "010816000600001e7f"
+        },
+        "NooneDuration": {
+            "key": "prop.6.15",
+            "value": 10
+        },
+        "InteSceneEnabled": {
+            "key": "prop.6.16",
+            "value": false
+        }
+    }
+}

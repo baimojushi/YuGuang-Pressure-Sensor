@@ -1,0 +1,23 @@
+{
+  "type": "wifi",
+  "basicConfig": {
+    "defaultData": true
+  },
+  "info": {
+    "displayName": "桌面宠物机器人"
+  },
+  "data": {
+    "move_BasicMove": {
+      "key": "prop.6.1",
+      "value": 0
+    },
+    "move_AdvancedMove": {
+      "key": "prop.6.2",
+      "value": 0
+    },
+    "voiceControl_Emotion": {
+      "key": "prop.4.3",
+      "value": ""
+    }
+  }
+}

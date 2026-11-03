@@ -1,0 +1,798 @@
+{
+  "product": {
+    "brandName": "小匠",
+    "netTypeId": 1,
+    "dataFrom": 1,
+    "productSecret": "",
+    "isDynamicRegist": 0,
+    "netSetId": 2,
+    "productKey": "11684",
+    "categoryName": "台灯",
+    "productName": "智能伴学台灯"
+  },
+  "services": [
+    {
+      "siid": 1,
+      "serviceDetail": "设备基础信息",
+      "serviceName": "deviceInfo",
+      "properties": [
+        {
+          "piid": 1,
+          "access": [
+            "read"
+          ],
+          "propertyDetail": "制造商",
+          "dataValue": "{\"strLen\":32}",
+          "format": "string",
+          "description": "Manufacturer",
+          "maxLength": 32
+        },
+        {
+          "piid": 2,
+          "access": [
+            "read"
+          ],
+          "propertyDetail": "模组型号",
+          "dataValue": "{\"strLen\":32}",
+          "format": "string",
+          "description": "Model",
+          "maxLength": 32
+        },
+        {
+          "piid": 3,
+          "access": [
+            "read"
+          ],
+          "propertyDetail": "模组固件版本",
+          "dataValue": "{\"strLen\":32}",
+          "format": "string",
+          "description": "FirmwareVersion",
+          "maxLength": 32
+        },
+        {
+          "piid": 4,
+          "access": [
+            "read"
+          ],
+          "propertyDetail": "设备Did",
+          "dataValue": "{\"strLen\":32}",
+          "format": "string",
+          "description": "Did",
+          "maxLength": 32
+        },
+        {
+          "piid": 5,
+          "access": [
+            "read"
+          ],
+          "propertyDetail": "设备Pid",
+          "dataValue": "{\"strLen\":32}",
+          "format": "string",
+          "description": "Pid",
+          "maxLength": 32
+        },
+        {
+          "piid": 6,
+          "access": [
+            "read"
+          ],
+          "propertyDetail": "设备SN码",
+          "dataValue": "{\"strLen\":32}",
+          "format": "string",
+          "description": "Sn",
+          "maxLength": 32
+        }
+      ]
+    },
+    {
+      "siid": 2,
+      "serviceDetail": "照明服务",
+      "serviceName": "light",
+      "properties": [
+        {
+          "piid": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "总开关",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "打开",
+                "value": "false"
+              },
+              {
+                "text": "开1",
+                "value": "true"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "2222",
+                "value": "false"
+              },
+              {
+                "text": "1111",
+                "value": "true"
+              }
+            ]
+          },
+          "dataValue": "{\"false\":\"关闭\",\"true\":\"开启\"}",
+          "format": "bool",
+          "description": "OnOff"
+        },
+        {
+          "piid": 2,
+          "numberType": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "数值亮度设置",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "最小亮度",
+                "value": "8"
+              },
+              {
+                "text": "最大亮度",
+                "value": "100"
+              },
+              {
+                "text": "中等亮度",
+                "value": "50"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "调到最微弱、只要一点点光、微亮",
+                "value": "8"
+              },
+              {
+                "text": "调到最刺眼、需要最充足的光线",
+                "value": "100"
+              },
+              {
+                "text": "光线适中、适中亮度、一半光亮",
+                "value": "50"
+              }
+            ]
+          },
+          "dataValue": "{\"dataRangeMin\":8,\"dataRangeMax\":100,\"initialValue\":50,\"step\":1,\"unit\":\"\"}",
+          "format": "uint8",
+          "description": "Brightness"
+        },
+        {
+          "piid": 3,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "场景模式",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "开启小夜灯模式",
+                "value": "1"
+              },
+              {
+                "text": "开启阅读模式",
+                "value": "2"
+              },
+              {
+                "text": "开启休闲模式",
+                "value": "3"
+              },
+              {
+                "text": "开启睡觉模式",
+                "value": "4"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "天黑了、开启夜晚灯光",
+                "value": "1"
+              },
+              {
+                "text": "我要看书了、我要开始学习了",
+                "value": "2"
+              },
+              {
+                "text": "开始娱乐、我要休息一会了",
+                "value": "3"
+              },
+              {
+                "text": "我要休息了、准备睡觉了、晚安、",
+                "value": "4"
+              }
+            ]
+          },
+          "dataValue": "{\"1\":\"小夜灯\",\"2\":\"阅读模式\",\"3\":\"休闲模式\",\"4\":\"睡觉模式\"}",
+          "format": "uint8",
+          "description": "LightMode"
+        },
+        {
+          "piid": 4,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "变光",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "变光",
+                "value": "1"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "变换灯光",
+                "value": "1"
+              }
+            ]
+          },
+          "dataValue": "{\"1\":\"下/上/上+下/小夜灯，按顺序切换\"}",
+          "format": "uint8",
+          "description": "LightSwitching"
+        },
+        {
+          "piid": 5,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "调节色温模式",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "调为暖光",
+                "value": "1"
+              },
+              {
+                "text": "调为自然光",
+                "value": "2"
+              },
+              {
+                "text": "调为冷光",
+                "value": "3"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "灯光太冷，灯光颜色有点冷",
+                "value": "1"
+              },
+              {
+                "text": "灯光不想要太暖、换冷一点的光",
+                "value": "3"
+              }
+            ]
+          },
+          "dataValue": "{\"1\":\"暖光\",\"2\":\"自然光\",\"3\":\"冷光\"}",
+          "format": "uint8",
+          "description": "LightCCTMode"
+        },
+        {
+          "piid": 6,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "亮度配比",
+          "dataValue": "{\"1\":\"亮度均衡（上光 50%+下光 50%）\",\"2\":\"上光源更亮（上光100%+下光 8%）\",\"3\":\"下光源更亮（上光 8%+下光 100%）\"}",
+          "format": "uint8",
+          "description": "BrightnessRatio"
+        },
+        {
+          "piid": 7,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "亮度调节",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "灯光亮一点",
+                "value": "1"
+              },
+              {
+                "text": "灯光暗一点",
+                "value": "2"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "房间太暗了、灯光还是暗",
+                "value": "1"
+              },
+              {
+                "text": "房间太亮了、太刺眼了、太晃眼睛",
+                "value": "2"
+              }
+            ]
+          },
+          "dataValue": "{\"1\":\"亮一点\",\"2\":\"暗一点\"}",
+          "format": "uint8",
+          "description": "BrightGrad"
+        },
+        {
+          "piid": 8,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "上光灯控制",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "关闭上光灯",
+                "value": "0"
+              },
+              {
+                "text": "打开上光灯",
+                "value": "1"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "关上灯光、把顶部的光源撤掉、",
+                "value": "0"
+              },
+              {
+                "text": "头顶需要照明、把顶部的光源补上",
+                "value": "1"
+              }
+            ]
+          },
+          "dataValue": "{\"0\":\"关闭上光灯\",\"1\":\"打开上光灯\"}",
+          "format": "uint8",
+          "description": "UpLight"
+        },
+        {
+          "piid": 9,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "下光灯控制",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "关闭下光灯",
+                "value": "0"
+              },
+              {
+                "text": "打开下光灯",
+                "value": "1"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "关下灯光、下面不需要光、灭下灯",
+                "value": "0"
+              },
+              {
+                "text": "下面的灯不亮了、底部的光源补上",
+                "value": "1"
+              }
+            ]
+          },
+          "dataValue": "{\"0\":\"关闭下光灯\",\"1\":\"打开下光灯\"}",
+          "format": "uint8",
+          "description": "DownLight"
+        },
+        {
+          "piid": 10,
+          "numberType": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "温色",
+          "dataValue": "{\"dataRangeMin\":2700,\"dataRangeMax\":5700,\"initialValue\":2700,\"step\":100,\"unit\":\"\"}",
+          "format": "uint16",
+          "description": "LightCCT"
+        }
+      ]
+    },
+    {
+      "siid": 3,
+      "serviceDetail": "定时服务",
+      "serviceName": "timingReset",
+      "properties": [
+        {
+          "piid": 1,
+          "numberType": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "定时关灯",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "定时一分钟后关灯",
+                "value": "1"
+              },
+              {
+                "text": "定时60分钟后关灯",
+                "value": "60"
+              }
+            ]
+          },
+          "dataValue": "{\"dataRangeMin\":1,\"dataRangeMax\":60,\"initialValue\":1,\"step\":1,\"unit\":\"\"}",
+          "format": "uint8",
+          "description": "DelayOff"
+        },
+        {
+          "piid": 2,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "重置设备",
+          "dataValue": "{\"1\":\"关灯-上光100+下光100\"}",
+          "format": "uint8",
+          "description": "Reset"
+        }
+      ]
+    },
+    {
+      "siid": 4,
+      "serviceDetail": "音量调整",
+      "serviceName": "voice",
+      "properties": [
+        {
+          "piid": 1,
+          "numberType": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "百分比音量设置",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "音量调整为百分之20",
+                "value": "20"
+              }
+            ]
+          },
+          "dataValue": "{\"dataRangeMin\":0,\"dataRangeMax\":100,\"initialValue\":50,\"step\":1,\"unit\":\"\"}",
+          "format": "uint8",
+          "description": "Volume"
+        },
+        {
+          "piid": 2,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "音量调整",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "音量调大",
+                "value": "1"
+              },
+              {
+                "text": "音量减小",
+                "value": "2"
+              },
+              {
+                "text": "最大音量",
+                "value": "3"
+              },
+              {
+                "text": "最小音量",
+                "value": "4"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "太安静了、声音太小了",
+                "value": "1"
+              },
+              {
+                "text": "太吵了、声音太大了",
+                "value": "2"
+              }
+            ]
+          },
+          "dataValue": "{\"1\":\"音量增加\",\"2\":\"音量减小\",\"3\":\"音量调整至最大\",\"4\":\"音量调整至最小\"}",
+          "format": "uint8",
+          "description": "VolumeAdjust"
+        },
+        {
+          "piid": 3,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "静音模式",
+          "dataValue": "{\"1\":\"开启静音模式\",\"2\":\"关闭静音模式\"}",
+          "format": "uint8",
+          "description": "MuteMode"
+        }
+      ]
+    },
+    {
+      "siid": 5,
+      "serviceDetail": "退出聊天",
+      "serviceName": "quitChat",
+      "properties": [
+        {
+          "piid": 1,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "聊天状态",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "退出聊天",
+                "value": "2"
+              }
+            ]
+          },
+          "dataValue": "{\"1\":\"开始聊天\",\"2\":\"退出聊天\"}",
+          "format": "uint8",
+          "description": "ChatState"
+        }
+      ]
+    },
+    {
+      "siid": 6,
+      "serviceDetail": "语音控制",
+      "serviceName": "voiceControl",
+      "properties": [
+        {
+          "piid": 1,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "语料请求",
+          "dataValue": "{\"1\":\"请求开场白\",\"2\":\"请求结束语\"}",
+          "format": "uint8",
+          "description": "CorpusRequest"
+        },
+        {
+          "piid": 2,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "中止播放",
+          "dataValue": "{\"1\":\"请求平台中止当前播放\",\"2\":\"请求平台中止当前播放，并下发“唤醒响应\"}",
+          "format": "uint8",
+          "description": "Abort"
+        },
+        {
+          "piid": 3,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "大模型感情图标",
+          "dataValue": "{\"strLen\":128}",
+          "format": "string",
+          "description": "Emotion",
+          "maxLength": 128
+        }
+      ]
+    },
+    {
+      "siid": 7,
+      "serviceDetail": "RTC登录信息",
+      "serviceName": "rtcLogin",
+      "properties": [
+        {
+          "piid": 1,
+          "numberType": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "RTC登录信息-uid",
+          "dataValue": "{\"dataRangeMin\":0,\"dataRangeMax\":4294967295,\"initialValue\":1,\"step\":1,\"unit\":\"\"}",
+          "format": "unit32",
+          "description": "Uid"
+        },
+        {
+          "piid": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "RTC登录信息-appid",
+          "dataValue": "{\"strLen\":128}",
+          "format": "string",
+          "description": "AppId",
+          "maxLength": 128
+        },
+        {
+          "piid": 3,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "RTC登录信息-channelName",
+          "dataValue": "{\"strLen\":128}",
+          "format": "string",
+          "description": "ChannelName",
+          "maxLength": 128
+        },
+        {
+          "piid": 4,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "RTC登录信息-token",
+          "dataValue": "{\"strLen\":256}",
+          "format": "string",
+          "description": "Token",
+          "maxLength": 256
+        },
+        {
+          "piid": 5,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "RTC登录信息-licenseValue",
+          "dataValue": "{\"strLen\":128}",
+          "format": "string",
+          "description": "License",
+          "maxLength": 128
+        }
+      ]
+    },
+    {
+      "siid": 8,
+      "serviceDetail": "亮度颜色灯",
+      "serviceName": "lightRGB",
+      "properties": [
+        {
+          "piid": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "氛围灯开关",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "关闭氛围灯",
+                "value": "false"
+              },
+              {
+                "text": "打开氛围灯",
+                "value": "true"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "不要氛围感了、关下氛围灯",
+                "value": "false"
+              },
+              {
+                "text": "我要氛围感、给我来点有氛围的",
+                "value": "true"
+              }
+            ]
+          },
+          "dataValue": "{\"false\":\"关闭\",\"true\":\"开启\"}",
+          "format": "bool",
+          "description": "OnOff"
+        },
+        {
+          "piid": 2,
+          "numberType": 2,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "氛围灯颜色调整",
+          "extra": {
+            "voiceControl": [
+              {
+                "text": "氛围灯调为红色",
+                "value": "1"
+              },
+              {
+                "text": "氛围灯调为橙色",
+                "value": "2"
+              },
+              {
+                "text": "氛围灯调为黄色",
+                "value": "3"
+              },
+              {
+                "text": "氛围灯调为绿色",
+                "value": "4"
+              },
+              {
+                "text": "氛围灯调为青色",
+                "value": "5"
+              },
+              {
+                "text": "氛围灯调为蓝色",
+                "value": "6"
+              },
+              {
+                "text": "氛围灯调为紫色",
+                "value": "7"
+              }
+            ],
+            "intentRecog": [
+              {
+                "text": "我要红色的灯光、设置红色氛围灯",
+                "value": "1"
+              },
+              {
+                "text": "我要橙色的灯光、设置橙色氛围灯",
+                "value": "2"
+              },
+              {
+                "text": "我要黄色的灯光、设置黄色氛围灯",
+                "value": "3"
+              },
+              {
+                "text": "我要绿色的灯光、设置绿色氛围灯",
+                "value": "4"
+              },
+              {
+                "text": "我要青色的灯光、设置青色氛围灯",
+                "value": "5"
+              },
+              {
+                "text": "我要蓝色的灯光、设置蓝色氛围灯",
+                "value": "6"
+              },
+              {
+                "text": "我要紫色的灯光、设置紫色氛围灯",
+                "value": "7"
+              }
+            ]
+          },
+          "dataValue": "{\"1\":\"氛围灯调为红色\",\"2\":\"氛围灯调为橙色\",\"3\":\"氛围灯调为黄色\",\"4\":\"氛围灯调为绿色\",\"5\":\"氛围灯调为青色\",\"6\":\"氛围灯调为蓝色\",\"7\":\"氛围灯调为紫色\"}",
+          "format": "uint8",
+          "description": "ColorMode"
+        },
+        {
+          "piid": 3,
+          "numberType": 1,
+          "access": [
+            "read",
+            "write"
+          ],
+          "propertyDetail": "颜色",
+          "dataValue": "{\"dataRangeMin\":0,\"dataRangeMax\":16777215,\"initialValue\":0,\"step\":1,\"unit\":\"\"}",
+          "format": "unit32",
+          "description": "Color"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,14 @@
+{
+  "type": "wifi",
+  "basicConfig": { "defaultData": true },
+  "info": { "displayName": "飞利浦直流循环扇FKYT-L20XH3R" },
+  "data": {
+    "fanService_Power": { "key": "prop.2.1", "value": false },
+    "fanService_Speed": { "key": "prop.2.2", "value": 1 },
+    "fanService_HorizontalRotation": { "key": "prop.2.3", "value": false },
+    "fanService_VerticalRotation": { "key": "prop.2.4", "value": false },
+    "fanService_RestTime": { "key": "prop.2.5", "value": 0 },
+    "fanService_Temperature": { "key": "prop.2.6", "value": 0 },
+    "fanService_OSD": { "key": "prop.2.7", "value": false }
+  }
+}

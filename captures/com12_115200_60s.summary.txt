@@ -1,0 +1,50 @@
+PORT=COM12 BAUD=115200 seconds=60
+bytes=23965 nonempty_lines=318
+keywords={"yg-b": 0, "yg-b-ble": 0, "radar": 1, "br=": 58, "e (": 0, "w (": 11, "boot": 24, "assert": 0, "rst:": 1, "guru": 0}
+--- first 25 lines ---
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x135c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xea8
+load:0x403cb700,len:0x30dc
+entry 0x403c8940
+I (27) boot: ESP-IDF 8cdf7cb11-dirty 2nd stage bootloader
+I (27) boot: compile time Oct 31 2026 12:08:37
+I (27) boot: Multicore bootloader
+I (28) boot: chip revision: v0.2
+I (31) boot: efuse block revision: v1.4
+I (34) qio_mode: Enabling default flash chip QIO
+I (39) boot.esp32s3: Boot SPI Speed : 80MHz
+I (42) boot.esp32s3: SPI Mode       : QIO
+I (46) boot.esp32s3: SPI Flash Size : 16MB
+I (50) boot: Enabling RNG early entropy source...
+I (55) boot: Partition Table:
+I (57) boot: ## Label            Usage          Type ST Offset   Length
+I (63) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+I (70) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+I (76) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+--- last 20 lines ---
+[051616]<I> ready=1 gpio=18 baud=1382400 q=module human=1 br=20.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=0 frames=1745 brf=829 bad=0 rx=137186 filt_us=15 last_ms=51566
+[052622]<I> ready=1 gpio=18 baud=1382400 q=module human=1 br=20.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=2 frames=1793 brf=829 bad=0 rx=140066 filt_us=15 last_ms=52526
+[053628]<I> ready=1 gpio=18 baud=1382400 q=module human=1 br=23.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=18 frames=1846 brf=830 bad=0 rx=143259 filt_us=15 last_ms=53586
+[053667]<W> schedule reconnect count=10 delay=30000 reason=1
+[053667]<W> wifi disconnected
+[053668]<I> network update state=0
+[053668]<D> iot event 5
+[054634]<I> ready=1 gpio=18 baud=1382400 q=module human=1 br=23.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=14 frames=1894 brf=830 bad=0 rx=146139 filt_us=15 last_ms=54546
+[055640]<I> ready=1 gpio=18 baud=1382400 q=module human=1 br=23.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=30 frames=1942 brf=830 bad=0 rx=149019 filt_us=15 last_ms=55507
+[056073]<W> schedule reconnect count=10 delay=30000 reason=1
+[056073]<W> wifi disconnected
+[056073]<I> network update state=0
+[056074]<D> iot event 5
+[056646]<I> ready=1 gpio=18 baud=1382400 q=module human=1 br=22.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=7 frames=1997 brf=831 bad=0 rx=152332 filt_us=17 last_ms=56607
+[057652]<I> ready=1 gpio=18 baud=1382400 q=module human=1 br=22.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=55 frames=2045 brf=831 bad=0 rx=155212 filt_us=17 last_ms=57567
+[058478]<W> schedule reconnect count=10 delay=30000 reason=1
+[058478]<W> wifi disconnected
+[058478]<I> network update state=0
+[058479]<D> iot event 5
+[058658]<I> ready=1 gpio=18 baud=1382400 q=motion human=-1 br=0.00 hr=0.00 range=52 conf=0.00 amp=0.000 cv=0.000 score=0.00 lag=0 n=109 frames=2099 brf=831 bad=0 rx=158452 filt_us=17 last_ms=58647

@@ -1,0 +1,905 @@
+[0000.82] W (756401) wifi:m f null
+
+W (756476) wifi:m f null
+
+W (756616) wifi:m f null
+
+W (756693) wifi:m f null
+
+W (756783) wifi:m f null
+
+[0002.20] W (757934) wifi:m f null
+
+W (758012) wifi:m f null
+
+W (758151) wifi:m f null
+
+[0003.69] W (758647) wifi:m f null
+
+W (758831) wifi:m f null
+
+W (758934) wifi:m f null
+
+W (759036) wifi:m f null
+
+W (759143) wifi:m f null
+
+W (759268) wifi:m f null
+
+W (759354) wifi:m f null
+
+W (759473) wifi:m f null
+
+W (759565) wifi:m f null
+
+W (759659) wifi:m f null
+
+[0004.10] W (759879) wifi:m f null
+
+W (759958) wifi:m f null
+
+W (760061) wifi:m f null
+
+[0004.42] W (760372) wifi:m f null
+
+[0005.03] W (760787) wifi:m f null
+
+W (760879) wifi:m f null
+
+W (760982) wifi:m f null
+
+[0005.85] W (761801) wifi:m f null
+
+[0008.60] W (763644) wifi:m f null
+
+W (763765) wifi:m f null
+
+W (763954) wifi:m f null
+
+W (764054) wifi:m f null
+
+[763353]<D> PUBLISH
+[763353]<D>         Packet Ident : 00000000
+[763353]<D>         Topic Length : 35
+[763353]<D>           Topic Name : $aws/things/100000808/shadow/update
+[763357]<D>     Payload Len/Room : 68 / 8105
+[763361]<D>       Receive Buflen : 8144
+[763365]<D> delivering msg ...
+[763368]<D> topic be matched
+[763371]<I> iot recv set(0) did=0 siid=9 piid=1 code=0 value=bool 0
+[763377]<I> SWITCH set=0
+[763380]<I> hw off
+[763381]<I> shadow report on=0
+W (764208) wifi:m f null
+
+W (764254) wifi:m f null
+
+W (764310) wifi:m f null
+
+[763615]<D> PUBLISH
+[763615]<D>         Packet Ident : 00000000
+[763616]<D>         Topic Length : 35
+[763616]<D>           Topic Name : $aws/things/100000808/shadow/update
+[763620]<D>     Payload Len/Room : 69 / 8105
+[763624]<D>       Receive Buflen : 8144
+[763628]<D> delivering msg ...
+[763631]<D> topic be matched
+[763633]<E> desired find failed!!
+W (764356) wifi:m f null
+
+W (764459) wifi:m f null
+
+W (764515) wifi:m f null
+
+W (764561) wifi:m f null
+
+[0012.69] [767450]<D> PUBLISH
+[767450]<D>         Packet Ident : 00000000
+[767450]<D>         Topic Length : 35
+[767450]<D>           Topic Name : $aws/things/100000808/shadow/update
+[767455]<D>     Payload Len/Room : 67 / 8105
+[767459]<D>       Receive Buflen : 8144
+[767463]<D> delivering msg ...
+[767465]<D> topic be matched
+[767468]<I> iot recv set(0) did=0 siid=9 piid=1 code=0 value=bool 1
+[767474]<I> SWITCH set=1
+[767477]<I> hw on level=153
+[767479]<I> shadow report on=1
+[767496]<I> hw on level=153
+W (768201) wifi:m f null
+
+W (768247) wifi:m f null
+
+W (768304) wifi:m f null
+
+W (768350) wifi:m f null
+
+W (768406) wifi:m f null
+
+[767728]<D> PUBLISH
+[767728]<D>         Packet Ident : 00000000
+[767729]<D>         Topic Length : 35
+[767729]<D>           Topic Name : $aws/things/100000808/shadow/update
+[767733]<D>     Payload Len/Room : 68 / 8105
+[767737]<D>       Receive Buflen : 8144
+[767741]<D> delivering msg ...
+[767744]<D> topic be matched
+[767746]<E> desired find failed!!
+W (768452) wifi:m f null
+
+W (768509) wifi:m f null
+
+W (768555) wifi:m f null
+
+W (768611) wifi:m f null
+
+W (768657) wifi:m f null
+
+[0020.89] [775944]<D> PUBLISH
+[775944]<D>         Packet Ident : 00000000
+[775944]<D>         Topic Length : 35
+[775944]<D>           Topic Name : $aws/things/100000808/shadow/update
+[775948]<D>     Payload Len/Room : 68 / 8105
+[775953]<D>       Receive Buflen : 8144
+[775956]<D> delivering msg ...
+[775959]<D> topic be matched
+[775962]<I> iot recv set(0) did=0 siid=10 piid=2 code=0 value=bool 1
+[775968]<I> SWITCH set=1
+[775970]<I> shadow report on=1
+W (776701) wifi:m f null
+
+W (776747) wifi:m f null
+
+W (776803) wifi:m f null
+
+W (776849) wifi:m f null
+
+[0022.11] [777068]<D> PUBLISH
+[777068]<D>         Packet Ident : 00000000
+[777068]<D>         Topic Length : 35
+[777068]<D>           Topic Name : $aws/things/100000808/shadow/update
+[777073]<D>     Payload Len/Room : 69 / 8105
+[777077]<D>       Receive Buflen : 8144
+[777080]<D> delivering msg ...
+[777083]<D> topic be matched
+[777086]<E> desired find failed!!
+W (777976) wifi:m f null
+
+W (778032) wifi:m f null
+
+W (778078) wifi:m f null
+
+[0026.00] W (781923) wifi:m f null
+
+W (781969) wifi:m f null
+
+[0026.31] W (782174) wifi:m f null
+
+W (782230) wifi:m f null
+
+[781539]<D> PUBLISH
+[781539]<D>         Packet Ident : 00000000
+[781539]<D>         Topic Length : 35
+[781539]<D>           Topic Name : $aws/things/100000808/shadow/update
+[781544]<D>     Payload Len/Room : 117 / 8104
+[781548]<D>       Receive Buflen : 8144
+[781551]<D> delivering msg ...
+[781554]<D> topic be matched
+[781557]<E> desired find failed!!
+W (782276) wifi:m f null
+
+[0026.62] W (782481) wifi:m f null
+
+W (782538) wifi:m f null
+
+W (782584) wifi:m f null
+
+[0037.29] W (792641) wifi:m f null
+
+W (792828) wifi:m f null
+
+W (792931) wifi:m f null
+
+W (793075) wifi:m f null
+
+W (793163) wifi:m f null
+
+W (793247) wifi:m f null
+
+[0037.69] W (793472) wifi:m f null
+
+W (793545) wifi:m f null
+
+W (793647) wifi:m f null
+
+[0037.92] W (793881) wifi:m f null
+
+[0039.13] W (794101) wifi:m f null
+
+W (794261) wifi:m f null
+
+W (794382) wifi:m f null
+
+W (794468) wifi:m f null
+
+W (794569) wifi:m f null
+
+W (794773) wifi:m f null
+
+W (794886) wifi:m f null
+
+W (794980) wifi:m f null
+
+W (795082) wifi:m f null
+
+[0039.84] W (795313) wifi:m f null
+
+W (795406) wifi:m f null
+
+W (795492) wifi:m f null
+
+W (795593) wifi:m f null
+
+W (795695) wifi:m f null
+
+W (795800) wifi:m f null
+
+[0040.67] W (796016) wifi:m f null
+
+W (796141) wifi:m f null
+
+W (796221) wifi:m f null
+
+W (796309) wifi:m f null
+
+W (796519) wifi:m f null
+
+W (796627) wifi:m f null
+
+[0041.27] W (796858) wifi:m f null
+
+W (796956) wifi:m f null
+
+W (797028) wifi:m f null
+
+W (797231) wifi:m f null
+
+[0041.79] W (797565) wifi:m f null
+
+W (797744) wifi:m f null
+
+[0042.40] W (798177) wifi:m f null
+
+W (798286) wifi:m f null
+
+W (798362) wifi:m f null
+
+[0043.62] W (798579) wifi:m f null
+
+W (798708) wifi:m f null
+
+W (798807) wifi:m f null
+
+W (798870) wifi:m f null
+
+W (798988) wifi:m f null
+
+W (799074) wifi:m f null
+
+W (799179) wifi:m f null
+
+[798503]<I> send MQTT ping...
+W (799229) wifi:m f null
+
+W (799275) wifi:m f null
+
+[798579]<I> receive ping response!
+W (799480) wifi:m f null
+
+W (799536) wifi:m f null
+
+W (799582) wifi:m f null
+
+[0046.38] [800961]<D> PUBLISH
+[800961]<D>         Packet Ident : 00000000
+[800961]<D>         Topic Length : 35
+[800961]<D>           Topic Name : $aws/things/100000808/shadow/update
+[800965]<D>     Payload Len/Room : 68 / 8105
+[800969]<D>       Receive Buflen : 8144
+[800973]<D> delivering msg ...
+[800976]<D> topic be matched
+[800979]<I> iot recv set(0) did=0 siid=19 piid=6 code=0 value=bool 1
+W (801733) wifi:m f null
+
+W (801789) wifi:m f null
+
+W (801835) wifi:m f null
+
+W (801891) wifi:m f null
+
+W (801937) wifi:m f null
+
+W (801994) wifi:m f null
+
+W (802040) wifi:m f null
+
+[801454]<D> PUBLISH
+[801454]<D>         Packet Ident : 00000000
+[801454]<D>         Topic Length : 35
+[801454]<D>           Topic Name : $aws/things/100000808/shadow/update
+[801459]<D>     Payload Len/Room : 117 / 8104
+[801463]<D>       Receive Buflen : 8144
+[801466]<D> delivering msg ...
+[801469]<D> topic be matched
+[801472]<E> desired find failed!!
+W (802199) wifi:m f null
+
+W (802244) wifi:m f null
+
+W (802301) wifi:m f null
+
+W (802347) wifi:m f null
+
+[0056.52] W (812286) wifi:m f null
+
+W (812393) wifi:m f null
+
+W (812489) wifi:m f null
+
+[0057.66] W (812718) wifi:m f null
+
+W (812802) wifi:m f null
+
+W (812908) wifi:m f null
+
+W (813009) wifi:m f null
+
+W (813134) wifi:m f null
+
+W (813206) wifi:m f null
+
+W (813308) wifi:m f null
+
+W (813411) wifi:m f null
+
+W (813616) wifi:m f null
+
+[0058.17] W (814064) wifi:m f null
+
+W (814127) wifi:m f null
+
+[0058.59] W (814537) wifi:m f null
+
+[0059.93] W (814844) wifi:m f null
+
+W (814947) wifi:m f null
+
+W (815049) wifi:m f null
+
+W (815153) wifi:m f null
+
+W (815254) wifi:m f null
+
+W (815357) wifi:m f null
+
+W (815459) wifi:m f null
+
+W (815601) wifi:m f null
+
+W (815781) wifi:m f null
+
+W (815899) wifi:m f null
+
+[0060.63] W (816176) wifi:m f null
+
+W (816279) wifi:m f null
+
+W (816386) wifi:m f null
+
+W (816506) wifi:m f null
+
+W (816585) wifi:m f null
+
+[0061.55] W (816808) wifi:m f null
+
+W (816995) wifi:m f null
+
+W (817202) wifi:m f null
+
+W (817303) wifi:m f null
+
+W (817408) wifi:m f null
+
+W (817507) wifi:m f null
+
+[0062.61] W (817736) wifi:m f null
+
+W (817916) wifi:m f null
+
+W (818029) wifi:m f null
+
+W (818123) wifi:m f null
+
+W (818224) wifi:m f null
+
+W (818328) wifi:m f null
+
+W (818429) wifi:m f null
+
+W (818560) wifi:m f null
+
+[0064.00] W (818878) wifi:m f null
+
+W (818969) wifi:m f null
+
+W (819062) wifi:m f null
+
+W (819145) wifi:m f null
+
+W (819248) wifi:m f null
+
+W (819350) wifi:m f null
+
+W (819457) wifi:m f null
+
+W (819555) wifi:m f null
+
+W (819761) wifi:m f null
+
+W (819862) wifi:m f null
+
+W (819964) wifi:m f null
+
+[0064.20] W (820169) wifi:m f null
+
+[0065.24] W (820404) wifi:m f null
+
+W (820518) wifi:m f null
+
+W (820702) wifi:m f null
+
+W (820798) wifi:m f null
+
+W (820886) wifi:m f null
+
+W (820988) wifi:m f null
+
+W (821091) wifi:m f null
+
+W (821205) wifi:m f null
+
+[0065.95] W (821546) wifi:m f null
+
+W (821623) wifi:m f null
+
+W (821717) wifi:m f null
+
+W (821807) wifi:m f null
+
+W (821911) wifi:m f null
+
+[0066.57] W (822140) wifi:m f null
+
+W (822272) wifi:m f null
+
+W (822323) wifi:m f null
+
+W (822430) wifi:m f null
+
+W (822527) wifi:m f null
+
+[0067.18] W (822934) wifi:m f null
+
+W (823139) wifi:m f null
+
+[0067.89] W (823446) wifi:m f null
+
+W (823549) wifi:m f null
+
+W (823651) wifi:m f null
+
+W (823753) wifi:m f null
+
+W (823856) wifi:m f null
+
+[0068.71] W (824060) wifi:m f null
+
+W (824163) wifi:m f null
+
+W (824265) wifi:m f null
+
+W (824367) wifi:m f null
+
+W (824470) wifi:m f null
+
+W (824572) wifi:m f null
+
+W (824675) wifi:m f null
+
+[0069.53] W (825084) wifi:m f null
+
+W (825188) wifi:m f null
+
+W (825319) wifi:m f null
+
+W (825405) wifi:m f null
+
+W (825494) wifi:m f null
+
+[0070.15] W (826109) wifi:m f null
+
+[0070.86] W (826518) wifi:m f null
+
+W (826620) wifi:m f null
+
+W (826825) wifi:m f null
+
+[0071.08] W (827030) wifi:m f null
+
+[0071.38] W (827337) wifi:m f null
+
+[0071.58] W (827543) wifi:m f null
+
+[0071.91] W (827747) wifi:m f null
+
+W (827866) wifi:m f null
+
+[0072.40] W (828362) wifi:m f null
+
+[0072.62] W (828586) wifi:m f null
+
+[0073.43] W (828873) wifi:m f null
+
+W (829078) wifi:m f null
+
+W (829181) wifi:m f null
+
+W (829385) wifi:m f null
+
+[0074.66] W (829628) wifi:m f null
+
+W (829692) wifi:m f null
+
+W (829829) wifi:m f null
+
+W (829932) wifi:m f null
+
+W (830118) wifi:m f null
+
+W (830205) wifi:m f null
+
+W (830335) wifi:m f null
+
+W (830536) wifi:m f null
+
+W (830614) wifi:m f null
+
+[0077.02] W (830936) wifi:m f null
+
+W (831052) wifi:m f null
+
+W (831126) wifi:m f null
+
+W (831233) wifi:m f null
+
+W (831335) wifi:m f null
+
+W (831433) wifi:m f null
+
+W (831536) wifi:m f null
+
+W (831678) wifi:m f null
+
+W (831745) wifi:m f null
+
+W (831945) wifi:m f null
+
+W (832067) wifi:m f null
+
+W (832156) wifi:m f null
+
+W (832283) wifi:m f null
+
+W (832387) wifi:m f null
+
+W (832474) wifi:m f null
+
+W (832560) wifi:m f null
+
+W (832662) wifi:m f null
+
+W (832870) wifi:m f null
+
+W (832969) wifi:m f null
+
+[0077.94] W (833286) wifi:m f null
+
+W (833378) wifi:m f null
+
+W (833495) wifi:m f null
+
+W (833686) wifi:m f null
+
+W (833890) wifi:m f null
+
+[0078.34] W (834222) wifi:m f null
+
+W (834304) wifi:m f null
+
+[0078.96] W (834531) wifi:m f null
+
+W (834607) wifi:m f null
+
+W (834710) wifi:m f null
+
+W (834812) wifi:m f null
+
+W (834915) wifi:m f null
+
+[0079.36] W (835223) wifi:m f null
+
+W (835327) wifi:m f null
+
+[0079.89] W (835541) wifi:m f null
+
+W (835734) wifi:m f null
+
+W (835837) wifi:m f null
+
+[0080.69] W (836058) wifi:m f null
+
+W (836265) wifi:m f null
+
+W (836370) wifi:m f null
+
+W (836559) wifi:m f null
+
+W (836655) wifi:m f null
+
+[0081.51] W (837065) wifi:m f null
+
+W (837168) wifi:m f null
+
+W (837270) wifi:m f null
+
+W (837475) wifi:m f null
+
+[0081.72] W (837679) wifi:m f null
+
+[0082.64] W (838195) wifi:m f null
+
+W (838347) wifi:m f null
+
+W (838409) wifi:m f null
+
+W (838509) wifi:m f null
+
+W (838601) wifi:m f null
+
+[0083.28] W (839126) wifi:m f null
+
+W (839239) wifi:m f null
+
+[0084.01] W (839959) wifi:m f null
+
+[0084.63] W (840577) wifi:m f null
+
+[0085.40] W (840967) wifi:m f null
+
+W (841177) wifi:m f null
+
+W (841367) wifi:m f null
+
+[0086.02] W (841579) wifi:m f null
+
+W (841778) wifi:m f null
+
+W (841930) wifi:m f null
+
+W (841976) wifi:m f null
+
+[0087.36] W (842283) wifi:m f null
+
+[841634]<D> PUBLISH
+[841634]<D>         Packet Ident : 00000000
+[841634]<D>         Topic Length : 35
+[841634]<D>           Topic Name : $aws/things/100000808/shadow/update
+W (842340) wifi:[841639]<D>     Payload Len/Room : 117 / 8104
+m f null
+[841645]<D>       Receive Buflen : 8144
+
+[841649]<D> delivering msg ...
+[841652]<D> topic be matched
+[841655]<E> desired find failed!!
+W (842386) wifi:m f null
+
+W (842442) wifi:m f null
+
+W (842488) wifi:m f null
+
+W (842544) wifi:m f null
+
+W (842590) wifi:m f null
+
+W (842647) wifi:m f null
+
+W (842693) wifi:m f null
+
+W (842749) wifi:m f null
+
+W (842795) wifi:m f null
+
+W (842852) wifi:m f null
+
+W (842898) wifi:m f null
+
+W (842954) wifi:m f null
+
+W (843000) wifi:m f null
+
+W (843159) wifi:m f null
+
+W (843205) wifi:m f null
+
+W (843261) wifi:m f null
+
+W (843307) wifi:m f null
+
+[0097.49] W (853245) wifi:m f null
+
+W (853347) wifi:m f null
+
+W (853450) wifi:m f null
+
+[0098.54] W (853768) wifi:m f null
+
+W (853904) wifi:m f null
+
+W (853962) wifi:m f null
+
+W (854091) wifi:m f null
+
+W (854167) wifi:m f null
+
+W (854287) wifi:m f null
+
+W (854390) wifi:m f null
+
+W (854499) wifi:m f null
+
+[0099.33] W (854786) wifi:m f null
+
+W (854905) wifi:m f null
+
+W (855023) wifi:m f null
+
+W (855191) wifi:m f null
+
+W (855292) wifi:m f null
+
+[0099.75] W (855498) wifi:m f null
+
+W (855702) wifi:m f null
+
+[0100.47] W (855927) wifi:m f null
+
+W (856017) wifi:m f null
+
+W (856214) wifi:m f null
+
+W (856340) wifi:m f null
+
+W (856423) wifi:m f null
+
+[0100.87] W (856832) wifi:m f null
+
+[0101.29] W (857156) wifi:m f null
+
+W (857251) wifi:m f null
+
+[0101.52] W (857471) wifi:m f null
+
+[0101.91] W (857872) wifi:m f null
+
+[0102.31] W (858262) wifi:m f null
+
+[0102.61] W (858569) wifi:m f null
+
+[0103.83] W (858777) wifi:m f null
+
+W (858876) wifi:m f null
+
+W (858981) wifi:m f null
+
+W (859082) wifi:m f null
+
+W (859200) wifi:m f null
+
+[858594]<I> send MQTT ping...
+W (859338) wifi:m f null
+
+W (859384) wifi:m f null
+
+W (859440) wifi:m f null
+
+W (859486) wifi:m f null
+
+[858836]<I> receive ping response!
+W (859543) wifi:m f null
+
+W (859589) wifi:m f null
+
+W (859691) wifi:m f null
+
+W (859748) wifi:m f null
+
+W (859794) wifi:m f null
+
+[0114.09] W (869733) wifi:m f null
+
+W (869842) wifi:m f null
+
+W (869984) wifi:m f null
+
+W (870038) wifi:m f null
+
+[0114.32] W (870277) wifi:m f null
+
+[0114.60] W (870556) wifi:m f null
+
+[0115.00] W (870784) wifi:m f null
+
+W (870959) wifi:m f null
+
+[0115.43] W (871164) wifi:m f null
+
+W (871267) wifi:m f null
+
+W (871385) wifi:m f null
+
+[0115.94] W (871893) wifi:m f null
+
+[0117.05] W (872403) wifi:m f null
+
+W (872503) wifi:m f null
+
+W (872637) wifi:m f null
+
+W (872700) wifi:m f null
+
+W (872808) wifi:m f null
+
+W (872905) wifi:m f null
+
+W (873014) wifi:m f null
+
+[0117.29] W (873242) wifi:m f null
+
+[0118.18] W (873530) wifi:m f null
+
+W (873622) wifi:m f null
+
+W (873754) wifi:m f null
+
+W (873930) wifi:m f null
+
+W (874140) wifi:m f null
+
+[0118.49] W (874442) wifi:m f null
+
+[0118.89] W (874852) wifi:m f null
+
+[0120.14] W (875465) wifi:m f null
+
+W (875578) wifi:m f null
+
+W (875672) wifi:m f null
+
+W (875775) wifi:m f null
+
+W (875888) wifi:m f null
+
+W (875978) wifi:m f null
+
+W (876100) wifi:m f null
+

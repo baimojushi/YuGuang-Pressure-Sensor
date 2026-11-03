@@ -1,0 +1,199 @@
+{
+  "type": "wifi",
+  "basicConfig": {
+    "defaultData": true
+  },
+  "info": {
+    "displayName": "AI台灯"
+  },
+  "data": {
+    "deviceInfo_Manufacturer": {
+      "key": "prop.1.1",
+      "value": ""
+    },
+    "deviceInfo_Model": {
+      "key": "prop.1.2",
+      "value": ""
+    },
+    "deviceInfo_FirmwareVersion": {
+      "key": "prop.1.3",
+      "value": ""
+    },
+    "deviceInfo_Did": {
+      "key": "prop.1.4",
+      "value": ""
+    },
+    "deviceInfo_Pid": {
+      "key": "prop.1.5",
+      "value": ""
+    },
+    "deviceInfo_Sn": {
+      "key": "prop.1.6",
+      "value": ""
+    },
+    "light_OnOff": {
+      "key": "prop.2.1",
+      "value": false
+    },
+    "light_Brightness": {
+      "key": "prop.2.2",
+      "value": 50
+    },
+    "light_LightMode": {
+      "key": "prop.2.3",
+      "value": 0
+    },
+    "light_LightCCT": {
+      "key": "prop.2.4",
+      "value": 2700
+    },
+    "light_LightSwitching": {
+      "key": "prop.2.5",
+      "value": 1
+    },
+    "light_LightCCTMode": {
+      "key": "prop.2.6",
+      "value": 1
+    },
+    "light_BrightnessRatio": {
+      "key": "prop.2.7",
+      "value": 1
+    },
+    "light_BrightGrad": {
+      "key": "prop.2.8",
+      "value": 1
+    },
+    "voice_Volume": {
+      "key": "prop.3.1",
+      "value": 50
+    },
+    "voice_VolumeAdjust": {
+      "key": "prop.3.2",
+      "value": 1
+    },
+    "voice_MuteMode": {
+      "key": "prop.3.3",
+      "value": 1
+    },
+    "lightRGB_OnOff": {
+      "key": "prop.4.1",
+      "value": false
+    },
+    "lightRGB_Brightness": {
+      "key": "prop.4.2",
+      "value": 20
+    },
+    "lightRGB_Color": {
+      "key": "prop.4.3",
+      "value": 0
+    },
+    "timingReset_DelayOff": {
+      "key": "prop.5.1",
+      "value": 1
+    },
+    "timingReset_Reset": {
+      "key": "prop.5.2",
+      "value": 1
+    },
+    "quitChat_ChatState": {
+      "key": "prop.6.1",
+      "value": 1
+    },
+    "voiceControl_CorpusRequest": {
+      "key": "prop.7.1",
+      "value": 1
+    },
+    "voiceControl_Abort": {
+      "key": "prop.7.2",
+      "value": 1
+    },
+    "voiceControl_Emotion": {
+      "key": "prop.7.3",
+      "value": ""
+    },
+    "rtcLogin_Uid": {
+      "key": "prop.8.1",
+      "value": 1
+    },
+    "rtcLogin_AppId": {
+      "key": "prop.8.2",
+      "value": ""
+    },
+    "rtcLogin_ChannelName": {
+      "key": "prop.8.3",
+      "value": ""
+    },
+    "rtcLogin_Token": {
+      "key": "prop.8.4",
+      "value": ""
+    },
+    "rtcLogin_License": {
+      "key": "prop.8.5",
+      "value": ""
+    },
+    "rtcLogin_AgentToken": {
+      "key": "prop.8.6",
+      "value": ""
+    },
+    "voiceCall_CallReq": {
+      "key": "prop.9.1",
+      "value": 0
+    },
+    "voiceCall_AnswerState": {
+      "key": "prop.9.2",
+      "value": 0
+    },
+    "voiceCall_VideoLookUp": {
+      "key": "prop.9.3",
+      "value": 0
+    },
+    "studyMonitor_StudyMode": {
+      "key": "prop.10.1",
+      "value": 0
+    },
+    "studyMonitor_StudyState": {
+      "key": "prop.10.2",
+      "value": 0
+    },
+    "studyMonitor_MonitorConfig": {
+      "key": "prop.10.3",
+      "value": ""
+    },
+    "studyMonitor_HintCorpus": {
+      "key": "prop.10.4",
+      "value": 1
+    },
+    "studyMonitor_FocusMode": {
+      "key": "prop.10.5",
+      "value": 0
+    },
+    "studyAssist_QueryReq": {
+      "key": "prop.11.1",
+      "value": 0
+    },
+    "studyAssist_QueryRes": {
+      "key": "prop.11.2",
+      "value": ""
+    },
+    "studyAssist_ComReq": {
+      "key": "prop.11.3",
+      "value": 0
+    },
+    "studyAssist_ComRes": {
+      "key": "prop.11.4",
+      "value": ""
+    },
+    "studyAssist_StrokeRes": {
+      "key": "prop.11.5",
+      "value": ""
+    },
+    "studyAssist_QueryID": {
+      "key": "prop.11.6",
+      "value": ""
+    },
+    "studyAssist_ComID": {
+      "key": "prop.11.7",
+      "value": ""
+    }
+  }
+}

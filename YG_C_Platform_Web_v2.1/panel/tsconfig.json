@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@ui": ["xjiang-ui"],
+      "@sdk": ["xjiang-sdk"]
+    },
+    "lib": ["esnext", "DOM"],
+    "types": ["node", "jsdom"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/**/*.json",
+    "xjiang-sdk/**/*",
+    "xjiang-ui/**/*"
+  ],
+  "exclude": ["src/**/__tests__/*"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

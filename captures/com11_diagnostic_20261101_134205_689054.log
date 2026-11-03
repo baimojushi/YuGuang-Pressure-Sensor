@@ -1,0 +1,1424 @@
+2026-11-01T13:42:06.644 [0000.95] [158826]<I> peer adv rssi=-35 allowed=0
+2026-11-01T13:42:06.644 [0000.95] [158887]<I> peer adv rssi=-35 allowed=0
+2026-11-01T13:42:06.644 [0000.95] [158973]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:06.644 [0000.95] [159079]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:06.644 [0000.95] [159142]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:07.235 [0001.55] [159517]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:42:07.235 [0001.55] [159666]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:07.235 [0001.55] [159737]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:08.120 [0002.44] [160173]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:08.120 [0002.44] [160370]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:42:08.120 [0002.44] [160459]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:08.120 [0002.44] [160562]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:08.120 [0002.44] [160627]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:08.120 [0002.44] >>> ygble pair 120
+2026-11-01T13:42:08.525 [0002.84] ygble pair 120
+2026-11-01T13:42:08.525 [0002.84] [160841]<W> pairing window 120s; verify device identity out-of-band
+2026-11-01T13:42:08.525 [0002.84] 
+2026-11-01T13:42:08.525 [0002.84] # 
+2026-11-01T13:42:08.525 [0002.84] # [160875]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:42:08.525 [0002.84] [161025]<I> link up; requesting encryption
+2026-11-01T13:42:08.525 [0002.84] [161025]<I> open status=0
+2026-11-01T13:42:08.915 [0003.23] [161418]<I> auth cmpl success=0
+2026-11-01T13:42:08.915 [0003.23] [161419]<W> link down reason=0x16
+2026-11-01T13:42:09.771 [0004.08] [162090]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:09.771 [0004.08] [162270]<I> link up; requesting encryption
+2026-11-01T13:42:09.771 [0004.08] [162270]<I> open status=0
+2026-11-01T13:42:10.502 [0004.81] [162693]<I> auth cmpl success=0
+2026-11-01T13:42:10.502 [0004.81] [162694]<W> link down reason=0x16
+2026-11-01T13:42:10.502 [0004.81] [162829]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:10.502 [0004.81] [163005]<I> link up; requesting encryption
+2026-11-01T13:42:10.502 [0004.81] [163005]<I> open status=0
+2026-11-01T13:42:11.062 [0005.38] [163382]<I> auth cmpl success=0
+2026-11-01T13:42:11.062 [0005.38] [163383]<W> link down reason=0x16
+2026-11-01T13:42:11.062 [0005.38] [163458]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:42:11.062 [0005.38] [163559]<I> link up; requesting encryption
+2026-11-01T13:42:11.062 [0005.38] [163560]<I> open status=0
+2026-11-01T13:42:11.809 [0006.12] [163968]<I> auth cmpl success=0
+2026-11-01T13:42:11.809 [0006.12] [163969]<W> link down reason=0x16
+2026-11-01T13:42:11.809 [0006.12] [164157]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:11.809 [0006.12] [164310]<I> link up; requesting encryption
+2026-11-01T13:42:11.809 [0006.12] [164310]<I> open status=0
+2026-11-01T13:42:12.258 [0006.56] [164763]<I> auth cmpl success=0
+2026-11-01T13:42:12.258 [0006.56] [164764]<W> link down reason=0x16
+2026-11-01T13:42:12.586 [0006.89] [165086]<I> peer adv rssi=-73 allowed=1
+2026-11-01T13:42:12.834 [0007.14] [165345]<I> link up; requesting encryption
+2026-11-01T13:42:12.834 [0007.14] [165345]<I> open status=0
+2026-11-01T13:42:13.190 [0007.50] [165693]<I> auth cmpl success=0
+2026-11-01T13:42:13.190 [0007.50] [165693]<W> link down reason=0x16
+2026-11-01T13:42:13.627 [0007.94] [165964]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:13.627 [0007.94] [166125]<I> link up; requesting encryption
+2026-11-01T13:42:13.627 [0007.94] [166125]<I> open status=0
+2026-11-01T13:42:14.306 [0008.62] [166608]<I> auth cmpl success=0
+2026-11-01T13:42:14.306 [0008.62] [166609]<W> link down reason=0x16
+2026-11-01T13:42:14.306 [0008.62] [166819]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:42:14.542 [0008.86] [167039]<I> link up; requesting encryption
+2026-11-01T13:42:14.542 [0008.86] [167040]<I> open status=0
+2026-11-01T13:42:14.946 [0009.25] [167448]<I> auth cmpl success=0
+2026-11-01T13:42:14.946 [0009.25] [167449]<W> link down reason=0x16
+2026-11-01T13:42:15.304 [0009.61] [167715]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:15.304 [0009.61] [167804]<I> link up; requesting encryption
+2026-11-01T13:42:15.304 [0009.61] [167805]<I> open status=0
+2026-11-01T13:42:15.848 [0010.16] [168213]<I> auth cmpl success=0
+2026-11-01T13:42:15.848 [0010.16] [168213]<W> link down reason=0x16
+2026-11-01T13:42:15.848 [0010.16] [168355]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:42:16.144 [0010.45] [168644]<I> link up; requesting encryption
+2026-11-01T13:42:16.144 [0010.45] [168645]<I> open status=0
+2026-11-01T13:42:16.737 [0011.05] [169083]<I> auth cmpl success=0
+2026-11-01T13:42:16.737 [0011.05] [169084]<W> link down reason=0x16
+2026-11-01T13:42:16.737 [0011.05] [169158]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:16.737 [0011.05] [169244]<I> link up; requesting encryption
+2026-11-01T13:42:16.737 [0011.05] [169245]<I> open status=0
+2026-11-01T13:42:17.172 [0011.48] [169683]<I> auth cmpl success=0
+2026-11-01T13:42:17.172 [0011.48] [169684]<W> link down reason=0x16
+2026-11-01T13:42:17.761 [0012.08] [170141]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:17.761 [0012.08] [170265]<I> link up; requesting encryption
+2026-11-01T13:42:17.761 [0012.08] [170265]<I> open status=0
+2026-11-01T13:42:18.118 [0012.44] [170628]<I> auth cmpl success=0
+2026-11-01T13:42:18.118 [0012.44] [170629]<W> link down reason=0x16
+2026-11-01T13:42:18.798 [0013.11] [171103]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:18.798 [0013.11] [171300]<I> link up; requesting encryption
+2026-11-01T13:42:18.798 [0013.11] [171300]<I> open status=0
+2026-11-01T13:42:19.341 [0013.66] [171708]<I> auth cmpl success=0
+2026-11-01T13:42:19.341 [0013.66] [171708]<W> link down reason=0x16
+2026-11-01T13:42:19.341 [0013.66] [171845]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:19.562 [0013.88] [172065]<I> link up; requesting encryption
+2026-11-01T13:42:19.562 [0013.88] [172065]<I> open status=0
+2026-11-01T13:42:20.182 [0014.50] [172443]<I> auth cmpl success=0
+2026-11-01T13:42:20.182 [0014.50] [172444]<W> link down reason=0x16
+2026-11-01T13:42:20.183 [0014.50] [172518]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:20.183 [0014.50] [172680]<I> link up; requesting encryption
+2026-11-01T13:42:20.183 [0014.50] [172680]<I> open status=0
+2026-11-01T13:42:20.552 [0014.86] [173058]<I> auth cmpl success=0
+2026-11-01T13:42:20.552 [0014.86] [173059]<W> link down reason=0x16
+2026-11-01T13:42:21.018 [0015.33] [173525]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:42:21.235 [0015.55] [173744]<I> link up; requesting encryption
+2026-11-01T13:42:21.235 [0015.55] [173745]<I> open status=0
+2026-11-01T13:42:21.745 [0016.06] [174093]<I> auth cmpl success=0
+2026-11-01T13:42:21.745 [0016.06] [174093]<W> link down reason=0x16
+2026-11-01T13:42:21.746 [0016.06] [174169]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:21.746 [0016.06] [174254]<I> link up; requesting encryption
+2026-11-01T13:42:21.746 [0016.06] [174255]<I> open status=0
+2026-11-01T13:42:22.100 [0016.41] [174603]<I> auth cmpl success=0
+2026-11-01T13:42:22.100 [0016.41] [174604]<W> link down reason=0x16
+2026-11-01T13:42:22.521 [0016.83] [174930]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:42:22.521 [0016.83] [175019]<I> link up; requesting encryption
+2026-11-01T13:42:22.521 [0016.83] [175020]<I> open status=0
+2026-11-01T13:42:23.083 [0017.39] [175413]<I> auth cmpl success=0
+2026-11-01T13:42:23.083 [0017.39] [175414]<W> link down reason=0x16
+2026-11-01T13:42:23.084 [0017.39] [175488]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:23.084 [0017.39] [175590]<I> link up; requesting encryption
+2026-11-01T13:42:23.084 [0017.39] [175590]<I> open status=0
+2026-11-01T13:42:23.660 [0017.97] [175923]<I> auth cmpl success=0
+2026-11-01T13:42:23.660 [0017.97] [175924]<W> link down reason=0x16
+2026-11-01T13:42:23.660 [0017.97] [175998]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:23.661 [0017.97] [176159]<I> link up; requesting encryption
+2026-11-01T13:42:23.661 [0017.97] [176160]<I> open status=0
+2026-11-01T13:42:24.156 [0018.47] [176568]<I> auth cmpl success=0
+2026-11-01T13:42:24.156 [0018.47] [176569]<W> link down reason=0x16
+2026-11-01T13:42:24.156 [0018.47] [176658]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:42:24.373 [0018.69] [176879]<I> link up; requesting encryption
+2026-11-01T13:42:24.373 [0018.69] [176880]<I> open status=0
+2026-11-01T13:42:26.323 [0020.64] [177273]<I> auth cmpl success=0
+2026-11-01T13:42:26.323 [0020.64] [177274]<W> link down reason=0x16
+2026-11-01T13:42:26.323 [0020.64] [177348]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:26.323 [0020.64] [177435]<I> link up; requesting encryption
+2026-11-01T13:42:26.323 [0020.64] [177435]<I> open status=0
+2026-11-01T13:42:26.323 [0020.64] 
+2026-11-01T13:42:26.323 [0020.64] ***ERROR*** A stack overflow in task BTU_TASK has been detected.
+2026-11-01T13:42:26.323 [0020.64] 
+2026-11-01T13:42:26.323 [0020.64] 
+2026-11-01T13:42:26.323 [0020.64] Backtrace: 0x403799ad:0x3fce3700 0x40386c11:0x3fce3720 0x4038775a:0x3fce3740 0x4 ���� � �� x ���x�� � x����x xxx������ x� � � x�� ���� ���� �xx���� � x����x xxx�����x�x� � � x�� ���� ���� �x������� � x xx�xxx�xxx�xxx� � x�xx� x�x�x��xxxxx xxxx x� �xx �xx �xx �xx �xx x�x x���x��x�xxx���x �x x��x�������� ����x�� �x�� �xx�x�x����x �xx �x��xx�x x�x�x�x��x�x�xx�x�xx �xESP-ROM:esp32s3-20210327
+2026-11-01T13:42:26.323 [0020.64] Build:Mar 27 2021
+2026-11-01T13:42:26.323 [0020.64] rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+2026-11-01T13:42:26.323 [0020.64] Saved PC:0x4038327a
+2026-11-01T13:42:26.323 [0020.64] SPIWP:0xee
+2026-11-01T13:42:26.323 [0020.64] mode:DIO, clock div:1
+2026-11-01T13:42:26.323 [0020.64] load:0x3fce2820,len:0x135c
+2026-11-01T13:42:26.324 [0020.64] load:0x403c8700,len:0x4
+2026-11-01T13:42:26.324 [0020.64] load:0x403c8704,len:0xea8
+2026-11-01T13:42:26.324 [0020.64] load:0x403cb700,len:0x30dc
+2026-11-01T13:42:26.324 [0020.64] entry 0x403c8940
+2026-11-01T13:42:26.324 [0020.64] I (31) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+2026-11-01T13:42:26.324 [0020.64] I (31) boot: compile time Nov  1 2026 04:17:03
+2026-11-01T13:42:26.324 [0020.64] I (31) boot: Multicore bootloader
+2026-11-01T13:42:26.324 [0020.64] I (32) boot: chip revision: v0.2
+2026-11-01T13:42:26.324 [0020.64] I (35) boot: efuse block revision: v1.4
+2026-11-01T13:42:26.324 [0020.64] I (39) qio_mode: Enabling default flash chip QIO
+2026-11-01T13:42:26.324 [0020.64] I (43) boot.esp32s3: Boot SPI Speed : 80MHz
+2026-11-01T13:42:26.324 [0020.64] I (47) boot.esp32s3: SPI Mode       : QIO
+2026-11-01T13:42:26.324 [0020.64] I (51) boot.esp32s3: SPI Flash Size : 16MB
+2026-11-01T13:42:26.324 [0020.64] I (55) boot: Enabling RNG early entropy source...
+2026-11-01T13:42:26.324 [0020.64] I (59) boot: Partition Table:
+2026-11-01T13:42:26.324 [0020.64] I (62) boot: ## Label            Usage          Type ST Offset   Length
+2026-11-01T13:42:26.324 [0020.64] I (68) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+2026-11-01T13:42:26.324 [0020.64] I (75) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+2026-11-01T13:42:26.324 [0020.64] I (81) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+2026-11-01T13:42:26.324 [0020.64] I (88) boot:  3 ota_0            OTA app          00 10 00020000 003f0000
+2026-11-01T13:42:26.324 [0020.64] I (94) boot:  4 ota_1            OTA app          00 11 00410000 003f0000
+2026-11-01T13:42:26.324 [0020.64] I (101) boot:  5 lvgl             Unknown data     01 82 00800000 00010000
+2026-11-01T13:42:26.324 [0020.64] I (107) boot:  6 coco_pose        Unknown data     01 40 00810000 00320000
+2026-11-01T13:42:26.324 [0020.64] I (114) boot:  7 spiffs_data      Unknown data     01 82 00b30000 00100000
+2026-11-01T13:42:26.324 [0020.64] I (120) boot:  8 model            Unknown data     01 82 00c30000 00300000
+2026-11-01T13:42:26.324 [0020.64] I (127) boot: End of partition table
+2026-11-01T13:42:26.324 [0020.64] I (130) esp_image: segment 0: paddr=00020020 vaddr=3c150020 size=660d8h (418008) map
+2026-11-01T13:42:26.324 [0020.64] I (200) esp_image: segment 1: paddr=00086100 vaddr=3fca5500 size=077a8h ( 30632) load
+2026-11-01T13:42:26.324 [0020.64] I (206) esp_image: segment 2: paddr=0008d8b0 vaddr=40378000 size=02768h ( 10088) load
+2026-11-01T13:42:26.324 [0020.64] I (208) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=144084h (1327236) map
+2026-11-01T13:42:26.324 [0020.64] I (410) esp_image: segment 4: paddr=001d40ac vaddr=4037a768 size=1aca0h (109728) load
+2026-11-01T13:42:26.324 [0020.64] I (431) esp_image: segment 5: paddr=001eed54 vaddr=600fe100 size=0001ch (    28) load
+2026-11-01T13:42:26.324 [0020.64] I (443) boot: Loaded app from partition at offset 0x20000
+2026-11-01T13:42:26.324 [0020.64] I (443) boot: Disabling RNG early entropy source...
+2026-11-01T13:42:26.324 [0020.64] W (453) flash HPM: HPM mode is optional feature that depends on flash model. Read Docs First!
+2026-11-01T13:42:26.324 [0020.64] W (453) flash HPM: HPM mode with DC adjustment is disabled. Some flash models may not be supported. Read Docs First!
+2026-11-01T13:42:26.324 [0020.64] W (460) flash HPM: High performance mode of this flash model hasn't been supported.
+2026-11-01T13:42:26.324 [0020.64] I (468) MSPI Timing: Flash timing tuning index: 2
+2026-11-01T13:42:26.324 [0020.64] I (472) octal_psram: vendor id    : 0x0d (AP)
+2026-11-01T13:42:26.324 [0020.64] I (476) octal_psram: dev id       : 0x02 (generation 3)
+2026-11-01T13:42:26.324 [0020.64] I (481) octal_psram: density      : 0x03 (64 Mbit)
+2026-11-01T13:42:26.324 [0020.64] I (485) octal_psram: good-die     : 0x01 (Pass)
+2026-11-01T13:42:26.324 [0020.64] I (490) octal_psram: Latency      : 0x01 (Fixed)
+2026-11-01T13:42:26.324 [0020.64] I (494) octal_psram: VCC          : 0x01 (3V)
+2026-11-01T13:42:26.324 [0020.64] I (498) octal_psram: SRF          : 0x01 (Fast Refresh)
+2026-11-01T13:42:26.324 [0020.64] I (503) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+2026-11-01T13:42:26.324 [0020.64] I (508) octal_psram: BurstLen     : 0x01 (32 Byte)
+2026-11-01T13:42:26.324 [0020.64] I (512) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+2026-11-01T13:42:26.324 [0020.64] I (518) octal_psram: DriveStrength: 0x00 (1/1)
+2026-11-01T13:42:26.324 [0020.64] I (530) MSPI Timing: PSRAM timing tuning index: 10
+2026-11-01T13:42:26.324 [0020.64] I (531) esp_psram: Found 8MB PSRAM device
+2026-11-01T13:42:26.324 [0020.64] I (531) esp_psram: Speed: 120MHz
+2026-11-01T13:42:26.324 [0020.64] I (553) mmu_psram: Read only data copied and mapped to SPIRAM
+2026-11-01T13:42:26.324 [0020.64] I (627) mmu_psram: Instructions copied and mapped to SPIRAM
+2026-11-01T13:42:26.324 [0020.64] I (627) cpu_start: Multicore app
+2026-11-01T13:42:26.324 [0020.64] I (636) cpu_start: Pro cpu start user code
+2026-11-01T13:42:26.324 [0020.64] I (636) cpu_start: cpu freq: 240000000 Hz
+2026-11-01T13:42:26.324 [0020.64] I (636) app_init: Application information:
+2026-11-01T13:42:26.324 [0020.64] I (636) app_init: Project name:     vb701n
+2026-11-01T13:42:26.324 [0020.64] I (640) app_init: App version:      1
+2026-11-01T13:42:26.324 [0020.64] I (643) app_init: Compile time:     Nov  1 2026 04:15:46
+2026-11-01T13:42:26.324 [0020.64] I (648) app_init: ELF file SHA256:  75d3d5e82...
+2026-11-01T13:42:26.324 [0020.64] I (652) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+2026-11-01T13:42:26.324 [0020.64] I (657) efuse_init: Min chip rev:     v0.0
+2026-11-01T13:42:26.324 [0020.64] I (661) efuse_init: Max chip rev:     v0.99 
+2026-11-01T13:42:26.324 [0020.64] I (665) efuse_init: Chip rev:         v0.2
+2026-11-01T13:42:26.324 [0020.64] I (669) heap_init: Initializing. RAM available for dynamic allocation:
+2026-11-01T13:42:26.324 [0020.64] I (675) heap_init: At 3FCB2DD8 len 00036938 (218 KiB): RAM
+2026-11-01T13:42:26.324 [0020.64] I (680) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+2026-11-01T13:42:26.324 [0020.64] I (685) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+2026-11-01T13:42:26.324 [0020.64] I (691) esp_psram: Adding pool of 6387K of PSRAM memory to heap allocator
+2026-11-01T13:42:26.324 [0020.64] I (698) spi_flash: detected chip: generic
+2026-11-01T13:42:26.324 [0020.64] I (701) spi_flash: flash io: qio
+2026-11-01T13:42:26.324 [0020.64] I (704) coexist: coex firmware version: e727207
+2026-11-01T13:42:26.324 [0020.64] I (741) coexist: coexist rom version e7ae62f
+2026-11-01T13:42:26.324 [0020.64] I (741) main_task: Started on CPU0
+2026-11-01T13:42:26.324 [0020.64] I ([000063]<I> system KV init ret=0
+2026-11-01T13:42:26.324 [0020.64] I (754) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T13:42:26.324 [0020.64] [000063]<I> init ok gpio0
+2026-11-01T13:42:26.324 [0020.64] [000066]<I> init ok gpio1 leds 8
+2026-11-01T13:42:26.324 [0020.64] I (759) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+2026-11-01T13:42:26.324 [0020.64] I (768) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T13:42:26.324 [0020.64] [000085]<I> arbiter init
+2026-11-01T13:42:26.324 [0020.64] [000087]<E> playback init failed
+2026-11-01T13:42:26.324 [0020.64] [000091]<I> init done
+2026-11-01T13:42:26.325 [0020.64] [000093]<E> system KV get failed ret=-1 key=course_cfg key_len=10
+2026-11-01T13:42:26.325 [0020.64] [000098]<I> no valid flash data, key=course_cfg
+2026-11-01T13:42:26.325 [0020.64] [000103]<I> iot event listener registered
+2026-11-01T13:42:26.325 [0020.64] [000106]<I> down_register ret=0 (method=course)
+2026-11-01T13:42:26.325 [0020.64] [000111]<I> init ok: synced=0 entries=0
+2026-11-01T13:42:26.325 [0020.64] [000115]<I> dynreg env=2
+2026-11-01T13:42:26.325 [0020.64] [000117]<I> saved wifi, skip ble
+2026-11-01T13:42:26.325 [0020.64] I (812) pp: pp rom version: e7ae62f
+2026-11-01T13:42:26.325 [0020.64] I (814) net80211: net80211 rom version: e7ae62f
+2026-11-01T13:42:26.325 [0020.64] I (819) wifi:wifi driver task: 3fccf17c, prio:23, stack:6144, core=0
+2026-11-01T13:42:26.325 [0020.64] I (825) wifi:wifi firmware version: 79fa3f41ba
+2026-11-01T13:42:26.325 [0020.64] I (829) wifi:wifi certification version: v7.0
+2026-11-01T13:42:26.325 [0020.64] I (833) wifi:config NVS flash: disabled
+2026-11-01T13:42:26.325 [0020.64] I (836) wifi:config nano formatting: enabled
+2026-11-01T13:42:26.325 [0020.64] I (840) wifi:Init data frame dynamic rx buffer num: 32
+2026-11-01T13:42:26.325 [0020.64] I (845) wifi:Init static rx mgmt buffer num: 5
+2026-11-01T13:42:26.325 [0020.64] I (849) wifi:Init management short buffer num: 32
+2026-11-01T13:42:26.325 [0020.64] I (854) wifi:Init static tx buffer num: 8
+2026-11-01T13:42:26.325 [0020.64] I (858) wifi:Init tx cache buffer num: 32
+2026-11-01T13:42:26.325 [0020.64] I (861) wifi:Init static tx FG buffer num: 2
+2026-11-01T13:42:26.325 [0020.64] I (865) wifi:Init static rx buffer size: 1600
+2026-11-01T13:42:26.325 [0020.64] I (869) wifi:Init static rx buffer num: 10
+2026-11-01T13:42:26.325 [0020.64] I (873) wifi:Init dynamic rx buffer num: 32
+2026-11-01T13:42:26.325 [0020.64] I (877) wifi_init: rx ba win: 12
+2026-11-01T13:42:26.325 [0020.64] I (880) wifi_init: accept mbox: 6
+2026-11-01T13:42:26.325 [0020.64] I (883) wifi_init: tcpip mbox: 32
+2026-11-01T13:42:26.325 [0020.64] I (886) wifi_init: udp mbox: 16
+2026-11-01T13:42:26.325 [0020.64] I (889) wifi_init: tcp mbox: 6
+2026-11-01T13:42:26.325 [0020.64] I (892) wifi_init: tcp tx win: 5760
+2026-11-01T13:42:26.325 [0020.64] I (895) wifi_init: tcp rx win: 5760
+2026-11-01T13:42:26.325 [0020.64] I (898) wifi_init: tcp mss: 1440
+2026-11-01T13:42:26.325 [0020.64] I (901) wifi_init: WiFi/LWIP prefer SPIRAM
+2026-11-01T13:42:26.325 [0020.64] I (905) wifi_init: WiFi IRAM OP enabled
+2026-11-01T13:42:26.325 [0020.64] I (908) wifi_init: WiFi RX IRAM OP enabled
+2026-11-01T13:42:26.325 [0020.64] I (912) wifi_init: LWIP IRAM OP enabled
+2026-11-01T13:42:26.325 [0020.64] W (916) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+2026-11-01T13:42:26.325 [0020.64] I (925) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+2026-11-01T13:42:26.325 [0020.64] I (966) wifi:mode : sta (68:ee:8f:44:bd:b4)
+2026-11-01T13:42:26.325 [0020.64] I (966) wifi:enable tsf
+2026-11-01T13:42:26.325 [0020.64] [000275]<I> wifi sta start
+2026-11-01T13:42:26.325 [0020.64] [000277]<E> system KV get failed ret=-1 key=qmalarm.meta key_len=12
+2026-11-01T13:42:26.325 [0020.64] [000279]<I> ready, cloud=on
+2026-11-01T13:42:26.325 [0020.64] [000281]<I> app init done: internal free=146991, largest=65536, psram free=6426208
+2026-11-01T13:42:26.325 [0020.64] I (980) main_task: Returned from app_main()
+2026-11-01T13:42:26.325 [0020.64] I (1164) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+2026-11-01T13:42:26.325 [0020.64] I (1164) wifi:state: init -> auth (0xb0)
+2026-11-01T13:42:26.325 [0020.64] I (1189) wifi:state: auth -> assoc (0x0)
+2026-11-01T13:42:26.325 [0020.64] I (1198) wifi:state: assoc -> run (0x10)
+2026-11-01T13:42:26.325 [0020.64] I (1220) wifi:connected with INTERCITYHACK-NB-PLAYER-2.4G, aid = 3, channel 1, BW20, bssid = 5a:b4:bb:39:13:6e
+2026-11-01T13:42:26.325 [0020.64] I (1220) wifi:security: WPA2-PSK, phy: bgn, rssi: -58
+2026-11-01T13:42:26.325 [0020.64] I (1224) wifi:pm start, type: 1
+2026-11-01T13:42:26.325 [0020.64] 
+2026-11-01T13:42:26.325 [0020.64] I (1226) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+2026-11-01T13:42:26.325 [0020.64] I (1234) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+2026-11-01T13:42:26.529 [0020.84] I (1404) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+2026-11-01T13:42:26.904 [0021.22] [001093]<W> report failed -10
+2026-11-01T13:42:27.571 [0021.88] [001580]<I> wifi got ip
+2026-11-01T13:42:27.571 [0021.88] I (2271) esp_netif_handlers: sta ip: 10.20.0.141, mask: 255.255.254.0, gw: 10.20.0.1
+2026-11-01T13:42:27.571 [0021.88] [001580]<I> network update state=1
+2026-11-01T13:42:27.571 [0021.88] [001582]<D> iot event 4
+2026-11-01T13:42:27.571 [0021.88] [001584]<E> dynreg request payload={"sn":"68EE8F44BDB6","pid":"11879","timestamp":"1582","signature":"<redacted>","nonce":30584} signature_len=40
+2026-11-01T13:42:27.571 [0021.88] [001597]<I> tls connect start host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca=0 mtls=0
+2026-11-01T13:42:27.571 [0021.88] [001606]<I> tls establish host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca_bytes=0 ca_type=bundle client_crt_bytes=0 client_crt_type=none client_key_bytes=0 client_key_type=none
+2026-11-01T13:42:27.571 [0021.88] I (2436) wifi:<ba-add>idx:0 (ifx:0, 5a:b4:bb:39:13:6e), tid:3, ssn:1, winSize:64
+2026-11-01T13:42:28.070 [0022.38] [002093]<W> report failed -10
+2026-11-01T13:42:28.070 [0022.38] I (2947) wifi:<ba-add>idx:1 (ifx:0, 5a:b4:bb:39:13:6e), tid:0, ssn:10, winSize:64
+2026-11-01T13:42:28.303 [0022.61] I (3178) esp-x509-crt-bundle: Certificate validated
+2026-11-01T13:42:28.910 [0023.22] [002873]<I> transport connected host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 secure=1
+2026-11-01T13:42:28.910 [0023.22] [002874]<D> request state reset timeout=10000 rx_buf=512 keep_alive=0 auth=0
+2026-11-01T13:42:28.910 [0023.22] [002879]<I> tls write ok fd=52 wrote=208 requested=208
+2026-11-01T13:42:28.910 [0023.22] [003093]<W> report failed -10
+2026-11-01T13:42:30.124 [0024.44] [004093]<W> report failed -10
+2026-11-01T13:42:30.124 [0024.44] [004230]<I> response finished status=200 bytes=4564
+2026-11-01T13:42:30.124 [0024.44] [004231]<I> close connection active=1 status=200
+2026-11-01T13:42:30.124 [0024.44] [004231]<I> cleanup client
+2026-11-01T13:42:30.124 [0024.44] [004231]<I> close connection active=0 status=200
+2026-11-01T13:42:30.124 [0024.44] [004245]<I> dynreg did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883
+2026-11-01T13:42:30.124 [0024.44] [004249]<I> reset marker already clear
+2026-11-01T13:42:30.124 [0024.44] [004249]<I> start begin
+2026-11-01T13:42:30.124 [0024.44] [004250]<I> reset_info.is_reset=0,0
+2026-11-01T13:42:30.124 [0024.44] [004253]<I> cloud credential summary pid=11879 did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn host_len=50 port=8883
+2026-11-01T13:42:30.124 [0024.44] [004266]<I> start done
+2026-11-01T13:42:30.124 [0024.44] [004268]<I> network update state=1
+2026-11-01T13:42:30.124 [0024.44] [004271]<D> iot event 4
+2026-11-01T13:42:30.124 [0024.44] [004273]<I> iot start ok
+2026-11-01T13:42:30.125 [0024.44] [004275]<I> cloud connecting
+2026-11-01T13:42:30.125 [0024.44] [004278]<I> MQTT init success!
+2026-11-01T13:42:30.125 [0024.44] [004281]<I> tls establish host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883 ca_bytes=1188 ca_type=certificate client_crt_bytes=1221 client_crt_type=certificate client_key_bytes=1676 client_key_type=rsa-private-key
+2026-11-01T13:42:30.917 [0025.23] [005093]<W> report failed -10
+2026-11-01T13:42:32.939 [0027.25] [005721]<D> start MQTT connection with parameters: clientid=11879_68EE8F44BDB6
+2026-11-01T13:42:32.939 [0027.25] [005722]<I> tls write ok fd=52 wrote=32 requested=32
+2026-11-01T13:42:32.939 [0027.25] [005877]<D> mqtt connect success!
+2026-11-01T13:42:32.939 [0027.25] [005877]<D> mqtt connect success
+2026-11-01T13:42:32.939 [0027.25] [005878]<I> mqtt subscribe success,topic= /11879/100000808/device/down
+2026-11-01T13:42:32.939 [0027.25] [005879]<I> mqtt subscribe success,topic= /11879/100000808/cloud/set
+2026-11-01T13:42:32.939 [0027.25] [005885]<I> mqtt subscribe success,topic= /11879/100000808/device/getReply
+2026-11-01T13:42:32.939 [0027.25] [005891]<I> mqtt subscribe success,topic= /11879/100000808/cloud/get
+2026-11-01T13:42:32.940 [0027.25] [005897]<I> mqtt subscribe success,topic= $aws/things/100000808/shadow/update
+2026-11-01T13:42:32.940 [0027.25] [005957]<D> SUBACK
+2026-11-01T13:42:32.940 [0027.25] [005957]<D> suback: 5, topic count: 5
+2026-11-01T13:42:32.940 [0027.25] [006105]<I> cloud connected
+2026-11-01T13:42:32.940 [0027.25] [006105]<I> down registered: chat
+2026-11-01T13:42:32.940 [0027.25] [006105]<I> down registered: care
+2026-11-01T13:42:32.940 [0027.25] [006105]<I> down registered: voice
+2026-11-01T13:42:32.940 [0027.25] [006106]<I> down registered: player
+2026-11-01T13:42:32.940 [0027.25] [006109]<I> start: internal free=142963 largest=47104
+2026-11-01T13:42:32.940 [0027.25] I (6805) BLE_INIT: BT controller compile version [d74042a]
+2026-11-01T13:42:32.940 [0027.25] I (6810) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:bd:b6
+2026-11-01T13:42:32.940 [0027.25] [006134]<I> GATT central started; peer pinned=0
+2026-11-01T13:42:32.940 [0027.25] [006134]<I> ntp sync started
+2026-11-01T13:42:32.940 [0027.25] [006134]<I> down registered: pomodoro
+2026-11-01T13:42:32.940 [0027.25] [006134]<I> down_register ret=0 (method=course)
+2026-11-01T13:42:32.940 [0027.25] [006139]<D> PUBLISH
+2026-11-01T13:42:32.940 [0027.25] [006140]<D>         Packet Ident : 00000000
+2026-11-01T13:42:32.941 [0027.25] [006144]<D>         Topic Length : 28
+2026-11-01T13:42:32.941 [0027.25] [006148]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:42:32.941 [0027.25] [006154]<D>     Payload Len/Room : 60 / 8112
+2026-11-01T13:42:32.941 [0027.25] [006158]<D>       Receive Buflen : 8144
+2026-11-01T13:42:32.941 [0027.25] [006161]<D> delivering msg ...
+2026-11-01T13:42:32.941 [0027.25] [006164]<D> The host IP 223.4.249.80, port is 123
+2026-11-01T13:42:32.941 [0027.25] 
+2026-11-01T13:42:32.941 [0027.25] [006169]<D> publish devinfo topic_len=26 payload_len=175
+2026-11-01T13:42:32.941 [0027.25] [006174]<D> topic be matched
+2026-11-01T13:42:32.941 [0027.25] [006177]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+2026-11-01T13:42:32.941 [0027.25] [006264]<I> ntp synced, now=13:42:31
+2026-11-01T13:42:32.941 [0027.25] [006264]<D> PUBLISH
+2026-11-01T13:42:32.941 [0027.25] [006264]<D>         Packet Ident : 00000000
+2026-11-01T13:42:32.941 [0027.25] [006264]<D>         Topic Length : 28
+2026-11-01T13:42:32.941 [0027.25] [006266]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:42:32.941 [0027.25] [006271]<D>     Payload Len/Room : 60 / 8112
+2026-11-01T13:42:32.941 [0027.25] [006275]<D>       Receive Buflen : 8144
+2026-11-01T13:42:32.941 [0027.25] [006279]<D> delivering msg ...
+2026-11-01T13:42:32.941 [0027.25] [006282]<D> topic be matched
+2026-11-01T13:42:32.942 [0027.25] [006285]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+2026-11-01T13:42:32.942 [0027.25] [006394]<D> PUBLISH
+2026-11-01T13:42:32.942 [0027.25] [006394]<D>         Packet Ident : 00000000
+2026-11-01T13:42:32.942 [0027.25] [006394]<D>         Topic Length : 35
+2026-11-01T13:42:32.942 [0027.25] [006394]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T13:42:32.942 [0027.25] [006398]<D>     Payload Len/Room : 76 / 8105
+2026-11-01T13:42:32.942 [0027.25] [006402]<D>       Receive Buflen : 8144
+2026-11-01T13:42:32.942 [0027.25] [006406]<D> delivering msg ...
+2026-11-01T13:42:32.942 [0027.25] [006409]<D> topic be matched
+2026-11-01T13:42:32.942 [0027.25] [006412]<E> desired find failed!!
+2026-11-01T13:42:32.942 [0027.25] [006456]<D> PUBLISH
+2026-11-01T13:42:32.942 [0027.25] [006456]<D>         Packet Ident : 00000000
+2026-11-01T13:42:32.942 [0027.25] [006457]<D>         Topic Length : 28
+2026-11-01T13:42:32.942 [0027.25] [006457]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:42:32.942 [0027.25] [006460]<D>     Payload Len/Room : 95 / 8112
+2026-11-01T13:42:32.942 [0027.25] [006464]<D>       Receive Buflen : 8144
+2026-11-01T13:42:32.942 [0027.25] [006468]<D> delivering msg ...
+2026-11-01T13:42:32.942 [0027.25] [006471]<D> topic be matched
+2026-11-01T13:42:32.943 [0027.25] [006538]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:32.943 [0027.25] [006671]<D> PUBLISH
+2026-11-01T13:42:32.943 [0027.25] [006671]<D>         Packet Ident : 00000000
+2026-11-01T13:42:32.943 [0027.25] [006671]<D>         Topic Length : 28
+2026-11-01T13:42:32.943 [0027.25] [006671]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:42:32.943 [0027.25] [006675]<D>     Payload Len/Room : 64 / 8112
+2026-11-01T13:42:32.943 [0027.25] [006679]<D>       Receive Buflen : 8144
+2026-11-01T13:42:32.943 [0027.25] [006682]<D> delivering msg ...
+2026-11-01T13:42:32.943 [0027.25] [006685]<D> topic be matched
+2026-11-01T13:42:32.943 [0027.25] [006742]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:32.943 [0027.25] [006939]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:32.943 [0027.25] [007129]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:42:33.157 [0027.47] [007336]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:33.610 [0027.92] [007618]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:42:33.610 [0027.92] [007789]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:34.013 [0028.33] [008190]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:34.572 [0028.89] [008762]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:35.613 [0029.92] [009275]<I> peer adv rssi=-29 allowed=0
+2026-11-01T13:42:35.613 [0029.92] [009412]<I> peer adv rssi=-29 allowed=0
+2026-11-01T13:42:35.613 [0029.92] [009603]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:35.613 [0029.92] [009795]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:36.595 [0030.91] [010784]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:37.247 [0031.56] [011240]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:37.247 [0031.56] [011435]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:38.025 [0032.34] [012213]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:39.098 [0033.41] [013275]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:39.614 [0033.92] [013600]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:39.614 [0033.92] [013796]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:40.128 [0034.44] [014311]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:40.519 [0034.83] [014701]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:41.358 [0035.67] [015424]<I> peer adv rssi=-81 allowed=0
+2026-11-01T13:42:41.358 [0035.67] [015544]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:41.637 [0035.95] [015824]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:42:42.788 [0037.09] [016573]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:42.788 [0037.09] [016775]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:42.788 [0037.09] [016967]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:43.702 [0038.02] [017746]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:43.702 [0038.02] [017889]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:44.013 [0038.33] [018196]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:44.400 [0038.72] [018587]<I> peer adv rssi=-79 allowed=0
+2026-11-01T13:42:45.637 [0039.95] [019323]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:45.637 [0039.95] [019439]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:45.637 [0039.95] [019634]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:45.637 [0039.95] [019719]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:45.637 [0039.95] [019826]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:46.489 [0040.80] [020677]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:42:46.889 [0041.20] [021006]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:46.889 [0041.20] [021071]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:47.571 [0041.88] [021747]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:48.223 [0042.53] [022008]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:48.223 [0042.53] [022205]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:48.223 [0042.53] [022408]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:48.613 [0042.92] [022791]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:49.330 [0043.64] [023375]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:49.330 [0043.64] [023518]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:49.641 [0043.95] [023831]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:50.482 [0044.80] [024556]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:50.482 [0044.80] [024670]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:50.936 [0045.25] [024954]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:50.936 [0045.25] [025053]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:50.936 [0045.25] [025117]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:51.386 [0045.70] [025369]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:51.386 [0045.70] [025562]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:42:52.802 [0047.11] [026407]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:52.802 [0047.11] [026600]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:42:52.802 [0047.11] [026800]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:42:52.802 [0047.11] [026991]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:42:52.802 [0047.11] >>> ygble pair 120
+2026-11-01T13:42:53.020 [0047.33] ygble pair 120
+2026-11-01T13:42:53.020 [0047.33] [027201]<W> pairing window 120s; verify device identity out-of-band
+2026-11-01T13:42:53.020 [0047.33] 
+2026-11-01T13:42:53.020 [0047.33] # 
+2026-11-01T13:42:53.661 [0047.97] # [027840]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:42:53.877 [0048.19] [028051]<I> link up; requesting encryption
+2026-11-01T13:42:53.878 [0048.19] [028051]<I> open status=0
+2026-11-01T13:42:54.639 [0048.95] [028460]<I> auth cmpl success=0
+2026-11-01T13:42:54.639 [0048.95] [028460]<W> link down reason=0x16
+2026-11-01T13:42:54.639 [0048.95] [028633]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:42:54.639 [0048.95] [028816]<I> link up; requesting encryption
+2026-11-01T13:42:54.639 [0048.95] [028816]<I> open status=0
+2026-11-01T13:43:01.017 [0055.33] [035191]<I> auth cmpl success=0
+2026-11-01T13:43:01.017 [0055.33] [035191]<W> link down reason=0x08
+2026-11-01T13:43:01.420 [0055.73] [035603]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:01.979 [0056.30] [036166]<I> link up; requesting encryption
+2026-11-01T13:43:01.979 [0056.30] [036166]<I> open status=0
+2026-11-01T13:43:02.368 [0056.69] [036544]<I> auth cmpl success=0
+2026-11-01T13:43:02.368 [0056.69] [036545]<W> link down reason=0x16
+2026-11-01T13:43:02.820 [0057.12] [036915]<I> peer adv rssi=-30 allowed=1
+2026-11-01T13:43:02.820 [0057.12] [037006]<I> link up; requesting encryption
+2026-11-01T13:43:02.820 [0057.12] [037006]<I> open status=0
+2026-11-01T13:43:03.193 [0057.50] [037370]<I> auth cmpl success=0
+2026-11-01T13:43:03.193 [0057.50] [037370]<W> link down reason=0x16
+2026-11-01T13:43:03.551 [0057.86] [037598]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:43:03.551 [0057.86] [037726]<I> link up; requesting encryption
+2026-11-01T13:43:03.551 [0057.86] [037726]<I> open status=0
+2026-11-01T13:43:04.144 [0058.45] [038134]<I> auth cmpl success=0
+2026-11-01T13:43:04.144 [0058.45] [038135]<W> link down reason=0x16
+2026-11-01T13:43:04.144 [0058.45] [038210]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:04.144 [0058.45] [038326]<I> link up; requesting encryption
+2026-11-01T13:43:04.144 [0058.45] [038326]<I> open status=0
+2026-11-01T13:43:04.580 [0058.89] [038764]<I> auth cmpl success=0
+2026-11-01T13:43:04.580 [0058.89] [038765]<W> link down reason=0x16
+2026-11-01T13:43:04.922 [0059.23] [039101]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:43:05.187 [0059.50] [039361]<I> link up; requesting encryption
+2026-11-01T13:43:05.187 [0059.50] [039361]<I> open status=0
+2026-11-01T13:43:05.825 [0060.14] [039769]<I> auth cmpl success=0
+2026-11-01T13:43:05.826 [0060.14] [039770]<W> link down reason=0x16
+2026-11-01T13:43:05.826 [0060.14] [039911]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:05.826 [0060.14] [040006]<I> link up; requesting encryption
+2026-11-01T13:43:05.826 [0060.14] [040006]<I> open status=0
+2026-11-01T13:43:06.214 [0060.53] [040399]<I> auth cmpl success=0
+2026-11-01T13:43:06.214 [0060.53] [040400]<W> link down reason=0x16
+2026-11-01T13:43:06.556 [0060.88] [040734]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:43:06.790 [0061.09] [040966]<I> link up; requesting encryption
+2026-11-01T13:43:06.790 [0061.09] [040966]<I> open status=0
+2026-11-01T13:43:07.534 [0061.84] [041404]<I> auth cmpl success=0
+2026-11-01T13:43:07.534 [0061.84] [041405]<W> link down reason=0x16
+2026-11-01T13:43:07.534 [0061.84] [041540]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:07.534 [0061.84] [041716]<I> link up; requesting encryption
+2026-11-01T13:43:07.534 [0061.84] [041716]<I> open status=0
+2026-11-01T13:43:08.079 [0062.39] [042124]<I> auth cmpl success=0
+2026-11-01T13:43:08.079 [0062.39] [042125]<W> link down reason=0x16
+2026-11-01T13:43:08.079 [0062.39] [042266]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:08.342 [0062.66] [042526]<I> link up; requesting encryption
+2026-11-01T13:43:08.342 [0062.66] [042526]<I> open status=0
+2026-11-01T13:43:08.747 [0063.06] [042934]<I> auth cmpl success=0
+2026-11-01T13:43:08.747 [0063.06] [042935]<W> link down reason=0x16
+2026-11-01T13:43:09.572 [0063.89] [043752]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:09.884 [0064.19] [044071]<I> link up; requesting encryption
+2026-11-01T13:43:09.884 [0064.19] [044071]<I> open status=0
+2026-11-01T13:43:10.303 [0064.61] [044479]<I> auth cmpl success=0
+2026-11-01T13:43:10.303 [0064.61] [044480]<W> link down reason=0x16
+2026-11-01T13:43:10.631 [0064.94] [044818]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:10.864 [0065.17] [045046]<I> link up; requesting encryption
+2026-11-01T13:43:10.864 [0065.17] [045046]<I> open status=0
+2026-11-01T13:43:11.441 [0065.75] [045439]<I> auth cmpl success=0
+2026-11-01T13:43:11.441 [0065.75] [045440]<W> link down reason=0x16
+2026-11-01T13:43:11.441 [0065.75] [045514]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:11.441 [0065.75] [045616]<I> link up; requesting encryption
+2026-11-01T13:43:11.441 [0065.75] [045616]<I> open status=0
+2026-11-01T13:43:12.138 [0066.45] [046024]<I> auth cmpl success=0
+2026-11-01T13:43:12.138 [0066.45] [046025]<W> link down reason=0x16
+2026-11-01T13:43:12.138 [0066.45] [046164]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:12.138 [0066.45] [046321]<I> link up; requesting encryption
+2026-11-01T13:43:12.138 [0066.45] [046321]<I> open status=0
+2026-11-01T13:43:12.667 [0066.98] [046669]<I> auth cmpl success=0
+2026-11-01T13:43:12.667 [0066.98] [046670]<W> link down reason=0x16
+2026-11-01T13:43:12.667 [0066.98] [046744]<I> peer adv rssi=-81 allowed=1
+2026-11-01T13:43:12.667 [0066.98] [046846]<I> link up; requesting encryption
+2026-11-01T13:43:12.667 [0066.98] [046846]<I> open status=0
+2026-11-01T13:43:13.071 [0067.38] [047254]<I> auth cmpl success=0
+2026-11-01T13:43:13.071 [0067.38] [047255]<W> link down reason=0x16
+2026-11-01T13:43:13.788 [0068.09] [047778]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:13.788 [0068.09] [047971]<I> link up; requesting encryption
+2026-11-01T13:43:13.788 [0068.09] [047971]<I> open status=0
+2026-11-01T13:43:14.411 [0068.72] [048349]<I> auth cmpl success=0
+2026-11-01T13:43:14.411 [0068.72] [048350]<W> link down reason=0x16
+2026-11-01T13:43:14.411 [0068.72] [048424]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:14.411 [0068.72] [048586]<I> link up; requesting encryption
+2026-11-01T13:43:14.411 [0068.72] [048586]<I> open status=0
+2026-11-01T13:43:14.861 [0069.17] [049040]<I> auth cmpl success=0
+2026-11-01T13:43:14.861 [0069.17] [049040]<W> link down reason=0x16
+2026-11-01T13:43:15.095 [0069.41] [049274]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:43:15.796 [0070.11] [049981]<I> link up; requesting encryption
+2026-11-01T13:43:15.796 [0070.11] [049981]<I> open status=0
+2026-11-01T13:43:16.198 [0070.52] [050375]<I> auth cmpl success=0
+2026-11-01T13:43:16.198 [0070.52] [050375]<W> link down reason=0x16
+2026-11-01T13:43:16.477 [0070.78] [050663]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:16.694 [0071.00] [050881]<I> link up; requesting encryption
+2026-11-01T13:43:16.694 [0071.00] [050881]<I> open status=0
+2026-11-01T13:43:17.191 [0071.50] [051364]<I> auth cmpl success=0
+2026-11-01T13:43:17.191 [0071.50] [051365]<W> link down reason=0x16
+2026-11-01T13:43:17.611 [0071.92] [051640]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:17.611 [0071.92] [051796]<I> link up; requesting encryption
+2026-11-01T13:43:17.611 [0071.92] [051796]<I> open status=0
+2026-11-01T13:43:18.171 [0072.48] [052189]<I> auth cmpl success=0
+2026-11-01T13:43:18.171 [0072.48] [052190]<W> link down reason=0x16
+2026-11-01T13:43:18.171 [0072.48] [052264]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:18.171 [0072.48] [052351]<I> link up; requesting encryption
+2026-11-01T13:43:18.171 [0072.48] [052351]<I> open status=0
+2026-11-01T13:43:18.795 [0073.11] [052729]<I> auth cmpl success=0
+2026-11-01T13:43:18.795 [0073.11] [052730]<W> link down reason=0x16
+2026-11-01T13:43:18.795 [0073.11] [052820]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:18.795 [0073.11] [052981]<I> link up; requesting encryption
+2026-11-01T13:43:18.795 [0073.11] [052981]<I> open status=0
+2026-11-01T13:43:19.184 [0073.50] [053359]<I> auth cmpl success=0
+2026-11-01T13:43:19.184 [0073.50] [053360]<W> link down reason=0x16
+2026-11-01T13:43:19.603 [0073.92] [053628]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:19.603 [0073.92] [053776]<I> link up; requesting encryption
+2026-11-01T13:43:19.603 [0073.92] [053776]<I> open status=0
+2026-11-01T13:43:19.961 [0074.27] [054139]<I> auth cmpl success=0
+2026-11-01T13:43:19.961 [0074.27] [054140]<W> link down reason=0x16
+2026-11-01T13:43:20.288 [0074.59] [054464]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:20.524 [0074.83] [054706]<I> link up; requesting encryption
+2026-11-01T13:43:20.524 [0074.83] [054706]<I> open status=0
+2026-11-01T13:43:21.163 [0075.47] [055069]<I> auth cmpl success=0
+2026-11-01T13:43:21.163 [0075.47] [055070]<W> link down reason=0x16
+2026-11-01T13:43:21.163 [0075.47] [055209]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:21.163 [0075.47] [055336]<I> link up; requesting encryption
+2026-11-01T13:43:21.163 [0075.47] [055336]<I> open status=0
+2026-11-01T13:43:21.612 [0075.92] [055714]<I> auth cmpl success=0
+2026-11-01T13:43:21.612 [0075.92] [055715]<W> link down reason=0x16
+2026-11-01T13:43:21.612 [0075.92] [055789]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:21.861 [0076.17] [056041]<I> link up; requesting encryption
+2026-11-01T13:43:21.861 [0076.17] [056041]<I> open status=0
+2026-11-01T13:43:22.419 [0076.73] [056464]<I> auth cmpl success=0
+2026-11-01T13:43:22.419 [0076.73] [056465]<W> link down reason=0x16
+2026-11-01T13:43:22.419 [0076.73] [056604]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:22.636 [0076.95] [056821]<I> link up; requesting encryption
+2026-11-01T13:43:22.636 [0076.95] [056821]<I> open status=0
+2026-11-01T13:43:23.146 [0077.45] [057320]<I> auth cmpl success=0
+2026-11-01T13:43:23.146 [0077.45] [057320]<W> link down reason=0x16
+2026-11-01T13:43:23.408 [0077.72] [057594]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:23.749 [0078.06] [057931]<I> link up; requesting encryption
+2026-11-01T13:43:23.749 [0078.06] [057931]<I> open status=0
+2026-11-01T13:43:24.168 [0078.48] [058354]<I> auth cmpl success=0
+2026-11-01T13:43:24.168 [0078.48] [058355]<W> link down reason=0x16
+2026-11-01T13:43:24.509 [0078.83] [058582]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:24.509 [0078.83] [058696]<I> link up; requesting encryption
+2026-11-01T13:43:24.509 [0078.83] [058696]<I> open status=0
+2026-11-01T13:43:25.085 [0079.39] [059134]<I> auth cmpl success=0
+2026-11-01T13:43:25.085 [0079.39] [059135]<W> link down reason=0x16
+2026-11-01T13:43:25.085 [0079.39] [059273]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:25.348 [0079.66] [059521]<I> link up; requesting encryption
+2026-11-01T13:43:25.348 [0079.66] [059521]<I> open status=0
+2026-11-01T13:43:25.892 [0080.20] [059900]<I> auth cmpl success=0
+2026-11-01T13:43:25.892 [0080.20] [059900]<W> link down reason=0x16
+2026-11-01T13:43:25.893 [0080.20] [059974]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:25.893 [0080.20] [060076]<I> link up; requesting encryption
+2026-11-01T13:43:25.893 [0080.20] [060076]<I> open status=0
+2026-11-01T13:43:26.313 [0080.62] [060415]<D> PUBLISH
+2026-11-01T13:43:26.313 [0080.62] [060415]<D>         Packet Ident : 00000000
+2026-11-01T13:43:26.313 [0080.62] [060415]<D>         Topic Length : 35
+2026-11-01T13:43:26.313 [0080.62] [060415]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T13:43:26.313 [0080.62] [060419]<D>     Payload Len/Room : 124 / 8104
+2026-11-01T13:43:26.313 [0080.62] [060423]<D>       Receive Buflen : 8144
+2026-11-01T13:43:26.313 [0080.62] [060427]<D> delivering msg ...
+2026-11-01T13:43:26.313 [0080.62] [060430]<D> topic be matched
+2026-11-01T13:43:26.313 [0080.62] [060433]<E> desired find failed!!
+2026-11-01T13:43:26.313 [0080.62] [060499]<I> auth cmpl success=0
+2026-11-01T13:43:26.313 [0080.62] [060500]<W> link down reason=0x16
+2026-11-01T13:43:26.531 [0080.84] [060711]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:26.749 [0081.06] [060931]<I> link up; requesting encryption
+2026-11-01T13:43:26.749 [0081.06] [060931]<I> open status=0
+2026-11-01T13:43:27.481 [0081.80] [061324]<I> auth cmpl success=0
+2026-11-01T13:43:27.481 [0081.80] [061325]<W> link down reason=0x16
+2026-11-01T13:43:27.481 [0081.80] [061499]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:27.481 [0081.80] [061666]<I> link up; requesting encryption
+2026-11-01T13:43:27.481 [0081.80] [061666]<I> open status=0
+2026-11-01T13:43:27.932 [0082.25] [062044]<I> auth cmpl success=0
+2026-11-01T13:43:27.932 [0082.25] [062045]<W> link down reason=0x16
+2026-11-01T13:43:27.932 [0082.25] [062119]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:28.291 [0082.61] [062476]<I> link up; requesting encryption
+2026-11-01T13:43:28.291 [0082.61] [062476]<I> open status=0
+2026-11-01T13:43:28.665 [0082.97] [062839]<I> auth cmpl success=0
+2026-11-01T13:43:28.665 [0082.97] [062840]<W> link down reason=0x16
+2026-11-01T13:43:29.099 [0083.41] [063109]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:29.099 [0083.41] [063271]<I> link up; requesting encryption
+2026-11-01T13:43:29.099 [0083.41] [063271]<I> open status=0
+2026-11-01T13:43:29.440 [0083.75] [063619]<I> auth cmpl success=0
+2026-11-01T13:43:29.440 [0083.75] [063620]<W> link down reason=0x16
+2026-11-01T13:43:29.906 [0084.22] [064081]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:30.156 [0084.47] [064336]<I> link up; requesting encryption
+2026-11-01T13:43:30.156 [0084.47] [064336]<I> open status=0
+2026-11-01T13:43:30.562 [0084.88] [064745]<I> auth cmpl success=0
+2026-11-01T13:43:30.562 [0084.88] [064746]<W> link down reason=0x16
+2026-11-01T13:43:31.137 [0085.45] [065159]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:31.137 [0085.45] [065311]<I> link up; requesting encryption
+2026-11-01T13:43:31.137 [0085.45] [065311]<I> open status=0
+2026-11-01T13:43:31.962 [0086.28] [065764]<I> auth cmpl success=0
+2026-11-01T13:43:31.962 [0086.28] [065765]<W> link down reason=0x16
+2026-11-01T13:43:31.962 [0086.28] [065904]<I> send MQTT ping...
+2026-11-01T13:43:31.962 [0086.28] [066038]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:31.962 [0086.28] [066098]<I> receive ping response!
+2026-11-01T13:43:31.962 [0086.28] [066136]<I> link up; requesting encryption
+2026-11-01T13:43:31.963 [0086.28] [066136]<I> open status=0
+2026-11-01T13:43:32.490 [0086.80] [066589]<I> auth cmpl success=0
+2026-11-01T13:43:32.490 [0086.80] [066590]<W> link down reason=0x16
+2026-11-01T13:43:32.490 [0086.80] [066680]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:32.772 [0087.08] [066946]<I> link up; requesting encryption
+2026-11-01T13:43:32.772 [0087.08] [066946]<I> open status=0
+2026-11-01T13:43:33.163 [0087.47] [067339]<I> auth cmpl success=0
+2026-11-01T13:43:33.163 [0087.47] [067340]<W> link down reason=0x16
+2026-11-01T13:43:33.598 [0087.91] [067608]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:33.598 [0087.91] [067771]<I> link up; requesting encryption
+2026-11-01T13:43:33.598 [0087.91] [067771]<I> open status=0
+2026-11-01T13:43:33.986 [0088.30] [068164]<I> auth cmpl success=0
+2026-11-01T13:43:33.986 [0088.30] [068165]<W> link down reason=0x16
+2026-11-01T13:43:34.405 [0088.72] [068429]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:43:34.405 [0088.72] [068581]<I> link up; requesting encryption
+2026-11-01T13:43:34.405 [0088.72] [068581]<I> open status=0
+2026-11-01T13:43:35.027 [0089.34] [068974]<I> auth cmpl success=0
+2026-11-01T13:43:35.027 [0089.34] [068975]<W> link down reason=0x16
+2026-11-01T13:43:35.027 [0089.34] [069049]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:43:35.027 [0089.34] [069211]<I> link up; requesting encryption
+2026-11-01T13:43:35.027 [0089.34] [069211]<I> open status=0
+2026-11-01T13:43:35.416 [0089.73] [069589]<I> auth cmpl success=0
+2026-11-01T13:43:35.416 [0089.73] [069590]<W> link down reason=0x16
+2026-11-01T13:43:35.774 [0090.08] [069863]<I> peer adv rssi=-81 allowed=1
+2026-11-01T13:43:35.774 [0090.08] [069961]<I> link up; requesting encryption
+2026-11-01T13:43:35.774 [0090.08] [069961]<I> open status=0
+2026-11-01T13:43:36.145 [0090.45] [070324]<I> auth cmpl success=0
+2026-11-01T13:43:36.145 [0090.45] [070325]<W> link down reason=0x16
+2026-11-01T13:43:38.102 [0092.41] [070597]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:43:38.102 [0092.41] [070771]<I> link up; requesting encryption
+2026-11-01T13:43:38.102 [0092.41] [070771]<I> open status=0
+2026-11-01T13:43:38.102 [0092.41] 
+2026-11-01T13:43:38.102 [0092.41] ***ERROR*** A stack overflow in task BTU_TASK has been detected.
+2026-11-01T13:43:38.102 [0092.41] 
+2026-11-01T13:43:38.102 [0092.41] 
+2026-11-01T13:43:38.102 [0092.41] Backtrace: 0x403799ad:0x3fce3700 0x40386c11:0x3fce3720 0x4038775a:0x3fce3740 0x4 ���� � �� x ���x�� � x����x xxx������ x� � � x�� ���� ���� �xx���� � x����x xxx�����x�x� � � x�� ���� ���� �x������� � x xx�xxx�xxx�xxx� � x�xx� x�x�x��xxxxx xxxx x� �xx �xx �xx �xx �xx x�x x���x��x�xxx���x �x x��x�������� ����x�� �x�� �xx�x�x����x �xx �x��xx�x x�x�x�x��x�x�xx�x�xx �x���ESP-ROM:esp32s3-20210327
+2026-11-01T13:43:38.102 [0092.41] Build:Mar 27 2021
+2026-11-01T13:43:38.102 [0092.41] rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+2026-11-01T13:43:38.102 [0092.41] Saved PC:0x4038327a
+2026-11-01T13:43:38.102 [0092.41] SPIWP:0xee
+2026-11-01T13:43:38.102 [0092.41] mode:DIO, clock div:1
+2026-11-01T13:43:38.102 [0092.41] load:0x3fce2820,len:0x135c
+2026-11-01T13:43:38.102 [0092.41] load:0x403c8700,len:0x4
+2026-11-01T13:43:38.102 [0092.41] load:0x403c8704,len:0xea8
+2026-11-01T13:43:38.102 [0092.41] load:0x403cb700,len:0x30dc
+2026-11-01T13:43:38.102 [0092.41] entry 0x403c8940
+2026-11-01T13:43:38.102 [0092.41] I (31) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+2026-11-01T13:43:38.102 [0092.41] I (31) boot: compile time Nov  1 2026 04:17:03
+2026-11-01T13:43:38.102 [0092.41] I (31) boot: Multicore bootloader
+2026-11-01T13:43:38.102 [0092.41] I (32) boot: chip revision: v0.2
+2026-11-01T13:43:38.102 [0092.41] I (35) boot: efuse block revision: v1.4
+2026-11-01T13:43:38.102 [0092.41] I (39) qio_mode: Enabling default flash chip QIO
+2026-11-01T13:43:38.102 [0092.41] I (43) boot.esp32s3: Boot SPI Speed : 80MHz
+2026-11-01T13:43:38.102 [0092.41] I (47) boot.esp32s3: SPI Mode       : QIO
+2026-11-01T13:43:38.102 [0092.41] I (51) boot.esp32s3: SPI Flash Size : 16MB
+2026-11-01T13:43:38.102 [0092.41] I (55) boot: Enabling RNG early entropy source...
+2026-11-01T13:43:38.102 [0092.41] I (59) boot: Partition Table:
+2026-11-01T13:43:38.102 [0092.41] I (62) boot: ## Label            Usage          Type ST Offset   Length
+2026-11-01T13:43:38.102 [0092.41] I (68) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+2026-11-01T13:43:38.102 [0092.41] I (75) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+2026-11-01T13:43:38.102 [0092.41] I (81) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+2026-11-01T13:43:38.102 [0092.41] I (88) boot:  3 ota_0            OTA app          00 10 00020000 003f0000
+2026-11-01T13:43:38.102 [0092.41] I (94) boot:  4 ota_1            OTA app          00 11 00410000 003f0000
+2026-11-01T13:43:38.102 [0092.41] I (101) boot:  5 lvgl             Unknown data     01 82 00800000 00010000
+2026-11-01T13:43:38.102 [0092.41] I (107) boot:  6 coco_pose        Unknown data     01 40 00810000 00320000
+2026-11-01T13:43:38.102 [0092.41] I (114) boot:  7 spiffs_data      Unknown data     01 82 00b30000 00100000
+2026-11-01T13:43:38.102 [0092.41] I (120) boot:  8 model            Unknown data     01 82 00c30000 00300000
+2026-11-01T13:43:38.102 [0092.41] I (127) boot: End of partition table
+2026-11-01T13:43:38.102 [0092.41] I (130) esp_image: segment 0: paddr=00020020 vaddr=3c150020 size=660d8h (418008) map
+2026-11-01T13:43:38.102 [0092.41] I (200) esp_image: segment 1: paddr=00086100 vaddr=3fca5500 size=077a8h ( 30632) load
+2026-11-01T13:43:38.102 [0092.41] I (206) esp_image: segment 2: paddr=0008d8b0 vaddr=40378000 size=02768h ( 10088) load
+2026-11-01T13:43:38.102 [0092.41] I (208) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=144084h (1327236) map
+2026-11-01T13:43:38.102 [0092.41] I (410) esp_image: segment 4: paddr=001d40ac vaddr=4037a768 size=1aca0h (109728) load
+2026-11-01T13:43:38.102 [0092.41] I (431) esp_image: segment 5: paddr=001eed54 vaddr=600fe100 size=0001ch (    28) load
+2026-11-01T13:43:38.102 [0092.41] I (443) boot: Loaded app from partition at offset 0x20000
+2026-11-01T13:43:38.102 [0092.41] I (443) boot: Disabling RNG early entropy source...
+2026-11-01T13:43:38.102 [0092.41] W (453) flash HPM: HPM mode is optional feature that depends on flash model. Read Docs First!
+2026-11-01T13:43:38.102 [0092.41] W (453) flash HPM: HPM mode with DC adjustment is disabled. Some flash models may not be supported. Read Docs First!
+2026-11-01T13:43:38.102 [0092.41] W (460) flash HPM: High performance mode of this flash model hasn't been supported.
+2026-11-01T13:43:38.102 [0092.41] I (468) MSPI Timing: Flash timing tuning index: 2
+2026-11-01T13:43:38.102 [0092.41] I (472) octal_psram: vendor id    : 0x0d (AP)
+2026-11-01T13:43:38.102 [0092.41] I (476) octal_psram: dev id       : 0x02 (generation 3)
+2026-11-01T13:43:38.102 [0092.41] I (481) octal_psram: density      : 0x03 (64 Mbit)
+2026-11-01T13:43:38.102 [0092.41] I (485) octal_psram: good-die     : 0x01 (Pass)
+2026-11-01T13:43:38.102 [0092.41] I (490) octal_psram: Latency      : 0x01 (Fixed)
+2026-11-01T13:43:38.102 [0092.41] I (494) octal_psram: VCC          : 0x01 (3V)
+2026-11-01T13:43:38.102 [0092.41] I (498) octal_psram: SRF          : 0x01 (Fast Refresh)
+2026-11-01T13:43:38.104 [0092.42] I (503) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+2026-11-01T13:43:38.104 [0092.42] I (508) octal_psram: BurstLen     : 0x01 (32 Byte)
+2026-11-01T13:43:38.104 [0092.42] I (512) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+2026-11-01T13:43:38.104 [0092.42] I (518) octal_psram: DriveStrength: 0x00 (1/1)
+2026-11-01T13:43:38.104 [0092.42] I (530) MSPI Timing: PSRAM timing tuning index: 2
+2026-11-01T13:43:38.104 [0092.42] I (531) esp_psram: Found 8MB PSRAM device
+2026-11-01T13:43:38.104 [0092.42] I (531) esp_psram: Speed: 120MHz
+2026-11-01T13:43:38.104 [0092.42] I (553) mmu_psram: Read only data copied and mapped to SPIRAM
+2026-11-01T13:43:38.104 [0092.42] I (627) mmu_psram: Instructions copied and mapped to SPIRAM
+2026-11-01T13:43:38.104 [0092.42] I (627) cpu_start: Multicore app
+2026-11-01T13:43:38.104 [0092.42] I (636) cpu_start: Pro cpu start user code
+2026-11-01T13:43:38.104 [0092.42] I (636) cpu_start: cpu freq: 240000000 Hz
+2026-11-01T13:43:38.104 [0092.42] I (636) app_init: Application information:
+2026-11-01T13:43:38.104 [0092.42] I (636) app_init: Project name:     vb701n
+2026-11-01T13:43:38.104 [0092.42] I (640) app_init: App version:      1
+2026-11-01T13:43:38.104 [0092.42] I (643) app_init: Compile time:     Nov  1 2026 04:15:46
+2026-11-01T13:43:38.104 [0092.42] I (648) app_init: ELF file SHA256:  75d3d5e82...
+2026-11-01T13:43:38.104 [0092.42] I (652) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+2026-11-01T13:43:38.104 [0092.42] I (657) efuse_init: Min chip rev:     v0.0
+2026-11-01T13:43:38.104 [0092.42] I (661) efuse_init: Max chip rev:     v0.99 
+2026-11-01T13:43:38.104 [0092.42] I (665) efuse_init: Chip rev:         v0.2
+2026-11-01T13:43:38.104 [0092.42] I (669) heap_init: Initializing. RAM available for dynamic allocation:
+2026-11-01T13:43:38.104 [0092.42] I (675) heap_init: At 3FCB2DD8 len 00036938 (218 KiB): RAM
+2026-11-01T13:43:38.104 [0092.42] I (680) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+2026-11-01T13:43:38.104 [0092.42] I (685) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+2026-11-01T13:43:38.104 [0092.42] I (691) esp_psram: Adding pool of 6387K of PSRAM memory to heap allocator
+2026-11-01T13:43:38.104 [0092.42] I (697) spi_flash: detected chip: generic
+2026-11-01T13:43:38.104 [0092.42] I (701) spi_flash: flash io: qio
+2026-11-01T13:43:38.104 [0092.42] I (704) coexist: coex firmware version: e727207
+2026-11-01T13:43:38.104 [0092.42] I (741) coexist: coexist rom version e7ae62f
+2026-11-01T13:43:38.104 [0092.42] I (741) main_task: Started on CPU0
+2026-11-01T13:43:38.104 [0092.42] I ([000063]<I> system KV init ret=0
+2026-11-01T13:43:38.104 [0092.42] I (754) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T13:43:38.104 [0092.42] [000063]<I> init ok gpio0
+2026-11-01T13:43:38.104 [0092.42] [000066]<I> init ok gpio1 leds 8
+2026-11-01T13:43:38.104 [0092.42] I (759) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+2026-11-01T13:43:38.104 [0092.42] I (768) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T13:43:38.104 [0092.42] [000085]<I> arbiter init
+2026-11-01T13:43:38.104 [0092.42] [000087]<E> playback init failed
+2026-11-01T13:43:38.104 [0092.42] [000091]<I> init done
+2026-11-01T13:43:38.104 [0092.42] [000093]<E> system KV get failed ret=-1 key=course_cfg key_len=10
+2026-11-01T13:43:38.104 [0092.42] [000098]<I> no valid flash data, key=course_cfg
+2026-11-01T13:43:38.104 [0092.42] [000103]<I> iot event listener registered
+2026-11-01T13:43:38.104 [0092.42] [000106]<I> down_register ret=0 (method=course)
+2026-11-01T13:43:38.104 [0092.42] [000111]<I> init ok: synced=0 entries=0
+2026-11-01T13:43:38.104 [0092.42] [000115]<I> dynreg env=2
+2026-11-01T13:43:38.104 [0092.42] [000117]<I> saved wifi, skip ble
+2026-11-01T13:43:38.104 [0092.42] I (812) pp: pp rom version: e7ae62f
+2026-11-01T13:43:38.104 [0092.42] I (814) net80211: net80211 rom version: e7ae62f
+2026-11-01T13:43:38.104 [0092.42] I (819) wifi:wifi driver task: 3fccf17c, prio:23, stack:6144, core=0
+2026-11-01T13:43:38.104 [0092.42] I (825) wifi:wifi firmware version: 79fa3f41ba
+2026-11-01T13:43:38.104 [0092.42] I (829) wifi:wifi certification version: v7.0
+2026-11-01T13:43:38.104 [0092.42] I (833) wifi:config NVS flash: disabled
+2026-11-01T13:43:38.104 [0092.42] I (836) wifi:config nano formatting: enabled
+2026-11-01T13:43:38.104 [0092.42] I (840) wifi:Init data frame dynamic rx buffer num: 32
+2026-11-01T13:43:38.104 [0092.42] I (845) wifi:Init static rx mgmt buffer num: 5
+2026-11-01T13:43:38.104 [0092.42] I (849) wifi:Init management short buffer num: 32
+2026-11-01T13:43:38.104 [0092.42] I (854) wifi:Init static tx buffer num: 8
+2026-11-01T13:43:38.104 [0092.42] I (858) wifi:Init tx cache buffer num: 32
+2026-11-01T13:43:38.104 [0092.42] I (861) wifi:Init static tx FG buffer num: 2
+2026-11-01T13:43:38.104 [0092.42] I (865) wifi:Init static rx buffer size: 1600
+2026-11-01T13:43:38.104 [0092.42] I (869) wifi:Init static rx buffer num: 10
+2026-11-01T13:43:38.104 [0092.42] I (873) wifi:Init dynamic rx buffer num: 32
+2026-11-01T13:43:38.104 [0092.42] I (877) wifi_init: rx ba win: 12
+2026-11-01T13:43:38.104 [0092.42] I (880) wifi_init: accept mbox: 6
+2026-11-01T13:43:38.104 [0092.42] I (883) wifi_init: tcpip mbox: 32
+2026-11-01T13:43:38.104 [0092.42] I (886) wifi_init: udp mbox: 16
+2026-11-01T13:43:38.104 [0092.42] I (889) wifi_init: tcp mbox: 6
+2026-11-01T13:43:38.104 [0092.42] I (892) wifi_init: tcp tx win: 5760
+2026-11-01T13:43:38.104 [0092.42] I (895) wifi_init: tcp rx win: 5760
+2026-11-01T13:43:38.104 [0092.42] I (898) wifi_init: tcp mss: 1440
+2026-11-01T13:43:38.104 [0092.42] I (901) wifi_init: WiFi/LWIP prefer SPIRAM
+2026-11-01T13:43:38.104 [0092.42] I (905) wifi_init: WiFi IRAM OP enabled
+2026-11-01T13:43:38.104 [0092.42] I (908) wifi_init: WiFi RX IRAM OP enabled
+2026-11-01T13:43:38.104 [0092.42] I (912) wifi_init: LWIP IRAM OP enabled
+2026-11-01T13:43:38.104 [0092.42] W (916) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+2026-11-01T13:43:38.104 [0092.42] I (925) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+2026-11-01T13:43:38.104 [0092.42] I (962) wifi:mode : sta (68:ee:8f:44:bd:b4)
+2026-11-01T13:43:38.104 [0092.42] I (962) wifi:enable tsf
+2026-11-01T13:43:38.104 [0092.42] [000271]<I> wifi sta start
+2026-11-01T13:43:38.104 [0092.42] [000273]<E> system KV get failed ret=-1 key=qmalarm.meta key_len=12
+2026-11-01T13:43:38.104 [0092.42] [000275]<I> ready, cloud=on
+2026-11-01T13:43:38.104 [0092.42] [000277]<I> app init done: internal free=147171, largest=69632, psram free=6426208
+2026-11-01T13:43:38.104 [0092.42] I (976) main_task: Returned from app_main()
+2026-11-01T13:43:38.104 [0092.42] I (1184) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+2026-11-01T13:43:38.104 [0092.42] I (1184) wifi:state: init -> auth (0xb0)
+2026-11-01T13:43:38.105 [0092.42] I (1198) wifi:state: auth -> assoc (0x0)
+2026-11-01T13:43:38.105 [0092.42] I (1205) wifi:state: assoc -> run (0x10)
+2026-11-01T13:43:38.105 [0092.42] I (1226) wifi:connected with INTERCITYHACK-NB-PLAYER-2.4G, aid = 2, channel 1, BW20, bssid = 5a:b4:bb:39:13:8a
+2026-11-01T13:43:38.105 [0092.42] I (1226) wifi:security: WPA2-PSK, phy: bgn, rssi: -51
+2026-11-01T13:43:38.105 [0092.42] I (1230) wifi:pm start, type: 1
+2026-11-01T13:43:38.105 [0092.42] 
+2026-11-01T13:43:38.105 [0092.42] I (1233) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+2026-11-01T13:43:38.105 [0092.42] I (1241) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+2026-11-01T13:43:38.105 [0092.42] I (1322) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+2026-11-01T13:43:38.105 [0092.42] >>> ygble pair 120
+2026-11-01T13:43:38.320 [0092.62] ygble pair 120
+2026-11-01T13:43:38.320 [0092.62] command 'ygble' not found
+2026-11-01T13:43:38.320 [0092.62] 
+2026-11-01T13:43:38.320 [0092.62] # 
+2026-11-01T13:43:38.570 [0092.88] # [001093]<W> report failed -10
+2026-11-01T13:43:39.267 [0093.58] [001574]<I> wifi got ip
+2026-11-01T13:43:39.267 [0093.58] I (2265) esp_netif_handlers: sta ip: 10.20.0.141, mask: 255.255.254.0, gw: 10.20.0.1
+2026-11-01T13:43:39.267 [0093.58] [001574]<I> network update state=1
+2026-11-01T13:43:39.267 [0093.58] [001576]<D> iot event 4
+2026-11-01T13:43:39.267 [0093.58] [001578]<E> dynreg request payload={"sn":"68EE8F44BDB6","pid":"11879","timestamp":"1576","signature":"<redacted>","nonce":27858} signature_len=40
+2026-11-01T13:43:39.267 [0093.58] [001591]<I> tls connect start host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca=0 mtls=0
+2026-11-01T13:43:39.267 [0093.58] [001600]<I> tls establish host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca_bytes=0 ca_type=bundle client_crt_bytes=0 client_crt_type=none client_key_bytes=0 client_key_type=none
+2026-11-01T13:43:39.267 [0093.58] I (2323) wifi:<ba-add>idx:0 (ifx:0, 5a:b4:bb:39:13:8a), tid:0, ssn:7, winSize:64
+2026-11-01T13:43:39.267 [0093.58] I (2355) wifi:<ba-add>idx:1 (ifx:0, 5a:b4:bb:39:13:8a), tid:3, ssn:1, winSize:64
+2026-11-01T13:43:39.267 [0093.58] I (2474) esp-x509-crt-bundle: Certificate validated
+2026-11-01T13:43:39.905 [0094.22] [002093]<W> report failed -10
+2026-11-01T13:43:39.905 [0094.22] [002227]<I> transport connected host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 secure=1
+2026-11-01T13:43:39.905 [0094.22] [002227]<D> request state reset timeout=10000 rx_buf=512 keep_alive=0 auth=0
+2026-11-01T13:43:39.905 [0094.22] [002233]<I> tls write ok fd=52 wrote=208 requested=208
+2026-11-01T13:43:39.905 [0094.22] [002353]<I> response finished status=200 bytes=4564
+2026-11-01T13:43:39.905 [0094.22] [002353]<I> close connection active=1 status=200
+2026-11-01T13:43:39.905 [0094.22] [002354]<I> cleanup client
+2026-11-01T13:43:39.905 [0094.22] [002354]<I> close connection active=0 status=200
+2026-11-01T13:43:39.905 [0094.22] [002367]<I> dynreg did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883
+2026-11-01T13:43:39.905 [0094.22] [002372]<I> reset marker already clear
+2026-11-01T13:43:39.905 [0094.22] [002372]<I> start begin
+2026-11-01T13:43:39.905 [0094.22] [002373]<I> reset_info.is_reset=0,0
+2026-11-01T13:43:39.905 [0094.22] [002376]<I> cloud credential summary pid=11879 did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn host_len=50 port=8883
+2026-11-01T13:43:39.905 [0094.22] [002388]<I> start done
+2026-11-01T13:43:39.905 [0094.22] [002390]<I> network update state=1
+2026-11-01T13:43:39.905 [0094.22] [002394]<D> iot event 4
+2026-11-01T13:43:39.905 [0094.22] [002396]<I> iot start ok
+2026-11-01T13:43:39.905 [0094.22] [002398]<I> cloud connecting
+2026-11-01T13:43:39.905 [0094.22] [002401]<I> MQTT init success!
+2026-11-01T13:43:39.905 [0094.22] [002404]<I> tls establish host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883 ca_bytes=1188 ca_type=certificate client_crt_bytes=1221 client_crt_type=certificate client_key_bytes=1676 client_key_type=rsa-private-key
+2026-11-01T13:43:40.569 [0094.88] [003093]<W> report failed -10
+2026-11-01T13:43:42.031 [0096.34] [003651]<D> start MQTT connection with parameters: clientid=11879_68EE8F44BDB6
+2026-11-01T13:43:42.031 [0096.34] [003652]<I> tls write ok fd=52 wrote=32 requested=32
+2026-11-01T13:43:42.031 [0096.34] [003749]<D> mqtt connect success!
+2026-11-01T13:43:42.031 [0096.34] [003749]<D> mqtt connect success
+2026-11-01T13:43:42.031 [0096.34] [003751]<I> mqtt subscribe success,topic= /11879/100000808/device/down
+2026-11-01T13:43:42.031 [0096.34] [003751]<I> mqtt subscribe success,topic= /11879/100000808/cloud/set
+2026-11-01T13:43:42.031 [0096.34] [003757]<I> mqtt subscribe success,topic= /11879/100000808/device/getReply
+2026-11-01T13:43:42.031 [0096.34] [003763]<I> mqtt subscribe success,topic= /11879/100000808/cloud/get
+2026-11-01T13:43:42.031 [0096.34] [003770]<I> mqtt subscribe success,topic= $aws/things/100000808/shadow/update
+2026-11-01T13:43:42.031 [0096.34] [003825]<D> SUBACK
+2026-11-01T13:43:42.031 [0096.34] [003825]<D> suback: 5, topic count: 5
+2026-11-01T13:43:42.031 [0096.34] [003978]<I> cloud connected
+2026-11-01T13:43:42.031 [0096.34] [003978]<I> down registered: chat
+2026-11-01T13:43:42.031 [0096.34] [003978]<I> down registered: care
+2026-11-01T13:43:42.031 [0096.34] [003978]<I> down registered: voice
+2026-11-01T13:43:42.031 [0096.34] [003979]<I> down registered: player
+2026-11-01T13:43:42.031 [0096.34] [003982]<I> start: internal free=142835 largest=47104
+2026-11-01T13:43:42.031 [0096.34] I (4678) BLE_INIT: BT controller compile version [d74042a]
+2026-11-01T13:43:42.031 [0096.34] I (4683) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:bd:b6
+2026-11-01T13:43:42.031 [0096.34] [004007]<I> GATT central started; peer pinned=0
+2026-11-01T13:43:42.031 [0096.34] [004007]<I> ntp sync started
+2026-11-01T13:43:42.031 [0096.34] [004007]<I> down registered: pomodoro
+2026-11-01T13:43:42.031 [0096.34] [004008]<I> down_register ret=0 (method=course)
+2026-11-01T13:43:42.031 [0096.34] [004011]<D> PUBLISH
+2026-11-01T13:43:42.031 [0096.34] [004013]<D>         Packet Ident : 00000000
+2026-11-01T13:43:42.031 [0096.34] [004017]<D>         Topic Length : 28
+2026-11-01T13:43:42.031 [0096.34] [004021]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:43:42.031 [0096.34] [004027]<D>     Payload Len/Room : 60 / 8112
+2026-11-01T13:43:42.031 [0096.34] [004031]<D> The host IP 118.31.40.99, port is 123
+2026-11-01T13:43:42.031 [0096.34] 
+2026-11-01T13:43:42.031 [0096.34] [004035]<D> publish devinfo topic_len=26 payload_len=175
+2026-11-01T13:43:42.031 [0096.34] [004041]<D>       Receive Buflen : 8144
+2026-11-01T13:43:42.031 [0096.34] [004044]<D> delivering msg ...
+2026-11-01T13:43:42.031 [0096.34] [004047]<D> topic be matched
+2026-11-01T13:43:42.031 [0096.34] [004050]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+2026-11-01T13:43:42.031 [0096.34] [004064]<I> ntp synced, now=13:43:41
+2026-11-01T13:43:42.031 [0096.34] [004154]<D> PUBLISH
+2026-11-01T13:43:42.031 [0096.34] [004155]<D>         Packet Ident : 00000000
+2026-11-01T13:43:42.031 [0096.34] [004155]<D>         Topic Length : 28
+2026-11-01T13:43:42.032 [0096.34] [004155]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:43:42.032 [0096.34] [004159]<D>     Payload Len/Room : 60 / 8112
+2026-11-01T13:43:42.032 [0096.34] [004163]<D>       Receive Buflen : 8144
+2026-11-01T13:43:42.032 [0096.34] [004166]<D> delivering msg ...
+2026-11-01T13:43:42.032 [0096.34] [004169]<D> topic be matched
+2026-11-01T13:43:42.032 [0096.34] [004172]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+2026-11-01T13:43:42.032 [0096.34] [004337]<D> PUBLISH
+2026-11-01T13:43:42.032 [0096.34] [004337]<D>         Packet Ident : 00000000
+2026-11-01T13:43:42.032 [0096.34] [004337]<D>         Topic Length : 35
+2026-11-01T13:43:42.032 [0096.34] [004337]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T13:43:42.032 [0096.34] [004342]<D>     Payload Len/Room : 76 / 8105
+2026-11-01T13:43:42.032 [0096.34] [004346]<D>       Receive Buflen : 8144
+2026-11-01T13:43:42.032 [0096.34] [004350]<D> delivering msg ...
+2026-11-01T13:43:42.032 [0096.34] [004352]<D> topic be matched
+2026-11-01T13:43:42.032 [0096.34] [004355]<E> desired find failed!!
+2026-11-01T13:43:42.032 [0096.34] [004426]<D> PUBLISH
+2026-11-01T13:43:42.032 [0096.34] [004426]<D>         Packet Ident : 00000000
+2026-11-01T13:43:42.032 [0096.34] [004426]<D>         Topic Length : 28
+2026-11-01T13:43:42.032 [0096.34] [004426]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:43:42.032 [0096.34] [004430]<D>     Payload Len/Room : 95 / 8112
+2026-11-01T13:43:42.032 [0096.34] [004434]<D>       Receive Buflen : 8144
+2026-11-01T13:43:42.032 [0096.34] [004438]<D> delivering msg ...
+2026-11-01T13:43:42.032 [0096.34] [004441]<D> topic be matched
+2026-11-01T13:43:42.032 [0096.34] [004529]<D> PUBLISH
+2026-11-01T13:43:42.032 [0096.34] [004529]<D>         Packet Ident : 00000000
+2026-11-01T13:43:42.032 [0096.34] [004529]<D>         Topic Length : 28
+2026-11-01T13:43:42.032 [0096.34] [004530]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:43:42.032 [0096.34] [004533]<D>     Payload Len/Room : 64 / 8112
+2026-11-01T13:43:42.032 [0096.34] [004537]<D>       Receive Buflen : 8144
+2026-11-01T13:43:42.032 [0096.34] [004541]<D> delivering msg ...
+2026-11-01T13:43:42.032 [0096.34] [004544]<D> topic be matched
+2026-11-01T13:43:42.996 [0097.31] [005518]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:43.463 [0097.78] [005905]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:43.463 [0097.78] [005987]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:44.228 [0098.55] [006354]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:44.228 [0098.55] [006554]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:44.228 [0098.55] [006746]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:44.816 [0099.12] [006988]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:44.816 [0099.12] [007024]<I> peer adv rssi=-81 allowed=0
+2026-11-01T13:43:44.816 [0099.12] [007147]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:44.816 [0099.12] [007339]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:45.880 [0100.19] [008258]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:45.880 [0100.19] [008406]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:46.285 [0100.59] [008751]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:46.285 [0100.59] [008801]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:46.580 [0100.89] [009105]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:47.666 [0101.98] [009761]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:47.666 [0101.98] [009888]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:47.666 [0101.98] [010036]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:47.666 [0101.98] [010183]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [010489]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [010554]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [010679]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [010745]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [010933]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [011128]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [011328]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:48.875 [0103.19] [011397]<I> peer adv rssi=-50 allowed=0
+2026-11-01T13:43:49.590 [0103.91] [011787]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:49.590 [0103.91] [011914]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:49.590 [0103.91] [012115]<I> peer adv rssi=-81 allowed=0
+2026-11-01T13:43:50.384 [0104.70] [012911]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:50.880 [0105.19] [013220]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:50.880 [0105.19] [013348]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:50.880 [0105.19] [013411]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:51.860 [0106.17] [013614]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:51.860 [0106.17] [013800]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:51.860 [0106.17] [013866]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:51.860 [0106.17] [014000]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:51.860 [0106.17] [014189]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:51.860 [0106.17] [014254]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:51.860 [0106.17] [014386]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:52.311 [0106.62] [014647]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:52.311 [0106.62] [014779]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:52.311 [0106.62] [014840]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:52.762 [0107.08] [015097]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:52.762 [0107.08] [015228]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:52.762 [0107.08] [015285]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:53.538 [0107.84] [015679]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:53.538 [0107.84] [015876]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:43:53.538 [0107.84] [016065]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:54.140 [0108.45] [016332]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:54.140 [0108.45] [016465]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:54.140 [0108.45] [016667]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:55.583 [0109.89] [017256]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:55.583 [0109.89] [017446]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:55.583 [0109.89] [017509]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:55.583 [0109.89] [017701]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:55.583 [0109.89] [017898]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:55.583 [0109.89] [017985]<I> peer adv rssi=-78 allowed=0
+2026-11-01T13:43:55.583 [0109.89] [018100]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:56.158 [0110.47] [018436]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:56.158 [0110.47] [018498]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:56.158 [0110.47] [018685]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:57.012 [0111.33] [018938]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:57.012 [0111.33] [019022]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:57.012 [0111.33] [019139]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:43:57.012 [0111.33] [019338]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:57.012 [0111.33] [019480]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:57.012 [0111.33] [019536]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:57.599 [0111.91] [019813]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:57.599 [0111.91] [019932]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:57.599 [0111.91] [020116]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:57.986 [0112.30] [020505]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:58.640 [0112.95] [020767]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:58.640 [0112.95] [020967]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:43:58.640 [0112.95] [021170]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:59.123 [0113.44] [021641]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:43:59.731 [0114.05] [022197]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:43:59.731 [0114.05] [022258]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:00.073 [0114.39] [022594]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:00.324 [0114.64] [022841]<I> peer adv rssi=-81 allowed=0
+2026-11-01T13:44:00.900 [0115.22] [023235]<I> peer adv rssi=-72 allowed=0
+2026-11-01T13:44:00.900 [0115.22] [023430]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:44:01.693 [0116.00] [023633]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:01.693 [0116.00] [023764]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:01.693 [0116.00] [023834]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:01.693 [0116.00] [024019]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:01.693 [0116.00] [024221]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:01.959 [0116.27] [024482]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:02.333 [0116.64] [024725]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:02.333 [0116.64] [024856]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:02.816 [0117.12] [025345]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:03.267 [0117.58] [025589]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:03.267 [0117.58] [025788]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:03.625 [0117.94] [026155]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:04.153 [0118.47] [026683]<I> peer adv rssi=-83 allowed=0
+2026-11-01T13:44:04.451 [0118.77] [026971]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:05.011 [0119.33] [027325]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:05.011 [0119.33] [027537]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:05.600 [0119.91] [027918]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:05.600 [0119.91] [028116]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:06.050 [0120.36] [028376]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:06.050 [0120.36] [028566]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:06.827 [0121.14] [029213]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:06.827 [0121.14] [029346]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:07.678 [0121.98] [029944]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:44:07.678 [0121.98] [030002]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:07.678 [0121.98] [030202]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:08.129 [0122.44] [030455]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:08.129 [0122.44] [030587]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:08.129 [0122.44] [030649]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:08.517 [0122.83] [030978]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:08.517 [0122.83] [031046]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:09.289 [0123.59] [031432]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:09.289 [0123.59] [031516]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:09.289 [0123.59] [031622]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:09.289 [0123.59] [031812]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:09.679 [0123.98] [032208]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:10.517 [0124.83] [032463]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:10.517 [0124.83] [032661]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:10.517 [0124.83] [032862]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:10.517 [0124.83] [033048]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:10.934 [0125.25] [033311]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:10.934 [0125.25] [033451]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:44:11.666 [0125.98] [033892]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:11.666 [0125.98] [034086]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:44:11.666 [0125.98] [034182]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:11.883 [0126.19] [034404]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [034995]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [035123]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [035189]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [035317]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [035386]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [035525]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [035726]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [035930]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:13.596 [0127.91] [036121]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:14.248 [0128.56] [036649]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:14.248 [0128.56] [036765]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:44:15.026 [0129.34] [037352]<I> peer adv rssi=-79 allowed=0
+2026-11-01T13:44:15.026 [0129.34] [037547]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:15.463 [0129.78] [037886]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:15.463 [0129.78] [037990]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:15.913 [0130.22] [038243]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:15.913 [0130.22] [038327]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:15.913 [0130.22] [038439]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:16.257 [0130.56] [038774]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [039095]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [039225]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [039424]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [039622]<I> peer adv rssi=-70 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [039709]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [039822]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [039880]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [040068]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:44:17.610 [0131.92] [040133]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [040453]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [040515]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [040577]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [040703]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [040798]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [040968]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [041105]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [041296]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:18.836 [0133.14] [041355]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [041789]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [041941]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [042030]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [042135]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [042338]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [042428]<I> peer adv rssi=-80 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [042541]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:20.217 [0134.53] [042744]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:20.700 [0135.02] [043217]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:21.512 [0135.83] [043519]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:21.512 [0135.83] [043712]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:21.512 [0135.83] [043786]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:21.512 [0135.83] [043975]<I> peer adv rssi=-79 allowed=0
+2026-11-01T13:44:21.512 [0135.83] [044034]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:22.104 [0136.42] [044313]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:22.104 [0136.42] [044429]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:22.104 [0136.42] [044621]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:22.430 [0136.73] [044949]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:22.741 [0137.05] [045263]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:22.741 [0137.05] >>> ygble pair 120
+2026-11-01T13:44:23.315 [0137.62] ygble pair 120
+2026-11-01T13:44:23.315 [0137.62] [045480]<W> pairing window 120s; verify device identity out-of-band
+2026-11-01T13:44:23.315 [0137.62] 
+2026-11-01T13:44:23.315 [0137.62] # 
+2026-11-01T13:44:23.315 [0137.62] # [045659]<I> peer adv rssi=-31 allowed=1
+2026-11-01T13:44:23.315 [0137.62] [045829]<I> link up; requesting encryption
+2026-11-01T13:44:23.315 [0137.62] [045829]<I> open status=0
+2026-11-01T13:44:23.781 [0138.09] [046223]<I> auth cmpl success=0
+2026-11-01T13:44:23.781 [0138.09] [046223]<W> link down reason=0x16
+2026-11-01T13:44:23.781 [0138.09] [046297]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:44:24.012 [0138.33] [046534]<I> link up; requesting encryption
+2026-11-01T13:44:24.012 [0138.33] [046534]<I> open status=0
+2026-11-01T13:44:24.740 [0139.05] [046913]<I> auth cmpl success=0
+2026-11-01T13:44:24.740 [0139.05] [046913]<W> link down reason=0x16
+2026-11-01T13:44:24.740 [0139.05] [047088]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:44:24.740 [0139.05] [047254]<I> link up; requesting encryption
+2026-11-01T13:44:24.740 [0139.05] [047254]<I> open status=0
+2026-11-01T13:44:25.376 [0139.69] [047618]<I> auth cmpl success=0
+2026-11-01T13:44:25.376 [0139.69] [047618]<W> link down reason=0x16
+2026-11-01T13:44:25.376 [0139.69] [047798]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:44:25.376 [0139.69] [047899]<I> link up; requesting encryption
+2026-11-01T13:44:25.377 [0139.69] [047899]<I> open status=0
+2026-11-01T13:44:25.949 [0140.27] [048217]<I> auth cmpl success=0
+2026-11-01T13:44:25.949 [0140.27] [048218]<W> link down reason=0x16
+2026-11-01T13:44:25.949 [0140.27] [048357]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:44:25.949 [0140.27] [048469]<I> link up; requesting encryption
+2026-11-01T13:44:25.949 [0140.27] [048469]<I> open status=0
+2026-11-01T13:44:26.477 [0140.78] [048802]<I> auth cmpl success=0
+2026-11-01T13:44:26.477 [0140.78] [048803]<W> link down reason=0x16
+2026-11-01T13:44:26.477 [0140.78] [048878]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:44:26.477 [0140.78] [048994]<I> link up; requesting encryption
+2026-11-01T13:44:26.478 [0140.80] [048994]<I> open status=0
+2026-11-01T13:44:27.037 [0141.34] [049327]<I> auth cmpl success=0
+2026-11-01T13:44:27.037 [0141.34] [049328]<W> link down reason=0x16
+2026-11-01T13:44:27.037 [0141.34] [049402]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:44:27.037 [0141.34] [049564]<I> link up; requesting encryption
+2026-11-01T13:44:27.037 [0141.34] [049564]<I> open status=0
+2026-11-01T13:44:28.907 [0143.22] [049912]<I> auth cmpl success=0
+2026-11-01T13:44:28.907 [0143.22] [049913]<W> link down reason=0x16
+2026-11-01T13:44:28.907 [0143.22] [050051]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:44:28.907 [0143.22] [050149]<I> link up; requesting encryption
+2026-11-01T13:44:28.907 [0143.22] [050149]<I> open status=0
+2026-11-01T13:44:28.907 [0143.22] 
+2026-11-01T13:44:28.907 [0143.22] ***ERROR*** A stack overflow in task BTU_TASK has been detected.
+2026-11-01T13:44:28.907 [0143.22] 
+2026-11-01T13:44:28.907 [0143.22] 
+2026-11-01T13:44:28.907 [0143.22] Backtrace: 0x403799ad:0x3fce36b0 0x40386c11:0x3fce36d0 0x4038775a:0x3fce36f0 0x4 ���� � �� x ���x�� � x����x xxx�������� � � � x�� ���� ���� �xx���� � x����x xxx�����x� � � � x�� ���� ���� �x������� � x� � � � � � � � � x�xx� x�x�x��xxxxx xxxx x� �xx �xx �xx �xx �xx x�x x���x��x�xxx���x �x x��x�������� ����x�� �x�� �xx�x�x����x �xx �x��xx�x x�x�x�x��x�x�xx�x�xx �x���ESP-ROM:esp32s3-20210327
+2026-11-01T13:44:28.907 [0143.22] Build:Mar 27 2021
+2026-11-01T13:44:28.907 [0143.22] rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+2026-11-01T13:44:28.907 [0143.22] Saved PC:0x4038327a
+2026-11-01T13:44:28.907 [0143.22] SPIWP:0xee
+2026-11-01T13:44:28.907 [0143.22] mode:DIO, clock div:1
+2026-11-01T13:44:28.907 [0143.22] load:0x3fce2820,len:0x135c
+2026-11-01T13:44:28.907 [0143.22] load:0x403c8700,len:0x4
+2026-11-01T13:44:28.907 [0143.22] load:0x403c8704,len:0xea8
+2026-11-01T13:44:28.907 [0143.22] load:0x403cb700,len:0x30dc
+2026-11-01T13:44:28.907 [0143.22] entry 0x403c8940
+2026-11-01T13:44:28.907 [0143.22] I (31) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+2026-11-01T13:44:28.907 [0143.22] I (31) boot: compile time Nov  1 2026 04:17:03
+2026-11-01T13:44:28.907 [0143.22] I (31) boot: Multicore bootloader
+2026-11-01T13:44:28.907 [0143.22] I (32) boot: chip revision: v0.2
+2026-11-01T13:44:28.907 [0143.22] I (35) boot: efuse block revision: v1.4
+2026-11-01T13:44:28.907 [0143.22] I (39) qio_mode: Enabling default flash chip QIO
+2026-11-01T13:44:28.907 [0143.22] I (43) boot.esp32s3: Boot SPI Speed : 80MHz
+2026-11-01T13:44:28.907 [0143.22] I (47) boot.esp32s3: SPI Mode       : QIO
+2026-11-01T13:44:28.907 [0143.22] I (51) boot.esp32s3: SPI Flash Size : 16MB
+2026-11-01T13:44:28.907 [0143.22] I (55) boot: Enabling RNG early entropy source...
+2026-11-01T13:44:28.907 [0143.22] I (59) boot: Partition Table:
+2026-11-01T13:44:28.907 [0143.22] I (62) boot: ## Label            Usage          Type ST Offset   Length
+2026-11-01T13:44:28.907 [0143.22] I (68) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+2026-11-01T13:44:28.907 [0143.22] I (75) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+2026-11-01T13:44:28.907 [0143.22] I (81) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+2026-11-01T13:44:28.907 [0143.22] I (88) boot:  3 ota_0            OTA app          00 10 00020000 003f0000
+2026-11-01T13:44:28.907 [0143.22] I (94) boot:  4 ota_1            OTA app          00 11 00410000 003f0000
+2026-11-01T13:44:28.907 [0143.22] I (101) boot:  5 lvgl             Unknown data     01 82 00800000 00010000
+2026-11-01T13:44:28.908 [0143.22] I (107) boot:  6 coco_pose        Unknown data     01 40 00810000 00320000
+2026-11-01T13:44:28.908 [0143.22] I (114) boot:  7 spiffs_data      Unknown data     01 82 00b30000 00100000
+2026-11-01T13:44:28.908 [0143.22] I (120) boot:  8 model            Unknown data     01 82 00c30000 00300000
+2026-11-01T13:44:28.908 [0143.22] I (127) boot: End of partition table
+2026-11-01T13:44:28.908 [0143.22] I (130) esp_image: segment 0: paddr=00020020 vaddr=3c150020 size=660d8h (418008) map
+2026-11-01T13:44:28.908 [0143.22] I (200) esp_image: segment 1: paddr=00086100 vaddr=3fca5500 size=077a8h ( 30632) load
+2026-11-01T13:44:28.908 [0143.22] I (206) esp_image: segment 2: paddr=0008d8b0 vaddr=40378000 size=02768h ( 10088) load
+2026-11-01T13:44:28.908 [0143.22] I (208) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=144084h (1327236) map
+2026-11-01T13:44:28.908 [0143.22] I (410) esp_image: segment 4: paddr=001d40ac vaddr=4037a768 size=1aca0h (109728) load
+2026-11-01T13:44:28.908 [0143.22] I (431) esp_image: segment 5: paddr=001eed54 vaddr=600fe100 size=0001ch (    28) load
+2026-11-01T13:44:28.908 [0143.22] I (443) boot: Loaded app from partition at offset 0x20000
+2026-11-01T13:44:28.908 [0143.22] I (443) boot: Disabling RNG early entropy source...
+2026-11-01T13:44:28.908 [0143.22] W (453) flash HPM: HPM mode is optional feature that depends on flash model. Read Docs First!
+2026-11-01T13:44:28.908 [0143.22] W (453) flash HPM: HPM mode with DC adjustment is disabled. Some flash models may not be supported. Read Docs First!
+2026-11-01T13:44:28.908 [0143.22] W (460) flash HPM: High performance mode of this flash model hasn't been supported.
+2026-11-01T13:44:28.908 [0143.22] I (468) MSPI Timing: Flash timing tuning index: 2
+2026-11-01T13:44:28.908 [0143.22] I (472) octal_psram: vendor id    : 0x0d (AP)
+2026-11-01T13:44:28.908 [0143.22] I (476) octal_psram: dev id       : 0x02 (generation 3)
+2026-11-01T13:44:28.908 [0143.22] I (481) octal_psram: density      : 0x03 (64 Mbit)
+2026-11-01T13:44:28.908 [0143.22] I (485) octal_psram: good-die     : 0x01 (Pass)
+2026-11-01T13:44:28.908 [0143.22] I (490) octal_psram: Latency      : 0x01 (Fixed)
+2026-11-01T13:44:28.908 [0143.22] I (494) octal_psram: VCC          : 0x01 (3V)
+2026-11-01T13:44:28.908 [0143.22] I (498) octal_psram: SRF          : 0x01 (Fast Refresh)
+2026-11-01T13:44:28.908 [0143.22] I (503) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+2026-11-01T13:44:28.908 [0143.22] I (508) octal_psram: BurstLen     : 0x01 (32 Byte)
+2026-11-01T13:44:28.908 [0143.22] I (512) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+2026-11-01T13:44:28.908 [0143.22] I (518) octal_psram: DriveStrength: 0x00 (1/1)
+2026-11-01T13:44:28.908 [0143.22] I (530) MSPI Timing: PSRAM timing tuning index: 2
+2026-11-01T13:44:28.908 [0143.22] I (531) esp_psram: Found 8MB PSRAM device
+2026-11-01T13:44:28.908 [0143.22] I (531) esp_psram: Speed: 120MHz
+2026-11-01T13:44:28.908 [0143.22] I (553) mmu_psram: Read only data copied and mapped to SPIRAM
+2026-11-01T13:44:28.908 [0143.22] I (627) mmu_psram: Instructions copied and mapped to SPIRAM
+2026-11-01T13:44:28.908 [0143.22] I (627) cpu_start: Multicore app
+2026-11-01T13:44:28.908 [0143.22] I (636) cpu_start: Pro cpu start user code
+2026-11-01T13:44:28.908 [0143.22] I (636) cpu_start: cpu freq: 240000000 Hz
+2026-11-01T13:44:28.908 [0143.22] I (636) app_init: Application information:
+2026-11-01T13:44:28.908 [0143.22] I (636) app_init: Project name:     vb701n
+2026-11-01T13:44:28.908 [0143.22] I (640) app_init: App version:      1
+2026-11-01T13:44:28.908 [0143.22] I (643) app_init: Compile time:     Nov  1 2026 04:15:46
+2026-11-01T13:44:28.908 [0143.22] I (648) app_init: ELF file SHA256:  75d3d5e82...
+2026-11-01T13:44:28.908 [0143.22] I (652) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+2026-11-01T13:44:28.908 [0143.22] I (657) efuse_init: Min chip rev:     v0.0
+2026-11-01T13:44:28.908 [0143.22] I (661) efuse_init: Max chip rev:     v0.99 
+2026-11-01T13:44:28.908 [0143.22] I (665) efuse_init: Chip rev:         v0.2
+2026-11-01T13:44:28.908 [0143.22] I (669) heap_init: Initializing. RAM available for dynamic allocation:
+2026-11-01T13:44:28.908 [0143.22] I (675) heap_init: At 3FCB2DD8 len 00036938 (218 KiB): RAM
+2026-11-01T13:44:28.908 [0143.22] I (680) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+2026-11-01T13:44:28.908 [0143.22] I (685) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+2026-11-01T13:44:28.908 [0143.22] I (691) esp_psram: Adding pool of 6387K of PSRAM memory to heap allocator
+2026-11-01T13:44:28.908 [0143.22] I (697) spi_flash: detected chip: generic
+2026-11-01T13:44:28.908 [0143.22] I (701) spi_flash: flash io: qio
+2026-11-01T13:44:28.908 [0143.22] I (704) coexist: coex firmware version: e727207
+2026-11-01T13:44:28.908 [0143.22] I (741) coexist: coexist rom version e7ae62f
+2026-11-01T13:44:28.908 [0143.22] I (741) main_task: Started on CPU0
+2026-11-01T13:44:28.908 [0143.22] I ([000063]<I> system KV init ret=0
+2026-11-01T13:44:28.908 [0143.22] I (754) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T13:44:28.908 [0143.22] [000063]<I> init ok gpio0
+2026-11-01T13:44:28.908 [0143.22] [000066]<I> init ok gpio1 leds 8
+2026-11-01T13:44:28.908 [0143.22] I (759) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+2026-11-01T13:44:28.908 [0143.22] I (768) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+2026-11-01T13:44:28.908 [0143.22] [000085]<I> arbiter init
+2026-11-01T13:44:28.908 [0143.22] [000087]<E> playback init failed
+2026-11-01T13:44:28.908 [0143.22] [000091]<I> init done
+2026-11-01T13:44:28.908 [0143.22] [000093]<E> system KV get failed ret=-1 key=course_cfg key_len=10
+2026-11-01T13:44:28.908 [0143.22] [000098]<I> no valid flash data, key=course_cfg
+2026-11-01T13:44:28.908 [0143.22] [000103]<I> iot event listener registered
+2026-11-01T13:44:28.908 [0143.22] [000106]<I> down_register ret=0 (method=course)
+2026-11-01T13:44:28.908 [0143.22] [000111]<I> init ok: synced=0 entries=0
+2026-11-01T13:44:28.908 [0143.22] [000115]<I> dynreg env=2
+2026-11-01T13:44:28.908 [0143.22] [000117]<I> saved wifi, skip ble
+2026-11-01T13:44:28.908 [0143.22] I (812) pp: pp rom version: e7ae62f
+2026-11-01T13:44:28.908 [0143.22] I (814) net80211: net80211 rom version: e7ae62f
+2026-11-01T13:44:28.908 [0143.22] I (819) wifi:wifi driver task: 3fccf17c, prio:23, stack:6144, core=0
+2026-11-01T13:44:28.908 [0143.22] I (825) wifi:wifi firmware version: 79fa3f41ba
+2026-11-01T13:44:28.908 [0143.22] I (829) wifi:wifi certification version: v7.0
+2026-11-01T13:44:28.908 [0143.22] I (833) wifi:config NVS flash: disabled
+2026-11-01T13:44:28.908 [0143.22] I (836) wifi:config nano formatting: enabled
+2026-11-01T13:44:28.908 [0143.22] I (840) wifi:Init data frame dynamic rx buffer num: 32
+2026-11-01T13:44:28.909 [0143.22] I (845) wifi:Init static rx mgmt buffer num: 5
+2026-11-01T13:44:28.909 [0143.22] I (849) wifi:Init management short buffer num: 32
+2026-11-01T13:44:28.909 [0143.22] I (854) wifi:Init static tx buffer num: 8
+2026-11-01T13:44:28.909 [0143.22] I (858) wifi:Init tx cache buffer num: 32
+2026-11-01T13:44:28.909 [0143.22] I (861) wifi:Init static tx FG buffer num: 2
+2026-11-01T13:44:28.909 [0143.22] I (865) wifi:Init static rx buffer size: 1600
+2026-11-01T13:44:28.909 [0143.22] I (869) wifi:Init static rx buffer num: 10
+2026-11-01T13:44:28.909 [0143.22] I (873) wifi:Init dynamic rx buffer num: 32
+2026-11-01T13:44:28.909 [0143.22] I (877) wifi_init: rx ba win: 12
+2026-11-01T13:44:28.909 [0143.22] I (880) wifi_init: accept mbox: 6
+2026-11-01T13:44:28.909 [0143.22] I (883) wifi_init: tcpip mbox: 32
+2026-11-01T13:44:28.909 [0143.22] I (886) wifi_init: udp mbox: 16
+2026-11-01T13:44:28.909 [0143.22] I (889) wifi_init: tcp mbox: 6
+2026-11-01T13:44:28.909 [0143.22] I (892) wifi_init: tcp tx win: 5760
+2026-11-01T13:44:28.909 [0143.22] I (895) wifi_init: tcp rx win: 5760
+2026-11-01T13:44:28.909 [0143.22] I (898) wifi_init: tcp mss: 1440
+2026-11-01T13:44:28.909 [0143.22] I (901) wifi_init: WiFi/LWIP prefer SPIRAM
+2026-11-01T13:44:28.909 [0143.22] I (905) wifi_init: WiFi IRAM OP enabled
+2026-11-01T13:44:28.909 [0143.22] I (908) wifi_init: WiFi RX IRAM OP enabled
+2026-11-01T13:44:28.909 [0143.22] I (912) wifi_init: LWIP IRAM OP enabled
+2026-11-01T13:44:28.909 [0143.22] W (916) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+2026-11-01T13:44:28.909 [0143.22] I (925) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+2026-11-01T13:44:28.909 [0143.22] I (970) wifi:mode : sta (68:ee:8f:44:bd:b4)
+2026-11-01T13:44:28.909 [0143.22] I (971) wifi:enable tsf
+2026-11-01T13:44:28.909 [0143.22] [000280]<I> wifi sta start
+2026-11-01T13:44:28.909 [0143.22] [000281]<E> system KV get failed ret=-1 key=qmalarm.meta key_len=12
+2026-11-01T13:44:28.909 [0143.22] I (1142) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+2026-11-01T13:44:28.909 [0143.22] I (1142) wifi:state: init -> auth (0xb0)
+2026-11-01T13:44:28.909 [0143.22] [000453]<I> ready, cloud=on
+2026-11-01T13:44:28.909 [0143.22] [000455]<I> app init done: internal free=147171, largest=65536, psram free=6426192
+2026-11-01T13:44:28.909 [0143.22] I (1153) main_task: Returned from app_main()
+2026-11-01T13:44:28.909 [0143.22] I (1156) wifi:state: auth -> assoc (0x0)
+2026-11-01T13:44:28.909 [0143.22] I (1166) wifi:state: assoc -> run (0x10)
+2026-11-01T13:44:28.909 [0143.22] I (1255) wifi:[ADDBA]RX DELBA, reason:39, delete tid:0, initiator:1(originator)
+2026-11-01T13:44:28.909 [0143.22] I (1256) wifi:[ADDBA]RX DELBA, reason:39, delete tid:0, initiator:0(recipient)
+2026-11-01T13:44:28.909 [0143.22] I (1258) wifi:[ADDBA]RX DELBA, reason:39, delete tid:3, initiator:1(originator)
+2026-11-01T13:44:28.909 [0143.22] I (1279) wifi:connected with INTERCITYHACK-NB-PLAYER-2.4G, aid = 2, channel 1, BW20, bssid = 5a:b4:bb:39:13:8a
+2026-11-01T13:44:28.909 [0143.22] I (1279) wifi:security: WPA2-PSK, phy: bgn, rssi: -51
+2026-11-01T13:44:29.141 [0143.45] I (1283) wifi:pm start, type: 1
+2026-11-01T13:44:29.141 [0143.45] 
+2026-11-01T13:44:29.141 [0143.45] I (1286) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+2026-11-01T13:44:29.141 [0143.45] I (1294) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+2026-11-01T13:44:29.141 [0143.45] I (1302) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+2026-11-01T13:44:29.609 [0143.92] [001093]<W> report failed -10
+2026-11-01T13:44:30.367 [0144.67] [001624]<I> wifi got ip
+2026-11-01T13:44:30.367 [0144.67] I (2315) esp_netif_handlers: sta ip: 10.20.0.141, mask: 255.255.254.0, gw: 10.20.0.1
+2026-11-01T13:44:30.367 [0144.67] [001624]<I> network update state=1
+2026-11-01T13:44:30.367 [0144.67] [001626]<D> iot event 4
+2026-11-01T13:44:30.367 [0144.67] [001628]<E> dynreg request payload={"sn":"68EE8F44BDB6","pid":"11879","timestamp":"1626","signature":"<redacted>","nonce":17806} signature_len=40
+2026-11-01T13:44:30.367 [0144.67] [001641]<I> tls connect start host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca=0 mtls=0
+2026-11-01T13:44:30.367 [0144.67] [001650]<I> tls establish host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca_bytes=0 ca_type=bundle client_crt_bytes=0 client_crt_type=none client_key_bytes=0 client_key_type=none
+2026-11-01T13:44:30.367 [0144.67] I (2396) wifi:<ba-add>idx:0 (ifx:0, 5a:b4:bb:39:13:8a), tid:3, ssn:4, winSize:64
+2026-11-01T13:44:30.367 [0144.67] I (2539) esp-x509-crt-bundle: Certificate validated
+2026-11-01T13:44:30.602 [0144.91] [002093]<W> report failed -10
+2026-11-01T13:44:31.084 [0145.39] [002322]<I> transport connected host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 secure=1
+2026-11-01T13:44:31.084 [0145.39] [002322]<D> request state reset timeout=10000 rx_buf=512 keep_alive=0 auth=0
+2026-11-01T13:44:31.084 [0145.39] [002328]<I> tls write ok fd=52 wrote=208 requested=208
+2026-11-01T13:44:31.084 [0145.39] [002486]<I> response finished status=200 bytes=4564
+2026-11-01T13:44:31.084 [0145.39] [002487]<I> close connection active=1 status=200
+2026-11-01T13:44:31.084 [0145.39] [002487]<I> cleanup client
+2026-11-01T13:44:31.084 [0145.39] [002487]<I> close connection active=0 status=200
+2026-11-01T13:44:31.084 [0145.39] I (3185) wifi:<ba-add>idx:1 (ifx:0, 5a:b4:bb:39:13:8a), tid:0, ssn:84, winSize:64
+2026-11-01T13:44:31.084 [0145.39] [002501]<I> dynreg did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883
+2026-11-01T13:44:31.084 [0145.39] [002512]<I> reset marker already clear
+2026-11-01T13:44:31.084 [0145.39] [002512]<I> start begin
+2026-11-01T13:44:31.084 [0145.39] [002514]<I> reset_info.is_reset=0,0
+2026-11-01T13:44:31.084 [0145.39] [002517]<I> cloud credential summary pid=11879 did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn host_len=50 port=8883
+2026-11-01T13:44:31.084 [0145.39] [002529]<I> start done
+2026-11-01T13:44:31.084 [0145.39] [002531]<I> network update state=1
+2026-11-01T13:44:31.084 [0145.39] [002534]<D> iot event 4
+2026-11-01T13:44:31.084 [0145.39] [002536]<I> iot start ok
+2026-11-01T13:44:31.084 [0145.39] [002539]<I> cloud connecting
+2026-11-01T13:44:31.084 [0145.39] [002541]<I> MQTT init success!
+2026-11-01T13:44:31.084 [0145.39] [002544]<I> tls establish host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883 ca_bytes=1188 ca_type=certificate client_crt_bytes=1221 client_crt_type=certificate client_key_bytes=1676 client_key_type=rsa-private-key
+2026-11-01T13:44:31.613 [0145.92] [003093]<W> report failed -10
+2026-11-01T13:44:32.698 [0147.02] [004093]<W> report failed -10
+2026-11-01T13:44:32.698 [0147.02] [004172]<D> start MQTT connection with parameters: clientid=11879_68EE8F44BDB6
+2026-11-01T13:44:32.698 [0147.02] [004173]<I> tls write ok fd=52 wrote=32 requested=32
+2026-11-01T13:44:33.835 [0148.14] [004495]<D> mqtt connect success!
+2026-11-01T13:44:33.835 [0148.14] [004495]<D> mqtt connect success
+2026-11-01T13:44:33.835 [0148.14] [004497]<I> mqtt subscribe success,topic= /11879/100000808/device/down
+2026-11-01T13:44:33.835 [0148.14] [004497]<I> mqtt subscribe success,topic= /11879/100000808/cloud/set
+2026-11-01T13:44:33.835 [0148.14] [004503]<I> mqtt subscribe success,topic= /11879/100000808/device/getReply
+2026-11-01T13:44:33.835 [0148.14] [004510]<I> mqtt subscribe success,topic= /11879/100000808/cloud/get
+2026-11-01T13:44:33.835 [0148.14] [004516]<I> mqtt subscribe success,topic= $aws/things/100000808/shadow/update
+2026-11-01T13:44:33.835 [0148.14] [004677]<D> SUBACK
+2026-11-01T13:44:33.835 [0148.14] [004677]<D> suback: 5, topic count: 5
+2026-11-01T13:44:33.835 [0148.14] [004712]<D> PUBLISH
+2026-11-01T13:44:33.835 [0148.14] [004712]<D>         Packet Ident : 00000000
+2026-11-01T13:44:33.835 [0148.14] [004712]<D>         Topic Length : 28
+2026-11-01T13:44:33.835 [0148.14] [004712]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:44:33.835 [0148.14] [004716]<D>     Payload Len/Room : 60 / 8112
+2026-11-01T13:44:33.835 [0148.14] [004720]<D>       Receive Buflen : 8144
+2026-11-01T13:44:33.835 [0148.14] [004724]<D> delivering msg ...
+2026-11-01T13:44:33.835 [0148.14] [004727]<D> topic be matched
+2026-11-01T13:44:33.835 [0148.14] [004729]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+2026-11-01T13:44:33.835 [0148.14] [004736]<I> cloud connected
+2026-11-01T13:44:33.835 [0148.14] [004738]<I> down registered: chat
+2026-11-01T13:44:33.835 [0148.14] [004742]<I> down registered: care
+2026-11-01T13:44:33.835 [0148.14] [004745]<I> down registered: voice
+2026-11-01T13:44:33.835 [0148.14] [004748]<I> down registered: player
+2026-11-01T13:44:33.835 [0148.14] [004751]<I> start: internal free=142963 largest=47104
+2026-11-01T13:44:33.835 [0148.14] I (5447) BLE_INIT: BT controller compile version [d74042a]
+2026-11-01T13:44:33.835 [0148.14] I (5453) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:bd:b6
+2026-11-01T13:44:33.835 [0148.14] [004776]<I> GATT central started; peer pinned=0
+2026-11-01T13:44:33.835 [0148.14] [004776]<I> ntp sync started
+2026-11-01T13:44:33.835 [0148.14] [004776]<I> down registered: pomodoro
+2026-11-01T13:44:33.835 [0148.14] [004777]<I> down_register ret=0 (method=course)
+2026-11-01T13:44:33.835 [0148.14] [004783]<D> publish devinfo topic_len=26 payload_len=175
+2026-11-01T13:44:33.835 [0148.14] [004889]<D> The host IP 223.4.249.80, port is 123
+2026-11-01T13:44:33.835 [0148.14] 
+2026-11-01T13:44:33.835 [0148.14] [004927]<I> ntp synced, now=13:44:33
+2026-11-01T13:44:33.835 [0148.14] [005137]<D> PUBLISH
+2026-11-01T13:44:33.835 [0148.14] [005137]<D>         Packet Ident : 00000000
+2026-11-01T13:44:33.835 [0148.14] [005137]<D>         Topic Length : 28
+2026-11-01T13:44:33.835 [0148.14] [005137]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:44:33.835 [0148.14] [005141]<D>     Payload Len/Room : 64 / 8112
+2026-11-01T13:44:33.835 [0148.14] [005145]<D>       Receive Buflen : 8144
+2026-11-01T13:44:33.835 [0148.14] [005148]<D> delivering msg ...
+2026-11-01T13:44:33.835 [0148.14] [005151]<D> topic be matched
+2026-11-01T13:44:33.835 [0148.14] [005155]<D> PUBLISH
+2026-11-01T13:44:33.835 [0148.14] [005156]<D>         Packet Ident : 00000000
+2026-11-01T13:44:33.835 [0148.14] [005160]<D>         Topic Length : 28
+2026-11-01T13:44:33.835 [0148.14] [005163]<D>           Topic Name : /11879/100000808/device/down
+2026-11-01T13:44:33.835 [0148.14] [005169]<D>     Payload Len/Room : 95 / 8112
+2026-11-01T13:44:33.835 [0148.14] [005173]<D>       Receive Buflen : 8144
+2026-11-01T13:44:33.835 [0148.14] [005177]<D> delivering msg ...
+2026-11-01T13:44:33.835 [0148.14] [005180]<D> topic be matched
+2026-11-01T13:44:33.835 [0148.14] [005297]<D> PUBLISH
+2026-11-01T13:44:33.835 [0148.14] [005297]<D>         Packet Ident : 00000000
+2026-11-01T13:44:33.835 [0148.14] [005297]<D>         Topic Length : 35
+2026-11-01T13:44:33.835 [0148.14] [005297]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T13:44:33.835 [0148.14] [005302]<D>     Payload Len/Room : 76 / 8105
+2026-11-01T13:44:33.835 [0148.14] [005306]<D>       Receive Buflen : 8144
+2026-11-01T13:44:33.835 [0148.14] [005310]<D> delivering msg ...
+2026-11-01T13:44:33.835 [0148.14] [005312]<D> topic be matched
+2026-11-01T13:44:33.835 [0148.14] [005315]<E> desired find failed!!
+2026-11-01T13:44:35.482 [0149.80] [005789]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [005983]<I> peer adv rssi=-31 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006178]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006239]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006370]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006437]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006575]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006712]<I> peer adv rssi=-30 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006808]<I> peer adv rssi=-32 allowed=0
+2026-11-01T13:44:35.482 [0149.80] [006969]<I> peer adv rssi=-34 allowed=0
+2026-11-01T13:44:35.871 [0150.19] [007227]<I> peer adv rssi=-33 allowed=0
+2026-11-01T13:44:35.871 [0150.19] [007357]<I> peer adv rssi=-33 allowed=0

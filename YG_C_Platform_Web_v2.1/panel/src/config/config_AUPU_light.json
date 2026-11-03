@@ -1,0 +1,74 @@
+{
+    "type": "wifi",
+    "basicConfig": {
+        "defaultData": true
+    },
+    "info": {
+        "displayName": "奥普灯具"
+    },
+    "data": {
+        "Light_Power": {
+            "key": "prop.2.1",
+            "value": false
+        },
+        "Light_Brightness": {
+            "key": "prop.2.2",
+            "value": 1
+        },
+        "Light_Mode": {
+            "key": "prop.2.3",
+            "value": 0
+        },
+        "Light_ModeStr": {
+            "key": "prop.2.4",
+            "value": ""
+        },
+        
+        "NightLight": {
+            "key": "prop.3.1",
+            "value": false
+        },
+        "NightLightTime": {
+            "key": "prop.3.2",
+            "value": ""
+        },
+
+        "AutoLight": {
+            "key": "prop.4.1",
+            "value": false
+        },
+        "AutoLightTime": {
+            "key": "prop.4.2",
+            "value": ""
+        },
+
+        "LightChange": {
+            "key": "prop.5.1",
+            "value": false
+        },
+        "GradientTime": {
+            "key": "prop.5.2",
+            "value": 20
+        },
+        "LightGradient": {
+            "key": "prop.5.3",
+            "value": 20
+        },
+        "OffGradient": {
+            "key": "prop.5.4",
+            "value": 20
+        },
+        "NooneDuration": {
+            "key": "prop.5.5",
+            "value": 1
+        },
+        "Sensitivity": {
+            "key": "prop.5.6",
+            "value": 0
+        },
+        "SensingDistance": {
+            "key": "prop.5.7",
+            "value": 50
+        }
+    }
+}

@@ -1,0 +1,9 @@
+menu "Yuguang BLE"
+config YG_BLE_UNENCRYPTED_DEBUG
+    bool "Allow unencrypted fixed-peer BLE debugging (unsafe)"
+    default n
+    help
+        Skip pairing and bonding only for the Yuguang fixed-peer link.
+        Data is not confidential and MAC addresses can be spoofed.
+        Both boards must use the same mode. Disable for production.
+endmenu

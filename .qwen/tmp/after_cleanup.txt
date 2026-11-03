@@ -1,0 +1,51 @@
+== D:\yuguang_review
+     415.8 MB   6722  11-01 13:56  <DIR> YG_A_Business_Firmware_v2.1
+     356.9 MB   3966  11-01 14:07  <DIR> YG_B_Sensing_Firmware_v2.1
+     231.5 MB  25650  11-01 16:37  <DIR> YG_C_Platform_Web_v2.1
+      36.2 MB      0  11-01 16:39  YG_ABC_src_20261101.zip
+       4.9 MB     14  11-01 11:36  <DIR> _flat_dist
+       1.2 MB     24  11-01 16:51  <DIR> captures
+       0.0 MB      0  11-01 10:24  07_余光_V2.1_产品策划书_研发评审稿.md
+       0.0 MB      0  11-01 12:59  00_DELIVERY_README_ABC_20261101.md
+       0.0 MB      0  11-01 13:15  04_PLATFORM_CONFIG_COLLECTION_REQUIREMENTS.md
+       0.0 MB      0  11-01 14:51  06_余光_V2.1_端到端互动与双LLM工作流设计.md
+       0.0 MB      0  11-01 16:17  05_DESIGN_DOC_ALIGNMENT_CHECK.md
+       0.0 MB      0  11-01 14:19  BLE_UNENCRYPTED_DEBUG.md
+       0.0 MB      0  10-31 23:21  capture_com12.py
+       0.0 MB      1  11-01 17:55  <DIR> .qwen
+       0.0 MB      0  11-01 02:19  capture_com12_b_reset.py
+       0.0 MB      0  11-01 02:18  capture_com12_b_after_flash.py
+       0.0 MB      0  11-01 02:40  capture_com11_a_reset.py
+
+== D:\项目\交互艺术\冥想室\余光开发
+    1869.2 MB  30186  10-31 21:00  <DIR> ljyd_xjwb03_agent_public_developer
+     362.3 MB  60283  11-01 17:54  <DIR> ui例程
+      86.8 MB    151  10-30 01:52  <DIR> xjwb03_lab_package
+      36.2 MB      0  11-01 16:39  YG_ABC_src_20261101.zip
+      16.0 MB      0  10-29 03:00  factory_backup_20261029.bin
+       7.3 MB      0  11-01 10:40  余光-控制面板-siid19-20261101.zip
+       7.0 MB      0  10-29 01:20  震动马达.pdf
+       1.8 MB    100  10-29 02:44  <DIR> .qwen
+       1.3 MB      0  11-01 11:21  yuguang-panel-dist-20261101.zip
+       1.3 MB      0  11-01 11:36  yuguang-panel-flat-20261101.zip
+       1.2 MB      0  11-01 12:34  yuguang-panel-flat-v12-20261101.zip
+       1.1 MB      0  10-31 10:07  舵机.pdf
+       1.0 MB      0  10-30 09:49  余光_设备配网引导_1080x1080.png
+       1.0 MB      2  10-30 22:17  <DIR> 摄像头板
+       0.9 MB      0  10-30 22:16  AS-BD108A93D17-19-V2.0.pdf
+       0.8 MB      0  10-29 01:12  WS2812_Datasheet.pdf
+       0.6 MB      0  10-31 03:31  余光-控制面板完成版-20261030.zip
+       0.6 MB      0  10-30 17:43  余光-队友交接包-20261030.zip
+       0.5 MB      0  10-29 01:10  灵机XJWB03标准开发板使用文档.pdf
+       0.3 MB      0  11-01 11:00  yuguang-panel-src-20261101.zip
+       0.3 MB     60  10-30 02:14  <DIR> firmware
+       0.2 MB      0  10-29 01:23  PCB_摄像头转接板_2026-10-16.pdf
+       0.1 MB      0  10-30 18:12  余光-持续呼吸小更新-20261030.zip
+       0.1 MB      0  10-30 22:17  SCH_摄像头转接板_2026-10-16.pdf
+       0.1 MB      0  10-30 16:50  余光项目概念10.29.docx
+       0.0 MB      0  11-01 09:57  ljyd-agent-v1.0-自测填写-20261101.xlsx
+       0.0 MB     11  10-30 02:14  <DIR> tests
+       0.0 MB      0  10-29 18:00  README_VB701N_protocol_integration_v1.9.md
+       0.0 MB      2  10-30 02:14  <DIR> tools
+       0.0 MB      0  10-29 18:00  BASELINE_MANIFEST.json
+       0.0 MB      0  10-29 20:09  $null

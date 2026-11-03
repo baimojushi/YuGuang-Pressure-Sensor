@@ -1,0 +1,18 @@
+{
+  "siid": 19,
+  "serviceName": "suixi",
+  "status": "PROPOSED_NOT_REGISTERED",
+  "property": {
+    "piid": 7,
+    "access": [
+      "read",
+      "write"
+    ],
+    "propertyDetail": "灯语试播命令",
+    "dataValue": "{\"strLen\":128}",
+    "format": "string",
+    "description": "LightPreviewCommand",
+    "maxLength": 128,
+    "note": "用户主动试播，JSON {v:1,preset:miss|meal|rest|cheer,nonce:8..40字符}；必须在云端单独注册并导出核验后启用 H5 门禁"
+  }
+}

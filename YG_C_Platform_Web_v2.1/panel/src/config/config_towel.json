@@ -1,0 +1,11 @@
+{
+  "type": "wifi",
+  "basicConfig": { "defaultData": true },
+  "info": { "displayName": "先锋毛巾架ZY-HD2210RB-22" },
+  "data": {
+    "heatService_Power": { "key": "prop.2.1", "value": false },
+    "heatService_Mode": { "key": "prop.2.2", "value": 0 },
+    "heatService_RunTime": { "key": "prop.2.3", "value": 0 },
+    "heatService_Temperature": { "key": "prop.2.4", "value": 0 }
+  }
+}

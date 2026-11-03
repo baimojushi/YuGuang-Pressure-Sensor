@@ -1,0 +1,189 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x135c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xea8
+load:0x403cb700,len:0x30dc
+entry 0x403c8940
+I (27) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+I (27) boot: compile time Nov  1 2026 02:38:09
+I (27) boot: Multicore bootloader
+I (28) boot: chip revision: v0.2
+I (31) boot: efuse block revision: v1.4
+I (34) qio_mode: Enabling default flash chip QIO
+I (39) boot.esp32s3: Boot SPI Speed : 80MHz
+I (43) boot.esp32s3: SPI Mode       : QIO
+I (46) boot.esp32s3: SPI Flash Size : 16MB
+I (50) boot: Enabling RNG early entropy source...
+I (55) boot: Partition Table:
+I (57) boot: ## Label            Usage          Type ST Offset   Length
+I (64) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+I (70) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+I (77) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+I (83) boot:  3 ota_0            OTA app          00 10 00020000 003f0000
+I (90) boot:  4 ota_1            OTA app          00 11 00410000 003f0000
+I (96) boot:  5 lvgl             Unknown data     01 82 00800000 00010000
+I (103) boot:  6 coco_pose        Unknown data     01 40 00810000 00320000
+I (109) boot:  7 spiffs_data      Unknown data     01 82 00b30000 00100000
+I (116) boot:  8 model            Unknown data     01 82 00c30000 00300000
+I (123) boot: End of partition table
+I (126) esp_image: segment 0: paddr=00020020 vaddr=3c150020 size=65da8h (417192) map
+I (195) esp_image: segment 1: paddr=00085dd0 vaddr=3fca5500 size=07798h ( 30616) load
+I (201) esp_image: segment 2: paddr=0008d570 vaddr=40378000 size=02aa8h ( 10920) load
+I (203) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=142d68h (1322344) map
+I (403) esp_image: segment 4: paddr=001d2d90 vaddr=4037aaa8 size=1a960h (108896) load
+I (424) esp_image: segment 5: paddr=001ed6f8 vaddr=600fe100 size=0001ch (    28) load
+I (436) boot: Loaded app from partition at offset 0x20000
+I (436) boot: Disabling RNG early entropy source...
+W (446) flash HPM: HPM mode is optional feature that depends on flash model. Read Docs First!
+W (446) flash HPM: HPM mode with DC adjustment is disabled. Some flash models may not be supported. Read Docs First!
+W (453) flash HPM: High performance mode of this flash model hasn't been supported.
+I (461) MSPI Timing: Flash timing tuning index: 2
+I (465) octal_psram: vendor id    : 0x0d (AP)
+I (469) octal_psram: dev id       : 0x02 (generation 3)
+I (474) octal_psram: density      : 0x03 (64 Mbit)
+I (478) octal_psram: good-die     : 0x01 (Pass)
+I (483) octal_psram: Latency      : 0x01 (Fixed)
+I (487) octal_psram: VCC          : 0x01 (3V)
+I (491) octal_psram: SRF          : 0x01 (Fast Refresh)
+I (496) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+I (501) octal_psram: BurstLen     : 0x01 (32 Byte)
+I (505) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+I (511) octal_psram: DriveStrength: 0x00 (1/1)
+I (520) MSPI Timing: PSRAM timing tuning index: 2
+I (520) esp_psram: Found 8MB PSRAM device
+I (523) esp_psram: Speed: 120MHz
+I (545) mmu_psram: Read only data copied and mapped to SPIRAM
+I (619) mmu_psram: Instructions copied and mapped to SPIRAM
+I (620) cpu_start: Multicore app
+I (628) cpu_start: Pro cpu start user code
+I (628) cpu_start: cpu freq: 240000000 Hz
+I (628) app_init: Application information:
+I (628) app_init: Project name:     vb701n
+I (632) app_init: App version:      1
+I (636) app_init: Compile time:     Nov  1 2026 02:36:06
+I (641) app_init: ELF file SHA256:  f6b51bbd7...
+I (645) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+I (650) efuse_init: Min chip rev:     v0.0
+I (654) efuse_init: Max chip rev:     v0.99 
+I (658) efuse_init: Chip rev:         v0.2
+I (662) heap_init: Initializing. RAM available for dynamic allocation:
+I (668) heap_init: At 3FCB2980 len 00036D90 (219 KiB): RAM
+I (673) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (678) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+I (683) esp_psram: Adding pool of 6387K of PSRAM memory to heap allocator
+I (690) spi_flash: detected chip: generic
+I (694) spi_flash: flash io: qio
+I (697) coexist: coex firmware version: e727207
+I (733) coexist: coexist rom version e7ae62f
+I (734) main_task: Started on CPU0
+I ([000062]<I> system KV init ret=0
+I (746) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+[000063]<I> init ok gpio0
+[000066]<I> init ok gpio1 leds 8
+I (752) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (760) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+[000084]<I> arbiter init
+[000087]<E> playback init failed
+[000090]<I> init done
+[000092]<E> system KV get failed ret=-1 key=course_cfg key_len=10
+[000098]<I> no valid flash data, key=course_cfg
+[000102]<I> iot event listener registered
+[000106]<I> down_register ret=0 (method=course)
+[000110]<I> init ok: synced=0 entries=0
+[000114]<I> dynreg env=2
+[000117]<I> saved wifi, skip ble
+I (804) pp: pp rom version: e7ae62f
+I (807) net80211: net80211 rom version: e7ae62f
+I (812) wifi:wifi driver task: 3fcced24, prio:23, stack:6144, core=0
+I (817) wifi:wifi firmware version: 79fa3f41ba
+I (821) wifi:wifi certification version: v7.0
+I (825) wifi:config NVS flash: disabled
+I (829) wifi:config nano formatting: enabled
+I (833) wifi:Init data frame dynamic rx buffer num: 32
+I (838) wifi:Init static rx mgmt buffer num: 5
+I (842) wifi:Init management short buffer num: 32
+I (846) wifi:Init static tx buffer num: 8
+I (850) wifi:Init tx cache buffer num: 32
+I (854) wifi:Init static tx FG buffer num: 2
+I (858) wifi:Init static rx buffer size: 1600
+I (862) wifi:Init static rx buffer num: 10
+I (865) wifi:Init dynamic rx buffer num: 32
+I (870) wifi_init: rx ba win: 12
+I (872) wifi_init: accept mbox: 6
+I (875) wifi_init: tcpip mbox: 32
+I (878) wifi_init: udp mbox: 16
+I (881) wifi_init: tcp mbox: 6
+I (884) wifi_init: tcp tx win: 5760
+I (887) wifi_init: tcp rx win: 5760
+I (890) wifi_init: tcp mss: 1440
+I (893) wifi_init: WiFi/LWIP prefer SPIRAM
+I (897) wifi_init: WiFi IRAM OP enabled
+I (901) wifi_init: WiFi RX IRAM OP enabled
+I (905) wifi_init: LWIP IRAM OP enabled
+W (908) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+I (917) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+I (950) wifi:mode : sta (68:ee:8f:44:bd:b4)
+I (950) wifi:enable tsf
+[000267]<I> wifi sta start
+[000268]<E> system KV get failed ret=-1 key=qmalarm.meta key_len=12
+I (1123) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+I (1123) wifi:state: init -> auth (0xb0)
+[000440]<I> ready, cloud=on
+[000442]<I> app init done: internal free=148283, largest=69632, psram free=6426232
+I (1133) main_task: Returned from app_main()
+I (1136) wifi:state: auth -> assoc (0x0)
+I (1147) wifi:state: assoc -> run (0x10)
+I (1161) wifi:connected with INTERCITYHACK-NB-PLAYER, aid = 2, channel 1, BW20, bssid = 58:b4:bb:69:13:8a
+I (1161) wifi:security: WPA2-PSK, phy: bgn, rssi: -53
+I (1164) wifi:pm start, type: 1
+
+I (1167) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (1175) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+I (1382) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[001092]<W> report failed -10
+[001506]<I> wifi got ip
+I (2190) esp_netif_handlers: sta ip: 10.20.0.141, mask: 255.255.254.0, gw: 10.20.0.1
+[001506]<I> network update state=1
+[001508]<D> iot event 4
+[001510]<E> dynreg request payload={"sn":"68EE8F44BDB6","pid":"11879","timestamp":"1508","signature":"<redacted>","nonce":29734} signature_len=40
+[001523]<I> tls connect start host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca=0 mtls=0
+[001532]<I> tls establish host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca_bytes=0 ca_type=bundle client_crt_bytes=0 client_crt_type=none client_key_bytes=0 client_key_type=none
+I (2258) wifi:<ba-add>idx:0 (ifx:0, 58:b4:bb:69:13:8a), tid:0, ssn:8, winSize:64
+I (2274) wifi:<ba-add>idx:1 (ifx:0, 58:b4:bb:69:13:8a), tid:4, ssn:1, winSize:64
+I (2380) esp-x509-crt-bundle: Certificate validated
+[002045]<I> transport connected host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 secure=1
+[002045]<D> request state reset timeout=10000 rx_buf=512 keep_alive=0 auth=0
+[002051]<I> tls write ok fd=52 wrote=208 requested=208
+[002092]<W> report failed -10
+[002169]<I> response finished status=200 bytes=77
+[002169]<I> close connection active=1 status=200
+[002170]<I> cleanup client
+[002170]<I> close connection active=0 status=200
+[002174]<E> dynreg response status=1220 body_len=77 body={"status":1220,"timestamp":1793472050391,"msg":"Product verification failed"}
+[002186]<E> dynreg failed ret=0 did=0
+[003092]<W> report failed -10
+[004091]<W> report failed -10
+[005091]<W> report failed -10
+[006091]<W> report failed -10
+[007091]<W> report failed -10
+[008091]<W> report failed -10
+[009092]<W> report failed -10
+[010091]<W> report failed -10
+[011091]<W> report failed -10
+[012091]<W> report failed -10
+[013091]<W> report failed -10
+[014091]<W> report failed -10
+[015091]<W> report failed -10
+[016091]<W> report failed -10
+[017091]<W> report failed -10
+[018091]<W> report failed -10
+[019091]<W> report failed -10
+[020091]<W> report failed -10
+[021091]<W> report failed -10
+[022091]<W> report failed -10
+[023091]<W> report failed -10
+[024091]<W> report failed -10

@@ -1,0 +1,62 @@
+{
+  "rootPage": "MainPage.html",
+  "page": {
+    "MainPage.html": {
+      "title": ""
+    },
+    "ManualCalibrationPage.html": {
+      "title": ""
+    },
+    "BenchmarkSetPage.html": {
+      "title": ""
+    },
+    "UnitSetPage.html": {
+      "title": ""
+    },
+    "HistoryPage.html": {
+      "title": ""
+    },
+    "DrawingManagementPage.html": {
+      "title": ""
+    },
+    "DrawPage.html": {
+      "title": ""
+    },
+    "SharePage.html": {
+      "title": ""
+    },
+    "AngleCalibrationPage.html": {
+      "title": ""
+    }
+  },
+  "defaultPageStyle": {
+    "dark": {
+      "statusBarStyle": "light",
+      "navigationBarStyle": 0,
+      "navigationBarTint": "FFFFFF",
+      "preLoadBackgroundColor": "000918",
+      "navigationBarBackgroundColor": "000918"
+    },
+    "light": {
+      "statusBarStyle": "light",
+      "navigationBarStyle": 0,
+      "navigationBarTint": "FFFFFF",
+      "preLoadBackgroundColor": "000918",
+      "navigationBarBackgroundColor": "000918"
+    }
+  },
+  "language": {
+    "folder": "static/language",
+    "default": "en.json"
+  },
+  "authorization": {
+    "privacyPolicy": {
+      "default": "protocol/en_privacy_policy.html",
+      "en": "protocol/en_privacy_policy.html"
+    },
+    "userLicense": {
+      "default": "protocol/en_user_agreement.html",
+      "en": "protocol/en_user_agreement.html"
+    }
+  }
+}

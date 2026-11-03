@@ -1,0 +1,1380 @@
+2026-11-01T13:55:24.705 [0002.56] I (192688) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:25.264 [0003.12] W (192957) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:25.264 [0003.12] W (193049) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:25.264 [0003.12] E (193050) BT_BTM: Device not found
+2026-11-01T13:55:25.264 [0003.12] 
+2026-11-01T13:55:25.264 [0003.12] W (193050) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:25.264 [0003.12] W (193054) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:25.264 [0003.12] I (193257) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:25.652 [0003.52] W (193527) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:25.652 [0003.52] W (193619) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:25.652 [0003.52] E (193620) BT_BTM: Device not found
+2026-11-01T13:55:25.652 [0003.52] 
+2026-11-01T13:55:25.652 [0003.52] W (193620) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:25.652 [0003.52] W (193624) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:25.994 [0003.86] I (193977) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:26.505 [0004.36] W (194232) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:26.505 [0004.36] W (194339) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:26.505 [0004.36] E (194340) BT_BTM: Device not found
+2026-11-01T13:55:26.505 [0004.36] 
+2026-11-01T13:55:26.505 [0004.36] W (194340) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:26.505 [0004.36] W (194344) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:26.505 [0004.36] I (194502) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:26.907 [0004.77] W (194787) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:26.907 [0004.77] W (194879) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:26.907 [0004.77] E (194880) BT_BTM: Device not found
+2026-11-01T13:55:26.907 [0004.77] 
+2026-11-01T13:55:26.907 [0004.77] W (194880) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:26.907 [0004.77] W (194884) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:28.013 [0005.88] I (196002) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:28.415 [0006.28] W (196287) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:28.415 [0006.28] W (196394) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:28.415 [0006.28] E (196395) BT_BTM: Device not found
+2026-11-01T13:55:28.415 [0006.28] 
+2026-11-01T13:55:28.415 [0006.28] W (196395) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:28.415 [0006.28] W (196399) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:28.742 [0006.59] I (196737) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:29.128 [0006.98] W (197007) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:29.128 [0006.98] W (197099) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:29.128 [0006.98] E (197100) BT_BTM: Device not found
+2026-11-01T13:55:29.128 [0006.98] 
+2026-11-01T13:55:29.128 [0006.98] W (197100) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:29.128 [0006.98] W (197104) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:29.422 [0007.28] I (197412) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:29.983 [0007.84] W (197712) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:29.983 [0007.84] W (197819) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:29.983 [0007.84] E (197820) BT_BTM: Device not found
+2026-11-01T13:55:29.983 [0007.84] 
+2026-11-01T13:55:29.983 [0007.84] W (197821) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:29.983 [0007.84] W (197825) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:29.983 [0007.84] I (197968) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:30.480 [0008.34] W (198237) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:30.480 [0008.34] W (198329) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:30.480 [0008.34] E (198330) BT_BTM: Device not found
+2026-11-01T13:55:30.480 [0008.34] 
+2026-11-01T13:55:30.480 [0008.34] W (198330) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:30.480 [0008.34] W (198334) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:30.480 [0008.34] I (198477) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:31.121 [0008.98] W (198762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:31.121 [0008.98] W (198884) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:31.121 [0008.98] E (198885) BT_BTM: Device not found
+2026-11-01T13:55:31.121 [0008.98] 
+2026-11-01T13:55:31.121 [0008.98] W (198885) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:31.121 [0008.98] W (198889) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:31.121 [0008.98] I (199107) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:31.697 [0009.56] W (199392) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:31.697 [0009.56] W (199484) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:31.697 [0009.56] E (199485) BT_BTM: Device not found
+2026-11-01T13:55:31.697 [0009.56] 
+2026-11-01T13:55:31.697 [0009.56] W (199485) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:31.697 [0009.56] W (199489) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:31.697 [0009.56] I (199692) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:32.304 [0010.16] W (199992) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:32.304 [0010.16] W (200099) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:32.304 [0010.16] E (200100) BT_BTM: Device not found
+2026-11-01T13:55:32.304 [0010.16] 
+2026-11-01T13:55:32.304 [0010.16] W (200100) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:32.304 [0010.16] W (200104) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:32.304 [0010.16] I (200292) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:32.661 [0010.52] W (200547) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:32.661 [0010.52] W (200639) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:32.661 [0010.52] E (200640) BT_BTM: Device not found
+2026-11-01T13:55:32.661 [0010.52] 
+2026-11-01T13:55:32.661 [0010.52] W (200640) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:32.661 [0010.52] W (200644) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:32.926 [0010.78] I (200922) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:33.315 [0011.17] W (201192) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:33.315 [0011.17] W (201284) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:33.315 [0011.17] E (201285) BT_BTM: Device not found
+2026-11-01T13:55:33.315 [0011.17] 
+2026-11-01T13:55:33.315 [0011.17] W (201285) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:33.315 [0011.17] W (201289) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:33.581 [0011.44] I (201567) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:34.095 [0011.95] W (201822) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:34.095 [0011.95] W (201914) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:34.095 [0011.95] E (201915) BT_BTM: Device not found
+2026-11-01T13:55:34.095 [0011.95] 
+2026-11-01T13:55:34.095 [0011.95] W (201915) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:34.095 [0011.95] W (201919) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:34.095 [0011.95] I (202077) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:34.498 [0012.36] W (202391) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:34.498 [0012.36] W (202469) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:34.498 [0012.36] E (202470) BT_BTM: Device not found
+2026-11-01T13:55:34.498 [0012.36] 
+2026-11-01T13:55:34.498 [0012.36] W (202471) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:34.498 [0012.36] W (202475) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:34.842 [0012.70] I (202827) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:35.232 [0013.09] W (203097) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:35.232 [0013.09] W (203204) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:35.232 [0013.09] E (203205) BT_BTM: Device not found
+2026-11-01T13:55:35.232 [0013.09] 
+2026-11-01T13:55:35.232 [0013.09] W (203205) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:35.232 [0013.09] W (203209) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:35.588 [0013.45] I (203577) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:36.195 [0014.05] W (203877) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:36.195 [0014.05] W (203984) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:36.195 [0014.05] E (203985) BT_BTM: Device not found
+2026-11-01T13:55:36.195 [0014.05] 
+2026-11-01T13:55:36.195 [0014.05] W (203985) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:36.195 [0014.05] W (203989) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:36.195 [0014.05] I (204192) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:36.756 [0014.61] W (204477) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:36.756 [0014.61] W (204584) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:36.756 [0014.61] E (204585) BT_BTM: Device not found
+2026-11-01T13:55:36.756 [0014.61] 
+2026-11-01T13:55:36.756 [0014.61] W (204585) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:36.756 [0014.61] W (204589) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:36.756 [0014.61] I (204747) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:37.176 [0015.03] W (205017) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:37.176 [0015.03] W (205154) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:37.176 [0015.03] E (205155) BT_BTM: Device not found
+2026-11-01T13:55:37.176 [0015.03] 
+2026-11-01T13:55:37.176 [0015.03] W (205155) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:37.176 [0015.03] W (205159) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:37.393 [0015.25] I (205377) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:37.798 [0015.66] W (205662) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:37.798 [0015.66] W (205769) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:37.798 [0015.66] E (205770) BT_BTM: Device not found
+2026-11-01T13:55:37.798 [0015.66] 
+2026-11-01T13:55:37.798 [0015.66] W (205770) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:37.798 [0015.66] W (205774) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:38.218 [0016.08] I (206202) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:38.578 [0016.44] W (206457) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:38.578 [0016.44] W (206549) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:38.578 [0016.44] E (206550) BT_BTM: Device not found
+2026-11-01T13:55:38.578 [0016.44] 
+2026-11-01T13:55:38.578 [0016.44] W (206550) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:38.578 [0016.44] W (206554) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:38.968 [0016.83] I (206952) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:39.326 [0017.19] W (207220) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:39.326 [0017.19] W (207299) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:39.326 [0017.19] E (207300) BT_BTM: Device not found
+2026-11-01T13:55:39.326 [0017.19] 
+2026-11-01T13:55:39.326 [0017.19] W (207301) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:39.326 [0017.19] W (207305) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:39.853 [0017.70] I (207837) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:40.242 [0018.09] W (208092) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:40.242 [0018.09] W (208214) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:40.242 [0018.09] E (208215) BT_BTM: Device not found
+2026-11-01T13:55:40.242 [0018.09] 
+2026-11-01T13:55:40.242 [0018.09] W (208215) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:40.242 [0018.09] W (208219) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:40.644 [0018.50] I (208632) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:41.016 [0018.88] W (208887) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:41.016 [0018.88] W (208994) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:41.016 [0018.88] E (208995) BT_BTM: Device not found
+2026-11-01T13:55:41.016 [0018.88] 
+2026-11-01T13:55:41.016 [0018.88] W (208995) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:41.016 [0018.88] W (208999) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:41.293 [0019.16] I (209277) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:41.667 [0019.53] W (209532) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:41.667 [0019.53] W (209639) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:41.667 [0019.53] E (209640) BT_BTM: Device not found
+2026-11-01T13:55:41.667 [0019.53] 
+2026-11-01T13:55:41.667 [0019.53] W (209641) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:41.667 [0019.53] W (209645) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:42.212 [0020.08] I (210207) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:42.601 [0020.45] W (210462) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:42.601 [0020.45] W (210569) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:42.601 [0020.45] E (210570) BT_BTM: Device not found
+2026-11-01T13:55:42.601 [0020.45] 
+2026-11-01T13:55:42.601 [0020.45] W (210570) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:42.601 [0020.45] W (210574) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:43.191 [0021.05] I (211182) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:43.610 [0021.47] W (211482) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:43.610 [0021.47] W (211589) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:43.610 [0021.47] E (211590) BT_BTM: Device not found
+2026-11-01T13:55:43.610 [0021.47] 
+2026-11-01T13:55:43.610 [0021.47] W (211590) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:43.610 [0021.47] W (211594) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:44.010 [0021.88] I (212007) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:44.445 [0022.30] W (212307) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:44.445 [0022.30] W (212414) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:44.445 [0022.30] E (212415) BT_BTM: Device not found
+2026-11-01T13:55:44.445 [0022.30] 
+2026-11-01T13:55:44.445 [0022.30] W (212415) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:44.445 [0022.30] W (212419) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:44.924 [0022.78] I (212907) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:45.314 [0023.17] W (213147) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:45.314 [0023.17] W (213284) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:45.314 [0023.17] E (213285) BT_BTM: Device not found
+2026-11-01T13:55:45.314 [0023.17] 
+2026-11-01T13:55:45.314 [0023.17] W (213285) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:45.314 [0023.17] W (213289) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:46.045 [0023.91] I (214032) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:46.478 [0024.34] W (214347) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:46.478 [0024.34] W (214454) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:46.478 [0024.34] E (214455) BT_BTM: Device not found
+2026-11-01T13:55:46.478 [0024.34] 
+2026-11-01T13:55:46.478 [0024.34] W (214455) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:46.478 [0024.34] W (214459) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:46.836 [0024.69] I (214827) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:47.288 [0025.14] W (215082) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:47.288 [0025.14] W (215264) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:47.288 [0025.14] E (215265) BT_BTM: Device not found
+2026-11-01T13:55:47.288 [0025.14] 
+2026-11-01T13:55:47.288 [0025.14] W (215265) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:47.288 [0025.14] W (215269) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:48.223 [0026.08] I (216207) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:48.609 [0026.47] W (216477) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:48.609 [0026.47] W (216584) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:48.609 [0026.47] E (216585) BT_BTM: Device not found
+2026-11-01T13:55:48.609 [0026.47] 
+2026-11-01T13:55:48.609 [0026.47] W (216585) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:48.609 [0026.47] W (216589) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:48.935 [0026.80] I (216927) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:49.386 [0027.25] W (217227) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:49.386 [0027.25] W (217364) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:49.386 [0027.25] E (217365) BT_BTM: Device not found
+2026-11-01T13:55:49.386 [0027.25] 
+2026-11-01T13:55:49.386 [0027.25] W (217365) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:49.386 [0027.25] W (217369) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:49.664 [0027.52] I (217647) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:50.069 [0027.92] W (217902) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:50.069 [0027.92] W (218039) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:50.069 [0027.92] E (218040) BT_BTM: Device not found
+2026-11-01T13:55:50.069 [0027.92] 
+2026-11-01T13:55:50.069 [0027.92] W (218040) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:50.069 [0027.92] W (218044) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:50.919 [0028.78] I (218907) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:51.445 [0029.30] W (219162) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:51.445 [0029.30] W (219269) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:51.445 [0029.30] E (219270) BT_BTM: Device not found
+2026-11-01T13:55:51.445 [0029.30] 
+2026-11-01T13:55:51.445 [0029.30] W (219270) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:51.445 [0029.30] W (219274) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:51.445 [0029.30] I (219432) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:51.911 [0029.77] W (219732) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:51.911 [0029.77] W (219884) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:51.911 [0029.77] E (219885) BT_BTM: Device not found
+2026-11-01T13:55:51.911 [0029.77] 
+2026-11-01T13:55:51.911 [0029.77] W (219885) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:51.911 [0029.77] W (219889) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:52.627 [0030.48] I (220617) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:52.998 [0030.86] W (220885) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:52.998 [0030.86] W (220979) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:52.998 [0030.86] E (220980) BT_BTM: Device not found
+2026-11-01T13:55:52.998 [0030.86] 
+2026-11-01T13:55:52.998 [0030.86] W (220981) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:52.998 [0030.86] W (220985) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:53.481 [0031.34] I (221472) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:53.869 [0031.73] W (221742) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:53.869 [0031.73] W (221849) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:53.869 [0031.73] E (221850) BT_BTM: Device not found
+2026-11-01T13:55:53.869 [0031.73] 
+2026-11-01T13:55:53.869 [0031.73] W (221850) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:53.869 [0031.73] W (221854) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:54.458 [0032.31] I (222447) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:54.937 [0032.80] W (222747) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:54.937 [0032.80] W (222914) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:54.937 [0032.80] E (222915) BT_BTM: Device not found
+2026-11-01T13:55:54.937 [0032.80] 
+2026-11-01T13:55:54.937 [0032.80] W (222915) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:54.937 [0032.80] W (222919) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:55.201 [0033.06] I (223197) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:55.620 [0033.48] W (223467) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:55.620 [0033.48] W (223589) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:55.620 [0033.48] E (223590) BT_BTM: Device not found
+2026-11-01T13:55:55.620 [0033.48] 
+2026-11-01T13:55:55.620 [0033.48] W (223590) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:55.620 [0033.48] W (223594) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:55.995 [0033.86] I (223992) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:56.383 [0034.23] W (224262) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:56.383 [0034.23] W (224354) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:56.383 [0034.23] E (224355) BT_BTM: Device not found
+2026-11-01T13:55:56.383 [0034.23] 
+2026-11-01T13:55:56.383 [0034.23] W (224355) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:56.383 [0034.23] W (224359) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:56.788 [0034.64] I (224772) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:57.178 [0035.03] W (225042) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:57.178 [0035.03] W (225149) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:57.178 [0035.03] E (225150) BT_BTM: Device not found
+2026-11-01T13:55:57.178 [0035.03] 
+2026-11-01T13:55:57.178 [0035.03] W (225150) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:57.178 [0035.03] W (225154) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:57.521 [0035.38] I (225507) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:57.911 [0035.77] W (225792) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:57.911 [0035.77] W (225884) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:57.911 [0035.77] E (225885) BT_BTM: Device not found
+2026-11-01T13:55:57.911 [0035.77] 
+2026-11-01T13:55:57.911 [0035.77] W (225885) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:57.911 [0035.77] W (225889) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:58.239 [0036.09] I (226227) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:58.657 [0036.52] W (226512) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:58.657 [0036.52] W (226634) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:58.657 [0036.52] E (226635) BT_BTM: Device not found
+2026-11-01T13:55:58.657 [0036.52] 
+2026-11-01T13:55:58.657 [0036.52] W (226635) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:58.657 [0036.52] W (226639) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:59.184 [0037.05] I (227172) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:55:59.790 [0037.66] W (227457) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:55:59.790 [0037.66] W (227579) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:55:59.790 [0037.66] E (227580) BT_BTM: Device not found
+2026-11-01T13:55:59.790 [0037.66] 
+2026-11-01T13:55:59.790 [0037.66] W (227580) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:55:59.790 [0037.66] W (227584) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:55:59.790 [0037.66] I (227787) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:00.228 [0038.09] W (228057) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:00.228 [0038.09] W (228194) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:00.228 [0038.09] E (228195) BT_BTM: Device not found
+2026-11-01T13:56:00.228 [0038.09] 
+2026-11-01T13:56:00.228 [0038.09] W (228195) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:00.228 [0038.09] W (228199) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:00.490 [0038.34] I (228477) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:00.911 [0038.77] W (228762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:00.911 [0038.77] W (228884) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:00.911 [0038.77] E (228885) BT_BTM: Device not found
+2026-11-01T13:56:00.911 [0038.77] 
+2026-11-01T13:56:00.911 [0038.77] W (228885) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:00.911 [0038.77] W (228889) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:01.252 [0039.11] I (229242) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:01.653 [0039.52] W (229497) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:01.653 [0039.52] W (229619) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:01.653 [0039.52] E (229620) BT_BTM: Device not found
+2026-11-01T13:56:01.653 [0039.52] 
+2026-11-01T13:56:01.653 [0039.52] W (229620) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:01.653 [0039.52] W (229624) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:01.870 [0039.73] I (229857) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:02.340 [0040.20] W (230142) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:02.340 [0040.20] W (230309) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:02.340 [0040.20] E (230311) BT_BTM: Device not found
+2026-11-01T13:56:02.340 [0040.20] 
+2026-11-01T13:56:02.340 [0040.20] W (230311) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:02.340 [0040.20] W (230315) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:02.884 [0040.75] I (230877) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:03.288 [0041.14] W (231177) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:03.288 [0041.14] W (231269) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:03.288 [0041.14] E (231270) BT_BTM: Device not found
+2026-11-01T13:56:03.288 [0041.14] 
+2026-11-01T13:56:03.288 [0041.14] W (231270) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:03.288 [0041.14] W (231274) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:03.522 [0041.38] I (231508) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:03.911 [0041.77] W (231762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:03.911 [0041.77] W (231884) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:03.911 [0041.77] E (231885) BT_BTM: Device not found
+2026-11-01T13:56:03.911 [0041.77] 
+2026-11-01T13:56:03.911 [0041.77] W (231885) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:03.911 [0041.77] W (231889) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:04.129 [0041.98] I (232122) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:04.518 [0042.38] W (232420) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:04.518 [0042.38] W (232499) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:04.518 [0042.38] E (232501) BT_BTM: Device not found
+2026-11-01T13:56:04.518 [0042.38] 
+2026-11-01T13:56:04.518 [0042.38] W (232501) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:04.518 [0042.38] W (232505) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:04.796 [0042.66] I (232782) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:05.203 [0043.06] W (233082) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:05.203 [0043.06] W (233174) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:05.203 [0043.06] E (233175) BT_BTM: Device not found
+2026-11-01T13:56:05.203 [0043.06] 
+2026-11-01T13:56:05.203 [0043.06] W (233175) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:05.203 [0043.06] W (233179) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:05.469 [0043.33] I (233457) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:05.903 [0043.77] W (233712) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:05.903 [0043.77] W (233879) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:05.903 [0043.77] E (233880) BT_BTM: Device not found
+2026-11-01T13:56:05.903 [0043.77] 
+2026-11-01T13:56:05.903 [0043.77] W (233880) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:05.903 [0043.77] W (233884) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:06.369 [0044.23] I (234357) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:06.971 [0044.83] W (234642) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:06.971 [0044.83] W (234809) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:06.971 [0044.83] E (234810) BT_BTM: Device not found
+2026-11-01T13:56:06.971 [0044.83] 
+2026-11-01T13:56:06.971 [0044.83] W (234810) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:06.971 [0044.83] W (234814) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:06.972 [0044.83] I (234957) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:07.512 [0045.38] W (235242) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:07.512 [0045.38] W (235334) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:07.512 [0045.38] E (235335) BT_BTM: Device not found
+2026-11-01T13:56:07.512 [0045.38] 
+2026-11-01T13:56:07.512 [0045.38] W (235335) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:07.512 [0045.38] W (235339) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:07.512 [0045.38] I (235497) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:08.055 [0045.91] W (235797) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:08.055 [0045.91] W (235904) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:08.055 [0045.91] E (235905) BT_BTM: Device not found
+2026-11-01T13:56:08.055 [0045.91] 
+2026-11-01T13:56:08.055 [0045.91] W (235905) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:08.055 [0045.91] W (235909) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:08.055 [0045.91] I (236052) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:08.445 [0046.30] W (236307) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:08.445 [0046.30] W (236414) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:08.445 [0046.30] E (236415) BT_BTM: Device not found
+2026-11-01T13:56:08.445 [0046.30] 
+2026-11-01T13:56:08.445 [0046.30] W (236415) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:08.446 [0046.30] W (236419) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:08.723 [0046.58] I (236712) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:09.111 [0046.97] W (236997) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:09.111 [0046.97] W (237089) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:09.111 [0046.97] E (237090) BT_BTM: Device not found
+2026-11-01T13:56:09.111 [0046.97] 
+2026-11-01T13:56:09.111 [0046.97] W (237090) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:09.111 [0046.97] W (237094) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:09.328 [0047.19] I (237312) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:09.792 [0047.66] W (237657) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:09.792 [0047.66] W (237764) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:09.792 [0047.66] E (237765) BT_BTM: Device not found
+2026-11-01T13:56:09.792 [0047.66] 
+2026-11-01T13:56:09.792 [0047.66] W (237765) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:09.792 [0047.66] W (237769) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:10.134 [0047.98] I (238122) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:10.740 [0048.59] W (238422) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:10.740 [0048.59] W (238529) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:10.740 [0048.59] E (238530) BT_BTM: Device not found
+2026-11-01T13:56:10.740 [0048.59] 
+2026-11-01T13:56:10.740 [0048.59] W (238530) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:10.740 [0048.59] W (238534) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:10.740 [0048.59] I (238737) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:11.175 [0049.03] W (239022) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:11.175 [0049.03] W (239144) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:11.175 [0049.03] E (239145) BT_BTM: Device not found
+2026-11-01T13:56:11.175 [0049.03] 
+2026-11-01T13:56:11.175 [0049.03] W (239145) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:11.175 [0049.03] W (239149) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:11.439 [0049.30] I (239427) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:11.982 [0049.84] W (239697) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:11.982 [0049.84] W (239804) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:11.982 [0049.84] E (239805) BT_BTM: Device not found
+2026-11-01T13:56:11.982 [0049.84] 
+2026-11-01T13:56:11.982 [0049.84] W (239805) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:11.982 [0049.84] W (239809) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:11.982 [0049.84] I (239967) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:12.358 [0050.22] W (240237) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:12.358 [0050.22] W (240329) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:12.358 [0050.22] E (240330) BT_BTM: Device not found
+2026-11-01T13:56:12.358 [0050.22] 
+2026-11-01T13:56:12.358 [0050.22] W (240330) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:12.358 [0050.22] W (240334) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:12.686 [0050.55] I (240672) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:13.293 [0051.16] W (240942) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:13.293 [0051.16] W (241079) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:13.293 [0051.16] E (241080) BT_BTM: Device not found
+2026-11-01T13:56:13.293 [0051.16] 
+2026-11-01T13:56:13.293 [0051.16] W (241080) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:13.293 [0051.16] W (241084) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:13.294 [0051.16] I (241287) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:13.824 [0051.69] W (241571) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:13.824 [0051.69] W (241664) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:13.824 [0051.69] E (241665) BT_BTM: Device not found
+2026-11-01T13:56:13.824 [0051.69] 
+2026-11-01T13:56:13.824 [0051.69] W (241666) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:13.824 [0051.69] W (241670) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:13.824 [0051.69] I (241812) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:14.228 [0052.09] W (242082) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:14.228 [0052.09] W (242204) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:14.228 [0052.09] E (242205) BT_BTM: Device not found
+2026-11-01T13:56:14.228 [0052.09] 
+2026-11-01T13:56:14.228 [0052.09] W (242205) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:14.228 [0052.09] W (242209) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:14.493 [0052.36] I (242487) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:15.099 [0052.95] W (242757) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:15.099 [0052.95] W (242864) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:15.099 [0052.95] E (242865) BT_BTM: Device not found
+2026-11-01T13:56:15.099 [0052.95] 
+2026-11-01T13:56:15.099 [0052.95] W (242865) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:15.099 [0052.95] W (242869) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:15.099 [0052.95] I (243087) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:15.458 [0053.31] W (243327) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:15.458 [0053.31] W (243434) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:15.458 [0053.31] E (243435) BT_BTM: Device not found
+2026-11-01T13:56:15.458 [0053.31] 
+2026-11-01T13:56:15.458 [0053.31] W (243435) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:15.458 [0053.31] W (243439) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:15.785 [0053.64] I (243777) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:16.361 [0054.22] W (244092) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:16.361 [0054.22] W (244199) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:16.361 [0054.22] E (244200) BT_BTM: Device not found
+2026-11-01T13:56:16.361 [0054.22] 
+2026-11-01T13:56:16.361 [0054.22] W (244200) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:16.361 [0054.22] W (244204) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:16.361 [0054.22] I (244347) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:16.781 [0054.64] W (244647) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:16.781 [0054.64] W (244754) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:16.781 [0054.64] E (244755) BT_BTM: Device not found
+2026-11-01T13:56:16.781 [0054.64] 
+2026-11-01T13:56:16.781 [0054.64] W (244755) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:16.781 [0054.64] W (244759) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:17.339 [0055.20] I (245322) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:17.682 [0055.55] W (245562) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:17.682 [0055.55] W (245654) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:17.682 [0055.55] E (245655) BT_BTM: Device not found
+2026-11-01T13:56:17.682 [0055.55] 
+2026-11-01T13:56:17.682 [0055.55] W (245655) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:17.682 [0055.55] W (245659) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:18.275 [0056.14] I (246267) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:18.633 [0056.48] W (246507) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:18.633 [0056.48] W (246599) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:18.633 [0056.48] E (246600) BT_BTM: Device not found
+2026-11-01T13:56:18.633 [0056.48] 
+2026-11-01T13:56:18.633 [0056.48] W (246600) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:18.633 [0056.48] W (246604) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:18.989 [0056.84] I (246972) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:19.486 [0057.34] W (247227) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:19.486 [0057.34] W (247334) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:19.486 [0057.34] E (247335) BT_BTM: Device not found
+2026-11-01T13:56:19.486 [0057.34] 
+2026-11-01T13:56:19.486 [0057.34] W (247335) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:19.486 [0057.34] W (247339) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:19.486 [0057.34] I (247482) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:19.858 [0057.72] W (247737) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:19.858 [0057.72] W (247829) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:19.858 [0057.72] E (247830) BT_BTM: Device not found
+2026-11-01T13:56:19.858 [0057.72] 
+2026-11-01T13:56:19.858 [0057.72] W (247830) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:19.858 [0057.72] W (247834) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:20.324 [0058.19] I (248307) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:20.771 [0058.62] W (248577) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:20.771 [0058.62] W (248744) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:20.771 [0058.62] E (248745) BT_BTM: Device not found
+2026-11-01T13:56:20.771 [0058.62] 
+2026-11-01T13:56:20.771 [0058.62] W (248745) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:20.771 [0058.62] W (248749) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:21.112 [0058.97] I (249102) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:21.502 [0059.36] W (249372) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:21.502 [0059.36] W (249479) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:21.502 [0059.36] E (249480) BT_BTM: Device not found
+2026-11-01T13:56:21.502 [0059.36] 
+2026-11-01T13:56:21.502 [0059.36] W (249480) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:21.502 [0059.36] W (249484) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:21.906 [0059.77] I (249897) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:22.342 [0060.20] W (250197) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:22.342 [0060.20] W (250319) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:22.342 [0060.20] E (250320) BT_BTM: Device not found
+2026-11-01T13:56:22.342 [0060.20] 
+2026-11-01T13:56:22.342 [0060.20] W (250320) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:22.342 [0060.20] W (250324) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:22.545 [0060.41] I (250542) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:23.090 [0060.95] W (250827) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:23.090 [0060.95] W (250934) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:23.090 [0060.95] E (250935) BT_BTM: Device not found
+2026-11-01T13:56:23.090 [0060.95] 
+2026-11-01T13:56:23.090 [0060.95] W (250935) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:23.090 [0060.95] W (250939) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:23.090 [0060.95] I (251083) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:23.606 [0061.47] W (251337) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:23.606 [0061.47] W (251444) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:23.606 [0061.47] E (251445) BT_BTM: Device not found
+2026-11-01T13:56:23.606 [0061.47] 
+2026-11-01T13:56:23.606 [0061.47] W (251445) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:23.606 [0061.47] W (251449) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:23.606 [0061.47] I (251592) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:23.981 [0061.84] W (251847) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:23.981 [0061.84] W (251954) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:23.981 [0061.84] E (251955) BT_BTM: Device not found
+2026-11-01T13:56:23.981 [0061.84] 
+2026-11-01T13:56:23.981 [0061.84] W (251955) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:23.981 [0061.84] W (251959) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:24.539 [0062.39] I (252522) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:25.038 [0062.89] W (252762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:25.038 [0062.89] W (252869) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:25.038 [0062.89] E (252870) BT_BTM: Device not found
+2026-11-01T13:56:25.038 [0062.89] 
+2026-11-01T13:56:25.038 [0062.89] W (252870) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:25.038 [0062.89] W (252874) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:25.038 [0062.89] I (253033) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:25.412 [0063.27] W (253287) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:25.412 [0063.27] W (253379) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:25.412 [0063.27] E (253380) BT_BTM: Device not found
+2026-11-01T13:56:25.412 [0063.27] 
+2026-11-01T13:56:25.412 [0063.27] W (253380) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:25.412 [0063.27] W (253384) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:25.924 [0063.78] I (253917) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:26.360 [0064.22] W (254202) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:26.360 [0064.22] W (254339) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:26.360 [0064.22] E (254340) BT_BTM: Device not found
+2026-11-01T13:56:26.360 [0064.22] 
+2026-11-01T13:56:26.360 [0064.22] W (254340) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:26.360 [0064.22] W (254344) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:26.565 [0064.42] I (254562) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:27.093 [0064.95] W (254817) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:27.093 [0064.95] W (254924) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:27.093 [0064.95] E (254925) BT_BTM: Device not found
+2026-11-01T13:56:27.093 [0064.95] 
+2026-11-01T13:56:27.093 [0064.95] W (254925) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:27.093 [0064.95] W (254929) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:27.093 [0064.95] I (255087) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:27.512 [0065.38] W (255372) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:27.512 [0065.38] W (255479) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:27.512 [0065.38] E (255480) BT_BTM: Device not found
+2026-11-01T13:56:27.512 [0065.38] 
+2026-11-01T13:56:27.512 [0065.38] W (255480) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:27.512 [0065.38] W (255484) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:27.792 [0065.66] I (255777) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:28.214 [0066.08] W (256077) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:28.214 [0066.08] W (256184) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:28.214 [0066.08] E (256185) BT_BTM: Device not found
+2026-11-01T13:56:28.214 [0066.08] 
+2026-11-01T13:56:28.214 [0066.08] W (256185) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:28.214 [0066.08] W (256189) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:28.806 [0066.66] I (256797) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:29.179 [0067.03] W (257052) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:29.179 [0067.03] W (257159) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:29.179 [0067.03] E (257160) BT_BTM: Device not found
+2026-11-01T13:56:29.179 [0067.03] 
+2026-11-01T13:56:29.179 [0067.03] W (257160) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:29.179 [0067.03] W (257164) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:29.912 [0067.77] I (257907) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:30.517 [0068.38] W (258177) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:30.517 [0068.38] W (258284) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:30.517 [0068.38] E (258285) BT_BTM: Device not found
+2026-11-01T13:56:30.517 [0068.38] 
+2026-11-01T13:56:30.517 [0068.38] W (258285) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:30.517 [0068.38] W (258289) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:30.517 [0068.38] I (258507) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:30.906 [0068.77] W (258777) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:30.906 [0068.77] W (258884) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:30.906 [0068.77] E (258885) BT_BTM: Device not found
+2026-11-01T13:56:30.906 [0068.77] 
+2026-11-01T13:56:30.906 [0068.77] W (258885) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:30.906 [0068.77] W (258889) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:31.170 [0069.03] I (259167) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:31.810 [0069.67] W (259422) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:31.810 [0069.67] W (259574) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:31.810 [0069.67] E (259575) BT_BTM: Device not found
+2026-11-01T13:56:31.810 [0069.67] 
+2026-11-01T13:56:31.810 [0069.67] W (259575) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:31.810 [0069.67] W (259579) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:31.811 [0069.67] I (259797) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:32.197 [0070.06] W (260037) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:32.197 [0070.06] W (260174) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:32.197 [0070.06] E (260175) BT_BTM: Device not found
+2026-11-01T13:56:32.197 [0070.06] 
+2026-11-01T13:56:32.197 [0070.06] W (260175) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:32.197 [0070.06] W (260179) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:32.414 [0070.27] I (260397) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:32.771 [0070.62] W (260652) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:32.771 [0070.62] W (260744) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:32.771 [0070.62] E (260745) BT_BTM: Device not found
+2026-11-01T13:56:32.771 [0070.62] 
+2026-11-01T13:56:32.771 [0070.62] W (260745) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:32.771 [0070.62] W (260749) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:33.020 [0070.88] I (261012) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:33.394 [0071.25] W (261281) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:33.394 [0071.25] W (261359) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:33.394 [0071.25] E (261361) BT_BTM: Device not found
+2026-11-01T13:56:33.394 [0071.25] 
+2026-11-01T13:56:33.394 [0071.25] W (261361) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:33.394 [0071.25] W (261365) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:33.782 [0071.64] I (261777) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:34.234 [0072.09] W (262077) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:34.234 [0072.09] W (262214) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:34.234 [0072.09] E (262215) BT_BTM: Device not found
+2026-11-01T13:56:34.234 [0072.09] 
+2026-11-01T13:56:34.234 [0072.09] W (262215) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:34.234 [0072.09] W (262219) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:34.514 [0072.38] I (262512) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:34.888 [0072.75] W (262752) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:34.888 [0072.75] W (262859) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:34.888 [0072.75] E (262860) BT_BTM: Device not found
+2026-11-01T13:56:34.888 [0072.75] 
+2026-11-01T13:56:34.888 [0072.75] W (262860) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:34.888 [0072.75] W (262864) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:35.214 [0073.08] I (263202) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:35.603 [0073.47] W (263472) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:35.603 [0073.47] W (263579) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:35.603 [0073.47] E (263580) BT_BTM: Device not found
+2026-11-01T13:56:35.603 [0073.47] 
+2026-11-01T13:56:35.603 [0073.47] W (263580) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:35.603 [0073.47] W (263584) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:36.973 [0074.83] I (264957) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:37.375 [0075.23] W (265241) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:37.375 [0075.23] W (265349) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:37.375 [0075.23] E (265351) BT_BTM: Device not found
+2026-11-01T13:56:37.375 [0075.23] 
+2026-11-01T13:56:37.375 [0075.23] W (265351) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:37.375 [0075.23] W (265355) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:37.654 [0075.52] I (265647) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:38.152 [0076.02] W (265947) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:38.152 [0076.02] W (266129) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:38.152 [0076.02] E (266130) BT_BTM: Device not found
+2026-11-01T13:56:38.152 [0076.02] 
+2026-11-01T13:56:38.152 [0076.02] W (266130) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:38.152 [0076.02] W (266134) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:38.915 [0076.77] I (266907) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:39.319 [0077.17] W (267192) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:39.319 [0077.17] W (267299) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:39.319 [0077.17] E (267300) BT_BTM: Device not found
+2026-11-01T13:56:39.319 [0077.17] 
+2026-11-01T13:56:39.319 [0077.17] W (267300) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:39.319 [0077.17] W (267304) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:39.536 [0077.39] I (267522) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:40.094 [0077.95] W (267807) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:40.094 [0077.95] W (267914) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:40.094 [0077.95] E (267915) BT_BTM: Device not found
+2026-11-01T13:56:40.094 [0077.95] 
+2026-11-01T13:56:40.094 [0077.95] W (267915) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:40.094 [0077.95] W (267919) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:40.095 [0077.95] I (268077) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:40.654 [0078.52] W (268317) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:40.654 [0078.52] W (268439) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:40.654 [0078.52] E (268440) BT_BTM: Device not found
+2026-11-01T13:56:40.654 [0078.52] 
+2026-11-01T13:56:40.654 [0078.52] W (268440) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:40.654 [0078.52] W (268444) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:40.654 [0078.52] I (268647) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:41.073 [0078.94] W (268932) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:41.073 [0078.94] W (269039) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:41.073 [0078.94] E (269040) BT_BTM: Device not found
+2026-11-01T13:56:41.073 [0078.94] 
+2026-11-01T13:56:41.073 [0078.94] W (269040) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:41.073 [0078.94] W (269044) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:41.446 [0079.30] I (269442) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:42.006 [0079.86] W (269742) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:42.006 [0079.86] W (269834) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:42.006 [0079.86] E (269835) BT_BTM: Device not found
+2026-11-01T13:56:42.006 [0079.86] 
+2026-11-01T13:56:42.006 [0079.86] W (269835) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:42.006 [0079.86] W (269839) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:42.006 [0079.86] I (269997) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:42.424 [0080.28] W (270282) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:42.424 [0080.28] W (270404) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:42.424 [0080.28] E (270405) BT_BTM: Device not found
+2026-11-01T13:56:42.424 [0080.28] 
+2026-11-01T13:56:42.424 [0080.28] W (270405) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:42.424 [0080.28] W (270409) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:42.829 [0080.69] I (270823) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:43.233 [0081.09] W (271092) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:43.233 [0081.09] W (271199) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:43.233 [0081.09] E (271200) BT_BTM: Device not found
+2026-11-01T13:56:43.233 [0081.09] 
+2026-11-01T13:56:43.233 [0081.09] W (271200) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:43.233 [0081.09] W (271204) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:43.450 [0081.31] I (271437) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:43.824 [0081.69] W (271692) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:43.824 [0081.69] W (271799) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:43.824 [0081.69] E (271800) BT_BTM: Device not found
+2026-11-01T13:56:43.824 [0081.69] 
+2026-11-01T13:56:43.824 [0081.69] W (271800) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:43.824 [0081.69] W (271804) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:44.104 [0081.97] I (272097) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:44.494 [0082.36] W (272381) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:44.494 [0082.36] W (272474) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:44.494 [0082.36] E (272475) BT_BTM: Device not found
+2026-11-01T13:56:44.494 [0082.36] 
+2026-11-01T13:56:44.494 [0082.36] W (272476) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:44.494 [0082.36] W (272480) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:44.758 [0082.61] I (272742) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:45.270 [0083.12] W (273012) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:45.270 [0083.12] W (273119) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:45.270 [0083.12] E (273120) BT_BTM: Device not found
+2026-11-01T13:56:45.270 [0083.12] 
+2026-11-01T13:56:45.270 [0083.12] W (273120) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:45.270 [0083.12] W (273124) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:45.270 [0083.12] I (273267) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:45.659 [0083.52] W (273522) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:45.659 [0083.52] W (273629) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:45.659 [0083.52] E (273630) BT_BTM: Device not found
+2026-11-01T13:56:45.659 [0083.52] 
+2026-11-01T13:56:45.659 [0083.52] W (273630) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:45.659 [0083.52] W (273634) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:45.921 [0083.78] I (273912) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:46.294 [0084.16] W (274167) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:46.294 [0084.16] W (274274) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:46.294 [0084.16] E (274275) BT_BTM: Device not found
+2026-11-01T13:56:46.294 [0084.16] 
+2026-11-01T13:56:46.294 [0084.16] W (274275) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:46.294 [0084.16] W (274279) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:46.683 [0084.55] I (274677) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:47.117 [0084.97] W (274962) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:47.117 [0084.97] W (275084) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:47.117 [0084.97] E (275085) BT_BTM: Device not found
+2026-11-01T13:56:47.117 [0084.97] 
+2026-11-01T13:56:47.117 [0084.97] W (275085) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:47.117 [0084.97] W (275089) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:47.334 [0085.19] I (275323) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:47.692 [0085.55] W (275577) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:47.692 [0085.55] W (275669) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:47.692 [0085.55] E (275670) BT_BTM: Device not found
+2026-11-01T13:56:47.692 [0085.55] 
+2026-11-01T13:56:47.692 [0085.55] W (275670) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:47.692 [0085.55] W (275674) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:48.331 [0086.19] I (276327) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:48.797 [0086.66] W (276657) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:48.797 [0086.66] W (276764) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:48.797 [0086.66] E (276765) BT_BTM: Device not found
+2026-11-01T13:56:48.797 [0086.66] 
+2026-11-01T13:56:48.797 [0086.66] W (276765) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:48.797 [0086.66] W (276769) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:49.076 [0086.94] I (277063) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:49.497 [0087.36] W (277377) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:49.497 [0087.36] W (277469) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:49.497 [0087.36] E (277470) BT_BTM: Device not found
+2026-11-01T13:56:49.497 [0087.36] 
+2026-11-01T13:56:49.497 [0087.36] W (277470) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:49.497 [0087.36] W (277474) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:49.933 [0087.80] I (277917) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:50.335 [0088.19] W (278216) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:50.335 [0088.19] W (278309) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:50.335 [0088.19] E (278311) BT_BTM: Device not found
+2026-11-01T13:56:50.335 [0088.19] 
+2026-11-01T13:56:50.335 [0088.19] W (278311) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:50.335 [0088.19] W (278315) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:50.614 [0088.47] I (278607) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:51.049 [0088.91] W (278907) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:51.049 [0088.91] W (279029) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:51.049 [0088.91] E (279030) BT_BTM: Device not found
+2026-11-01T13:56:51.049 [0088.91] 
+2026-11-01T13:56:51.049 [0088.91] W (279030) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:51.049 [0088.91] W (279034) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:51.267 [0089.12] I (279252) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:51.702 [0089.56] W (279537) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:51.702 [0089.56] W (279674) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:51.702 [0089.56] E (279675) BT_BTM: Device not found
+2026-11-01T13:56:51.702 [0089.56] 
+2026-11-01T13:56:51.702 [0089.56] W (279675) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:51.702 [0089.56] W (279679) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:52.043 [0089.91] I (280032) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:52.495 [0090.36] W (280317) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:52.495 [0090.36] W (280469) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:52.495 [0090.36] E (280470) BT_BTM: Device not found
+2026-11-01T13:56:52.495 [0090.36] 
+2026-11-01T13:56:52.495 [0090.36] W (280470) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:52.495 [0090.36] W (280474) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:52.836 [0090.69] I (280827) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:53.393 [0091.25] W (281127) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:53.393 [0091.25] W (281234) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:53.393 [0091.25] E (281235) BT_BTM: Device not found
+2026-11-01T13:56:53.393 [0091.25] 
+2026-11-01T13:56:53.393 [0091.25] W (281235) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:53.393 [0091.25] W (281239) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:53.393 [0091.25] I (281382) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:53.766 [0091.62] W (281666) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:53.766 [0091.62] W (281744) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:53.766 [0091.62] E (281746) BT_BTM: Device not found
+2026-11-01T13:56:53.766 [0091.62] 
+2026-11-01T13:56:53.766 [0091.62] W (281746) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:53.766 [0091.62] W (281750) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:54.171 [0092.03] I (282162) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:54.574 [0092.44] W (282447) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:54.574 [0092.44] W (282554) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:54.574 [0092.44] E (282555) BT_BTM: Device not found
+2026-11-01T13:56:54.574 [0092.44] 
+2026-11-01T13:56:54.574 [0092.44] W (282555) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:54.574 [0092.44] W (282559) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:55.506 [0093.36] I (283497) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:55.990 [0093.84] W (283842) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:55.990 [0093.84] W (283964) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:55.990 [0093.84] E (283965) BT_BTM: Device not found
+2026-11-01T13:56:55.990 [0093.84] 
+2026-11-01T13:56:55.990 [0093.84] W (283965) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:55.990 [0093.84] W (283969) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:56.393 [0094.25] I (284383) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:56.781 [0094.64] W (284637) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:56.781 [0094.64] W (284759) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:56.781 [0094.64] E (284760) BT_BTM: Device not found
+2026-11-01T13:56:56.781 [0094.64] 
+2026-11-01T13:56:56.781 [0094.64] W (284760) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:56.781 [0094.64] W (284764) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:57.294 [0095.16] I (285282) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:57.884 [0095.75] W (285612) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:57.884 [0095.75] W (285719) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:57.884 [0095.75] E (285720) BT_BTM: Device not found
+2026-11-01T13:56:57.884 [0095.75] 
+2026-11-01T13:56:57.884 [0095.75] W (285720) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:57.884 [0095.75] W (285724) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:57.884 [0095.75] I (285882) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:58.272 [0096.12] W (286137) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:58.272 [0096.12] W (286244) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:58.272 [0096.12] E (286245) BT_BTM: Device not found
+2026-11-01T13:56:58.272 [0096.12] 
+2026-11-01T13:56:58.272 [0096.12] W (286245) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:58.272 [0096.12] W (286249) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:58.536 [0096.39] I (286527) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:58.941 [0096.80] W (286826) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:58.941 [0096.80] W (286919) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:58.941 [0096.80] E (286921) BT_BTM: Device not found
+2026-11-01T13:56:58.941 [0096.80] 
+2026-11-01T13:56:58.941 [0096.80] W (286921) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:58.941 [0096.80] W (286925) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:59.267 [0097.12] I (287262) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:56:59.671 [0097.53] W (287547) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:56:59.671 [0097.53] W (287639) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:56:59.671 [0097.53] E (287640) BT_BTM: Device not found
+2026-11-01T13:56:59.671 [0097.53] 
+2026-11-01T13:56:59.671 [0097.53] W (287640) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:56:59.671 [0097.53] W (287644) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:56:59.997 [0097.86] I (287982) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:00.414 [0098.27] W (288251) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:00.414 [0098.27] W (288389) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:00.414 [0098.27] E (288391) BT_BTM: Device not found
+2026-11-01T13:57:00.414 [0098.27] 
+2026-11-01T13:57:00.414 [0098.27] W (288391) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:00.414 [0098.27] W (288395) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:01.190 [0099.05] I (289182) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:01.607 [0099.47] W (289452) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:01.607 [0099.47] W (289574) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:01.607 [0099.47] E (289575) BT_BTM: Device not found
+2026-11-01T13:57:01.607 [0099.47] 
+2026-11-01T13:57:01.607 [0099.47] W (289575) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:01.607 [0099.47] W (289579) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:02.076 [0099.94] I (290068) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:02.479 [0100.34] W (290337) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:02.479 [0100.34] W (290459) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:02.479 [0100.34] E (290460) BT_BTM: Device not found
+2026-11-01T13:57:02.479 [0100.34] 
+2026-11-01T13:57:02.479 [0100.34] W (290460) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:02.479 [0100.34] W (290464) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:02.929 [0100.78] I (290922) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:03.505 [0101.36] W (291191) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:03.505 [0101.36] W (291269) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:03.505 [0101.36] E (291271) BT_BTM: Device not found
+2026-11-01T13:57:03.505 [0101.36] 
+2026-11-01T13:57:03.505 [0101.36] W (291271) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:03.505 [0101.36] W (291275) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:03.505 [0101.36] I (291492) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:03.941 [0101.80] W (291762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:03.941 [0101.80] W (291914) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:03.941 [0101.80] E (291915) BT_BTM: Device not found
+2026-11-01T13:57:03.941 [0101.80] 
+2026-11-01T13:57:03.941 [0101.80] W (291915) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:03.941 [0101.80] W (291919) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:04.206 [0102.06] I (292197) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:04.610 [0102.47] W (292482) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:04.610 [0102.47] W (292589) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:04.610 [0102.47] E (292590) BT_BTM: Device not found
+2026-11-01T13:57:04.610 [0102.47] 
+2026-11-01T13:57:04.610 [0102.47] W (292590) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:04.610 [0102.47] W (292594) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:04.827 [0102.69] I (292812) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:05.430 [0103.28] W (293097) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:05.430 [0103.28] W (293204) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:05.430 [0103.28] E (293205) BT_BTM: Device not found
+2026-11-01T13:57:05.430 [0103.28] 
+2026-11-01T13:57:05.430 [0103.28] W (293205) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:05.430 [0103.28] W (293209) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:05.430 [0103.28] I (293427) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:05.847 [0103.70] W (293697) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:05.847 [0103.70] W (293819) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:05.847 [0103.70] E (293820) BT_BTM: Device not found
+2026-11-01T13:57:05.847 [0103.70] 
+2026-11-01T13:57:05.847 [0103.70] W (293820) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:05.847 [0103.70] W (293824) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:06.188 [0104.05] I (294177) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:06.608 [0104.47] W (294447) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:06.608 [0104.47] W (294584) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:06.608 [0104.47] E (294585) BT_BTM: Device not found
+2026-11-01T13:57:06.608 [0104.47] 
+2026-11-01T13:57:06.608 [0104.47] W (294585) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:06.608 [0104.47] W (294589) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:07.074 [0104.94] I (295062) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:07.494 [0105.36] W (295347) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:07.494 [0105.36] W (295469) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:07.494 [0105.36] E (295470) BT_BTM: Device not found
+2026-11-01T13:57:07.494 [0105.36] 
+2026-11-01T13:57:07.494 [0105.36] W (295470) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:07.494 [0105.36] W (295474) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:07.899 [0105.75] I (295888) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:08.346 [0106.20] W (296217) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:08.346 [0106.20] W (296324) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:08.346 [0106.20] E (296325) BT_BTM: Device not found
+2026-11-01T13:57:08.346 [0106.20] 
+2026-11-01T13:57:08.346 [0106.20] W (296325) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:08.346 [0106.20] W (296329) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:08.564 [0106.42] I (296547) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:08.971 [0106.83] W (296832) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:08.971 [0106.83] W (296939) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:08.971 [0106.83] E (296940) BT_BTM: Device not found
+2026-11-01T13:57:08.971 [0106.83] 
+2026-11-01T13:57:08.971 [0106.83] W (296940) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:08.971 [0106.83] W (296944) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:09.282 [0107.14] I (297267) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:09.657 [0107.52] W (297522) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:09.657 [0107.52] W (297629) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:09.657 [0107.52] E (297630) BT_BTM: Device not found
+2026-11-01T13:57:09.657 [0107.52] 
+2026-11-01T13:57:09.657 [0107.52] W (297630) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:09.657 [0107.52] W (297634) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:09.984 [0107.84] I (297972) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:10.357 [0108.22] W (298227) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:10.357 [0108.22] W (298334) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:10.357 [0108.22] E (298335) BT_BTM: Device not found
+2026-11-01T13:57:10.357 [0108.22] 
+2026-11-01T13:57:10.357 [0108.22] W (298335) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:10.357 [0108.22] W (298339) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:10.946 [0108.80] I (298933) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:11.475 [0109.33] W (299202) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:11.475 [0109.33] W (299294) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:11.475 [0109.33] E (299295) BT_BTM: Device not found
+2026-11-01T13:57:11.475 [0109.33] 
+2026-11-01T13:57:11.475 [0109.33] W (299295) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:11.475 [0109.33] W (299299) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:11.475 [0109.33] I (299457) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:12.064 [0109.92] W (299742) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:12.064 [0109.92] W (299849) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:12.064 [0109.92] E (299850) BT_BTM: Device not found
+2026-11-01T13:57:12.064 [0109.92] 
+2026-11-01T13:57:12.064 [0109.92] W (299850) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:12.064 [0109.92] W (299854) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:12.064 [0109.92] I (300058) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:12.576 [0110.44] W (300312) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:12.576 [0110.44] W (300419) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:12.576 [0110.44] E (300420) BT_BTM: Device not found
+2026-11-01T13:57:12.576 [0110.44] 
+2026-11-01T13:57:12.576 [0110.44] W (300420) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:12.576 [0110.44] W (300424) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:12.577 [0110.44] I (300567) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:12.963 [0110.83] W (300837) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:12.963 [0110.83] W (300944) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:12.963 [0110.83] E (300945) BT_BTM: Device not found
+2026-11-01T13:57:12.963 [0110.83] 
+2026-11-01T13:57:12.963 [0110.83] W (300945) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:12.963 [0110.83] W (300949) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:13.243 [0111.09] I (301228) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:13.650 [0111.52] W (301497) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:13.650 [0111.52] W (301619) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:13.650 [0111.52] E (301620) BT_BTM: Device not found
+2026-11-01T13:57:13.650 [0111.52] 
+2026-11-01T13:57:13.650 [0111.52] W (301620) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:13.650 [0111.52] W (301624) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:14.175 [0112.03] I (302158) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:14.688 [0112.55] W (302412) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:14.688 [0112.55] W (302534) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:14.688 [0112.55] E (302535) BT_BTM: Device not found
+2026-11-01T13:57:14.688 [0112.55] 
+2026-11-01T13:57:14.688 [0112.55] W (302535) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:14.688 [0112.55] W (302539) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:14.688 [0112.55] I (302682) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:15.094 [0112.95] W (302937) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:15.094 [0112.95] W (303074) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:15.094 [0112.95] E (303075) BT_BTM: Device not found
+2026-11-01T13:57:15.094 [0112.95] 
+2026-11-01T13:57:15.094 [0112.95] W (303075) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:15.094 [0112.95] W (303079) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:15.509 [0113.38] I (303493) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:16.036 [0113.89] W (303762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:16.036 [0113.89] W (303869) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:16.036 [0113.89] E (303870) BT_BTM: Device not found
+2026-11-01T13:57:16.036 [0113.89] 
+2026-11-01T13:57:16.036 [0113.89] W (303870) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:16.036 [0113.89] W (303874) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:16.036 [0113.89] I (304032) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:16.410 [0114.27] W (304272) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:16.410 [0114.27] W (304379) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:16.410 [0114.27] E (304380) BT_BTM: Device not found
+2026-11-01T13:57:16.410 [0114.27] 
+2026-11-01T13:57:16.410 [0114.27] W (304380) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:16.410 [0114.27] W (304384) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:16.675 [0114.53] I (304662) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:17.173 [0115.03] W (304977) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:17.173 [0115.03] W (305144) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:17.173 [0115.03] E (305145) BT_BTM: Device not found
+2026-11-01T13:57:17.173 [0115.03] 
+2026-11-01T13:57:17.173 [0115.03] W (305145) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:17.173 [0115.03] W (305149) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:17.840 [0115.70] I (305832) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:18.242 [0116.09] W (306102) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:18.242 [0116.09] W (306209) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:18.242 [0116.09] E (306210) BT_BTM: Device not found
+2026-11-01T13:57:18.242 [0116.09] 
+2026-11-01T13:57:18.242 [0116.09] W (306210) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:18.242 [0116.09] W (306214) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:18.784 [0116.64] I (306777) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:19.314 [0117.17] W (307047) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:19.314 [0117.17] W (307139) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:19.314 [0117.17] E (307140) BT_BTM: Device not found
+2026-11-01T13:57:19.314 [0117.17] 
+2026-11-01T13:57:19.314 [0117.17] W (307140) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:19.314 [0117.17] W (307144) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:19.315 [0117.17] I (307302) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:19.923 [0117.78] W (307557) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:19.923 [0117.78] W (307695) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:19.923 [0117.78] E (307696) BT_BTM: Device not found
+2026-11-01T13:57:19.923 [0117.78] 
+2026-11-01T13:57:19.923 [0117.78] W (307696) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:19.923 [0117.78] W (307700) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:19.923 [0117.78] I (307917) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:20.437 [0118.30] W (308172) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:20.437 [0118.30] W (308264) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:20.437 [0118.30] E (308265) BT_BTM: Device not found
+2026-11-01T13:57:20.437 [0118.30] 
+2026-11-01T13:57:20.437 [0118.30] W (308265) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:20.437 [0118.30] W (308269) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:20.437 [0118.30] I (308427) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:20.904 [0118.77] W (308757) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:20.904 [0118.77] W (308879) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:20.904 [0118.77] E (308880) BT_BTM: Device not found
+2026-11-01T13:57:20.904 [0118.77] 
+2026-11-01T13:57:20.904 [0118.77] W (308880) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:20.904 [0118.77] W (308884) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:21.370 [0119.23] I (309357) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:22.005 [0119.86] W (309642) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:22.005 [0119.86] W (309764) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:22.005 [0119.86] E (309765) BT_BTM: Device not found
+2026-11-01T13:57:22.005 [0119.86] 
+2026-11-01T13:57:22.005 [0119.86] W (309765) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:22.005 [0119.86] W (309769) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:22.005 [0119.86] I (309987) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:22.549 [0120.41] W (310257) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:22.549 [0120.41] W (310379) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:22.549 [0120.41] E (310380) BT_BTM: Device not found
+2026-11-01T13:57:22.549 [0120.41] 
+2026-11-01T13:57:22.549 [0120.41] W (310380) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:22.549 [0120.41] W (310384) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:22.550 [0120.41] I (310543) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:22.984 [0120.84] W (310812) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:22.984 [0120.84] W (310964) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:22.984 [0120.84] E (310965) BT_BTM: Device not found
+2026-11-01T13:57:22.984 [0120.84] 
+2026-11-01T13:57:22.984 [0120.84] W (310965) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:22.984 [0120.84] W (310969) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:23.202 [0121.06] I (311188) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:23.779 [0121.64] W (311442) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:23.779 [0121.64] W (311549) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:23.779 [0121.64] E (311550) BT_BTM: Device not found
+2026-11-01T13:57:23.779 [0121.64] 
+2026-11-01T13:57:23.779 [0121.64] W (311550) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:23.779 [0121.64] W (311554) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:23.780 [0121.64] I (311772) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:24.181 [0122.05] W (312042) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:24.181 [0122.05] W (312149) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:24.181 [0122.05] E (312150) BT_BTM: Device not found
+2026-11-01T13:57:24.181 [0122.05] 
+2026-11-01T13:57:24.181 [0122.05] W (312150) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:24.181 [0122.05] W (312154) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:24.525 [0122.39] I (312507) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:24.899 [0122.75] W (312762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:24.899 [0122.75] W (312869) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:24.899 [0122.75] E (312870) BT_BTM: Device not found
+2026-11-01T13:57:24.899 [0122.75] 
+2026-11-01T13:57:24.899 [0122.75] W (312870) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:24.899 [0122.75] W (312874) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:25.305 [0123.16] I (313288) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:25.708 [0123.56] W (313557) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:25.708 [0123.56] W (313679) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:25.708 [0123.56] E (313680) BT_BTM: Device not found
+2026-11-01T13:57:25.708 [0123.56] 
+2026-11-01T13:57:25.708 [0123.56] W (313680) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:25.708 [0123.56] W (313684) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:26.423 [0124.28] I (314412) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:26.811 [0124.67] W (314697) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:26.811 [0124.67] W (314789) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:26.811 [0124.67] E (314790) BT_BTM: Device not found
+2026-11-01T13:57:26.811 [0124.67] 
+2026-11-01T13:57:26.811 [0124.67] W (314790) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:26.811 [0124.67] W (314794) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:27.185 [0125.05] I (315178) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:27.571 [0125.42] W (315432) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:27.571 [0125.42] W (315539) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:27.571 [0125.42] E (315540) BT_BTM: Device not found
+2026-11-01T13:57:27.571 [0125.42] 
+2026-11-01T13:57:27.571 [0125.42] W (315540) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:27.571 [0125.42] W (315544) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:28.100 [0125.95] I (316092) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:28.536 [0126.39] W (316362) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:28.536 [0126.39] W (316514) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:28.536 [0126.39] E (316515) BT_BTM: Device not found
+2026-11-01T13:57:28.536 [0126.39] 
+2026-11-01T13:57:28.536 [0126.39] W (316515) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:28.536 [0126.39] W (316519) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:29.001 [0126.86] I (316992) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:29.377 [0127.23] W (317247) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:29.377 [0127.23] W (317354) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:29.377 [0127.23] E (317355) BT_BTM: Device not found
+2026-11-01T13:57:29.377 [0127.23] 
+2026-11-01T13:57:29.377 [0127.23] W (317355) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:29.377 [0127.23] W (317359) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:30.232 [0128.09] I (318222) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:30.619 [0128.48] W (318492) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:30.619 [0128.48] W (318599) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:30.619 [0128.48] E (318600) BT_BTM: Device not found
+2026-11-01T13:57:30.619 [0128.48] 
+2026-11-01T13:57:30.619 [0128.48] W (318600) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:30.619 [0128.48] W (318604) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:31.085 [0128.94] I (319077) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:31.488 [0129.34] W (319332) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:31.488 [0129.34] W (319454) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:31.488 [0129.34] E (319455) BT_BTM: Device not found
+2026-11-01T13:57:31.488 [0129.34] 
+2026-11-01T13:57:31.488 [0129.34] W (319455) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:31.488 [0129.34] W (319459) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:31.752 [0129.61] I (319738) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:32.154 [0130.02] W (320007) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:32.154 [0130.02] W (320129) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:32.154 [0130.02] E (320130) BT_BTM: Device not found
+2026-11-01T13:57:32.154 [0130.02] 
+2026-11-01T13:57:32.154 [0130.02] W (320130) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:32.154 [0130.02] W (320134) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:32.479 [0130.34] I (320472) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:32.884 [0130.73] W (320757) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:32.884 [0130.73] W (320864) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:32.884 [0130.73] E (320865) BT_BTM: Device not found
+2026-11-01T13:57:32.884 [0130.73] 
+2026-11-01T13:57:32.884 [0130.73] W (320865) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:32.884 [0130.73] W (320869) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:33.103 [0130.97] I (321088) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:33.690 [0131.55] W (321342) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:33.690 [0131.55] W (321449) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:33.690 [0131.55] E (321450) BT_BTM: Device not found
+2026-11-01T13:57:33.690 [0131.55] 
+2026-11-01T13:57:33.690 [0131.55] W (321450) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:33.690 [0131.55] W (321454) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:33.690 [0131.55] I (321672) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:34.108 [0131.97] W (321956) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:34.108 [0131.97] W (322079) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:34.108 [0131.97] E (322081) BT_BTM: Device not found
+2026-11-01T13:57:34.108 [0131.97] 
+2026-11-01T13:57:34.108 [0131.97] W (322081) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:34.108 [0131.97] W (322085) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:34.699 [0132.56] I (322692) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:35.089 [0132.95] W (322977) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:35.089 [0132.95] W (323069) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:35.089 [0132.95] E (323070) BT_BTM: Device not found
+2026-11-01T13:57:35.089 [0132.95] 
+2026-11-01T13:57:35.089 [0132.95] W (323070) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:35.089 [0132.95] W (323074) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:35.691 [0133.55] I (323683) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:36.064 [0133.92] W (323937) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:36.064 [0133.92] W (324044) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:36.064 [0133.92] E (324045) BT_BTM: Device not found
+2026-11-01T13:57:36.064 [0133.92] 
+2026-11-01T13:57:36.064 [0133.92] W (324045) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:36.064 [0133.92] W (324049) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:36.495 [0134.36] I (324478) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:36.881 [0134.73] W (324732) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:36.881 [0134.73] W (324854) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:36.881 [0134.73] E (324855) BT_BTM: Device not found
+2026-11-01T13:57:36.881 [0134.73] 
+2026-11-01T13:57:36.881 [0134.73] W (324855) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:36.881 [0134.73] W (324859) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:37.113 [0134.97] I (325107) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:37.533 [0135.39] W (325406) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:37.533 [0135.39] W (325499) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:37.533 [0135.39] E (325501) BT_BTM: Device not found
+2026-11-01T13:57:37.533 [0135.39] 
+2026-11-01T13:57:37.533 [0135.39] W (325501) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:37.533 [0135.39] W (325505) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:38.185 [0136.05] I (326172) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:38.604 [0136.47] W (326457) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:38.604 [0136.47] W (326579) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:38.604 [0136.47] E (326580) BT_BTM: Device not found
+2026-11-01T13:57:38.604 [0136.47] 
+2026-11-01T13:57:38.604 [0136.47] W (326580) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:38.604 [0136.47] W (326584) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:38.868 [0136.72] I (326862) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:39.490 [0137.34] W (327117) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:39.490 [0137.34] W (327255) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:39.490 [0137.34] E (327256) BT_BTM: Device not found
+2026-11-01T13:57:39.490 [0137.34] 
+2026-11-01T13:57:39.490 [0137.34] W (327256) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:39.490 [0137.34] W (327260) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:39.490 [0137.34] I (327477) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:39.848 [0137.70] W (327732) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:39.848 [0137.70] W (327824) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:39.848 [0137.70] E (327825) BT_BTM: Device not found
+2026-11-01T13:57:39.848 [0137.70] 
+2026-11-01T13:57:39.848 [0137.70] W (327825) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:39.848 [0137.70] W (327829) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:40.624 [0138.48] I (328617) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:41.246 [0139.11] W (328887) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:41.246 [0139.11] W (329009) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:41.246 [0139.11] E (329011) BT_BTM: Device not found
+2026-11-01T13:57:41.246 [0139.11] 
+2026-11-01T13:57:41.246 [0139.11] W (329011) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:41.246 [0139.11] W (329015) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:41.246 [0139.11] I (329233) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:41.618 [0139.48] W (329472) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:41.618 [0139.48] W (329594) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:41.618 [0139.48] E (329595) BT_BTM: Device not found
+2026-11-01T13:57:41.618 [0139.48] 
+2026-11-01T13:57:41.618 [0139.48] W (329595) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:41.618 [0139.48] W (329599) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:41.929 [0139.78] I (329923) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:42.505 [0140.36] W (330177) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:42.505 [0140.36] W (330284) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:42.505 [0140.36] E (330285) BT_BTM: Device not found
+2026-11-01T13:57:42.505 [0140.36] 
+2026-11-01T13:57:42.505 [0140.36] W (330285) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:42.505 [0140.36] W (330289) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:42.505 [0140.36] I (330493) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:42.924 [0140.78] W (330762) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:42.924 [0140.78] W (330899) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:42.924 [0140.78] E (330900) BT_BTM: Device not found
+2026-11-01T13:57:42.924 [0140.78] 
+2026-11-01T13:57:42.924 [0140.78] W (330900) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:42.924 [0140.78] W (330904) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:43.327 [0141.19] I (331317) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:43.900 [0141.77] W (331572) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:43.900 [0141.77] W (331664) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:43.900 [0141.77] E (331665) BT_BTM: Device not found
+2026-11-01T13:57:43.900 [0141.77] 
+2026-11-01T13:57:43.900 [0141.77] W (331665) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:43.900 [0141.77] W (331669) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:43.900 [0141.77] I (331888) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:44.258 [0142.11] W (332127) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:44.258 [0142.11] W (332234) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:44.258 [0142.11] E (332235) BT_BTM: Device not found
+2026-11-01T13:57:44.258 [0142.11] 
+2026-11-01T13:57:44.258 [0142.11] W (332235) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:44.258 [0142.11] W (332239) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:44.538 [0142.39] I (332532) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:45.097 [0142.95] W (332817) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:45.097 [0142.95] W (332924) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:45.097 [0142.95] E (332925) BT_BTM: Device not found
+2026-11-01T13:57:45.097 [0142.95] 
+2026-11-01T13:57:45.097 [0142.95] W (332925) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:45.097 [0142.95] W (332929) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:45.097 [0142.95] I (333087) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:45.485 [0143.34] W (333357) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:45.485 [0143.34] W (333464) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:45.485 [0143.34] E (333465) BT_BTM: Device not found
+2026-11-01T13:57:45.485 [0143.34] 
+2026-11-01T13:57:45.485 [0143.34] W (333465) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:45.485 [0143.34] W (333469) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:45.920 [0143.78] I (333913) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:46.336 [0144.19] W (334167) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:46.336 [0144.19] W (334303) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:46.336 [0144.19] E (334304) BT_BTM: Device not found
+2026-11-01T13:57:46.336 [0144.19] 
+2026-11-01T13:57:46.336 [0144.19] W (334304) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:46.336 [0144.19] W (334308) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:46.599 [0144.45] I (334587) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:47.065 [0144.92] W (334887) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:47.065 [0144.92] W (335039) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:47.065 [0144.92] E (335040) BT_BTM: Device not found
+2026-11-01T13:57:47.065 [0144.92] 
+2026-11-01T13:57:47.065 [0144.92] W (335040) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:47.065 [0144.92] W (335044) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:47.717 [0145.58] I (335713) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:48.138 [0146.00] W (335982) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:48.138 [0146.00] W (336104) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:48.138 [0146.00] E (336105) BT_BTM: Device not found
+2026-11-01T13:57:48.138 [0146.00] 
+2026-11-01T13:57:48.138 [0146.00] W (336105) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:48.138 [0146.00] W (336109) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:48.481 [0146.34] I (336478) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:48.871 [0146.73] W (336732) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:48.871 [0146.73] W (336839) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:48.871 [0146.73] E (336840) BT_BTM: Device not found
+2026-11-01T13:57:48.871 [0146.73] 
+2026-11-01T13:57:48.871 [0146.73] W (336840) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:48.871 [0146.73] W (336844) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:49.261 [0147.12] I (337258) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:49.820 [0147.67] W (337542) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:49.820 [0147.67] W (337634) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:49.820 [0147.67] E (337635) BT_BTM: Device not found
+2026-11-01T13:57:49.820 [0147.67] 
+2026-11-01T13:57:49.820 [0147.67] W (337635) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:49.820 [0147.67] W (337639) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:49.820 [0147.67] I (337813) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:50.193 [0148.05] W (338067) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:50.193 [0148.05] W (338174) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:50.193 [0148.05] E (338175) BT_BTM: Device not found
+2026-11-01T13:57:50.193 [0148.05] 
+2026-11-01T13:57:50.193 [0148.05] W (338175) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:50.193 [0148.05] W (338179) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:50.613 [0148.47] I (338608) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:51.078 [0148.94] W (338892) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:51.078 [0148.94] W (339044) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:51.078 [0148.94] E (339046) BT_BTM: Device not found
+2026-11-01T13:57:51.078 [0148.94] 
+2026-11-01T13:57:51.078 [0148.94] W (339046) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:51.078 [0148.94] W (339050) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:51.527 [0149.39] I (339522) yg-b-ble: fixed A whitelist matched; requesting encryption
+2026-11-01T13:57:51.933 [0149.80] W (339792) BT_SMP: FOR LE SC LTK IS USED INSTEAD OF STK
+2026-11-01T13:57:51.933 [0149.80] W (339899) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 102, BDA:0x68EE8F44BDB6
+2026-11-01T13:57:51.933 [0149.80] E (339900) BT_BTM: Device not found
+2026-11-01T13:57:51.933 [0149.80] 
+2026-11-01T13:57:51.933 [0149.80] W (339900) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x13
+2026-11-01T13:57:51.933 [0149.80] W (339904) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+2026-11-01T13:57:52.289 [0150.14] I (340273) yg-b-ble: fixed A whitelist matched; requesting encryption

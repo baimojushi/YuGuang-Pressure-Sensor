@@ -1,0 +1,83 @@
+{
+    "type": "wifi",
+    "basicConfig": {
+        "defaultData": true
+    },
+    "info": {
+        "displayName": "奥普浴霸MR009"
+    },
+    "data": {
+        "Light_Switch": {
+            "key": "prop.2.1",
+            "value": false
+        },
+        "Fault": {
+            "key": "prop.3.1",
+            "value": 0
+        },
+        "Mode": {
+            "key": "prop.3.2",
+            "value": 0
+        },
+        "TargetTemperature": {
+            "key": "prop.3.3",
+            "value": 30
+        },
+        "Temperature": {
+            "key": "prop.4.1",
+            "value": 0
+        },
+        "HorizontalSwing": {
+            "key": "prop.5.1",
+            "value": 0
+        },
+        "Fan_level": {
+            "key": "prop.5.2",
+            "value": 1
+        },
+        "NightLight": {
+            "key": "prop.6.4",
+            "value": false
+        },
+        "VentLevel": {
+            "key": "prop.6.5",
+            "value": 1
+        },
+        "WorkedTime": {
+            "key": "prop.6.8",
+            "value": 0
+        },
+        "VacationMode": {
+            "key": "prop.6.9",
+            "value": false
+        },
+        "TimingHeat": {
+            "key": "prop.6.10",
+            "value": ""
+        },
+        "TimingFunc": {
+            "key": "prop.6.11",
+            "value": ""
+        },
+        "TimingHeatWarn": {
+            "key": "prop.6.13",
+            "value": 0
+        },
+        "BeautyMode": {
+            "key": "prop.6.17",
+            "value": 0
+        },
+        "TargetBeautyTime": {
+            "key": "prop.6.18",
+            "value": 10
+        },
+        "LeftBeautyTime": {
+            "key": "prop.6.19",
+            "value": 0
+        },
+        "ASD": {
+            "key": "prop.6.22",
+            "value": 0
+        }
+    }
+}

@@ -1,0 +1,50 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {join,dirname} from 'node:path';
+const root=join(dirname(fileURLToPath(import.meta.url)),'../../');
+const file=relative=>readFileSync(join(root,relative),'utf8');
+
+test('C 端物模型保留四个旧标识，六个 siid19 属性严格按冻结提案映射',()=>{
+ const data=JSON.parse(file('panel/src/config/config_Yuguang.json')).data;
+ const existing={power_Prop_9_1:'9.1',focus_Prop_9_2:'10.2',focus_Prop_9_3:'10.3',focus_Prop_9_4:'10.4'};
+ for(const [name,id] of Object.entries(existing))assert.equal(data[name]?.key,`prop.${id}`);
+ const names=['suixi_SuixiSwitch','suixi_GuideState','suixi_GuidePeriod','suixi_CloudPoseOptIn','suixi_SensorLink','suixi_RelaxRequest'];
+ for(const [idx,name] of names.entries())assert.equal(data[name]?.key,`prop.19.${idx+1}`);
+ assert.deepEqual(names.map(name=>data[name].writable),[true,false,false,true,false,true]);
+ const proposal=JSON.parse(file('contracts/thing_model/siid19_registered.json'));
+ assert.equal(proposal.siid,19);assert.deepEqual(proposal.properties.map(p=>p.piid),[1,2,3,4,5,6]);
+ assert.match(proposal.properties[2].dataValue,/100ms/);
+});
+
+test('V2.1 未经平台核验时禁写新属性，消息回执不把生理数据交付伴侣',()=>{
+ const source=file('panel/src/config/yuguang-field-map.ts');
+ const view=file('panel/src/views/Yuguang/HomeView.vue');
+ assert.match(source,/VITE_YG_ENABLE_SIID19 === 'true'/);
+ assert.match(view,/enabledSuixiField\('relaxRequest'\)/);
+ assert.match(view,/guideState/);
+ assert.match(view,/\['syncing','guiding'\]/);
+ assert.match(file('webapp/shared/care-ack.mjs'),/return validateCareAck/);
+ const resp=file('webapp/shared/service.mjs');
+ assert.match(resp,/ack_source:m\.ack_source\|\|null/);
+ assert.doesNotMatch(resp,/pressure_score_to_partner|posture_to_partner/);
+});
+
+test('19.7 试播属性必须独立开关，旧 19.1–19.6 与云端已注册模型保持不变',()=>{
+ const config=JSON.parse(file('panel/src/config/config_Yuguang.json')).data;
+ assert.deepEqual({key:config.suixi_LightPreviewCommand.key,type:config.suixi_LightPreviewCommand.type,
+  writable:config.suixi_LightPreviewCommand.writable},
+  {key:'prop.19.7',type:'string',writable:true});
+ const proposal=JSON.parse(file('contracts/thing_model/siid19_light_preview_extension.json'));
+ assert.equal(proposal.status,'PROPOSED_NOT_REGISTERED');
+ assert.equal(proposal.property.description,'LightPreviewCommand');
+ assert.equal(proposal.property.maxLength,128);
+ const mapping=file('panel/src/config/yuguang-field-map.ts');
+ assert.match(mapping,/VITE_YG_ENABLE_SIID19_LIGHT_PREVIEW === 'true'/);
+ const view=file('panel/src/views/Yuguang/HomeView.vue');
+ assert.match(view,/xj.device.set\(\{\[lightPreviewField\]: command\}\)/);
+ assert.match(view,/canSendLightPreview/);
+ assert.match(view,/breathPreviewPeriodSec/);
+ assert.match(view,/typeof value === 'number' && Number\.isInteger/);
+});

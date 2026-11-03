@@ -1,0 +1,1228 @@
+2026-11-01T13:55:24.175 [0002.03] >>> ygble pair 120
+2026-11-01T13:55:24.705 [0002.56] ygble pair 120
+2026-11-01T13:55:24.705 [0002.56] [007874]<W> pairing window 120s; verify device identity out-of-band
+2026-11-01T13:55:24.705 [0002.56] 
+2026-11-01T13:55:24.705 [0002.56] # 
+2026-11-01T13:55:24.705 [0002.56] # [008003]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:24.705 [0002.56] [008177]<I> link up; requesting encryption
+2026-11-01T13:55:24.705 [0002.56] [008177]<I> encryption request rc=0
+2026-11-01T13:55:24.705 [0002.56] [008177]<I> open status=0
+2026-11-01T13:55:25.264 [0003.12] [008526]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:25.264 [0003.12] [008526]<W> link down reason=0x16
+2026-11-01T13:55:25.264 [0003.12] [008601]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:25.264 [0003.12] [008747]<I> link up; requesting encryption
+2026-11-01T13:55:25.264 [0003.12] [008747]<I> encryption request rc=0
+2026-11-01T13:55:25.264 [0003.12] [008747]<I> open status=0
+2026-11-01T13:55:25.620 [0003.48] [009096]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:25.620 [0003.48] [009096]<W> link down reason=0x16
+2026-11-01T13:55:25.994 [0003.86] [009370]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:25.994 [0003.86] [009467]<I> link up; requesting encryption
+2026-11-01T13:55:25.994 [0003.86] [009467]<I> encryption request rc=0
+2026-11-01T13:55:25.994 [0003.86] [009467]<I> open status=0
+2026-11-01T13:55:26.521 [0004.38] [009815]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:26.521 [0004.38] [009816]<W> link down reason=0x16
+2026-11-01T13:55:26.521 [0004.38] [009890]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:26.521 [0004.38] [009992]<I> link up; requesting encryption
+2026-11-01T13:55:26.521 [0004.38] [009992]<I> encryption request rc=0
+2026-11-01T13:55:26.521 [0004.38] [009992]<I> open status=0
+2026-11-01T13:55:26.876 [0004.73] [010356]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:26.876 [0004.73] [010356]<W> link down reason=0x16
+2026-11-01T13:55:27.203 [0005.06] [010693]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:28.013 [0005.88] [011492]<I> link up; requesting encryption
+2026-11-01T13:55:28.013 [0005.88] [011492]<I> encryption request rc=0
+2026-11-01T13:55:28.013 [0005.88] [011492]<I> open status=0
+2026-11-01T13:55:28.524 [0006.38] [011871]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:28.524 [0006.38] [011871]<W> link down reason=0x16
+2026-11-01T13:55:28.524 [0006.38] [012009]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:28.742 [0006.59] [012227]<I> link up; requesting encryption
+2026-11-01T13:55:28.742 [0006.59] [012227]<I> encryption request rc=0
+2026-11-01T13:55:28.742 [0006.59] [012227]<I> open status=0
+2026-11-01T13:55:29.422 [0007.28] [012575]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:29.422 [0007.28] [012576]<W> link down reason=0x16
+2026-11-01T13:55:29.422 [0007.28] [012711]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:29.422 [0007.28] [012902]<I> link up; requesting encryption
+2026-11-01T13:55:29.422 [0007.28] [012902]<I> encryption request rc=0
+2026-11-01T13:55:29.422 [0007.28] [012902]<I> open status=0
+2026-11-01T13:55:29.983 [0007.84] [013295]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:29.983 [0007.84] [013296]<W> link down reason=0x16
+2026-11-01T13:55:29.983 [0007.84] [013371]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:29.983 [0007.84] [013457]<I> link up; requesting encryption
+2026-11-01T13:55:29.983 [0007.84] [013457]<I> encryption request rc=0
+2026-11-01T13:55:29.983 [0007.84] [013457]<I> open status=0
+2026-11-01T13:55:30.495 [0008.36] [013806]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:30.495 [0008.36] [013806]<W> link down reason=0x16
+2026-11-01T13:55:30.495 [0008.36] [013880]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:30.495 [0008.36] [013967]<I> link up; requesting encryption
+2026-11-01T13:55:30.495 [0008.36] [013967]<I> encryption request rc=0
+2026-11-01T13:55:30.495 [0008.36] [013967]<I> open status=0
+2026-11-01T13:55:31.121 [0008.98] [014361]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:31.121 [0008.98] [014361]<W> link down reason=0x16
+2026-11-01T13:55:31.121 [0008.98] [014435]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:31.121 [0008.98] [014597]<I> link up; requesting encryption
+2026-11-01T13:55:31.121 [0008.98] [014597]<I> encryption request rc=0
+2026-11-01T13:55:31.121 [0008.98] [014597]<I> open status=0
+2026-11-01T13:55:31.697 [0009.56] [014961]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:31.697 [0009.56] [014961]<W> link down reason=0x16
+2026-11-01T13:55:31.697 [0009.56] [015097]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:31.697 [0009.56] [015182]<I> link up; requesting encryption
+2026-11-01T13:55:31.697 [0009.56] [015182]<I> encryption request rc=0
+2026-11-01T13:55:31.697 [0009.56] [015182]<I> open status=0
+2026-11-01T13:55:32.304 [0010.16] [015576]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:32.304 [0010.16] [015576]<W> link down reason=0x16
+2026-11-01T13:55:32.304 [0010.16] [015650]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:32.304 [0010.16] [015782]<I> link up; requesting encryption
+2026-11-01T13:55:32.304 [0010.16] [015782]<I> encryption request rc=0
+2026-11-01T13:55:32.304 [0010.16] [015782]<I> open status=0
+2026-11-01T13:55:32.707 [0010.56] [016116]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:32.707 [0010.56] [016116]<W> link down reason=0x16
+2026-11-01T13:55:32.707 [0010.56] [016190]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:32.942 [0010.80] [016412]<I> link up; requesting encryption
+2026-11-01T13:55:32.942 [0010.80] [016412]<I> encryption request rc=0
+2026-11-01T13:55:32.942 [0010.80] [016412]<I> open status=0
+2026-11-01T13:55:33.346 [0011.20] [016761]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:33.346 [0011.20] [016761]<W> link down reason=0x16
+2026-11-01T13:55:33.346 [0011.20] [016836]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:33.581 [0011.44] [017057]<I> link up; requesting encryption
+2026-11-01T13:55:33.581 [0011.44] [017057]<I> encryption request rc=0
+2026-11-01T13:55:33.581 [0011.44] [017057]<I> open status=0
+2026-11-01T13:55:34.095 [0011.95] [017390]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:34.095 [0011.95] [017391]<W> link down reason=0x16
+2026-11-01T13:55:34.095 [0011.95] [017466]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:34.095 [0011.95] [017567]<I> link up; requesting encryption
+2026-11-01T13:55:34.095 [0011.95] [017567]<I> encryption request rc=0
+2026-11-01T13:55:34.095 [0011.95] [017567]<I> open status=0
+2026-11-01T13:55:34.466 [0012.33] [017945]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:34.466 [0012.33] [017946]<W> link down reason=0x16
+2026-11-01T13:55:34.842 [0012.70] [018225]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:34.842 [0012.70] [018317]<I> link up; requesting encryption
+2026-11-01T13:55:34.842 [0012.70] [018317]<I> encryption request rc=0
+2026-11-01T13:55:34.842 [0012.70] [018317]<I> open status=0
+2026-11-01T13:55:35.278 [0013.14] [018680]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:35.278 [0013.14] [018681]<W> link down reason=0x16
+2026-11-01T13:55:35.278 [0013.14] [018756]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:35.588 [0013.45] [019067]<I> link up; requesting encryption
+2026-11-01T13:55:35.588 [0013.45] [019067]<I> encryption request rc=0
+2026-11-01T13:55:35.588 [0013.45] [019067]<I> open status=0
+2026-11-01T13:55:36.211 [0014.06] [019460]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:36.211 [0014.06] [019461]<W> link down reason=0x16
+2026-11-01T13:55:36.211 [0014.06] [019535]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:36.211 [0014.06] [019682]<I> link up; requesting encryption
+2026-11-01T13:55:36.211 [0014.06] [019682]<I> encryption request rc=0
+2026-11-01T13:55:36.211 [0014.06] [019682]<I> open status=0
+2026-11-01T13:55:36.756 [0014.61] [020060]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:36.756 [0014.61] [020061]<W> link down reason=0x16
+2026-11-01T13:55:36.756 [0014.61] [020135]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:36.756 [0014.61] [020237]<I> link up; requesting encryption
+2026-11-01T13:55:36.756 [0014.61] [020237]<I> encryption request rc=0
+2026-11-01T13:55:36.756 [0014.61] [020237]<I> open status=0
+2026-11-01T13:55:37.393 [0015.25] [020631]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:37.393 [0015.25] [020631]<W> link down reason=0x16
+2026-11-01T13:55:37.393 [0015.25] [020706]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:37.393 [0015.25] [020867]<I> link up; requesting encryption
+2026-11-01T13:55:37.393 [0015.25] [020867]<I> encryption request rc=0
+2026-11-01T13:55:37.393 [0015.25] [020867]<I> open status=0
+2026-11-01T13:55:37.768 [0015.62] [021246]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:37.768 [0015.62] [021246]<W> link down reason=0x16
+2026-11-01T13:55:38.218 [0016.08] [021516]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:38.218 [0016.08] [021692]<I> link up; requesting encryption
+2026-11-01T13:55:38.218 [0016.08] [021692]<I> encryption request rc=0
+2026-11-01T13:55:38.218 [0016.08] [021692]<I> open status=0
+2026-11-01T13:55:38.546 [0016.41] [022025]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:38.546 [0016.41] [022026]<W> link down reason=0x16
+2026-11-01T13:55:38.968 [0016.83] [022350]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:38.968 [0016.83] [022442]<I> link up; requesting encryption
+2026-11-01T13:55:38.968 [0016.83] [022442]<I> encryption request rc=0
+2026-11-01T13:55:38.968 [0016.83] [022442]<I> open status=0
+2026-11-01T13:55:39.295 [0017.16] [022775]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:39.295 [0017.16] [022776]<W> link down reason=0x16
+2026-11-01T13:55:39.620 [0017.48] [023100]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:39.853 [0017.70] [023327]<I> link up; requesting encryption
+2026-11-01T13:55:39.853 [0017.70] [023327]<I> encryption request rc=0
+2026-11-01T13:55:39.853 [0017.70] [023327]<I> open status=0
+2026-11-01T13:55:40.210 [0018.06] [023690]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:40.210 [0018.06] [023691]<W> link down reason=0x16
+2026-11-01T13:55:40.411 [0018.27] [023902]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:40.644 [0018.50] [024122]<I> link up; requesting encryption
+2026-11-01T13:55:40.644 [0018.50] [024122]<I> encryption request rc=0
+2026-11-01T13:55:40.644 [0018.50] [024122]<I> open status=0
+2026-11-01T13:55:41.293 [0019.16] [024470]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:41.293 [0019.16] [024471]<W> link down reason=0x16
+2026-11-01T13:55:41.293 [0019.16] [024611]<I> peer adv rssi=-81 allowed=1
+2026-11-01T13:55:41.293 [0019.16] [024767]<I> link up; requesting encryption
+2026-11-01T13:55:41.293 [0019.16] [024767]<I> encryption request rc=0
+2026-11-01T13:55:41.293 [0019.16] [024767]<I> open status=0
+2026-11-01T13:55:41.636 [0019.50] [025114]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:41.636 [0019.50] [025115]<W> link down reason=0x16
+2026-11-01T13:55:41.900 [0019.77] [025389]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:42.212 [0020.08] [025697]<I> link up; requesting encryption
+2026-11-01T13:55:42.212 [0020.08] [025697]<I> encryption request rc=0
+2026-11-01T13:55:42.212 [0020.08] [025697]<I> open status=0
+2026-11-01T13:55:42.569 [0020.42] [026045]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:42.569 [0020.42] [026046]<W> link down reason=0x16
+2026-11-01T13:55:43.191 [0021.05] [026510]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:43.191 [0021.05] [026672]<I> link up; requesting encryption
+2026-11-01T13:55:43.191 [0021.05] [026672]<I> encryption request rc=0
+2026-11-01T13:55:43.191 [0021.05] [026672]<I> open status=0
+2026-11-01T13:55:43.579 [0021.44] [027065]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:43.579 [0021.44] [027066]<W> link down reason=0x16
+2026-11-01T13:55:44.026 [0021.89] [027403]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:44.026 [0021.89] [027497]<I> link up; requesting encryption
+2026-11-01T13:55:44.026 [0021.89] [027497]<I> encryption request rc=0
+2026-11-01T13:55:44.026 [0021.89] [027497]<I> open status=0
+2026-11-01T13:55:44.413 [0022.27] [027890]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:44.413 [0022.27] [027891]<W> link down reason=0x16
+2026-11-01T13:55:44.924 [0022.78] [028306]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:44.924 [0022.78] [028397]<I> link up; requesting encryption
+2026-11-01T13:55:44.924 [0022.78] [028397]<I> encryption request rc=0
+2026-11-01T13:55:44.924 [0022.78] [028397]<I> open status=0
+2026-11-01T13:55:45.252 [0023.11] [028730]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:45.252 [0023.11] [028731]<W> link down reason=0x16
+2026-11-01T13:55:46.045 [0023.91] [029420]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:46.045 [0023.91] [029522]<I> link up; requesting encryption
+2026-11-01T13:55:46.045 [0023.91] [029522]<I> encryption request rc=0
+2026-11-01T13:55:46.045 [0023.91] [029522]<I> open status=0
+2026-11-01T13:55:46.447 [0024.31] [029930]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:46.447 [0024.31] [029931]<W> link down reason=0x16
+2026-11-01T13:55:46.836 [0024.69] [030203]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:46.836 [0024.69] [030317]<I> link up; requesting encryption
+2026-11-01T13:55:46.836 [0024.69] [030317]<I> encryption request rc=0
+2026-11-01T13:55:46.836 [0024.69] [030317]<I> open status=0
+2026-11-01T13:55:47.241 [0025.09] [030726]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:47.241 [0025.09] [030726]<W> link down reason=0x16
+2026-11-01T13:55:48.223 [0026.08] [031600]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:48.223 [0026.08] [031697]<I> link up; requesting encryption
+2026-11-01T13:55:48.223 [0026.08] [031697]<I> encryption request rc=0
+2026-11-01T13:55:48.224 [0026.08] [031697]<I> open status=0
+2026-11-01T13:55:48.717 [0026.58] [032060]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:48.717 [0026.58] [032061]<W> link down reason=0x16
+2026-11-01T13:55:48.717 [0026.58] [032198]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:48.935 [0026.80] [032417]<I> link up; requesting encryption
+2026-11-01T13:55:48.935 [0026.80] [032417]<I> encryption request rc=0
+2026-11-01T13:55:48.935 [0026.80] [032417]<I> open status=0
+2026-11-01T13:55:49.433 [0027.30] [032825]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:49.433 [0027.30] [032826]<W> link down reason=0x16
+2026-11-01T13:55:49.433 [0027.30] [032916]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:49.664 [0027.52] [033137]<I> link up; requesting encryption
+2026-11-01T13:55:49.664 [0027.52] [033137]<I> encryption request rc=0
+2026-11-01T13:55:49.664 [0027.52] [033137]<I> open status=0
+2026-11-01T13:55:50.038 [0027.89] [033515]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:50.038 [0027.89] [033516]<W> link down reason=0x16
+2026-11-01T13:55:50.919 [0028.78] [034236]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:50.919 [0028.78] [034397]<I> link up; requesting encryption
+2026-11-01T13:55:50.919 [0028.78] [034397]<I> encryption request rc=0
+2026-11-01T13:55:50.919 [0028.78] [034397]<I> open status=0
+2026-11-01T13:55:51.445 [0029.30] [034745]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:51.445 [0029.30] [034746]<W> link down reason=0x16
+2026-11-01T13:55:51.445 [0029.30] [034821]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:55:51.445 [0029.30] [034922]<I> link up; requesting encryption
+2026-11-01T13:55:51.445 [0029.30] [034922]<I> encryption request rc=0
+2026-11-01T13:55:51.445 [0029.30] [034922]<I> open status=0
+2026-11-01T13:55:51.958 [0029.81] [035361]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:51.958 [0029.81] [035361]<W> link down reason=0x16
+2026-11-01T13:55:51.958 [0029.81] [035436]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:55:52.627 [0030.48] [036107]<I> link up; requesting encryption
+2026-11-01T13:55:52.627 [0030.48] [036107]<I> encryption request rc=0
+2026-11-01T13:55:52.627 [0030.48] [036107]<I> open status=0
+2026-11-01T13:55:52.982 [0030.84] [036455]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:52.982 [0030.84] [036456]<W> link down reason=0x16
+2026-11-01T13:55:53.481 [0031.34] [036790]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:55:53.481 [0031.34] [036962]<I> link up; requesting encryption
+2026-11-01T13:55:53.481 [0031.34] [036962]<I> encryption request rc=0
+2026-11-01T13:55:53.481 [0031.34] [036962]<I> open status=0
+2026-11-01T13:55:53.854 [0031.72] [037325]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:53.854 [0031.72] [037326]<W> link down reason=0x16
+2026-11-01T13:55:54.118 [0031.98] [037600]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:54.458 [0032.31] [037937]<I> link up; requesting encryption
+2026-11-01T13:55:54.458 [0032.31] [037937]<I> encryption request rc=0
+2026-11-01T13:55:54.458 [0032.31] [037937]<I> open status=0
+2026-11-01T13:55:54.875 [0032.73] [038360]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:54.875 [0032.73] [038361]<W> link down reason=0x16
+2026-11-01T13:55:55.216 [0033.08] [038596]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:55:55.216 [0033.08] [038687]<I> link up; requesting encryption
+2026-11-01T13:55:55.216 [0033.08] [038687]<I> encryption request rc=0
+2026-11-01T13:55:55.216 [0033.08] [038687]<I> open status=0
+2026-11-01T13:55:55.714 [0033.58] [039066]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:55.714 [0033.58] [039066]<W> link down reason=0x16
+2026-11-01T13:55:55.714 [0033.58] [039205]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:56.010 [0033.88] [039482]<I> link up; requesting encryption
+2026-11-01T13:55:56.010 [0033.88] [039482]<I> encryption request rc=0
+2026-11-01T13:55:56.010 [0033.88] [039482]<I> open status=0
+2026-11-01T13:55:56.353 [0034.22] [039831]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:56.353 [0034.22] [039831]<W> link down reason=0x16
+2026-11-01T13:55:56.788 [0034.64] [040099]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:56.788 [0034.64] [040262]<I> link up; requesting encryption
+2026-11-01T13:55:56.788 [0034.64] [040262]<I> encryption request rc=0
+2026-11-01T13:55:56.788 [0034.64] [040262]<I> open status=0
+2026-11-01T13:55:57.132 [0034.98] [040611]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:57.132 [0034.98] [040611]<W> link down reason=0x16
+2026-11-01T13:55:57.521 [0035.38] [040834]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:57.521 [0035.38] [040997]<I> link up; requesting encryption
+2026-11-01T13:55:57.521 [0035.38] [040997]<I> encryption request rc=0
+2026-11-01T13:55:57.521 [0035.38] [040997]<I> open status=0
+2026-11-01T13:55:57.880 [0035.73] [041360]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:57.880 [0035.73] [041361]<W> link down reason=0x16
+2026-11-01T13:55:58.239 [0036.09] [041629]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:55:58.239 [0036.09] [041717]<I> link up; requesting encryption
+2026-11-01T13:55:58.239 [0036.09] [041717]<I> encryption request rc=0
+2026-11-01T13:55:58.239 [0036.09] [041717]<I> open status=0
+2026-11-01T13:55:58.626 [0036.48] [042111]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:58.626 [0036.48] [042111]<W> link down reason=0x16
+2026-11-01T13:55:58.966 [0036.83] [042443]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:55:59.184 [0037.05] [042662]<I> link up; requesting encryption
+2026-11-01T13:55:59.184 [0037.05] [042662]<I> encryption request rc=0
+2026-11-01T13:55:59.184 [0037.05] [042662]<I> open status=0
+2026-11-01T13:55:59.805 [0037.66] [043055]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:55:59.805 [0037.66] [043056]<W> link down reason=0x16
+2026-11-01T13:55:59.805 [0037.66] [043130]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:55:59.805 [0037.66] [043277]<I> link up; requesting encryption
+2026-11-01T13:55:59.805 [0037.66] [043277]<I> encryption request rc=0
+2026-11-01T13:55:59.805 [0037.66] [043277]<I> open status=0
+2026-11-01T13:56:00.258 [0038.11] [043671]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:00.258 [0038.11] [043671]<W> link down reason=0x16
+2026-11-01T13:56:00.258 [0038.11] [043745]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:56:00.490 [0038.34] [043967]<I> link up; requesting encryption
+2026-11-01T13:56:00.490 [0038.34] [043967]<I> encryption request rc=0
+2026-11-01T13:56:00.490 [0038.34] [043967]<I> open status=0
+2026-11-01T13:56:00.879 [0038.73] [044360]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:00.879 [0038.73] [044361]<W> link down reason=0x16
+2026-11-01T13:56:01.252 [0039.11] [044631]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:01.252 [0039.11] [044732]<I> link up; requesting encryption
+2026-11-01T13:56:01.252 [0039.11] [044732]<I> encryption request rc=0
+2026-11-01T13:56:01.252 [0039.11] [044732]<I> open status=0
+2026-11-01T13:56:01.870 [0039.73] [045096]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:01.870 [0039.73] [045096]<W> link down reason=0x16
+2026-11-01T13:56:01.870 [0039.73] [045170]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:56:01.870 [0039.73] [045347]<I> link up; requesting encryption
+2026-11-01T13:56:01.870 [0039.73] [045347]<I> encryption request rc=0
+2026-11-01T13:56:01.870 [0039.73] [045347]<I> open status=0
+2026-11-01T13:56:02.308 [0040.17] [045784]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:02.308 [0040.17] [045785]<W> link down reason=0x16
+2026-11-01T13:56:02.884 [0040.75] [046200]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:02.884 [0040.75] [046367]<I> link up; requesting encryption
+2026-11-01T13:56:02.884 [0040.75] [046367]<I> encryption request rc=0
+2026-11-01T13:56:02.884 [0040.75] [046367]<I> open status=0
+2026-11-01T13:56:03.538 [0041.39] [046746]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:03.538 [0041.39] [046746]<W> link down reason=0x16
+2026-11-01T13:56:03.538 [0041.39] [046820]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:03.538 [0041.39] [047012]<I> link up; requesting encryption
+2026-11-01T13:56:03.538 [0041.39] [047013]<I> encryption request rc=0
+2026-11-01T13:56:03.538 [0041.39] [047013]<I> open status=0
+2026-11-01T13:56:04.129 [0041.98] [047361]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:04.129 [0041.98] [047361]<W> link down reason=0x16
+2026-11-01T13:56:04.129 [0041.98] [047436]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:04.130 [0041.98] [047612]<I> link up; requesting encryption
+2026-11-01T13:56:04.130 [0041.98] [047612]<I> encryption request rc=0
+2026-11-01T13:56:04.130 [0041.98] [047612]<I> open status=0
+2026-11-01T13:56:04.796 [0042.66] [047975]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:04.796 [0042.66] [047976]<W> link down reason=0x16
+2026-11-01T13:56:04.796 [0042.66] [048114]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:04.796 [0042.66] [048272]<I> link up; requesting encryption
+2026-11-01T13:56:04.796 [0042.66] [048272]<I> encryption request rc=0
+2026-11-01T13:56:04.796 [0042.66] [048272]<I> open status=0
+2026-11-01T13:56:05.469 [0043.33] [048651]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:05.469 [0043.33] [048651]<W> link down reason=0x16
+2026-11-01T13:56:05.469 [0043.33] [048786]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:05.469 [0043.33] [048947]<I> link up; requesting encryption
+2026-11-01T13:56:05.469 [0043.33] [048947]<I> encryption request rc=0
+2026-11-01T13:56:05.469 [0043.33] [048947]<I> open status=0
+2026-11-01T13:56:05.826 [0043.69] [049310]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:05.826 [0043.69] [049311]<W> link down reason=0x16
+2026-11-01T13:56:06.369 [0044.23] [049687]<I> peer adv rssi=-30 allowed=1
+2026-11-01T13:56:06.369 [0044.23] [049847]<I> link up; requesting encryption
+2026-11-01T13:56:06.369 [0044.23] [049847]<I> encryption request rc=0
+2026-11-01T13:56:06.369 [0044.23] [049847]<I> open status=0
+2026-11-01T13:56:06.971 [0044.83] [050285]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:06.971 [0044.83] [050286]<W> link down reason=0x16
+2026-11-01T13:56:06.972 [0044.83] [050361]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:06.972 [0044.83] [050447]<I> link up; requesting encryption
+2026-11-01T13:56:06.972 [0044.83] [050447]<I> encryption request rc=0
+2026-11-01T13:56:06.973 [0044.83] [050447]<I> open status=0
+2026-11-01T13:56:07.512 [0045.38] [050811]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:07.512 [0045.38] [050811]<W> link down reason=0x16
+2026-11-01T13:56:07.512 [0045.38] [050885]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:07.512 [0045.38] [050987]<I> link up; requesting encryption
+2026-11-01T13:56:07.512 [0045.38] [050987]<I> encryption request rc=0
+2026-11-01T13:56:07.512 [0045.38] [050987]<I> open status=0
+2026-11-01T13:56:08.071 [0045.94] [051366]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:08.071 [0045.94] [051366]<W> link down reason=0x16
+2026-11-01T13:56:08.071 [0045.94] [051456]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:08.071 [0045.94] [051542]<I> link up; requesting encryption
+2026-11-01T13:56:08.071 [0045.94] [051542]<I> encryption request rc=0
+2026-11-01T13:56:08.071 [0045.94] [051542]<I> open status=0
+2026-11-01T13:56:08.399 [0046.25] [051875]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:08.399 [0046.25] [051876]<W> link down reason=0x16
+2026-11-01T13:56:08.723 [0046.58] [052102]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:08.723 [0046.58] [052202]<I> link up; requesting encryption
+2026-11-01T13:56:08.723 [0046.58] [052202]<I> encryption request rc=0
+2026-11-01T13:56:08.723 [0046.58] [052202]<I> open status=0
+2026-11-01T13:56:09.328 [0047.19] [052565]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:09.328 [0047.19] [052566]<W> link down reason=0x16
+2026-11-01T13:56:09.328 [0047.19] [052641]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:09.328 [0047.19] [052802]<I> link up; requesting encryption
+2026-11-01T13:56:09.328 [0047.19] [052802]<I> encryption request rc=0
+2026-11-01T13:56:09.328 [0047.19] [052802]<I> open status=0
+2026-11-01T13:56:09.328 [0047.19] >>> ygble pair 120
+2026-11-01T13:56:09.543 [0047.41] ygble pair 120
+2026-11-01T13:56:09.543 [0047.41] [053027]<W> pairing window 120s; verify device identity out-of-band
+2026-11-01T13:56:09.543 [0047.41] 
+2026-11-01T13:56:09.543 [0047.41] # 
+2026-11-01T13:56:09.762 [0047.62] # [053240]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:09.762 [0047.62] [053241]<W> link down reason=0x16
+2026-11-01T13:56:10.134 [0047.98] [053514]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:10.134 [0047.98] [053612]<I> link up; requesting encryption
+2026-11-01T13:56:10.134 [0047.98] [053612]<I> encryption request rc=0
+2026-11-01T13:56:10.134 [0047.98] [053612]<I> open status=0
+2026-11-01T13:56:10.756 [0048.61] [054006]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:10.756 [0048.61] [054006]<W> link down reason=0x16
+2026-11-01T13:56:10.756 [0048.61] [054080]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:10.756 [0048.61] [054227]<I> link up; requesting encryption
+2026-11-01T13:56:10.756 [0048.61] [054227]<I> encryption request rc=0
+2026-11-01T13:56:10.756 [0048.61] [054227]<I> open status=0
+2026-11-01T13:56:11.439 [0049.30] [054621]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:11.439 [0049.30] [054621]<W> link down reason=0x16
+2026-11-01T13:56:11.439 [0049.30] [054761]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:56:11.439 [0049.30] [054917]<I> link up; requesting encryption
+2026-11-01T13:56:11.439 [0049.30] [054917]<I> encryption request rc=0
+2026-11-01T13:56:11.439 [0049.30] [054917]<I> open status=0
+2026-11-01T13:56:11.982 [0049.84] [055281]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:11.982 [0049.84] [055281]<W> link down reason=0x16
+2026-11-01T13:56:11.982 [0049.84] [055355]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:11.982 [0049.84] [055457]<I> link up; requesting encryption
+2026-11-01T13:56:11.982 [0049.84] [055457]<I> encryption request rc=0
+2026-11-01T13:56:11.982 [0049.84] [055457]<I> open status=0
+2026-11-01T13:56:12.326 [0050.19] [055806]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:12.326 [0050.19] [055806]<W> link down reason=0x16
+2026-11-01T13:56:12.686 [0050.55] [056073]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:56:12.686 [0050.55] [056162]<I> link up; requesting encryption
+2026-11-01T13:56:12.686 [0050.55] [056162]<I> encryption request rc=0
+2026-11-01T13:56:12.686 [0050.55] [056162]<I> open status=0
+2026-11-01T13:56:13.293 [0051.16] [056555]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:13.293 [0051.16] [056556]<W> link down reason=0x16
+2026-11-01T13:56:13.294 [0051.16] [056631]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:56:13.294 [0051.16] [056777]<I> link up; requesting encryption
+2026-11-01T13:56:13.294 [0051.16] [056777]<I> encryption request rc=0
+2026-11-01T13:56:13.294 [0051.16] [056777]<I> open status=0
+2026-11-01T13:56:13.824 [0051.69] [057140]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:13.824 [0051.69] [057141]<W> link down reason=0x16
+2026-11-01T13:56:13.824 [0051.69] [057216]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:56:13.824 [0051.69] [057302]<I> link up; requesting encryption
+2026-11-01T13:56:13.825 [0051.69] [057302]<I> encryption request rc=0
+2026-11-01T13:56:13.825 [0051.69] [057302]<I> open status=0
+2026-11-01T13:56:14.493 [0052.36] [057681]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:14.493 [0052.36] [057681]<W> link down reason=0x16
+2026-11-01T13:56:14.493 [0052.36] [057817]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:56:14.493 [0052.36] [057977]<I> link up; requesting encryption
+2026-11-01T13:56:14.493 [0052.36] [057977]<I> encryption request rc=0
+2026-11-01T13:56:14.493 [0052.36] [057977]<I> open status=0
+2026-11-01T13:56:15.099 [0052.95] [058326]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:15.099 [0052.95] [058326]<W> link down reason=0x16
+2026-11-01T13:56:15.099 [0052.95] [058416]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:15.099 [0052.95] [058577]<I> link up; requesting encryption
+2026-11-01T13:56:15.099 [0052.95] [058577]<I> encryption request rc=0
+2026-11-01T13:56:15.099 [0052.95] [058577]<I> open status=0
+2026-11-01T13:56:15.427 [0053.28] [058910]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:15.427 [0053.28] [058911]<W> link down reason=0x16
+2026-11-01T13:56:15.785 [0053.64] [059182]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:15.785 [0053.64] [059267]<I> link up; requesting encryption
+2026-11-01T13:56:15.785 [0053.64] [059267]<I> encryption request rc=0
+2026-11-01T13:56:15.785 [0053.64] [059267]<I> open status=0
+2026-11-01T13:56:16.361 [0054.22] [059661]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:16.361 [0054.22] [059661]<W> link down reason=0x16
+2026-11-01T13:56:16.361 [0054.22] [059751]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:16.361 [0054.22] [059837]<I> link up; requesting encryption
+2026-11-01T13:56:16.362 [0054.22] [059837]<I> encryption request rc=0
+2026-11-01T13:56:16.362 [0054.22] [059837]<I> open status=0
+2026-11-01T13:56:17.076 [0054.94] [060230]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:17.076 [0054.94] [060231]<W> link down reason=0x16
+2026-11-01T13:56:17.076 [0054.94] [060384]<D> PUBLISH
+2026-11-01T13:56:17.076 [0054.94] [060384]<D>         Packet Ident : 00000000
+2026-11-01T13:56:17.076 [0054.94] [060384]<D>         Topic Length : 35
+2026-11-01T13:56:17.076 [0054.94] [060384]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T13:56:17.076 [0054.94] [060388]<D>     Payload Len/Room : 124 / 8104
+2026-11-01T13:56:17.076 [0054.94] [060393]<D>       Receive Buflen : 8144
+2026-11-01T13:56:17.076 [0054.94] [060396]<D> delivering msg ...
+2026-11-01T13:56:17.076 [0054.94] [060399]<D> topic be matched
+2026-11-01T13:56:17.076 [0054.94] [060402]<E> desired find failed!!
+2026-11-01T13:56:17.076 [0054.94] [060559]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:17.339 [0055.20] [060812]<I> link up; requesting encryption
+2026-11-01T13:56:17.339 [0055.20] [060812]<I> encryption request rc=0
+2026-11-01T13:56:17.339 [0055.20] [060812]<I> open status=0
+2026-11-01T13:56:17.651 [0055.52] [061131]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:17.651 [0055.52] [061131]<W> link down reason=0x16
+2026-11-01T13:56:18.275 [0056.14] [061598]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:18.275 [0056.14] [061757]<I> link up; requesting encryption
+2026-11-01T13:56:18.275 [0056.14] [061757]<I> encryption request rc=0
+2026-11-01T13:56:18.276 [0056.14] [061757]<I> open status=0
+2026-11-01T13:56:18.602 [0056.45] [062076]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:18.602 [0056.45] [062076]<W> link down reason=0x16
+2026-11-01T13:56:18.989 [0056.84] [062343]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:18.989 [0056.84] [062462]<I> link up; requesting encryption
+2026-11-01T13:56:18.989 [0056.84] [062462]<I> encryption request rc=0
+2026-11-01T13:56:18.989 [0056.84] [062462]<I> open status=0
+2026-11-01T13:56:19.501 [0057.36] [062810]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:19.501 [0057.36] [062811]<W> link down reason=0x16
+2026-11-01T13:56:19.501 [0057.36] [062885]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:19.501 [0057.36] [062972]<I> link up; requesting encryption
+2026-11-01T13:56:19.501 [0057.36] [062972]<I> encryption request rc=0
+2026-11-01T13:56:19.501 [0057.36] [062972]<I> open status=0
+2026-11-01T13:56:19.827 [0057.69] [063305]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:19.827 [0057.69] [063306]<W> link down reason=0x16
+2026-11-01T13:56:20.479 [0058.34] [063640]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:20.479 [0058.34] [063797]<I> link up; requesting encryption
+2026-11-01T13:56:20.479 [0058.34] [063797]<I> encryption request rc=0
+2026-11-01T13:56:20.479 [0058.34] [063797]<I> open status=0
+2026-11-01T13:56:20.479 [0058.34] [063889]<I> send MQTT ping...
+2026-11-01T13:56:20.479 [0058.34] [063971]<I> receive ping response!
+2026-11-01T13:56:20.725 [0058.58] [064206]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:20.725 [0058.58] [064206]<W> link down reason=0x16
+2026-11-01T13:56:21.112 [0058.97] [064490]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:21.112 [0058.97] [064592]<I> link up; requesting encryption
+2026-11-01T13:56:21.112 [0058.97] [064592]<I> encryption request rc=0
+2026-11-01T13:56:21.112 [0058.97] [064592]<I> open status=0
+2026-11-01T13:56:21.470 [0059.33] [064956]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:21.470 [0059.33] [064956]<W> link down reason=0x16
+2026-11-01T13:56:21.906 [0059.77] [065231]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:21.906 [0059.77] [065387]<I> link up; requesting encryption
+2026-11-01T13:56:21.906 [0059.77] [065387]<I> encryption request rc=0
+2026-11-01T13:56:21.906 [0059.77] [065387]<I> open status=0
+2026-11-01T13:56:22.560 [0060.42] [065795]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:22.560 [0060.42] [065796]<W> link down reason=0x16
+2026-11-01T13:56:22.560 [0060.42] [065932]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:22.560 [0060.42] [066032]<I> link up; requesting encryption
+2026-11-01T13:56:22.560 [0060.42] [066032]<I> encryption request rc=0
+2026-11-01T13:56:22.560 [0060.42] [066032]<I> open status=0
+2026-11-01T13:56:23.090 [0060.95] [066411]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:23.090 [0060.95] [066411]<W> link down reason=0x16
+2026-11-01T13:56:23.091 [0060.95] [066485]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:56:23.091 [0060.95] [066572]<I> link up; requesting encryption
+2026-11-01T13:56:23.091 [0060.95] [066572]<I> encryption request rc=0
+2026-11-01T13:56:23.091 [0060.95] [066572]<I> open status=0
+2026-11-01T13:56:23.606 [0061.47] [066921]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:23.606 [0061.47] [066921]<W> link down reason=0x16
+2026-11-01T13:56:23.606 [0061.47] [066995]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:56:23.606 [0061.47] [067082]<I> link up; requesting encryption
+2026-11-01T13:56:23.607 [0061.47] [067082]<I> encryption request rc=0
+2026-11-01T13:56:23.607 [0061.47] [067082]<I> open status=0
+2026-11-01T13:56:23.949 [0061.81] [067430]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:23.949 [0061.81] [067431]<W> link down reason=0x16
+2026-11-01T13:56:24.539 [0062.39] [067889]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:24.539 [0062.39] [068012]<I> link up; requesting encryption
+2026-11-01T13:56:24.539 [0062.39] [068012]<I> encryption request rc=0
+2026-11-01T13:56:24.539 [0062.39] [068012]<I> open status=0
+2026-11-01T13:56:25.038 [0062.89] [068346]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:25.038 [0062.89] [068346]<W> link down reason=0x16
+2026-11-01T13:56:25.038 [0062.89] [068420]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:25.038 [0062.89] [068522]<I> link up; requesting encryption
+2026-11-01T13:56:25.038 [0062.89] [068522]<I> encryption request rc=0
+2026-11-01T13:56:25.038 [0062.89] [068522]<I> open status=0
+2026-11-01T13:56:25.381 [0063.23] [068856]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:25.381 [0063.23] [068856]<W> link down reason=0x16
+2026-11-01T13:56:25.628 [0063.48] [069119]<I> peer adv rssi=-40 allowed=1
+2026-11-01T13:56:25.924 [0063.78] [069407]<I> link up; requesting encryption
+2026-11-01T13:56:25.924 [0063.78] [069407]<I> encryption request rc=0
+2026-11-01T13:56:25.924 [0063.78] [069407]<I> open status=0
+2026-11-01T13:56:26.580 [0064.44] [069801]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:26.580 [0064.44] [069801]<W> link down reason=0x16
+2026-11-01T13:56:26.580 [0064.44] [069891]<I> peer adv rssi=-38 allowed=1
+2026-11-01T13:56:26.580 [0064.44] [070052]<I> link up; requesting encryption
+2026-11-01T13:56:26.580 [0064.44] [070052]<I> encryption request rc=0
+2026-11-01T13:56:26.580 [0064.44] [070052]<I> open status=0
+2026-11-01T13:56:27.093 [0064.95] [070401]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:27.093 [0064.95] [070401]<W> link down reason=0x16
+2026-11-01T13:56:27.093 [0064.95] [070476]<I> peer adv rssi=-45 allowed=1
+2026-11-01T13:56:27.093 [0064.95] [070577]<I> link up; requesting encryption
+2026-11-01T13:56:27.093 [0064.95] [070577]<I> encryption request rc=0
+2026-11-01T13:56:27.093 [0064.95] [070577]<I> open status=0
+2026-11-01T13:56:27.792 [0065.66] [070956]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:27.792 [0065.66] [070957]<W> link down reason=0x16
+2026-11-01T13:56:27.792 [0065.66] [071168]<I> peer adv rssi=-44 allowed=1
+2026-11-01T13:56:27.792 [0065.66] [071267]<I> link up; requesting encryption
+2026-11-01T13:56:27.792 [0065.66] [071267]<I> encryption request rc=0
+2026-11-01T13:56:27.792 [0065.66] [071267]<I> open status=0
+2026-11-01T13:56:28.166 [0066.03] [071646]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:28.166 [0066.03] [071646]<W> link down reason=0x16
+2026-11-01T13:56:28.806 [0066.66] [072128]<I> peer adv rssi=-42 allowed=1
+2026-11-01T13:56:28.806 [0066.66] [072287]<I> link up; requesting encryption
+2026-11-01T13:56:28.806 [0066.66] [072287]<I> encryption request rc=0
+2026-11-01T13:56:28.806 [0066.66] [072287]<I> open status=0
+2026-11-01T13:56:29.164 [0067.02] [072636]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:29.164 [0067.02] [072636]<W> link down reason=0x16
+2026-11-01T13:56:29.912 [0067.77] [073243]<I> peer adv rssi=-40 allowed=1
+2026-11-01T13:56:29.912 [0067.77] [073397]<I> link up; requesting encryption
+2026-11-01T13:56:29.912 [0067.77] [073397]<I> encryption request rc=0
+2026-11-01T13:56:29.913 [0067.77] [073397]<I> open status=0
+2026-11-01T13:56:30.517 [0068.38] [073760]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:30.517 [0068.38] [073761]<W> link down reason=0x16
+2026-11-01T13:56:30.517 [0068.38] [073835]<I> peer adv rssi=-46 allowed=1
+2026-11-01T13:56:30.517 [0068.38] [073997]<I> link up; requesting encryption
+2026-11-01T13:56:30.517 [0068.38] [073997]<I> encryption request rc=0
+2026-11-01T13:56:30.518 [0068.38] [073997]<I> open status=0
+2026-11-01T13:56:30.952 [0068.81] [074361]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:30.952 [0068.81] [074361]<W> link down reason=0x16
+2026-11-01T13:56:30.952 [0068.81] [074435]<I> peer adv rssi=-43 allowed=1
+2026-11-01T13:56:31.186 [0069.05] [074657]<I> link up; requesting encryption
+2026-11-01T13:56:31.186 [0069.05] [074657]<I> encryption request rc=0
+2026-11-01T13:56:31.186 [0069.05] [074657]<I> open status=0
+2026-11-01T13:56:31.810 [0069.67] [075020]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:31.810 [0069.67] [075021]<W> link down reason=0x16
+2026-11-01T13:56:31.810 [0069.67] [075194]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:31.810 [0069.67] [075287]<I> link up; requesting encryption
+2026-11-01T13:56:31.810 [0069.67] [075287]<I> encryption request rc=0
+2026-11-01T13:56:31.811 [0069.67] [075287]<I> open status=0
+2026-11-01T13:56:32.414 [0070.27] [075636]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:32.414 [0070.27] [075636]<W> link down reason=0x16
+2026-11-01T13:56:32.414 [0070.27] [075726]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:32.414 [0070.27] [075887]<I> link up; requesting encryption
+2026-11-01T13:56:32.415 [0070.28] [075887]<I> encryption request rc=0
+2026-11-01T13:56:32.415 [0070.28] [075887]<I> open status=0
+2026-11-01T13:56:33.020 [0070.88] [076221]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:33.020 [0070.88] [076221]<W> link down reason=0x16
+2026-11-01T13:56:33.020 [0070.88] [076296]<I> peer adv rssi=-43 allowed=1
+2026-11-01T13:56:33.020 [0070.88] [076502]<I> link up; requesting encryption
+2026-11-01T13:56:33.020 [0070.88] [076502]<I> encryption request rc=0
+2026-11-01T13:56:33.020 [0070.88] [076502]<I> open status=0
+2026-11-01T13:56:33.363 [0071.22] [076835]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:33.363 [0071.22] [076836]<W> link down reason=0x16
+2026-11-01T13:56:33.782 [0071.64] [077101]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:33.782 [0071.64] [077267]<I> link up; requesting encryption
+2026-11-01T13:56:33.782 [0071.64] [077267]<I> encryption request rc=0
+2026-11-01T13:56:33.782 [0071.64] [077267]<I> open status=0
+2026-11-01T13:56:34.280 [0072.14] [077675]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:34.280 [0072.14] [077676]<W> link down reason=0x16
+2026-11-01T13:56:34.280 [0072.14] [077766]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:34.529 [0072.39] [078002]<I> link up; requesting encryption
+2026-11-01T13:56:34.529 [0072.39] [078002]<I> encryption request rc=0
+2026-11-01T13:56:34.529 [0072.39] [078002]<I> open status=0
+2026-11-01T13:56:34.857 [0072.72] [078336]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:34.857 [0072.72] [078336]<W> link down reason=0x16
+2026-11-01T13:56:35.214 [0073.08] [078603]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:35.214 [0073.08] [078692]<I> link up; requesting encryption
+2026-11-01T13:56:35.214 [0073.08] [078692]<I> encryption request rc=0
+2026-11-01T13:56:35.214 [0073.08] [078692]<I> open status=0
+2026-11-01T13:56:35.571 [0073.44] [079056]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:35.571 [0073.44] [079056]<W> link down reason=0x16
+2026-11-01T13:56:36.101 [0073.95] [079579]<I> peer adv rssi=-80 allowed=1
+2026-11-01T13:56:36.973 [0074.83] [080447]<I> link up; requesting encryption
+2026-11-01T13:56:36.973 [0074.83] [080447]<I> encryption request rc=0
+2026-11-01T13:56:36.973 [0074.83] [080447]<I> open status=0
+2026-11-01T13:56:37.421 [0075.28] [080825]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:37.421 [0075.28] [080826]<W> link down reason=0x16
+2026-11-01T13:56:37.421 [0075.28] [080901]<I> peer adv rssi=-49 allowed=1
+2026-11-01T13:56:37.654 [0075.52] [081137]<I> link up; requesting encryption
+2026-11-01T13:56:37.654 [0075.52] [081137]<I> encryption request rc=0
+2026-11-01T13:56:37.654 [0075.52] [081137]<I> open status=0
+2026-11-01T13:56:38.089 [0075.95] [081576]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:38.089 [0075.95] [081576]<W> link down reason=0x16
+2026-11-01T13:56:38.915 [0076.77] [082246]<I> peer adv rssi=-46 allowed=1
+2026-11-01T13:56:38.915 [0076.77] [082397]<I> link up; requesting encryption
+2026-11-01T13:56:38.915 [0076.77] [082397]<I> encryption request rc=0
+2026-11-01T13:56:38.915 [0076.77] [082397]<I> open status=0
+2026-11-01T13:56:39.536 [0077.39] [082776]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:39.536 [0077.39] [082776]<W> link down reason=0x16
+2026-11-01T13:56:39.536 [0077.39] [082851]<I> peer adv rssi=-45 allowed=1
+2026-11-01T13:56:39.536 [0077.39] [083012]<I> link up; requesting encryption
+2026-11-01T13:56:39.536 [0077.39] [083012]<I> encryption request rc=0
+2026-11-01T13:56:39.536 [0077.39] [083012]<I> open status=0
+2026-11-01T13:56:40.094 [0077.95] [083390]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:40.095 [0077.95] [083391]<W> link down reason=0x16
+2026-11-01T13:56:40.095 [0077.95] [083465]<I> peer adv rssi=-45 allowed=1
+2026-11-01T13:56:40.095 [0077.95] [083567]<I> link up; requesting encryption
+2026-11-01T13:56:40.095 [0077.95] [083567]<I> encryption request rc=0
+2026-11-01T13:56:40.095 [0077.95] [083567]<I> open status=0
+2026-11-01T13:56:40.654 [0078.52] [083916]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:40.654 [0078.52] [083916]<W> link down reason=0x16
+2026-11-01T13:56:40.655 [0078.52] [083991]<I> peer adv rssi=-44 allowed=1
+2026-11-01T13:56:40.655 [0078.52] [084137]<I> link up; requesting encryption
+2026-11-01T13:56:40.655 [0078.52] [084137]<I> encryption request rc=0
+2026-11-01T13:56:40.655 [0078.52] [084137]<I> open status=0
+2026-11-01T13:56:41.043 [0078.91] [084516]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:41.043 [0078.91] [084516]<W> link down reason=0x16
+2026-11-01T13:56:41.461 [0079.31] [084779]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:41.461 [0079.31] [084932]<I> link up; requesting encryption
+2026-11-01T13:56:41.461 [0079.31] [084932]<I> encryption request rc=0
+2026-11-01T13:56:41.461 [0079.31] [084932]<I> open status=0
+2026-11-01T13:56:42.006 [0079.86] [085311]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:42.006 [0079.86] [085311]<W> link down reason=0x16
+2026-11-01T13:56:42.006 [0079.86] [085385]<I> peer adv rssi=-43 allowed=1
+2026-11-01T13:56:42.006 [0079.86] [085487]<I> link up; requesting encryption
+2026-11-01T13:56:42.006 [0079.86] [085487]<I> encryption request rc=0
+2026-11-01T13:56:42.006 [0079.86] [085487]<I> open status=0
+2026-11-01T13:56:42.409 [0080.27] [085881]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:42.409 [0080.27] [085881]<W> link down reason=0x16
+2026-11-01T13:56:42.829 [0080.69] [086149]<I> peer adv rssi=-40 allowed=1
+2026-11-01T13:56:42.829 [0080.69] [086312]<I> link up; requesting encryption
+2026-11-01T13:56:42.829 [0080.69] [086312]<I> encryption request rc=0
+2026-11-01T13:56:42.830 [0080.69] [086312]<I> open status=0
+2026-11-01T13:56:43.450 [0081.31] [086676]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:43.450 [0081.31] [086676]<W> link down reason=0x16
+2026-11-01T13:56:43.450 [0081.31] [086817]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:43.450 [0081.31] [086927]<I> link up; requesting encryption
+2026-11-01T13:56:43.450 [0081.31] [086927]<I> encryption request rc=0
+2026-11-01T13:56:43.450 [0081.31] [086927]<I> open status=0
+2026-11-01T13:56:43.793 [0081.66] [087276]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:43.793 [0081.66] [087277]<W> link down reason=0x16
+2026-11-01T13:56:44.104 [0081.97] [087488]<I> peer adv rssi=-43 allowed=1
+2026-11-01T13:56:44.104 [0081.97] [087587]<I> link up; requesting encryption
+2026-11-01T13:56:44.104 [0081.97] [087587]<I> encryption request rc=0
+2026-11-01T13:56:44.104 [0081.97] [087587]<I> open status=0
+2026-11-01T13:56:44.541 [0082.41] [087951]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:44.541 [0082.41] [087952]<W> link down reason=0x16
+2026-11-01T13:56:44.541 [0082.41] [088026]<I> peer adv rssi=-44 allowed=1
+2026-11-01T13:56:44.758 [0082.61] [088232]<I> link up; requesting encryption
+2026-11-01T13:56:44.758 [0082.61] [088232]<I> encryption request rc=0
+2026-11-01T13:56:44.758 [0082.61] [088232]<I> open status=0
+2026-11-01T13:56:45.286 [0083.14] [088596]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:45.286 [0083.14] [088596]<W> link down reason=0x16
+2026-11-01T13:56:45.286 [0083.14] [088670]<I> peer adv rssi=-45 allowed=1
+2026-11-01T13:56:45.286 [0083.14] [088757]<I> link up; requesting encryption
+2026-11-01T13:56:45.286 [0083.14] [088757]<I> encryption request rc=0
+2026-11-01T13:56:45.286 [0083.14] [088757]<I> open status=0
+2026-11-01T13:56:45.921 [0083.78] [089106]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:45.921 [0083.78] [089106]<W> link down reason=0x16
+2026-11-01T13:56:45.921 [0083.78] [089243]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:45.921 [0083.78] [089402]<I> link up; requesting encryption
+2026-11-01T13:56:45.921 [0083.78] [089402]<I> encryption request rc=0
+2026-11-01T13:56:45.921 [0083.78] [089402]<I> open status=0
+2026-11-01T13:56:46.279 [0084.14] [089751]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:46.279 [0084.14] [089751]<W> link down reason=0x16
+2026-11-01T13:56:46.683 [0084.55] [090017]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:46.683 [0084.55] [090167]<I> link up; requesting encryption
+2026-11-01T13:56:46.683 [0084.55] [090167]<I> encryption request rc=0
+2026-11-01T13:56:46.683 [0084.55] [090167]<I> open status=0
+2026-11-01T13:56:47.334 [0085.19] [090561]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:47.334 [0085.19] [090561]<W> link down reason=0x16
+2026-11-01T13:56:47.334 [0085.19] [090635]<I> peer adv rssi=-45 allowed=1
+2026-11-01T13:56:47.334 [0085.19] [090812]<I> link up; requesting encryption
+2026-11-01T13:56:47.334 [0085.19] [090812]<I> encryption request rc=0
+2026-11-01T13:56:47.335 [0085.19] [090812]<I> open status=0
+2026-11-01T13:56:47.660 [0085.52] [091146]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:47.660 [0085.52] [091146]<W> link down reason=0x16
+2026-11-01T13:56:48.346 [0086.20] [091656]<I> peer adv rssi=-42 allowed=1
+2026-11-01T13:56:48.346 [0086.20] [091817]<I> link up; requesting encryption
+2026-11-01T13:56:48.346 [0086.20] [091817]<I> encryption request rc=0
+2026-11-01T13:56:48.346 [0086.20] [091817]<I> open status=0
+2026-11-01T13:56:48.828 [0086.69] [092225]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:48.828 [0086.69] [092226]<W> link down reason=0x16
+2026-11-01T13:56:48.828 [0086.69] [092316]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:49.076 [0086.94] [092552]<I> link up; requesting encryption
+2026-11-01T13:56:49.076 [0086.94] [092552]<I> encryption request rc=0
+2026-11-01T13:56:49.076 [0086.94] [092552]<I> open status=0
+2026-11-01T13:56:49.465 [0087.33] [092946]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:49.465 [0087.33] [092946]<W> link down reason=0x16
+2026-11-01T13:56:49.933 [0087.80] [093223]<I> peer adv rssi=-39 allowed=1
+2026-11-01T13:56:49.933 [0087.80] [093407]<I> link up; requesting encryption
+2026-11-01T13:56:49.933 [0087.80] [093407]<I> encryption request rc=0
+2026-11-01T13:56:49.933 [0087.80] [093407]<I> open status=0
+2026-11-01T13:56:50.381 [0088.23] [093785]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:50.381 [0088.23] [093786]<W> link down reason=0x16
+2026-11-01T13:56:50.381 [0088.23] [093861]<I> peer adv rssi=-46 allowed=1
+2026-11-01T13:56:50.614 [0088.47] [094097]<I> link up; requesting encryption
+2026-11-01T13:56:50.614 [0088.47] [094097]<I> encryption request rc=0
+2026-11-01T13:56:50.614 [0088.47] [094097]<I> open status=0
+2026-11-01T13:56:51.267 [0089.12] [094476]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:51.267 [0089.12] [094476]<W> link down reason=0x16
+2026-11-01T13:56:51.267 [0089.12] [094647]<I> peer adv rssi=-38 allowed=1
+2026-11-01T13:56:51.267 [0089.12] [094742]<I> link up; requesting encryption
+2026-11-01T13:56:51.267 [0089.12] [094742]<I> encryption request rc=0
+2026-11-01T13:56:51.267 [0089.12] [094742]<I> open status=0
+2026-11-01T13:56:51.748 [0089.61] [095135]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:51.748 [0089.61] [095136]<W> link down reason=0x16
+2026-11-01T13:56:51.748 [0089.61] [095226]<I> peer adv rssi=-38 allowed=1
+2026-11-01T13:56:52.043 [0089.91] [095522]<I> link up; requesting encryption
+2026-11-01T13:56:52.043 [0089.91] [095522]<I> encryption request rc=0
+2026-11-01T13:56:52.043 [0089.91] [095522]<I> open status=0
+2026-11-01T13:56:52.433 [0090.30] [095916]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:52.433 [0090.30] [095916]<W> link down reason=0x16
+2026-11-01T13:56:52.836 [0090.69] [096156]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:56:52.836 [0090.69] [096317]<I> link up; requesting encryption
+2026-11-01T13:56:52.836 [0090.69] [096317]<I> encryption request rc=0
+2026-11-01T13:56:52.836 [0090.69] [096317]<I> open status=0
+2026-11-01T13:56:53.393 [0091.25] [096710]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:53.393 [0091.25] [096711]<W> link down reason=0x16
+2026-11-01T13:56:53.393 [0091.25] [096785]<I> peer adv rssi=-38 allowed=1
+2026-11-01T13:56:53.393 [0091.25] [096872]<I> link up; requesting encryption
+2026-11-01T13:56:53.393 [0091.25] [096872]<I> encryption request rc=0
+2026-11-01T13:56:53.393 [0091.25] [096872]<I> open status=0
+2026-11-01T13:56:53.735 [0091.59] [097220]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:53.735 [0091.59] [097221]<W> link down reason=0x16
+2026-11-01T13:56:54.171 [0092.03] [097488]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:54.171 [0092.03] [097652]<I> link up; requesting encryption
+2026-11-01T13:56:54.171 [0092.03] [097652]<I> encryption request rc=0
+2026-11-01T13:56:54.171 [0092.03] [097652]<I> open status=0
+2026-11-01T13:56:54.171 [0092.03] >>> ygble pair 120
+2026-11-01T13:56:54.558 [0092.42] ygble pair 120
+2026-11-01T13:56:54.558 [0092.42] [097870]<W> pairing window 120s; verify device identity out-of-band
+2026-11-01T13:56:54.558 [0092.42] 
+2026-11-01T13:56:54.558 [0092.42] # 
+2026-11-01T13:56:54.558 [0092.42] # [098031]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:54.558 [0092.42] [098031]<W> link down reason=0x16
+2026-11-01T13:56:54.932 [0092.80] [098418]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:56:55.522 [0093.38] [099003]<I> link up; requesting encryption
+2026-11-01T13:56:55.522 [0093.38] [099003]<I> encryption request rc=0
+2026-11-01T13:56:55.522 [0093.38] [099003]<I> open status=0
+2026-11-01T13:56:56.099 [0093.95] [099441]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:56.099 [0093.95] [099441]<W> link down reason=0x16
+2026-11-01T13:56:56.099 [0093.95] [099578]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:56:56.393 [0094.25] [099872]<I> link up; requesting encryption
+2026-11-01T13:56:56.393 [0094.25] [099872]<I> encryption request rc=0
+2026-11-01T13:56:56.393 [0094.25] [099872]<I> open status=0
+2026-11-01T13:56:56.735 [0094.59] [100206]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:56.735 [0094.59] [100206]<W> link down reason=0x16
+2026-11-01T13:56:57.294 [0095.16] [100686]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:56:57.294 [0095.16] [100772]<I> link up; requesting encryption
+2026-11-01T13:56:57.294 [0095.16] [100772]<I> encryption request rc=0
+2026-11-01T13:56:57.294 [0095.16] [100772]<I> open status=0
+2026-11-01T13:56:57.900 [0095.77] [101196]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:57.900 [0095.77] [101196]<W> link down reason=0x16
+2026-11-01T13:56:57.900 [0095.77] [101270]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:56:57.900 [0095.77] [101372]<I> link up; requesting encryption
+2026-11-01T13:56:57.901 [0095.77] [101372]<I> encryption request rc=0
+2026-11-01T13:56:57.901 [0095.77] [101372]<I> open status=0
+2026-11-01T13:56:58.318 [0096.17] [101720]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:58.318 [0096.17] [101721]<W> link down reason=0x16
+2026-11-01T13:56:58.318 [0096.17] [101795]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:56:58.536 [0096.39] [102017]<I> link up; requesting encryption
+2026-11-01T13:56:58.536 [0096.39] [102017]<I> encryption request rc=0
+2026-11-01T13:56:58.536 [0096.39] [102017]<I> open status=0
+2026-11-01T13:56:59.050 [0096.91] [102395]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:59.050 [0096.91] [102396]<W> link down reason=0x16
+2026-11-01T13:56:59.050 [0096.91] [102533]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:56:59.267 [0097.12] [102752]<I> link up; requesting encryption
+2026-11-01T13:56:59.267 [0097.12] [102752]<I> encryption request rc=0
+2026-11-01T13:56:59.267 [0097.12] [102752]<I> open status=0
+2026-11-01T13:56:59.765 [0097.62] [103116]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:56:59.765 [0097.62] [103116]<W> link down reason=0x16
+2026-11-01T13:56:59.765 [0097.62] [103253]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:56:59.997 [0097.86] [103472]<I> link up; requesting encryption
+2026-11-01T13:56:59.997 [0097.86] [103472]<I> encryption request rc=0
+2026-11-01T13:56:59.997 [0097.86] [103472]<I> open status=0
+2026-11-01T13:57:00.383 [0098.23] [103865]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:00.383 [0098.23] [103866]<W> link down reason=0x16
+2026-11-01T13:57:01.190 [0099.05] [104583]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:01.190 [0099.05] [104672]<I> link up; requesting encryption
+2026-11-01T13:57:01.190 [0099.05] [104672]<I> encryption request rc=0
+2026-11-01T13:57:01.190 [0099.05] [104672]<I> open status=0
+2026-11-01T13:57:01.545 [0099.41] [105021]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:01.545 [0099.41] [105021]<W> link down reason=0x16
+2026-11-01T13:57:02.076 [0099.94] [105449]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:02.076 [0099.94] [105557]<I> link up; requesting encryption
+2026-11-01T13:57:02.076 [0099.94] [105557]<I> encryption request rc=0
+2026-11-01T13:57:02.077 [0099.94] [105557]<I> open status=0
+2026-11-01T13:57:02.525 [0100.39] [105935]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:02.525 [0100.39] [105936]<W> link down reason=0x16
+2026-11-01T13:57:02.525 [0100.39] [106011]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:02.929 [0100.78] [106412]<I> link up; requesting encryption
+2026-11-01T13:57:02.929 [0100.78] [106412]<I> encryption request rc=0
+2026-11-01T13:57:02.929 [0100.78] [106412]<I> open status=0
+2026-11-01T13:57:03.505 [0101.36] [106745]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:03.505 [0101.36] [106746]<W> link down reason=0x16
+2026-11-01T13:57:03.505 [0101.36] [106821]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:03.505 [0101.36] [106982]<I> link up; requesting encryption
+2026-11-01T13:57:03.506 [0101.36] [106982]<I> encryption request rc=0
+2026-11-01T13:57:03.506 [0101.36] [106982]<I> open status=0
+2026-11-01T13:57:03.988 [0101.84] [107376]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:03.988 [0101.84] [107376]<W> link down reason=0x16
+2026-11-01T13:57:03.988 [0101.84] [107466]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:04.206 [0102.06] [107687]<I> link up; requesting encryption
+2026-11-01T13:57:04.206 [0102.06] [107687]<I> encryption request rc=0
+2026-11-01T13:57:04.206 [0102.06] [107687]<I> open status=0
+2026-11-01T13:57:04.827 [0102.69] [108065]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:04.827 [0102.69] [108066]<W> link down reason=0x16
+2026-11-01T13:57:04.827 [0102.69] [108141]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:04.827 [0102.69] [108302]<I> link up; requesting encryption
+2026-11-01T13:57:04.827 [0102.69] [108302]<I> encryption request rc=0
+2026-11-01T13:57:04.827 [0102.69] [108302]<I> open status=0
+2026-11-01T13:57:05.445 [0103.30] [108681]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:05.445 [0103.30] [108681]<W> link down reason=0x16
+2026-11-01T13:57:05.445 [0103.30] [108755]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:05.445 [0103.30] [108917]<I> link up; requesting encryption
+2026-11-01T13:57:05.445 [0103.30] [108917]<I> encryption request rc=0
+2026-11-01T13:57:05.445 [0103.30] [108917]<I> open status=0
+2026-11-01T13:57:05.816 [0103.67] [109296]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:05.816 [0103.67] [109296]<W> link down reason=0x16
+2026-11-01T13:57:06.188 [0104.05] [109563]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:06.188 [0104.05] [109667]<I> link up; requesting encryption
+2026-11-01T13:57:06.188 [0104.05] [109667]<I> encryption request rc=0
+2026-11-01T13:57:06.188 [0104.05] [109667]<I> open status=0
+2026-11-01T13:57:06.561 [0104.42] [110046]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:06.561 [0104.42] [110046]<W> link down reason=0x16
+2026-11-01T13:57:06.840 [0104.70] [110329]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:57:07.074 [0104.94] [110552]<I> link up; requesting encryption
+2026-11-01T13:57:07.074 [0104.94] [110552]<I> encryption request rc=0
+2026-11-01T13:57:07.074 [0104.94] [110552]<I> open status=0
+2026-11-01T13:57:07.462 [0105.33] [110946]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:07.462 [0105.33] [110946]<W> link down reason=0x16
+2026-11-01T13:57:07.899 [0105.75] [111215]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:07.899 [0105.75] [111377]<I> link up; requesting encryption
+2026-11-01T13:57:07.899 [0105.75] [111377]<I> encryption request rc=0
+2026-11-01T13:57:07.899 [0105.75] [111377]<I> open status=0
+2026-11-01T13:57:08.564 [0106.42] [111786]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:08.564 [0106.42] [111786]<W> link down reason=0x16
+2026-11-01T13:57:08.564 [0106.42] [111876]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:08.564 [0106.42] [112037]<I> link up; requesting encryption
+2026-11-01T13:57:08.564 [0106.42] [112037]<I> encryption request rc=0
+2026-11-01T13:57:08.564 [0106.42] [112037]<I> open status=0
+2026-11-01T13:57:09.002 [0106.86] [112401]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:09.002 [0106.86] [112401]<W> link down reason=0x16
+2026-11-01T13:57:09.002 [0106.86] [112491]<I> peer adv rssi=-38 allowed=1
+2026-11-01T13:57:09.282 [0107.14] [112757]<I> link up; requesting encryption
+2026-11-01T13:57:09.282 [0107.14] [112757]<I> encryption request rc=0
+2026-11-01T13:57:09.282 [0107.14] [112757]<I> open status=0
+2026-11-01T13:57:09.626 [0107.48] [113106]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:09.626 [0107.48] [113106]<W> link down reason=0x16
+2026-11-01T13:57:09.984 [0107.84] [113376]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:09.984 [0107.84] [113462]<I> link up; requesting encryption
+2026-11-01T13:57:09.984 [0107.84] [113462]<I> encryption request rc=0
+2026-11-01T13:57:09.984 [0107.84] [113462]<I> open status=0
+2026-11-01T13:57:10.326 [0108.19] [113811]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:10.326 [0108.19] [113811]<W> link down reason=0x16
+2026-11-01T13:57:10.946 [0108.80] [114333]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:10.946 [0108.80] [114422]<I> link up; requesting encryption
+2026-11-01T13:57:10.946 [0108.80] [114422]<I> encryption request rc=0
+2026-11-01T13:57:10.946 [0108.80] [114422]<I> open status=0
+2026-11-01T13:57:11.475 [0109.33] [114771]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:11.475 [0109.33] [114771]<W> link down reason=0x16
+2026-11-01T13:57:11.475 [0109.33] [114846]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:11.475 [0109.33] [114947]<I> link up; requesting encryption
+2026-11-01T13:57:11.475 [0109.33] [114947]<I> encryption request rc=0
+2026-11-01T13:57:11.475 [0109.33] [114947]<I> open status=0
+2026-11-01T13:57:12.064 [0109.92] [115326]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:12.064 [0109.92] [115326]<W> link down reason=0x16
+2026-11-01T13:57:12.064 [0109.92] [115400]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:12.064 [0109.92] [115547]<I> link up; requesting encryption
+2026-11-01T13:57:12.064 [0109.92] [115547]<I> encryption request rc=0
+2026-11-01T13:57:12.064 [0109.92] [115547]<I> open status=0
+2026-11-01T13:57:12.576 [0110.44] [115880]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:12.576 [0110.44] [115881]<W> link down reason=0x16
+2026-11-01T13:57:12.577 [0110.44] [115971]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:12.577 [0110.44] [116057]<I> link up; requesting encryption
+2026-11-01T13:57:12.577 [0110.44] [116057]<I> encryption request rc=0
+2026-11-01T13:57:12.577 [0110.44] [116057]<I> open status=0
+2026-11-01T13:57:13.259 [0111.12] [116420]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:13.259 [0111.12] [116421]<W> link down reason=0x16
+2026-11-01T13:57:13.259 [0111.12] [116561]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:13.259 [0111.12] [116732]<I> link up; requesting encryption
+2026-11-01T13:57:13.259 [0111.12] [116733]<I> encryption request rc=0
+2026-11-01T13:57:13.259 [0111.12] [116733]<I> open status=0
+2026-11-01T13:57:13.619 [0111.48] [117095]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:13.619 [0111.48] [117096]<W> link down reason=0x16
+2026-11-01T13:57:13.882 [0111.73] [117360]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:14.175 [0112.03] [117647]<I> link up; requesting encryption
+2026-11-01T13:57:14.175 [0112.03] [117647]<I> encryption request rc=0
+2026-11-01T13:57:14.175 [0112.03] [117647]<I> open status=0
+2026-11-01T13:57:14.688 [0112.55] [118010]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:14.688 [0112.55] [118011]<W> link down reason=0x16
+2026-11-01T13:57:14.688 [0112.55] [118085]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:14.688 [0112.55] [118172]<I> link up; requesting encryption
+2026-11-01T13:57:14.688 [0112.55] [118172]<I> encryption request rc=0
+2026-11-01T13:57:14.688 [0112.55] [118172]<I> open status=0
+2026-11-01T13:57:15.063 [0112.92] [118536]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:15.063 [0112.92] [118536]<W> link down reason=0x16
+2026-11-01T13:57:15.509 [0113.38] [118817]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:15.509 [0113.38] [118982]<I> link up; requesting encryption
+2026-11-01T13:57:15.509 [0113.38] [118982]<I> encryption request rc=0
+2026-11-01T13:57:15.509 [0113.38] [118982]<I> open status=0
+2026-11-01T13:57:16.036 [0113.89] [119346]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:16.036 [0113.89] [119346]<W> link down reason=0x16
+2026-11-01T13:57:16.036 [0113.89] [119420]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:16.036 [0113.89] [119522]<I> link up; requesting encryption
+2026-11-01T13:57:16.036 [0113.89] [119522]<I> encryption request rc=0
+2026-11-01T13:57:16.036 [0113.89] [119522]<I> open status=0
+2026-11-01T13:57:16.675 [0114.53] [119855]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:16.675 [0114.53] [119856]<W> link down reason=0x16
+2026-11-01T13:57:16.675 [0114.53] [119994]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:16.675 [0114.53] [120152]<I> link up; requesting encryption
+2026-11-01T13:57:16.675 [0114.53] [120152]<I> encryption request rc=0
+2026-11-01T13:57:16.675 [0114.53] [120152]<I> open status=0
+2026-11-01T13:57:17.111 [0114.97] [120496]<D> PUBLISH
+2026-11-01T13:57:17.111 [0114.97] [120496]<D>         Packet Ident : 00000000
+2026-11-01T13:57:17.111 [0114.97] [120496]<D>         Topic Length : 35
+2026-11-01T13:57:17.111 [0114.97] [120496]<D>           Topic Name : $aws/things/100000808/shadow/update
+2026-11-01T13:57:17.111 [0114.97] [120500]<D>     Payload Len/Room : 124 / 8104
+2026-11-01T13:57:17.111 [0114.97] [120505]<D>       Receive Buflen : 8144
+2026-11-01T13:57:17.111 [0114.97] [120508]<D> delivering msg ...
+2026-11-01T13:57:17.111 [0114.97] [120511]<D> topic be matched
+2026-11-01T13:57:17.111 [0114.97] [120514]<E> desired find failed!!
+2026-11-01T13:57:17.111 [0114.97] [120591]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:17.111 [0114.97] [120591]<W> link down reason=0x16
+2026-11-01T13:57:17.840 [0115.70] [121230]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:17.840 [0115.70] [121322]<I> link up; requesting encryption
+2026-11-01T13:57:17.840 [0115.70] [121322]<I> encryption request rc=0
+2026-11-01T13:57:17.840 [0115.70] [121322]<I> open status=0
+2026-11-01T13:57:18.211 [0116.06] [121685]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:18.211 [0116.06] [121686]<W> link down reason=0x16
+2026-11-01T13:57:18.784 [0116.64] [122161]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:18.784 [0116.64] [122267]<I> link up; requesting encryption
+2026-11-01T13:57:18.784 [0116.64] [122267]<I> encryption request rc=0
+2026-11-01T13:57:18.784 [0116.64] [122267]<I> open status=0
+2026-11-01T13:57:19.314 [0117.17] [122616]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:19.315 [0117.17] [122616]<W> link down reason=0x16
+2026-11-01T13:57:19.315 [0117.17] [122690]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:19.315 [0117.17] [122792]<I> link up; requesting encryption
+2026-11-01T13:57:19.315 [0117.17] [122792]<I> encryption request rc=0
+2026-11-01T13:57:19.315 [0117.17] [122792]<I> open status=0
+2026-11-01T13:57:19.923 [0117.78] [123169]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:19.923 [0117.78] [123170]<W> link down reason=0x16
+2026-11-01T13:57:19.923 [0117.78] [123308]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:19.924 [0117.78] [123407]<I> link up; requesting encryption
+2026-11-01T13:57:19.924 [0117.78] [123407]<I> encryption request rc=0
+2026-11-01T13:57:19.924 [0117.78] [123407]<I> open status=0
+2026-11-01T13:57:20.594 [0118.45] [123740]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:20.594 [0118.45] [123741]<W> link down reason=0x16
+2026-11-01T13:57:20.594 [0118.45] [123815]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:20.594 [0118.45] [123917]<I> link up; requesting encryption
+2026-11-01T13:57:20.594 [0118.45] [123917]<I> encryption request rc=0
+2026-11-01T13:57:20.594 [0118.45] [123917]<I> open status=0
+2026-11-01T13:57:20.594 [0118.45] [123985]<I> send MQTT ping...
+2026-11-01T13:57:20.594 [0118.45] [124085]<I> receive ping response!
+2026-11-01T13:57:20.874 [0118.73] [124356]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:20.874 [0118.73] [124356]<W> link down reason=0x16
+2026-11-01T13:57:21.138 [0119.00] [124627]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:21.370 [0119.23] [124847]<I> link up; requesting encryption
+2026-11-01T13:57:21.370 [0119.23] [124847]<I> encryption request rc=0
+2026-11-01T13:57:21.370 [0119.23] [124847]<I> open status=0
+2026-11-01T13:57:22.005 [0119.86] [125240]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:22.005 [0119.86] [125241]<W> link down reason=0x16
+2026-11-01T13:57:22.005 [0119.86] [125316]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:57:22.005 [0119.86] [125477]<I> link up; requesting encryption
+2026-11-01T13:57:22.005 [0119.86] [125477]<I> encryption request rc=0
+2026-11-01T13:57:22.005 [0119.86] [125477]<I> open status=0
+2026-11-01T13:57:22.549 [0120.41] [125855]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:22.550 [0120.41] [125856]<W> link down reason=0x16
+2026-11-01T13:57:22.550 [0120.41] [125931]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:22.550 [0120.41] [126032]<I> link up; requesting encryption
+2026-11-01T13:57:22.550 [0120.41] [126032]<I> encryption request rc=0
+2026-11-01T13:57:22.550 [0120.41] [126032]<I> open status=0
+2026-11-01T13:57:23.202 [0121.06] [126426]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:23.202 [0121.06] [126426]<W> link down reason=0x16
+2026-11-01T13:57:23.202 [0121.06] [126516]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:23.202 [0121.06] [126677]<I> link up; requesting encryption
+2026-11-01T13:57:23.203 [0121.06] [126677]<I> encryption request rc=0
+2026-11-01T13:57:23.203 [0121.06] [126677]<I> open status=0
+2026-11-01T13:57:23.779 [0121.64] [127025]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:23.780 [0121.64] [127026]<W> link down reason=0x16
+2026-11-01T13:57:23.780 [0121.64] [127100]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:23.780 [0121.64] [127262]<I> link up; requesting encryption
+2026-11-01T13:57:23.780 [0121.64] [127262]<I> encryption request rc=0
+2026-11-01T13:57:23.780 [0121.64] [127262]<I> open status=0
+2026-11-01T13:57:24.150 [0122.02] [127626]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:24.150 [0122.02] [127626]<W> link down reason=0x16
+2026-11-01T13:57:24.525 [0122.39] [127897]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:24.525 [0122.39] [127997]<I> link up; requesting encryption
+2026-11-01T13:57:24.525 [0122.39] [127997]<I> encryption request rc=0
+2026-11-01T13:57:24.525 [0122.39] [127997]<I> open status=0
+2026-11-01T13:57:24.868 [0122.72] [128346]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:24.868 [0122.72] [128346]<W> link down reason=0x16
+2026-11-01T13:57:25.305 [0123.16] [128621]<I> peer adv rssi=-80 allowed=1
+2026-11-01T13:57:25.305 [0123.16] [128777]<I> link up; requesting encryption
+2026-11-01T13:57:25.305 [0123.16] [128777]<I> encryption request rc=0
+2026-11-01T13:57:25.305 [0123.16] [128777]<I> open status=0
+2026-11-01T13:57:25.677 [0123.53] [129156]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:25.677 [0123.53] [129156]<W> link down reason=0x16
+2026-11-01T13:57:26.206 [0124.06] [129689]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:26.423 [0124.28] [129902]<I> link up; requesting encryption
+2026-11-01T13:57:26.423 [0124.28] [129902]<I> encryption request rc=0
+2026-11-01T13:57:26.423 [0124.28] [129902]<I> open status=0
+2026-11-01T13:57:26.780 [0124.64] [130266]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:26.780 [0124.64] [130266]<W> link down reason=0x16
+2026-11-01T13:57:27.185 [0125.05] [130543]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:27.185 [0125.05] [130667]<I> link up; requesting encryption
+2026-11-01T13:57:27.185 [0125.05] [130667]<I> encryption request rc=0
+2026-11-01T13:57:27.185 [0125.05] [130667]<I> open status=0
+2026-11-01T13:57:27.541 [0125.41] [131015]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:27.541 [0125.41] [131016]<W> link down reason=0x16
+2026-11-01T13:57:28.100 [0125.95] [131481]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:28.100 [0125.95] [131582]<I> link up; requesting encryption
+2026-11-01T13:57:28.100 [0125.95] [131582]<I> encryption request rc=0
+2026-11-01T13:57:28.100 [0125.95] [131582]<I> open status=0
+2026-11-01T13:57:28.489 [0126.34] [131961]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:28.489 [0126.34] [131961]<W> link down reason=0x16
+2026-11-01T13:57:29.001 [0126.86] [132329]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:57:29.001 [0126.86] [132482]<I> link up; requesting encryption
+2026-11-01T13:57:29.001 [0126.86] [132482]<I> encryption request rc=0
+2026-11-01T13:57:29.001 [0126.86] [132482]<I> open status=0
+2026-11-01T13:57:29.345 [0127.20] [132830]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:29.345 [0127.20] [132831]<W> link down reason=0x16
+2026-11-01T13:57:30.232 [0128.09] [133553]<I> peer adv rssi=-38 allowed=1
+2026-11-01T13:57:30.232 [0128.09] [133712]<I> link up; requesting encryption
+2026-11-01T13:57:30.232 [0128.09] [133712]<I> encryption request rc=0
+2026-11-01T13:57:30.232 [0128.09] [133712]<I> open status=0
+2026-11-01T13:57:30.603 [0128.47] [134075]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:30.603 [0128.47] [134076]<W> link down reason=0x16
+2026-11-01T13:57:31.085 [0128.94] [134408]<I> peer adv rssi=-79 allowed=1
+2026-11-01T13:57:31.085 [0128.94] [134567]<I> link up; requesting encryption
+2026-11-01T13:57:31.085 [0128.94] [134567]<I> encryption request rc=0
+2026-11-01T13:57:31.085 [0128.94] [134567]<I> open status=0
+2026-11-01T13:57:31.519 [0129.38] [134931]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:31.519 [0129.38] [134931]<W> link down reason=0x16
+2026-11-01T13:57:31.519 [0129.38] [135006]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:31.752 [0129.61] [135227]<I> link up; requesting encryption
+2026-11-01T13:57:31.752 [0129.61] [135227]<I> encryption request rc=0
+2026-11-01T13:57:31.752 [0129.61] [135227]<I> open status=0
+2026-11-01T13:57:32.123 [0129.98] [135605]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:32.123 [0129.98] [135606]<W> link down reason=0x16
+2026-11-01T13:57:32.479 [0130.34] [135874]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:32.479 [0130.34] [135962]<I> link up; requesting encryption
+2026-11-01T13:57:32.479 [0130.34] [135962]<I> encryption request rc=0
+2026-11-01T13:57:32.479 [0130.34] [135962]<I> open status=0
+2026-11-01T13:57:33.103 [0130.97] [136340]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:33.103 [0130.97] [136341]<W> link down reason=0x16
+2026-11-01T13:57:33.103 [0130.97] [136478]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:33.103 [0130.97] [136577]<I> link up; requesting encryption
+2026-11-01T13:57:33.104 [0130.97] [136577]<I> encryption request rc=0
+2026-11-01T13:57:33.104 [0130.97] [136577]<I> open status=0
+2026-11-01T13:57:33.690 [0131.55] [136926]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:33.690 [0131.55] [136926]<W> link down reason=0x16
+2026-11-01T13:57:33.690 [0131.55] [137065]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:33.690 [0131.55] [137162]<I> link up; requesting encryption
+2026-11-01T13:57:33.691 [0131.55] [137162]<I> encryption request rc=0
+2026-11-01T13:57:33.691 [0131.55] [137162]<I> open status=0
+2026-11-01T13:57:34.077 [0131.94] [137555]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:34.077 [0131.94] [137556]<W> link down reason=0x16
+2026-11-01T13:57:34.699 [0132.56] [138090]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:34.699 [0132.56] [138182]<I> link up; requesting encryption
+2026-11-01T13:57:34.699 [0132.56] [138182]<I> encryption request rc=0
+2026-11-01T13:57:34.700 [0132.56] [138182]<I> open status=0
+2026-11-01T13:57:35.073 [0132.94] [138545]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:35.073 [0132.94] [138546]<W> link down reason=0x16
+2026-11-01T13:57:35.475 [0133.33] [138955]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:35.691 [0133.55] [139172]<I> link up; requesting encryption
+2026-11-01T13:57:35.691 [0133.55] [139172]<I> encryption request rc=0
+2026-11-01T13:57:35.691 [0133.55] [139172]<I> open status=0
+2026-11-01T13:57:36.049 [0133.91] [139520]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:36.049 [0133.91] [139521]<W> link down reason=0x16
+2026-11-01T13:57:36.495 [0134.36] [139794]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:36.495 [0134.36] [139967]<I> link up; requesting encryption
+2026-11-01T13:57:36.495 [0134.36] [139967]<I> encryption request rc=0
+2026-11-01T13:57:36.495 [0134.36] [139967]<I> open status=0
+2026-11-01T13:57:37.113 [0134.97] [140330]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:37.113 [0134.97] [140331]<W> link down reason=0x16
+2026-11-01T13:57:37.113 [0134.97] [140405]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:37.113 [0134.97] [140597]<I> link up; requesting encryption
+2026-11-01T13:57:37.113 [0134.97] [140597]<I> encryption request rc=0
+2026-11-01T13:57:37.113 [0134.97] [140597]<I> open status=0
+2026-11-01T13:57:37.486 [0135.34] [140960]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:37.486 [0135.34] [140961]<W> link down reason=0x16
+2026-11-01T13:57:37.953 [0135.81] [141437]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:38.185 [0136.05] [141662]<I> link up; requesting encryption
+2026-11-01T13:57:38.185 [0136.05] [141662]<I> encryption request rc=0
+2026-11-01T13:57:38.185 [0136.05] [141662]<I> open status=0
+2026-11-01T13:57:38.868 [0136.72] [142055]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:38.868 [0136.72] [142056]<W> link down reason=0x16
+2026-11-01T13:57:38.868 [0136.72] [142194]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:38.868 [0136.72] [142352]<I> link up; requesting encryption
+2026-11-01T13:57:38.868 [0136.72] [142352]<I> encryption request rc=0
+2026-11-01T13:57:38.868 [0136.72] [142352]<I> open status=0
+2026-11-01T13:57:39.490 [0137.34] [142730]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:39.490 [0137.34] [142731]<W> link down reason=0x16
+2026-11-01T13:57:39.491 [0137.34] [142867]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:39.491 [0137.34] [142967]<I> link up; requesting encryption
+2026-11-01T13:57:39.491 [0137.34] [142967]<I> encryption request rc=0
+2026-11-01T13:57:39.491 [0137.34] [142967]<I> open status=0
+2026-11-01T13:57:39.491 [0137.34] >>> ygble pair 120
+2026-11-01T13:57:39.895 [0137.75] ygble pair 120
+2026-11-01T13:57:39.895 [0137.75] [143191]<W> pairing window 120s; verify device identity out-of-band
+2026-11-01T13:57:39.895 [0137.75] 
+2026-11-01T13:57:39.895 [0137.75] # 
+2026-11-01T13:57:39.895 [0137.75] # [143300]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:39.895 [0137.75] [143301]<W> link down reason=0x16
+2026-11-01T13:57:39.895 [0137.75] [143375]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:40.624 [0138.48] [144107]<I> link up; requesting encryption
+2026-11-01T13:57:40.624 [0138.48] [144107]<I> encryption request rc=0
+2026-11-01T13:57:40.624 [0138.48] [144107]<I> open status=0
+2026-11-01T13:57:41.246 [0139.11] [144484]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:41.246 [0139.11] [144485]<W> link down reason=0x16
+2026-11-01T13:57:41.246 [0139.11] [144627]<I> peer adv rssi=-38 allowed=1
+2026-11-01T13:57:41.246 [0139.11] [144722]<I> link up; requesting encryption
+2026-11-01T13:57:41.246 [0139.11] [144722]<I> encryption request rc=0
+2026-11-01T13:57:41.246 [0139.11] [144722]<I> open status=0
+2026-11-01T13:57:41.665 [0139.53] [145055]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:41.665 [0139.53] [145056]<W> link down reason=0x16
+2026-11-01T13:57:41.665 [0139.53] [145146]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:41.929 [0139.78] [145412]<I> link up; requesting encryption
+2026-11-01T13:57:41.929 [0139.78] [145412]<I> encryption request rc=0
+2026-11-01T13:57:41.929 [0139.78] [145412]<I> open status=0
+2026-11-01T13:57:42.505 [0140.36] [145760]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:42.505 [0140.36] [145761]<W> link down reason=0x16
+2026-11-01T13:57:42.505 [0140.36] [145835]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:57:42.506 [0140.36] [145982]<I> link up; requesting encryption
+2026-11-01T13:57:42.506 [0140.36] [145982]<I> encryption request rc=0
+2026-11-01T13:57:42.506 [0140.36] [145982]<I> open status=0
+2026-11-01T13:57:42.893 [0140.75] [146375]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:42.893 [0140.75] [146376]<W> link down reason=0x16
+2026-11-01T13:57:43.327 [0141.19] [146714]<I> peer adv rssi=-32 allowed=1
+2026-11-01T13:57:43.327 [0141.19] [146807]<I> link up; requesting encryption
+2026-11-01T13:57:43.327 [0141.19] [146807]<I> encryption request rc=0
+2026-11-01T13:57:43.327 [0141.19] [146807]<I> open status=0
+2026-11-01T13:57:43.900 [0141.77] [147140]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:43.900 [0141.77] [147141]<W> link down reason=0x16
+2026-11-01T13:57:43.900 [0141.77] [147216]<I> peer adv rssi=-68 allowed=1
+2026-11-01T13:57:43.900 [0141.77] [147377]<I> link up; requesting encryption
+2026-11-01T13:57:43.900 [0141.77] [147377]<I> encryption request rc=0
+2026-11-01T13:57:43.900 [0141.77] [147377]<I> open status=0
+2026-11-01T13:57:44.305 [0142.16] [147710]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:44.305 [0142.16] [147711]<W> link down reason=0x16
+2026-11-01T13:57:44.305 [0142.16] [147785]<I> peer adv rssi=-33 allowed=1
+2026-11-01T13:57:44.538 [0142.39] [148022]<I> link up; requesting encryption
+2026-11-01T13:57:44.538 [0142.39] [148022]<I> encryption request rc=0
+2026-11-01T13:57:44.538 [0142.39] [148022]<I> open status=0
+2026-11-01T13:57:45.097 [0142.95] [148400]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:45.097 [0142.95] [148401]<W> link down reason=0x16
+2026-11-01T13:57:45.097 [0142.95] [148475]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:45.097 [0142.95] [148577]<I> link up; requesting encryption
+2026-11-01T13:57:45.097 [0142.95] [148577]<I> encryption request rc=0
+2026-11-01T13:57:45.097 [0142.95] [148577]<I> open status=0
+2026-11-01T13:57:45.469 [0143.33] [148940]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:45.469 [0143.33] [148941]<W> link down reason=0x16
+2026-11-01T13:57:45.920 [0143.78] [149219]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:45.920 [0143.78] [149402]<I> link up; requesting encryption
+2026-11-01T13:57:45.920 [0143.78] [149402]<I> encryption request rc=0
+2026-11-01T13:57:45.920 [0143.78] [149402]<I> open status=0
+2026-11-01T13:57:46.367 [0144.22] [149765]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:46.367 [0144.22] [149766]<W> link down reason=0x16
+2026-11-01T13:57:46.367 [0144.22] [149855]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:46.599 [0144.45] [150077]<I> link up; requesting encryption
+2026-11-01T13:57:46.599 [0144.45] [150077]<I> encryption request rc=0
+2026-11-01T13:57:46.599 [0144.45] [150077]<I> open status=0
+2026-11-01T13:57:47.002 [0144.86] [150485]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:47.002 [0144.86] [150486]<W> link down reason=0x16
+2026-11-01T13:57:47.498 [0145.36] [150978]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:47.717 [0145.58] [151202]<I> link up; requesting encryption
+2026-11-01T13:57:47.717 [0145.58] [151202]<I> encryption request rc=0
+2026-11-01T13:57:47.717 [0145.58] [151202]<I> open status=0
+2026-11-01T13:57:48.106 [0145.97] [151580]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:48.106 [0145.97] [151581]<W> link down reason=0x16
+2026-11-01T13:57:48.497 [0146.36] [151846]<I> peer adv rssi=-35 allowed=1
+2026-11-01T13:57:48.497 [0146.36] [151967]<I> link up; requesting encryption
+2026-11-01T13:57:48.497 [0146.36] [151967]<I> encryption request rc=0
+2026-11-01T13:57:48.497 [0146.36] [151967]<I> open status=0
+2026-11-01T13:57:48.839 [0146.70] [152315]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:48.839 [0146.70] [152316]<W> link down reason=0x16
+2026-11-01T13:57:49.277 [0147.14] [152654]<I> peer adv rssi=-80 allowed=1
+2026-11-01T13:57:49.277 [0147.14] [152747]<I> link up; requesting encryption
+2026-11-01T13:57:49.277 [0147.14] [152747]<I> encryption request rc=0
+2026-11-01T13:57:49.277 [0147.14] [152747]<I> open status=0
+2026-11-01T13:57:49.820 [0147.67] [153110]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:49.820 [0147.67] [153111]<W> link down reason=0x16
+2026-11-01T13:57:49.820 [0147.67] [153186]<I> peer adv rssi=-34 allowed=1
+2026-11-01T13:57:49.820 [0147.67] [153302]<I> link up; requesting encryption
+2026-11-01T13:57:49.821 [0147.67] [153302]<I> encryption request rc=0
+2026-11-01T13:57:49.821 [0147.67] [153302]<I> open status=0
+2026-11-01T13:57:50.178 [0148.03] [153650]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:50.178 [0148.03] [153651]<W> link down reason=0x16
+2026-11-01T13:57:50.613 [0148.47] [153921]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:50.613 [0148.47] [154097]<I> link up; requesting encryption
+2026-11-01T13:57:50.613 [0148.47] [154097]<I> encryption request rc=0
+2026-11-01T13:57:50.613 [0148.47] [154097]<I> open status=0
+2026-11-01T13:57:51.046 [0148.91] [154520]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:51.046 [0148.91] [154520]<W> link down reason=0x16
+2026-11-01T13:57:51.309 [0149.17] [154787]<I> peer adv rssi=-37 allowed=1
+2026-11-01T13:57:51.527 [0149.39] [155012]<I> link up; requesting encryption
+2026-11-01T13:57:51.527 [0149.39] [155012]<I> encryption request rc=0
+2026-11-01T13:57:51.527 [0149.39] [155012]<I> open status=0
+2026-11-01T13:57:51.901 [0149.77] [155376]<I> auth cmpl success=0 reason=0x55 mode=0x00 allowed=1
+2026-11-01T13:57:51.901 [0149.77] [155376]<W> link down reason=0x16
+2026-11-01T13:57:52.289 [0150.14] [155640]<I> peer adv rssi=-36 allowed=1
+2026-11-01T13:57:52.289 [0150.14] [155762]<I> link up; requesting encryption
+2026-11-01T13:57:52.289 [0150.14] [155762]<I> encryption request rc=0
+2026-11-01T13:57:52.289 [0150.14] [155762]<I> open status=0

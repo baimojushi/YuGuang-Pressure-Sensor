@@ -1,0 +1,1338 @@
+[0001.20] ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x135c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xea8
+load:0x403cb700,len:0x30dc
+entry 0x403c8940
+I (27) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+I (27) boot: compile time Nov  1 2026 04:17:03
+I (27) boot: Multicore bootloader
+I (28) boot: chip revision: v0.2
+I (31) boot: efuse block revision: v1.4
+I (34) qio_mode: Enabling default flash chip QIO
+I (39) boot.esp32s3: Boot SPI Speed : 80MHz
+I (43) boot.esp32s3: SPI Mode       : QIO
+I (46) boot.esp32s3: SPI Flash Size : 16MB
+I (50) boot: Enabling RNG early entropy source...
+I (55) boot: Partition Table:
+I (57) boot: ## Label            Usage          Type ST Offset   Length
+I (64) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+I (70) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+I (77) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+I (83) boot:  3 ota_0            OTA app          00 10 00020000 003f0000
+I (90) boot:  4 ota_1            OTA app          00 11 00410000 003f0000
+I (96) boot:  5 lvgl             Unknown data     01 82 00800000 00010000
+I (103) boot:  6 coco_pose        Unknown data     01 40 00810000 00320000
+I (109) boot:  7 spiffs_data      Unknown data     01 82 00b30000 00100000
+I (116) boot:  8 model            Unknown data     01 82 00c30000 00300000
+I (123) boot: End of partition table
+I (126) esp_image: segment 0: paddr=00020020 vaddr=3c150020 size=660d8h (418008) map
+I (195) esp_image: segment 1: paddr=00086100 vaddr=3fca5500 size=077a8h ( 30632) load
+I (201) esp_image: segment 2: paddr=0008d8b0 vaddr=40378000 size=02768h ( 10088) load
+I (203) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=144084h (1327236) map
+I (404) esp_image: segment 4: paddr=001d40ac vaddr=4037a768 size=1aca0h (109728) load
+I (425) esp_image: segment 5: paddr=001eed54 vaddr=600fe100 size=0001ch (    28) load
+I (437) boot: Loaded app from partition at offset 0x20000
+I (437) boot: Disabling RNG early entropy source...
+W (447) flash HPM: HPM mode is optional feature that depends on flash model. Read Docs First!
+W (447) flash HPM: HPM mode with DC adjustment is disabled. Some flash models may not be supported. Read Docs First!
+W (454) flash HPM: High performance mode of this flash model hasn't been supported.
+I (462) MSPI Timing: Flash timing tuning index: 2
+I (466) octal_psram: vendor id    : 0x0d (AP)
+I (470) octal_psram: dev id       : 0x02 (generation 3)
+I (475) octal_psram: density      : 0x03 (64 Mbit)
+I (479) octal_psram: good-die     : 0x01 (Pass)
+I (484) octal_psram: Latency      : 0x01 (Fixed)
+I (488) octal_psram: VCC          : 0x01 (3V)
+I (492) octal_psram: SRF          : 0x01 (Fast Refresh)
+I (497) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+I (502) octal_psram: BurstLen     : 0x01 (32 Byte)
+I (506) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+I (512) octal_psram: DriveStrength: 0x00 (1/1)
+I (521) MSPI Timing: PSRAM timing tuning index: 2
+I (521) esp_psram: Found 8MB PSRAM device
+I (524) esp_psram: Speed: 120MHz
+I (546) mmu_psram: Read only data copied and mapped to SPIRAM
+I (620) mmu_psram: Instructions copied and mapped to SPIRAM
+I (621) cpu_start: Multicore app
+I (629) cpu_start: Pro cpu start user code
+I (629) cpu_start: cpu freq: 240000000 Hz
+I (629) app_init: Application information:
+I (630) app_init: Project name:     vb701n
+I (633) app_init: App version:      1
+I (637) app_init: Compile time:     Nov  1 2026 04:15:46
+I (642) app_init: ELF file SHA256:  75d3d5e82...
+I (646) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+I (651) efuse_init: Min chip rev:     v0.0
+I (655) efuse_init: Max chip rev:     v0.99 
+I (659) efuse_init: Chip rev:         v0.2
+I (663) heap_init: Initializing. RAM available for dynamic allocation:
+I (669) heap_init: At 3FCB2DD8 len 00036938 (218 KiB): RAM
+I (674) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (679) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+I (685) esp_psram: Adding pool of 6387K of PSRAM memory to heap allocator
+I (691) spi_flash: detected chip: generic
+I (695) spi_flash: flash io: qio
+I (698) coexist: coex firmware version: e727207
+I (735) coexist: coexist rom version e7ae62f
+I (735) main_task: Started on CPU0
+I ([000063]<I> system KV init ret=0
+I (748) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+[000063]<I> init ok gpio0
+[000066]<I> init ok gpio1 leds 8
+I (753) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (762) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+[000085]<I> arbiter init
+[000087]<E> playback init failed
+[000091]<I> init done
+[000093]<E> system KV get failed ret=-1 key=course_cfg key_len=10
+[000098]<I> no valid flash data, key=course_cfg
+[000103]<I> iot event listener registered
+[000106]<I> down_register ret=0 (method=course)
+[000111]<I> init ok: synced=0 entries=0
+[000115]<I> dynreg env=2
+[000117]<I> saved wifi, skip ble
+I (806) pp: pp rom version: e7ae62f
+I (808) net80211: net80211 rom version: e7ae62f
+I (813) wifi:wifi driver task: 3fccf17c, prio:23, stack:6144, core=0
+I (819) wifi:wifi firmware version: 79fa3f41ba
+I (823) wifi:wifi certification version: v7.0
+I (827) wifi:config NVS flash: disabled
+I (830) wifi:config nano formatting: enabled
+I (834) wifi:Init data frame dynamic rx buffer num: 32
+I (839) wifi:Init static rx mgmt buffer num: 5
+I (843) wifi:Init management short buffer num: 32
+I (848) wifi:Init static tx buffer num: 8
+I (852) wifi:Init tx cache buffer num: 32
+I (855) wifi:Init static tx FG buffer num: 2
+I (859) wifi:Init static rx buffer size: 1600
+I (863) wifi:Init static rx buffer num: 10
+I (867) wifi:Init dynamic rx buffer num: 32
+I (871) wifi_init: rx ba win: 12
+I (874) wifi_init: accept mbox: 6
+I (877) wifi_init: tcpip mbox: 32
+I (880) wifi_init: udp mbox: 16
+I (883) wifi_init: tcp mbox: 6
+I (886) wifi_init: tcp tx win: 5760
+I (889) wifi_init: tcp rx win: 5760
+I (892) wifi_init: tcp mss: 1440
+I (895) wifi_init: WiFi/LWIP prefer SPIRAM
+I (899) wifi_init: WiFi IRAM OP enabled
+I (902) wifi_init: WiFi RX IRAM OP enabled
+I (906) wifi_init: LWIP IRAM OP enabled
+W (910) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+I (919) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+I (957) wifi:mode : sta (68:ee:8f:44:bd:b4)
+I (958) wifi:enable tsf
+[000273]<I> wifi sta start
+[000274]<E> system KV get failed ret=-1 key=qmalarm.meta key_len=12
+[000276]<I> ready, cloud=on
+[000279]<I> app init done: internal free=146991, largest=65536, psram free=6426208
+I (971) main_task: Returned from app_main()
+[0001.68] I (1226) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+I (1227) wifi:state: init -> auth (0xb0)
+I (1297) wifi:state: auth -> assoc (0x0)
+I (1370) wifi:state: assoc -> run (0x10)
+I (1432) wifi:connected with INTERCITYHACK-NB-PLAYER-2.4G, aid = 2, channel 1, BW20, bssid = 5a:b4:bb:39:13:76
+I (1432) wifi:security: WPA2-PSK, phy: bgn, rssi: -54
+I (1435) wifi:pm start, type: 1
+
+I (1438) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (1446) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+[0001.99] I (1774) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[001093]<W> report failed -10
+[0002.61] I (2384) wifi:<ba-add>idx:0 (ifx:0, 5a:b4:bb:39:13:76), tid:0, ssn:5, winSize:64
+[0003.00] [001964]<I> wifi got ip
+I (2649) esp_netif_handlers: sta ip: 10.20.0.141, mask: 255.255.254.0, gw: 10.20.0.1
+[001964]<I> network update state=1
+[001966]<D> iot event 4
+[001968]<E> dynreg request payload={"sn":"68EE8F44BDB6","pid":"11879","timestamp":"1966","signature":"<redacted>","nonce":8430} signature_len=40
+[001981]<I> tls connect start host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca=0 mtls=0
+[001990]<I> tls establish host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca_bytes=0 ca_type=bundle client_crt_bytes=0 client_crt_type=none client_key_bytes=0 client_key_type=none
+[002093]<W> report failed -10
+[0003.70] I (3473) wifi:<ba-add>idx:1 (ifx:0, 5a:b4:bb:39:13:76), tid:3, ssn:1, winSize:64
+[0004.00] [003093]<W> report failed -10
+[0004.99] [004093]<W> report failed -10
+[0006.00] [005092]<W> report failed -10
+[0006.42] ygble pair 120
+command 'ygble' not found
+
+# 
+# [0007.02] [006093]<W> report failed -10
+I (6813) esp-x509-crt-bundle: Certificate validated
+[0008.08] [007093]<W> report failed -10
+[007159]<I> transport connected host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 secure=1
+[007159]<D> request state reset timeout=10000 rx_buf=512 keep_alive=0 auth=0
+[007165]<I> tls write ok fd=52 wrote=208 requested=208
+[0008.75] [007774]<I> response finished status=200 bytes=4564
+[007774]<I> close connection active=1 status=200
+[007775]<I> cleanup client
+[007775]<I> close connection active=0 status=200
+[007788]<I> dynreg did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883
+[007793]<I> reset marker already clear
+[007793]<I> start begin
+[007794]<I> reset_info.is_reset=0,0
+[007797]<I> cloud credential summary pid=11879 did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn host_len=50 port=8883
+[007809]<I> start done
+[007811]<I> network update state=1
+[007815]<D> iot event 4
+[007817]<I> iot start ok
+[007819]<I> cloud connecting
+[007822]<I> MQTT init success!
+[007825]<I> tls establish host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883 ca_bytes=1188 ca_type=certificate client_crt_bytes=1221 client_crt_type=certificate client_key_bytes=1676 client_key_type=rsa-private-key
+[0009.00] [008093]<W> report failed -10
+[0010.00] [009093]<W> report failed -10
+[0010.99] [010093]<W> report failed -10
+[0012.80] [011093]<W> report failed -10
+[011121]<D> start MQTT connection with parameters: clientid=11879_68EE8F44BDB6
+[011122]<I> tls write ok fd=52 wrote=32 requested=32
+[011331]<D> mqtt connect success!
+[011331]<D> mqtt connect success
+[011332]<I> mqtt subscribe success,topic= /11879/100000808/device/down
+[011332]<I> mqtt subscribe success,topic= /11879/100000808/cloud/set
+[011338]<I> mqtt subscribe success,topic= /11879/100000808/device/getReply
+[011345]<I> mqtt subscribe success,topic= /11879/100000808/cloud/get
+[011351]<I> mqtt subscribe success,topic= $aws/things/100000808/shadow/update
+[011465]<D> SUBACK
+[011466]<D> suback: 5, topic count: 5
+[011559]<I> cloud connected
+[011559]<I> down registered: chat
+[011559]<I> down registered: care
+[011559]<I> down registered: voice
+[011560]<I> down registered: player
+[011563]<I> start: internal free=142835 largest=47104
+I (12253) BLE_INIT: BT controller compile version [d74042a]
+I (12258) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:bd:b6
+[011588]<I> GATT central started; peer pinned=0
+[011588]<I> ntp sync started
+[011588]<I> down registered: pomodoro
+[011589]<I> down_register ret=0 (method=course)
+[011595]<D> publish devinfo topic_len=26 payload_len=175
+[011685]<D> PUBLISH
+[011685]<D>         Packet Ident : 00000000
+[011685]<D>         Topic Length : 28
+[011685]<D>           Topic Name : /11879/100000808/device/down
+[011689]<D> The host IP 118.31.3.89, port is 123
+
+[011694]<D>     Payload Len/Room : 60 / 8112
+[011698]<D>       Receive Buflen : 8144
+[011701]<D> delivering msg ...
+[011704]<D> topic be matched
+[011707]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+[011714]<I> peer adv rssi=-36 allowed=0
+[011899]<I> ntp synced, now=13:13:08
+[0013.11] [012153]<D> PUBLISH
+[012153]<D>         Packet Ident : 00000000
+[012153]<D>         Topic Length : 28
+[012153]<D>           Topic Name : /11879/100000808/device/down
+[012157]<D>     Payload Len/Room : 95 / 8112
+[012161]<D>       Receive Buflen : 8144
+[012164]<D> delivering msg ...
+[012167]<D> topic be matched
+[012171]<D> PUBLISH
+[012172]<D>         Packet Ident : 00000000
+[012176]<D>         Topic Length : 28
+[012179]<D>           Topic Name : /11879/100000808/device/down
+[012185]<D>     Payload Len/Room : 64 / 8112
+[012189]<D>       Receive Buflen : 8144
+[012193]<D> delivering msg ...
+[012196]<D> topic be matched
+[0013.33] [012432]<I> peer adv rssi=-36 allowed=0
+[0013.93] [012845]<I> peer adv rssi=-33 allowed=0
+[013036]<I> peer adv rssi=-36 allowed=0
+[0014.34] [013403]<D> PUBLISH
+[013403]<D>         Packet Ident : 00000000
+[013403]<D>         Topic Length : 35
+[013403]<D>           Topic Name : $aws/things/100000808/shadow/update
+[013407]<D>     Payload Len/Room : 76 / 8105
+[013411]<D>       Receive Buflen : 8144
+[013415]<D> delivering msg ...
+[013418]<D> topic be matched
+[013421]<E> desired find failed!!
+[0014.60] [013692]<I> peer adv rssi=-33 allowed=0
+[0015.38] [014282]<I> peer adv rssi=-32 allowed=0
+[014477]<I> peer adv rssi=-33 allowed=0
+[0016.30] [014870]<I> peer adv rssi=-33 allowed=0
+[015008]<I> peer adv rssi=-33 allowed=0
+[015075]<I> peer adv rssi=-34 allowed=0
+[015214]<I> peer adv rssi=-33 allowed=0
+[015398]<I> peer adv rssi=-81 allowed=0
+[0016.75] [015854]<I> peer adv rssi=-36 allowed=0
+[0017.09] [016060]<I> peer adv rssi=-33 allowed=0
+[016188]<I> peer adv rssi=-32 allowed=0
+[0017.63] [016508]<I> peer adv rssi=-33 allowed=0
+[016632]<I> peer adv rssi=-33 allowed=0
+[016727]<I> peer adv rssi=-79 allowed=0
+[0019.16] [018068]<I> peer adv rssi=-36 allowed=0
+[018258]<I> peer adv rssi=-32 allowed=0
+[0020.39] [018915]<I> peer adv rssi=-33 allowed=0
+[019120]<I> peer adv rssi=-36 allowed=0
+[019171]<I> peer adv rssi=-32 allowed=0
+[019305]<I> peer adv rssi=-32 allowed=0
+[019494]<I> peer adv rssi=-33 allowed=0
+[0020.79] [019891]<I> peer adv rssi=-33 allowed=0
+[0021.41] ygble pair 120
+[020514]<W> pairing window 120s; verify device identity out-of-band
+
+# 
+# [0021.77] [020876]<I> peer adv rssi=-36 allowed=1
+[0022.10] [021145]<I> link up; requesting encryption
+[021145]<I> open status=0
+[021207]<I> auth cmpl success=0
+[021207]<W> link down reason=0x13
+[0022.96] [022063]<I> peer adv rssi=-36 allowed=1
+[0023.25] [022315]<I> link up; requesting encryption
+[022315]<I> open status=0
+[022347]<I> auth cmpl success=0
+[022347]<W> link down reason=0x13
+[0023.56] [022669]<I> peer adv rssi=-32 allowed=1
+[0023.84] [022885]<I> link up; requesting encryption
+[022885]<I> open status=0
+[022947]<I> auth cmpl success=0
+[022947]<W> link down reason=0x13
+[0024.60] [023214]<I> peer adv rssi=-36 allowed=1
+[023305]<I> link up; requesting encryption
+[023305]<I> open status=0
+[023352]<I> auth cmpl success=0
+[023352]<W> link down reason=0x13
+[023480]<I> peer adv rssi=-36 allowed=1
+[023665]<I> link up; requesting encryption
+[023665]<I> open status=0
+[023697]<I> auth cmpl success=0
+[023697]<W> link down reason=0x13
+[0025.01] [024100]<I> peer adv rssi=-36 allowed=1
+[0025.40] [024460]<I> link up; requesting encryption
+[024460]<I> open status=0
+[024492]<I> auth cmpl success=0
+[024492]<W> link down reason=0x13
+[0027.06] [025013]<I> peer adv rssi=-34 allowed=1
+[025105]<I> link up; requesting encryption
+[025105]<I> open status=0
+[025137]<I> auth cmpl success=0
+[025137]<W> link down reason=0x13
+[025202]<I> peer adv rssi=-34 allowed=1
+[025360]<I> link up; requesting encryption
+[025360]<I> open status=0
+[025392]<I> auth cmpl success=0
+[025392]<W> link down reason=0x13
+[025522]<I> peer adv rssi=-36 allowed=1
+[025690]<I> link up; requesting encryption
+[025690]<I> open status=0
+[025722]<I> auth cmpl success=0
+[025722]<W> link down reason=0x13
+[025787]<I> peer adv rssi=-33 allowed=1
+[025915]<I> link up; requesting encryption
+[025915]<I> open status=0
+[025947]<I> auth cmpl success=0
+[025947]<W> link down reason=0x13
+[026151]<I> peer adv rssi=-34 allowed=1
+[0027.34] [026365]<I> link up; requesting encryption
+[026365]<I> open status=0
+[026427]<I> auth cmpl success=0
+[026427]<W> link down reason=0x13
+[0028.18] [026750]<I> peer adv rssi=-32 allowed=1
+[026920]<I> link up; requesting encryption
+[026920]<I> open status=0
+[026952]<I> auth cmpl success=0
+[026952]<W> link down reason=0x13
+[027017]<I> peer adv rssi=-34 allowed=1
+[027175]<I> link up; requesting encryption
+[027175]<I> open status=0
+[027207]<I> auth cmpl success=0
+[027207]<W> link down reason=0x13
+[027272]<I> peer adv rssi=-33 allowed=1
+[0028.47] [027535]<I> link up; requesting encryption
+[027535]<I> open status=0
+[027567]<I> auth cmpl success=0
+[027567]<W> link down reason=0x13
+[0029.70] [028807]<I> peer adv rssi=-33 allowed=1
+[0030.05] [029020]<I> link up; requesting encryption
+[029020]<I> open status=0
+[029082]<I> auth cmpl success=0
+[029082]<W> link down reason=0x13
+[029140]<I> peer adv rssi=-32 allowed=1
+[0030.44] [029380]<I> link up; requesting encryption
+[029380]<I> open status=0
+[029412]<I> auth cmpl success=0
+[029412]<W> link down reason=0x13
+[029538]<I> peer adv rssi=-36 allowed=1
+[0030.83] [029755]<I> link up; requesting encryption
+[029755]<I> open status=0
+[029802]<I> auth cmpl success=0
+[029802]<W> link down reason=0x13
+[029928]<I> peer adv rssi=-80 allowed=1
+[0031.61] [030670]<I> link up; requesting encryption
+[030670]<I> open status=0
+[030702]<I> auth cmpl success=0
+[030702]<W> link down reason=0x13
+[0031.87] [030970]<I> peer adv rssi=-36 allowed=1
+[0032.16] [031225]<I> link up; requesting encryption
+[031225]<I> open status=0
+[031257]<I> auth cmpl success=0
+[031257]<W> link down reason=0x13
+[0034.31] [032316]<I> peer adv rssi=-32 allowed=1
+[032410]<I> link up; requesting encryption
+[032410]<I> open status=0
+[032472]<I> auth cmpl success=0
+[032472]<W> link down reason=0x13
+[032538]<I> peer adv rssi=-33 allowed=1
+[032635]<I> link up; requesting encryption
+[032635]<I> open status=0
+[032667]<I> auth cmpl success=0
+[032667]<W> link down reason=0x13
+[032793]<I> peer adv rssi=-35 allowed=1
+[032980]<I> link up; requesting encryption
+[032980]<I> open status=0
+[033012]<I> auth cmpl success=0
+[033012]<W> link down reason=0x13
+[033077]<I> peer adv rssi=-33 allowed=1
+[033235]<I> link up; requesting encryption
+[033235]<I> open status=0
+[033282]<I> auth cmpl success=0
+[033282]<W> link down reason=0x13
+[033410]<I> peer adv rssi=-36 allowed=1
+[0034.64] [033700]<I> link up; requesting encryption
+[033700]<I> open status=0
+[033732]<I> auth cmpl success=0
+[033732]<W> link down reason=0x13
+[0035.03] [034132]<I> peer adv rssi=-35 allowed=1
+[0035.70] [034750]<I> link up; requesting encryption
+[034750]<I> open status=0
+[034797]<I> auth cmpl success=0
+[034797]<W> link down reason=0x13
+[0036.17] [035267]<I> peer adv rssi=-32 allowed=1
+[0036.93] ygble pair 120
+[035482]<W> pairing window 120s; verify device identity out-of-band
+
+# 
+# [035589]<I> peer adv rssi=-33 allowed=1
+[035740]<I> link up; requesting encryption
+[035740]<I> open status=0
+[035772]<I> auth cmpl success=0
+[035772]<W> link down reason=0x13
+[035837]<I> peer adv rssi=-33 allowed=1
+[035995]<I> link up; requesting encryption
+[035995]<I> open status=0
+[036027]<I> auth cmpl success=0
+[036027]<W> link down reason=0x13
+[0038.51] [036690]<I> peer adv rssi=-33 allowed=1
+[036865]<I> link up; requesting encryption
+[036865]<I> open status=0
+[036897]<I> auth cmpl success=0
+[036897]<W> link down reason=0x13
+[037097]<I> peer adv rssi=-34 allowed=1
+[037255]<I> link up; requesting encryption
+[037255]<I> open status=0
+[037287]<I> auth cmpl success=0
+[037287]<W> link down reason=0x13
+[037415]<I> peer adv rssi=-36 allowed=1
+[037510]<I> link up; requesting encryption
+[037510]<I> open status=0
+[037556]<I> auth cmpl success=0
+[037556]<W> link down reason=0x13
+[037615]<I> peer adv rssi=-33 allowed=1
+[0039.05] [037990]<I> link up; requesting encryption
+[037990]<I> open status=0
+[038022]<I> auth cmpl success=0
+[038022]<W> link down reason=0x13
+[038150]<I> peer adv rssi=-36 allowed=1
+[0039.34] [038395]<I> link up; requesting encryption
+[038395]<I> open status=0
+[038427]<I> auth cmpl success=0
+[038427]<W> link down reason=0x13
+[0041.19] [039727]<I> peer adv rssi=-36 allowed=1
+[039880]<I> link up; requesting encryption
+[039880]<I> open status=0
+[039940]<I> auth cmpl success=0
+[039941]<W> link down reason=0x13
+[040069]<I> peer adv rssi=-36 allowed=1
+[040255]<I> link up; requesting encryption
+[040255]<I> open status=0
+[040287]<I> auth cmpl success=0
+[040287]<W> link down reason=0x13
+[0041.58] [040542]<I> peer adv rssi=-36 allowed=1
+[040645]<I> link up; requesting encryption
+[040645]<I> open status=0
+[040677]<I> auth cmpl success=0
+[040677]<W> link down reason=0x13
+[0042.23] [040995]<I> peer adv rssi=-33 allowed=1
+[041095]<I> link up; requesting encryption
+[041095]<I> open status=0
+[041142]<I> auth cmpl success=0
+[041142]<W> link down reason=0x13
+[041200]<I> peer adv rssi=-33 allowed=1
+[041290]<I> link up; requesting encryption
+[041290]<I> open status=0
+[041322]<I> auth cmpl success=0
+[041322]<W> link down reason=0x13
+[0043.63] [041782]<I> peer adv rssi=-33 allowed=1
+[041875]<I> link up; requesting encryption
+[041875]<I> open status=0
+[041907]<I> auth cmpl success=0
+[041907]<W> link down reason=0x13
+[042034]<I> peer adv rssi=-37 allowed=1
+[042190]<I> link up; requesting encryption
+[042190]<I> open status=0
+[042222]<I> auth cmpl success=0
+[042222]<W> link down reason=0x13
+[042348]<I> peer adv rssi=-81 allowed=1
+[042445]<I> link up; requesting encryption
+[042445]<I> open status=0
+[042507]<I> auth cmpl success=0
+[042507]<W> link down reason=0x13
+[042572]<I> peer adv rssi=-34 allowed=1
+[042700]<I> link up; requesting encryption
+[042700]<I> open status=0
+[042732]<I> auth cmpl success=0
+[042732]<W> link down reason=0x13
+[0044.46] [043131]<I> peer adv rssi=-36 allowed=1
+[043315]<I> link up; requesting encryption
+[043315]<I> open status=0
+[043347]<I> auth cmpl success=0
+[043347]<W> link down reason=0x13
+[043412]<I> peer adv rssi=-33 allowed=1
+[043525]<I> link up; requesting encryption
+[043525]<I> open status=0
+[043557]<I> auth cmpl success=0
+[043557]<W> link down reason=0x13
+[0045.08] [043957]<I> peer adv rssi=-36 allowed=1
+[044140]<I> link up; requesting encryption
+[044140]<I> open status=0
+[044172]<I> auth cmpl success=0
+[044172]<W> link down reason=0x13
+[0045.59] [044498]<I> peer adv rssi=-32 allowed=1
+[044590]<I> link up; requesting encryption
+[044590]<I> open status=0
+[044622]<I> auth cmpl success=0
+[044622]<W> link down reason=0x13
+[044687]<I> peer adv rssi=-34 allowed=1
+[0045.87] [044905]<I> link up; requesting encryption
+[044905]<I> open status=0
+[044967]<I> auth cmpl success=0
+[044967]<W> link down reason=0x13
+[0046.32] [045423]<I> peer adv rssi=-32 allowed=1
+[0047.02] [045685]<I> link up; requesting encryption
+[045685]<I> open status=0
+[045717]<I> auth cmpl success=0
+[045717]<W> link down reason=0x13
+[045782]<I> peer adv rssi=-34 allowed=1
+[045970]<I> link up; requesting encryption
+[045970]<I> open status=0
+[046002]<I> auth cmpl success=0
+[046002]<W> link down reason=0x13
+[046128]<I> peer adv rssi=-36 allowed=1
+[0048.24] [046375]<I> link up; requesting encryption
+[046375]<I> open status=0
+[046407]<I> auth cmpl success=0
+[046407]<W> link down reason=0x13
+[046536]<I> peer adv rssi=-36 allowed=1
+[046690]<I> link up; requesting encryption
+[046690]<I> open status=0
+[046722]<I> auth cmpl success=0
+[046722]<W> link down reason=0x13
+[046787]<I> peer adv rssi=-34 allowed=1
+[046945]<I> link up; requesting encryption
+[046945]<I> open status=0
+[046992]<I> auth cmpl success=0
+[046992]<W> link down reason=0x13
+[047118]<I> peer adv rssi=-36 allowed=1
+[047305]<I> link up; requesting encryption
+[047305]<I> open status=0
+[047337]<I> auth cmpl success=0
+[047337]<W> link down reason=0x13
+[0048.97] [047600]<I> peer adv rssi=-36 allowed=1
+[047710]<I> link up; requesting encryption
+[047710]<I> open status=0
+[047742]<I> auth cmpl success=0
+[047742]<W> link down reason=0x13
+[047869]<I> peer adv rssi=-36 allowed=1
+[047965]<I> link up; requesting encryption
+[047965]<I> open status=0
+[047997]<I> auth cmpl success=0
+[047997]<W> link down reason=0x13
+[048062]<I> peer adv rssi=-33 allowed=1
+[0049.25] [048310]<I> link up; requesting encryption
+[048310]<I> open status=0
+[048342]<I> auth cmpl success=0
+[048342]<W> link down reason=0x13
+[0049.50] [048593]<I> peer adv rssi=-36 allowed=1
+[0049.76] [048835]<I> link up; requesting encryption
+[048835]<I> open status=0
+[048867]<I> auth cmpl success=0
+[048867]<W> link down reason=0x13
+[0050.51] [049386]<I> peer adv rssi=-33 allowed=1
+[049570]<I> link up; requesting encryption
+[049570]<I> open status=0
+[049602]<I> auth cmpl success=0
+[049602]<W> link down reason=0x13
+[0050.76] [049855]<I> peer adv rssi=-35 allowed=1
+[0051.43] [050170]<I> link up; requesting encryption
+[050170]<I> open status=0
+[050202]<I> auth cmpl success=0
+[050202]<W> link down reason=0x13
+[050329]<I> peer adv rssi=-36 allowed=1
+[050425]<I> link up; requesting encryption
+[050425]<I> open status=0
+[050457]<I> auth cmpl success=0
+[050457]<W> link down reason=0x13
+[050522]<I> peer adv rssi=-33 allowed=1
+[0051.71] [050740]<I> link up; requesting encryption
+[050740]<I> open status=0
+[050744]<W> pairing window 120s; verify device identity out-of-band
+ygble pair 120
+
+# 
+# [050802]<I> auth cmpl success=0
+[050802]<W> link down reason=0x13
+[0052.20] [051063]<I> peer adv rssi=-36 allowed=1
+[051190]<I> link up; requesting encryption
+[051190]<I> open status=0
+[051222]<I> auth cmpl success=0
+[051222]<W> link down reason=0x13
+[051287]<I> peer adv rssi=-33 allowed=1
+[0052.72] [051520]<I> link up; requesting encryption
+[051520]<I> open status=0
+[051552]<I> auth cmpl success=0
+[051552]<W> link down reason=0x13
+[051617]<I> peer adv rssi=-33 allowed=1
+[051790]<I> link up; requesting encryption
+[051790]<I> open status=0
+[051822]<I> auth cmpl success=0
+[051822]<W> link down reason=0x13
+[0053.40] [052277]<I> peer adv rssi=-32 allowed=1
+[052375]<I> link up; requesting encryption
+[052375]<I> open status=0
+[052437]<I> auth cmpl success=0
+[052437]<W> link down reason=0x13
+[052502]<I> peer adv rssi=-33 allowed=1
+[0053.80] [052795]<I> link up; requesting encryption
+[052795]<I> open status=0
+[052827]<I> auth cmpl success=0
+[052827]<W> link down reason=0x13
+[052892]<I> peer adv rssi=-33 allowed=1
+[0054.10] [053155]<I> link up; requesting encryption
+[053155]<I> open status=0
+[053187]<I> auth cmpl success=0
+[053187]<W> link down reason=0x13
+[0054.41] [053507]<I> peer adv rssi=-32 allowed=1
+[0054.69] [053755]<I> link up; requesting encryption
+[053755]<I> open status=0
+[053787]<I> auth cmpl success=0
+[053787]<W> link down reason=0x13
+[0055.23] [054108]<I> peer adv rssi=-32 allowed=1
+[054205]<I> link up; requesting encryption
+[054205]<I> open status=0
+[054267]<I> auth cmpl success=0
+[054267]<W> link down reason=0x13
+[054325]<I> peer adv rssi=-33 allowed=1
+[0055.68] [054610]<I> link up; requesting encryption
+[054610]<I> open status=0
+[054641]<I> auth cmpl success=0
+[054642]<W> link down reason=0x16
+[054783]<I> peer adv rssi=-36 allowed=1
+[0056.43] [055495]<I> link up; requesting encryption
+[055495]<I> open status=0
+[055527]<I> auth cmpl success=0
+[055527]<W> link down reason=0x13
+[0056.75] [055849]<I> peer adv rssi=-32 allowed=1
+[0057.03] [056065]<I> link up; requesting encryption
+[056065]<I> open status=0
+[056127]<I> auth cmpl success=0
+[056127]<W> link down reason=0x13
+[0057.61] [056448]<I> peer adv rssi=-32 allowed=1
+[056620]<I> link up; requesting encryption
+[056620]<I> open status=0
+[056652]<I> auth cmpl success=0
+[056652]<W> link down reason=0x13
+[056717]<I> peer adv rssi=-33 allowed=1
+[0058.08] [057010]<I> link up; requesting encryption
+[057010]<I> open status=0
+[057042]<I> auth cmpl success=0
+[057042]<W> link down reason=0x13
+[057170]<I> peer adv rssi=-36 allowed=1
+[0058.87] [057400]<I> link up; requesting encryption
+[057400]<I> open status=0
+[057462]<I> auth cmpl success=0
+[057462]<W> link down reason=0x13
+[057527]<I> peer adv rssi=-33 allowed=1
+[057625]<I> link up; requesting encryption
+[057625]<I> open status=0
+[057657]<I> auth cmpl success=0
+[057657]<W> link down reason=0x13
+[057787]<I> peer adv rssi=-36 allowed=1
+[057940]<I> link up; requesting encryption
+[057940]<I> open status=0
+[057972]<I> auth cmpl success=0
+[057972]<W> link down reason=0x13
+[0060.52] [058567]<I> peer adv rssi=-32 allowed=1
+[058690]<I> link up; requesting encryption
+[058690]<I> open status=0
+[058722]<I> auth cmpl success=0
+[058722]<W> link down reason=0x13
+[058787]<I> peer adv rssi=-33 allowed=1
+[058930]<I> link up; requesting encryption
+[058930]<I> open status=0
+[058977]<I> auth cmpl success=0
+[058977]<W> link down reason=0x13
+[059042]<I> peer adv rssi=-33 allowed=1
+[059140]<I> link up; requesting encryption
+[059140]<I> open status=0
+[059202]<I> auth cmpl success=0
+[059202]<W> link down reason=0x13
+[059267]<I> peer adv rssi=-33 allowed=1
+[059380]<I> link up; requesting encryption
+[059380]<I> open status=0
+[059412]<I> auth cmpl success=0
+[059412]<W> link down reason=0x13
+[059477]<I> peer adv rssi=-33 allowed=1
+[059590]<I> link up; requesting encryption
+[059590]<I> open status=0
+[059622]<I> auth cmpl success=0
+[059622]<W> link down reason=0x13
+[0061.27] [059948]<I> peer adv rssi=-32 allowed=1
+[060040]<I> link up; requesting encryption
+[060040]<I> open status=0
+[060102]<I> auth cmpl success=0
+[060102]<W> link down reason=0x13
+[060160]<I> peer adv rssi=-33 allowed=1
+[060250]<I> link up; requesting encryption
+[060250]<I> open status=0
+[060312]<I> auth cmpl success=0
+[060312]<W> link down reason=0x13
+[060370]<I> peer adv rssi=-33 allowed=1
+[0061.75] [060832]<D> PUBLISH
+[060832]<D>         Packet Ident : 00000000
+[060832]<D>         Topic Length : 35
+[060832]<D>           Topic Name : $aws/things/100000808/shadow/update
+[060836]<D>     Payload Len/Room : 124 / 8104
+[060841]<D>       Receive Buflen : 8144
+[060844]<D> delivering msg ...
+[060847]<D> topic be matched
+[060850]<E> desired find failed!!
+[0062.62] [061690]<I> link up; requesting encryption
+[061690]<I> open status=0
+[061722]<I> auth cmpl success=0
+[061722]<W> link down reason=0x13
+[0063.31] [062291]<I> peer adv rssi=-37 allowed=1
+[062380]<I> link up; requesting encryption
+[062380]<I> open status=0
+[062412]<I> auth cmpl success=0
+[062412]<W> link down reason=0x13
+[0063.90] [062673]<I> peer adv rssi=-37 allowed=1
+[062830]<I> link up; requesting encryption
+[062830]<I> open status=0
+[062877]<I> auth cmpl success=0
+[062877]<W> link down reason=0x13
+[063005]<I> peer adv rssi=-37 allowed=1
+[0065.28] [063745]<I> link up; requesting encryption
+[063745]<I> open status=0
+[063807]<I> auth cmpl success=0
+[063807]<W> link down reason=0x13
+[063936]<I> peer adv rssi=-36 allowed=1
+[064030]<I> link up; requesting encryption
+[064030]<I> open status=0
+[064062]<I> auth cmpl success=0
+[064062]<W> link down reason=0x13
+[064127]<I> peer adv rssi=-34 allowed=1
+[064225]<I> link up; requesting encryption
+[064225]<I> open status=0
+[064257]<I> auth cmpl success=0
+[064257]<W> link down reason=0x13
+[064384]<I> peer adv rssi=-36 allowed=1
+[0065.69] [064675]<I> link up; requesting encryption
+[064675]<I> open status=0
+[064722]<I> auth cmpl success=0
+[064722]<W> link down reason=0x13
+[064787]<I> peer adv rssi=-34 allowed=1
+[0065.96] [065035]<I> link up; requesting encryption
+[065035]<I> open status=0
+[065067]<I> auth cmpl success=0
+[065067]<W> link down reason=0x13
+[0066.68] [065389]<I> peer adv rssi=-32 allowed=1
+[065545]<I> link up; requesting encryption
+[065545]<I> open status=0
+[065577]<I> auth cmpl success=0
+[065577]<W> link down reason=0x13
+[065779]<I> peer adv rssi=-34 allowed=1
+[0066.96] ygble pair 120
+[065994]<W> pairing window 120s; verify device identity out-of-band
+[065995]<I> link up; requesting encryption
+[065996]<I> open status=0
+
+# 
+# [066057]<I> auth cmpl success=0
+[066057]<W> link down reason=0x13
+[0067.21] [066313]<I> peer adv rssi=-36 allowed=1
+[0067.50] [066565]<I> link up; requesting encryption
+[066565]<I> open status=0
+[066597]<I> auth cmpl success=0
+[066597]<W> link down reason=0x13
+[0067.82] [066920]<I> peer adv rssi=-33 allowed=1
+[0068.10] [067165]<I> link up; requesting encryption
+[067165]<I> open status=0
+[067197]<I> auth cmpl success=0
+[067197]<W> link down reason=0x13
+[0068.38] [067469]<I> peer adv rssi=-36 allowed=1
+[0069.05] [067765]<I> link up; requesting encryption
+[067765]<I> open status=0
+[067797]<I> auth cmpl success=0
+[067797]<W> link down reason=0x13
+[067923]<I> peer adv rssi=-36 allowed=1
+[068110]<I> link up; requesting encryption
+[068110]<I> open status=0
+[068142]<I> auth cmpl success=0
+[068142]<W> link down reason=0x13
+[0069.44] [068541]<I> peer adv rssi=-36 allowed=1
+[0069.97] [068770]<I> link up; requesting encryption
+[068770]<I> open status=0
+[068802]<I> auth cmpl success=0
+[068802]<W> link down reason=0x13
+[068867]<I> peer adv rssi=-34 allowed=1
+[069025]<I> link up; requesting encryption
+[069025]<I> open status=0
+[069057]<I> auth cmpl success=0
+[069057]<W> link down reason=0x13
+[0070.23] [069321]<I> peer adv rssi=-36 allowed=1
+[0071.16] [069625]<I> link up; requesting encryption
+[069625]<I> open status=0
+[069657]<I> auth cmpl success=0
+[069657]<W> link down reason=0x13
+[069860]<I> peer adv rssi=-34 allowed=1
+[069955]<I> link up; requesting encryption
+[069955]<I> open status=0
+[069987]<I> auth cmpl success=0
+[069987]<W> link down reason=0x13
+[070052]<I> peer adv rssi=-34 allowed=1
+[070225]<I> link up; requesting encryption
+[070225]<I> open status=0
+[070257]<I> auth cmpl success=0
+[070257]<W> link down reason=0x13
+[0071.61] [070716]<I> peer adv rssi=-33 allowed=1
+[0071.87] [070930]<I> link up; requesting encryption
+[070930]<I> open status=0
+[070962]<I> auth cmpl success=0
+[070962]<W> link down reason=0x13
+[0072.33] [071225]<I> peer adv rssi=-37 allowed=1
+[071320]<I> link up; requesting encryption
+[071320]<I> open status=0
+[071357]<I> send MQTT ping...
+[071367]<I> auth cmpl success=0
+[071367]<W> link down reason=0x13
+[071432]<I> peer adv rssi=-34 allowed=1
+[0072.70] [071695]<I> link up; requesting encryption
+[071695]<I> open status=0
+[071727]<I> auth cmpl success=0
+[071727]<W> link down reason=0x13
+[071799]<I> receive ping response!
+[0072.95] [072045]<I> peer adv rssi=-33 allowed=1
+[0073.20] [072265]<I> link up; requesting encryption
+[072265]<I> open status=0
+[072297]<I> auth cmpl success=0
+[072297]<W> link down reason=0x13
+[0073.79] [072557]<I> peer adv rssi=-36 allowed=1
+[072655]<I> link up; requesting encryption
+[072655]<I> open status=0
+[072687]<I> auth cmpl success=0
+[072687]<W> link down reason=0x13
+[072752]<I> peer adv rssi=-34 allowed=1
+[072850]<I> link up; requesting encryption
+[072850]<I> open status=0
+[072882]<I> auth cmpl success=0
+[072882]<W> link down reason=0x13
+[0074.26] [073146]<I> peer adv rssi=-36 allowed=1
+[073330]<I> link up; requesting encryption
+[073330]<I> open status=0
+[073362]<I> auth cmpl success=0
+[073362]<W> link down reason=0x13
+[0075.19] [074015]<I> peer adv rssi=-33 allowed=1
+[074125]<I> link up; requesting encryption
+[074125]<I> open status=0
+[074157]<I> auth cmpl success=0
+[074157]<W> link down reason=0x13
+[074285]<I> peer adv rssi=-37 allowed=1
+[0075.46] [074515]<I> link up; requesting encryption
+[074515]<I> open status=0
+[074547]<I> auth cmpl success=0
+[074547]<W> link down reason=0x13
+[0075.91] [074799]<I> peer adv rssi=-36 allowed=1
+[074965]<I> link up; requesting encryption
+[074965]<I> open status=0
+[074997]<I> auth cmpl success=0
+[074997]<W> link down reason=0x13
+[0076.37] [075261]<I> peer adv rssi=-36 allowed=1
+[075415]<I> link up; requesting encryption
+[075415]<I> open status=0
+[075477]<I> auth cmpl success=0
+[075477]<W> link down reason=0x13
+[0076.83] [075926]<I> peer adv rssi=-33 allowed=1
+[0077.11] [076165]<I> link up; requesting encryption
+[076165]<I> open status=0
+[076197]<I> auth cmpl success=0
+[076197]<W> link down reason=0x13
+[0078.16] [077051]<I> peer adv rssi=-36 allowed=1
+[077140]<I> link up; requesting encryption
+[077140]<I> open status=0
+[077202]<I> auth cmpl success=0
+[077202]<W> link down reason=0x13
+[077260]<I> peer adv rssi=-34 allowed=1
+[0079.29] [077665]<I> link up; requesting encryption
+[077665]<I> open status=0
+[077712]<I> auth cmpl success=0
+[077712]<W> link down reason=0x13
+[077838]<I> peer adv rssi=-35 allowed=1
+[078025]<I> link up; requesting encryption
+[078025]<I> open status=0
+[078057]<I> auth cmpl success=0
+[078057]<W> link down reason=0x13
+[078122]<I> peer adv rssi=-33 allowed=1
+[078235]<I> link up; requesting encryption
+[078235]<I> open status=0
+[078267]<I> auth cmpl success=0
+[078267]<W> link down reason=0x13
+[078395]<I> peer adv rssi=-36 allowed=1
+[0079.55] [078625]<I> link up; requesting encryption
+[078625]<I> open status=0
+[078657]<I> auth cmpl success=0
+[078657]<W> link down reason=0x13
+[0080.18] [079056]<I> peer adv rssi=-36 allowed=1
+[079210]<I> link up; requesting encryption
+[079210]<I> open status=0
+[079272]<I> auth cmpl success=0
+[079272]<W> link down reason=0x13
+[0080.58] [079537]<I> peer adv rssi=-36 allowed=1
+[079645]<I> link up; requesting encryption
+[079645]<I> open status=0
+[079677]<I> auth cmpl success=0
+[079677]<W> link down reason=0x13
+[0081.28] [079997]<I> peer adv rssi=-32 allowed=1
+[080095]<I> link up; requesting encryption
+[080095]<I> open status=0
+[080127]<I> auth cmpl success=0
+[080127]<W> link down reason=0x13
+[080192]<I> peer adv rssi=-33 allowed=1
+[080350]<I> link up; requesting encryption
+[080350]<I> open status=0
+[080382]<I> auth cmpl success=0
+[080382]<W> link down reason=0x13
+[0081.89] ygble pair 120
+[080596]<W> pairing window 120s; verify device identity out-of-band
+
+# 
+# [080643]<I> peer adv rssi=-37 allowed=1
+[080740]<I> link up; requesting encryption
+[080740]<I> open status=0
+[080787]<I> auth cmpl success=0
+[080787]<W> link down reason=0x13
+[080852]<I> peer adv rssi=-34 allowed=1
+[080950]<I> link up; requesting encryption
+[080950]<I> open status=0
+[080982]<I> auth cmpl success=0
+[080982]<W> link down reason=0x13
+[0082.56] [081240]<I> peer adv rssi=-36 allowed=1
+[081415]<I> link up; requesting encryption
+[081415]<I> open status=0
+[081447]<I> auth cmpl success=0
+[081447]<W> link down reason=0x13
+[081647]<I> peer adv rssi=-33 allowed=1
+[0082.84] [081865]<I> link up; requesting encryption
+[081865]<I> open status=0
+[081927]<I> auth cmpl success=0
+[081927]<W> link down reason=0x13
+[0083.27] [082378]<I> peer adv rssi=-32 allowed=1
+[0083.55] [082615]<I> link up; requesting encryption
+[082615]<I> open status=0
+[082647]<I> auth cmpl success=0
+[082647]<W> link down reason=0x13
+[0083.99] [082899]<I> peer adv rssi=-36 allowed=1
+[082990]<I> link up; requesting encryption
+[082990]<I> open status=0
+[083037]<I> auth cmpl success=0
+[083037]<W> link down reason=0x13
+[083095]<I> peer adv rssi=-34 allowed=1
+[0084.85] [083305]<I> link up; requesting encryption
+[083305]<I> open status=0
+[083337]<I> auth cmpl success=0
+[083337]<W> link down reason=0x13
+[083402]<I> peer adv rssi=-33 allowed=1
+[083560]<I> link up; requesting encryption
+[083560]<I> open status=0
+[083592]<I> auth cmpl success=0
+[083592]<W> link down reason=0x13
+[083657]<I> peer adv rssi=-33 allowed=1
+[083815]<I> link up; requesting encryption
+[083815]<I> open status=0
+[083877]<I> auth cmpl success=0
+[083877]<W> link down reason=0x13
+[083942]<I> peer adv rssi=-34 allowed=1
+[0085.24] [084235]<I> link up; requesting encryption
+[084235]<I> open status=0
+[084267]<I> auth cmpl success=0
+[084267]<W> link down reason=0x13
+[084332]<I> peer adv rssi=-34 allowed=1
+[0086.00] [085030]<I> link up; requesting encryption
+[085030]<I> open status=0
+[085092]<I> auth cmpl success=0
+[085092]<W> link down reason=0x13
+[0086.53] [085354]<I> peer adv rssi=-36 allowed=1
+[085450]<I> link up; requesting encryption
+[085450]<I> open status=0
+[085497]<I> auth cmpl success=0
+[085497]<W> link down reason=0x13
+[085627]<I> peer adv rssi=-35 allowed=1
+[0086.86] [085915]<I> link up; requesting encryption
+[085915]<I> open status=0
+[085947]<I> auth cmpl success=0
+[085947]<W> link down reason=0x13
+[0087.23] [086203]<I> peer adv rssi=-35 allowed=1
+[086290]<I> link up; requesting encryption
+[086290]<I> open status=0
+[086322]<I> auth cmpl success=0
+[086322]<W> link down reason=0x13
+[0088.07] [087172]<I> peer adv rssi=-35 allowed=1
+[0088.58] [087460]<I> link up; requesting encryption
+[087460]<I> open status=0
+[087492]<I> auth cmpl success=0
+[087492]<W> link down reason=0x13
+[087557]<I> peer adv rssi=-33 allowed=1
+[087640]<I> link up; requesting encryption
+[087640]<I> open status=0
+[087672]<I> auth cmpl success=0
+[087672]<W> link down reason=0x13
+[0090.34] [088195]<I> peer adv rssi=-33 allowed=1
+[088285]<I> link up; requesting encryption
+[088285]<I> open status=0
+[088317]<I> auth cmpl success=0
+[088317]<W> link down reason=0x13
+[088518]<I> peer adv rssi=-33 allowed=1
+[088675]<I> link up; requesting encryption
+[088675]<I> open status=0
+[088707]<I> auth cmpl success=0
+[088707]<W> link down reason=0x13
+[088838]<I> peer adv rssi=-35 allowed=1
+[088990]<I> link up; requesting encryption
+[088990]<I> open status=0
+[089022]<I> auth cmpl success=0
+[089022]<W> link down reason=0x13
+[089087]<I> peer adv rssi=-34 allowed=1
+[089245]<I> link up; requesting encryption
+[089245]<I> open status=0
+[089307]<I> auth cmpl success=0
+[089307]<W> link down reason=0x13
+[089434]<I> peer adv rssi=-36 allowed=1
+[0090.67] [089650]<I> link up; requesting encryption
+[089650]<I> open status=0
+[089697]<I> auth cmpl success=0
+[089697]<W> link down reason=0x13
+[089762]<I> peer adv rssi=-34 allowed=1
+[0091.43] [090025]<I> link up; requesting encryption
+[090025]<I> open status=0
+[090057]<I> auth cmpl success=0
+[090057]<W> link down reason=0x13
+[090122]<I> peer adv rssi=-34 allowed=1
+[090295]<I> link up; requesting encryption
+[090295]<I> open status=0
+[090327]<I> auth cmpl success=0
+[090327]<W> link down reason=0x13
+[090392]<I> peer adv rssi=-34 allowed=1
+[090490]<I> link up; requesting encryption
+[090490]<I> open status=0
+[090522]<I> auth cmpl success=0
+[090522]<W> link down reason=0x13
+[0092.40] [091176]<I> peer adv rssi=-35 allowed=1
+[091330]<I> link up; requesting encryption
+[091330]<I> open status=0
+[091362]<I> auth cmpl success=0
+[091362]<W> link down reason=0x13
+[091488]<I> peer adv rssi=-42 allowed=1
+[0093.00] [091780]<I> link up; requesting encryption
+[091780]<I> open status=0
+[091812]<I> auth cmpl success=0
+[091812]<W> link down reason=0x13
+[091877]<I> peer adv rssi=-33 allowed=1
+[092065]<I> link up; requesting encryption
+[092065]<I> open status=0
+[092097]<I> auth cmpl success=0
+[092097]<W> link down reason=0x13
+[0093.48] [092424]<I> peer adv rssi=-28 allowed=1
+[092515]<I> link up; requesting encryption
+[092515]<I> open status=0
+[092577]<I> auth cmpl success=0
+[092577]<W> link down reason=0x13
+[0093.73] [092834]<I> peer adv rssi=-39 allowed=1
+[0094.19] [093040]<I> link up; requesting encryption
+[093040]<I> open status=0
+[093072]<I> auth cmpl success=0
+[093072]<W> link down reason=0x13
+[093137]<I> peer adv rssi=-56 allowed=1
+[093235]<I> link up; requesting encryption
+[093235]<I> open status=0
+[093282]<I> auth cmpl success=0
+[093282]<W> link down reason=0x13
+[0094.45] [093549]<I> peer adv rssi=-39 allowed=1
+[0094.73] [093790]<I> link up; requesting encryption
+[093790]<I> open status=0
+[093822]<I> auth cmpl success=0
+[093822]<W> link down reason=0x13
+[0095.96] [094093]<I> peer adv rssi=-38 allowed=1
+[094195]<I> link up; requesting encryption
+[094195]<I> open status=0
+[094227]<I> auth cmpl success=0
+[094227]<W> link down reason=0x13
+[094353]<I> peer adv rssi=-37 allowed=1
+[094510]<I> link up; requesting encryption
+[094510]<I> open status=0
+[094542]<I> auth cmpl success=0
+[094542]<W> link down reason=0x13
+[094607]<I> peer adv rssi=-31 allowed=1
+[094735]<I> link up; requesting encryption
+[094735]<I> open status=0
+[094767]<I> auth cmpl success=0
+[094767]<W> link down reason=0x13
+[094832]<I> peer adv rssi=-32 allowed=1
+[095035]<I> link up; requesting encryption
+[095035]<I> open status=0
+[095067]<I> auth cmpl success=0
+[095067]<W> link down reason=0x13
+[0096.29] [095389]<I> peer adv rssi=-81 allowed=1
+[0096.96] ygble pair 120
+[095605]<W> pairing window 120s; verify device identity out-of-band
+
+# 
+# [095650]<I> link up; requesting encryption
+[095650]<I> open status=0
+[095682]<I> auth cmpl success=0
+[095682]<W> link down reason=0x13
+[095868]<I> peer adv rssi=-44 allowed=1
+[096025]<I> link up; requesting encryption
+[096025]<I> open status=0
+[096057]<I> auth cmpl success=0
+[096057]<W> link down reason=0x13
+[0097.49] [096381]<I> peer adv rssi=-37 allowed=1
+[096550]<I> link up; requesting encryption
+[096550]<I> open status=0
+[096582]<I> auth cmpl success=0
+[096582]<W> link down reason=0x13
+[0098.28] [097388]<I> peer adv rssi=-33 allowed=1
+[0098.70] [097750]<I> link up; requesting encryption
+[097750]<I> open status=0
+[097797]<I> auth cmpl success=0
+[097797]<W> link down reason=0x13
+[0099.16] [098053]<I> peer adv rssi=-38 allowed=1
+[098215]<I> link up; requesting encryption
+[098215]<I> open status=0
+[098247]<I> auth cmpl success=0
+[098247]<W> link down reason=0x13
+[0100.26] [098654]<I> peer adv rssi=-39 allowed=1
+[098740]<I> link up; requesting encryption
+[098740]<I> open status=0
+[098772]<I> auth cmpl success=0
+[098772]<W> link down reason=0x13
+[098837]<I> peer adv rssi=-31 allowed=1
+[099010]<I> link up; requesting encryption
+[099010]<I> open status=0
+[099042]<I> auth cmpl success=0
+[099042]<W> link down reason=0x13
+[099171]<I> peer adv rssi=-38 allowed=1
+[099325]<I> link up; requesting encryption
+[099325]<I> open status=0
+[099357]<I> auth cmpl success=0
+[099357]<W> link down reason=0x13
+[0100.59] [099683]<I> peer adv rssi=-27 allowed=1
+[0100.99] [099895]<I> link up; requesting encryption
+[099895]<I> open status=0
+[099957]<I> auth cmpl success=0
+[099957]<W> link down reason=0x13
+[100086]<I> peer adv rssi=-37 allowed=1
+[0101.27] [100345]<I> link up; requesting encryption
+[100345]<I> open status=0
+[100377]<I> auth cmpl success=0
+[100377]<W> link down reason=0x13
+[0102.28] [101241]<I> peer adv rssi=-39 allowed=1
+[101335]<I> link up; requesting encryption
+[101335]<I> open status=0
+[101382]<I> auth cmpl success=0
+[101382]<W> link down reason=0x13
+[0102.95] [101845]<I> peer adv rssi=-29 allowed=1
+[101935]<I> link up; requesting encryption
+[101935]<I> open status=0
+[101980]<I> auth cmpl success=0
+[101981]<W> link down reason=0x13
+[102047]<I> peer adv rssi=-31 allowed=1
+[0103.40] [102265]<I> link up; requesting encryption
+[102265]<I> open status=0
+[102297]<I> auth cmpl success=0
+[102297]<W> link down reason=0x13
+[102498]<I> peer adv rssi=-33 allowed=1
+[0104.07] [102715]<I> link up; requesting encryption
+[102715]<I> open status=0
+[102747]<I> auth cmpl success=0
+[102747]<W> link down reason=0x13
+[102813]<I> peer adv rssi=-33 allowed=1
+[103000]<I> link up; requesting encryption
+[103000]<I> open status=0
+[103032]<I> auth cmpl success=0
+[103032]<W> link down reason=0x13
+[103162]<I> peer adv rssi=-38 allowed=1
+[0104.55] [103375]<I> link up; requesting encryption
+[103375]<I> open status=0
+[103437]<I> auth cmpl success=0
+[103437]<W> link down reason=0x13
+[103503]<I> peer adv rssi=-32 allowed=1
+[103615]<I> link up; requesting encryption
+[103615]<I> open status=0
+[103647]<I> auth cmpl success=0
+[103647]<W> link down reason=0x13
+[0104.88] [103974]<I> peer adv rssi=-30 allowed=1
+[0105.14] [104200]<I> link up; requesting encryption
+[104200]<I> open status=0
+[104232]<I> auth cmpl success=0
+[104232]<W> link down reason=0x13
+[0105.39] [104493]<I> peer adv rssi=-40 allowed=1
+[0105.70] [104755]<I> link up; requesting encryption
+[104755]<I> open status=0
+[104787]<I> auth cmpl success=0
+[104787]<W> link down reason=0x13
+[0106.01] [105113]<I> peer adv rssi=-30 allowed=1
+[0106.41] [105325]<I> link up; requesting encryption
+[105325]<I> open status=0
+[105387]<I> auth cmpl success=0
+[105387]<W> link down reason=0x13
+[105516]<I> peer adv rssi=-39 allowed=1
+[0106.91] [105775]<I> link up; requesting encryption
+[105775]<I> open status=0
+[105807]<I> auth cmpl success=0
+[105807]<W> link down reason=0x13
+[106007]<I> peer adv rssi=-32 allowed=1
+[0107.33] [106390]<I> link up; requesting encryption
+[106390]<I> open status=0
+[106422]<I> auth cmpl success=0
+[106422]<W> link down reason=0x13
+[0107.64] [106738]<I> peer adv rssi=-29 allowed=1
+[0108.48] [107545]<I> link up; requesting encryption
+[107545]<I> open status=0
+[107577]<I> auth cmpl success=0
+[107577]<W> link down reason=0x13
+[0108.74] [107850]<I> peer adv rssi=-35 allowed=1
+[0109.86] [108910]<I> link up; requesting encryption
+[108910]<I> open status=0
+[108957]<I> auth cmpl success=0
+[108957]<W> link down reason=0x13
+[0110.11] [109212]<I> peer adv rssi=-37 allowed=1
+[0111.55] [109555]<I> link up; requesting encryption
+[109555]<I> open status=0
+[109587]<I> auth cmpl success=0
+[109587]<W> link down reason=0x13
+[109653]<I> peer adv rssi=-32 allowed=1
+[109780]<I> link up; requesting encryption
+[109780]<I> open status=0
+[109812]<I> auth cmpl success=0
+[109812]<W> link down reason=0x13
+[109878]<I> peer adv rssi=-32 allowed=1
+[110035]<I> link up; requesting encryption
+[110035]<I> open status=0
+[110097]<I> auth cmpl success=0
+[110097]<W> link down reason=0x13
+[110163]<I> peer adv rssi=-32 allowed=1
+[110290]<I> link up; requesting encryption
+[110290]<I> open status=0
+[110322]<I> auth cmpl success=0
+[110322]<W> link down reason=0x13
+[110526]<I> peer adv rssi=-32 allowed=1
+[110620]<I> link up; requesting encryption
+[110620]<I> open status=0
+[110652]<I> auth cmpl success=0
+[110652]<W> link down reason=0x13
+[0112.14] [111249]<I> peer adv rssi=-29 allowed=1
+[0113.06] [112135]<I> link up; requesting encryption
+[112135]<I> open status=0
+[112167]<I> auth cmpl success=0
+[112167]<W> link down reason=0x13
+[0113.70] [112418]<I> peer adv rssi=-37 allowed=1
+[112570]<I> link up; requesting encryption
+[112570]<I> open status=0
+[112616]<I> auth cmpl success=0
+[112616]<W> link down reason=0x13
+[112675]<I> peer adv rssi=-33 allowed=1
+[112765]<I> link up; requesting encryption
+[112765]<I> open status=0
+[112797]<I> auth cmpl success=0
+[112797]<W> link down reason=0x13
+[0114.10] [113195]<I> peer adv rssi=-40 allowed=1
+[0114.48] [113545]<I> link up; requesting encryption
+[113545]<I> open status=0
+[113577]<I> auth cmpl success=0
+[113577]<W> link down reason=0x13
+[0114.94] [113844]<I> peer adv rssi=-36 allowed=1
+[113950]<I> link up; requesting encryption
+[113950]<I> open status=0
+[113982]<I> auth cmpl success=0
+[113982]<W> link down reason=0x13
+[114048]<I> peer adv rssi=-32 allowed=1
+[0115.33] [114340]<I> link up; requesting encryption
+[114340]<I> open status=0
+[114372]<I> auth cmpl success=0
+[114372]<W> link down reason=0x13
+[114438]<I> peer adv rssi=-32 allowed=1
+[0116.33] [114715]<I> link up; requesting encryption
+[114715]<I> open status=0
+[114747]<I> auth cmpl success=0
+[114747]<W> link down reason=0x13
+[114813]<I> peer adv rssi=-80 allowed=1
+[114985]<I> link up; requesting encryption
+[114986]<I> open status=0
+[115017]<I> auth cmpl success=0
+[115017]<W> link down reason=0x13
+[115083]<I> peer adv rssi=-33 allowed=1
+[115195]<I> link up; requesting encryption
+[115195]<I> open status=0
+[115227]<I> auth cmpl success=0
+[115227]<W> link down reason=0x13
+[115429]<I> peer adv rssi=-32 allowed=1
+[0116.66] [115720]<I> link up; requesting encryption
+[115720]<I> open status=0
+[115752]<I> auth cmpl success=0
+[115752]<W> link down reason=0x13
+[0117.12] [116078]<I> peer adv rssi=-31 allowed=1
+[116170]<I> link up; requesting encryption
+[116170]<I> open status=0
+[116217]<I> auth cmpl success=0
+[116217]<W> link down reason=0x13
+[0117.51] [116485]<I> peer adv rssi=-41 allowed=1
+[116575]<I> link up; requesting encryption
+[116575]<I> open status=0
+[116607]<I> auth cmpl success=0
+[116607]<W> link down reason=0x13
+[0118.09] [116858]<I> peer adv rssi=-39 allowed=1
+[117025]<I> link up; requesting encryption
+[117025]<I> open status=0
+[117057]<I> auth cmpl success=0
+[117057]<W> link down reason=0x13
+[117185]<I> peer adv rssi=-37 allowed=1
+[0118.57] [117445]<I> link up; requesting encryption
+[117445]<I> open status=0
+[117477]<I> auth cmpl success=0
+[117477]<W> link down reason=0x13
+[117543]<I> peer adv rssi=-32 allowed=1
+[117640]<I> link up; requesting encryption
+[117640]<I> open status=0
+[117672]<I> auth cmpl success=0
+[117672]<W> link down reason=0x13
+[0119.23] [118318]<I> peer adv rssi=-31 allowed=1
+[0119.50] [118570]<I> link up; requesting encryption
+[118570]<I> open status=0
+[118602]<I> auth cmpl success=0
+[118602]<W> link down reason=0x13
+[0120.23] [118864]<I> peer adv rssi=-35 allowed=1
+[118960]<I> link up; requesting encryption
+[118960]<I> open status=0
+[118992]<I> auth cmpl success=0
+[118992]<W> link down reason=0x13
+[119121]<I> peer adv rssi=-35 allowed=1
+[119305]<I> link up; requesting encryption
+[119305]<I> open status=0
+[119337]<I> auth cmpl success=0
+[119337]<W> link down reason=0x13

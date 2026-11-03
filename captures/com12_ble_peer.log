@@ -1,0 +1,156 @@
+[000.37] ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2f00
+entry 0x403c8928
+I (27) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+I (27) boot: compile time Nov  1 2026 12:17:43
+I (27) boot: Multicore bootloader
+I (28) boot: chip revision: v0.2
+I (31) boot: efuse block revision: v1.4
+I (34) boot.esp32s3: Boot SPI Speed : 80MHz
+I (38) boot.esp32s3: SPI Mode       : DIO
+I (42) boot.esp32s3: SPI Flash Size : 16MB
+I (46) boot: Enabling RNG early entropy source...
+I (50) boot: Partition Table:
+I (53) boot: ## Label            Usage          Type ST Offset   Length
+I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (72) boot:  2 factory          factory app      00 00 00010000 00500000
+I (79) boot:  3 coco_pose        Unknown data     01 40 00510000 00320000
+I (85) boot: End of partition table
+I (89) esp_image: segment 0: paddr=00010020 vaddr=3c1a0020 size=33de4h (212452) map
+I (134) esp_image: segment 1: paddr=00043e0c vaddr=3fc9d600 size=04810h ( 18448) load
+I (138) esp_image: segment 2: paddr=00048624 vaddr=40374000 size=079f4h ( 31220) load
+I (145) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=19c0d0h (1687760) map
+[000.74] I (442) esp_image: segment 4: paddr=001ec0f8 vaddr=4037b9f4 size=11b28h ( 72488) load
+I (458) esp_image: segment 5: paddr=001fdc28 vaddr=600fe100 size=0001ch (    28) load
+I (468) boot: Loaded app from partition at offset 0x10000
+I (469) boot: Disabling RNG early entropy source...
+I (479) octal_psram: vendor id    : 0x0d (AP)
+I (479) octal_psram: dev id       : 0x02 (generation 3)
+I (479) octal_psram: density      : 0x03 (64 Mbit)
+I (481) octal_psram: good-die     : 0x01 (Pass)
+I (485) octal_psram: Latency      : 0x01 (Fixed)
+I (490) octal_psram: VCC          : 0x01 (3V)
+I (494) octal_psram: SRF          : 0x01 (Fast Refresh)
+I (499) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+I (504) octal_psram: BurstLen     : 0x01 (32 Byte)
+I (508) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+I (513) octal_psram: DriveStrength: 0x00 (1/1)
+I (517) esp_psram: Found 8MB PSRAM device
+I (521) esp_psram: Speed: 40MHz
+I (524) cpu_start: Multicore app
+[001.67] I (1258) esp_psram: SPI SRAM memory test OK
+I (1267) cpu_start: Pro cpu start user code
+I (1267) cpu_start: cpu freq: 160000000 Hz
+I (1267) app_init: Application information:
+I (1268) app_init: Project name:     yg_b_sensing_v21
+I (1272) app_init: App version:      1
+I (1276) app_init: Compile time:     Nov  1 2026 13:09:12
+I (1281) app_init: ELF file SHA256:  51659aa7c...
+I (1285) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+I (1290) efuse_init: Min chip rev:     v0.0
+I (1294) efuse_init: Max chip rev:     v0.99 
+I (1298) efuse_init: Chip rev:         v0.2
+I (1302) heap_init: Initializing. RAM available for dynamic allocation:
+I (1309) heap_init: At 3FCA6690 len 00043080 (268 KiB): RAM
+I (1314) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (1319) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (1324) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+I (1330) esp_psram: Adding pool of 8178K of PSRAM memory to heap allocator
+I (1337) spi_flash: detected chip: generic
+I (1340) spi_flash: flash io: dio
+I (1344) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (1350) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (1356) coexist: coex firmware version: e727207
+I (1380) coexist: coexist rom version e7ae62f
+I (1381) main_task: Started on CPU0
+I (1382) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations
+I (1385) main_task: Calling app_main()
+I (1395) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (1397) yolo11n-pose: decode buf allocated (resident), size=230400 from=psram
+I (1403) yolo11n-pose: rotate dst buf allocated (resident), size=230400 from=psram
+I (1411) yolo11n-pose: native rgb buf allocated (resident), size=230400 from=psram
+I (1418) yolo11n-pose: prealloc resident bufs done, psram free=7523580 largest=7471104
+I (1427) FbsLoader: The storage free size is 22656 KB
+I (1430) FbsLoader: The partition size is 3200 KB
+I (1435) FbsLoader: Model head bytes: 45 44 4c 32 -> 'EDL2'
+W (1440) FbsLoader: There is only one model in the flatbuffers, ignore the input model name!
+[002.33] W (1797) dl::Model: Minimize() will delete variables not used in model inference, which will make it impossible to test or debug the model.
+I (1807) pose_rt: init ok, waiting for camera stream
+I (1808) gpio: GPIO[41]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+I (1882) bsp_camera: PWDN GPIO41 pulsed then held low
+I (1882) bsp_camera: pins SDA=21 SCL=47 CS=4 SCLK=13 DATA0=8 PWDN=41 SPI_HOST=1
+E (1888) i2c.master: I2C transaction unexpected nack detected
+E (1888) i2c.master: s_i2c_synchronous_transaction(924): I2C transaction failed
+E (1895) i2c.master: i2c_master_multi_buffer_transmit(1186): I2C transaction failed
+E (1902) sccb_i2c: s_sccb_i2c_transmit_v16(180): faled to transmit
+E (1908) sccb:  transmit addr phase failed: addr:0xfc, ret:259
+E (1914) bf3901: Get sensor ID failed
+E (1917) esp_video_init: Failed to detect camera sensor with address=6e
+I (1924) bsp_camera: video init ok on attempt 1/3
+E (1928) bsp_camera: cam_setup_buffers(192): open /dev/video3 failed, errno=2
+E (1935) bsp_camera: camera buffer alloc failed
+E (1939) yg-b: camera early init failed
+E (1943) bsp_camera: stream_start before early_init
+E (1947) yg-b: camera stream start failed
+I (1952) BLE_INIT: BT controller compile version [d74042a]
+I (1957) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:b5:ae
+I (1962) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+I (2053) yg-b: v2.1 B sensor boot=3246419523: radar GPIO18; no private-data uplink
+I (2053) main_task: Returned from app_main()
+W (2086) ld6002: first64 +0: 01 2E 33 00 04 0A 14 F9 00 00 00 00 FF 01 2E 34 
+W (2086) ld6002: first64 +16: 00 04 0A 15 FF 00 00 00 00 FF 01 2E 35 00 04 0A 
+W (2089) ld6002: first64 +32: 16 FD 00 00 00 00 FF 01 2E 36 00 04 0A 14 FC 00 
+W (2096) ld6002: first64 +48: 00 00 00 FF 01 2E 37 00 04 0A 15 FC 00 00 00 00 
+[022.11] W (21827) yg-b-ble: connect from unpermitted peer; encryption not started
+W (21874) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 86, BDA:0x68EE8F44BDB6
+W (21876) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+W (21881) BT_HCI: hci cmd send: disconnect: hdl 0x1, rsn:0x13
+W (21887) BT_BTM: btm_sec_clr_temp_auth_service() - no dev CB
+
+E (21890) BT_BTM: Device not found
+
+W (21893) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x16
+[023.26] W (22997) yg-b-ble: connect from unpermitted peer; encryption not started
+W (23014) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 86, BDA:0x68EE8F44BDB6
+W (23015) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+W (23021) BT_HCI: hci cmd send: disconnect: hdl 0x1, rsn:0x13
+W (23027) BT_BTM: btm_sec_clr_temp_auth_service() - no dev CB
+
+E (23030) BT_BTM: Device not found
+
+W (23033) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x16
+[023.85] W (23567) yg-b-ble: connect from unpermitted peer; encryption not started
+W (23614) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 86, BDA:0x68EE8F44BDB6
+W (23615) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+W (23621) BT_HCI: hci cmd send: disconnect: hdl 0x1, rsn:0x13
+W (23627) BT_BTM: btm_sec_clr_temp_auth_service() - no dev CB
+
+E (23630) BT_BTM: Device not found
+
+W (23633) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x16
+[024.27] W (23987) yg-b-ble: connect from unpermitted peer; encryption not started
+W (24019) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 86, BDA:0x68EE8F44BDB6
+W (24020) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+W (24026) BT_HCI: hci cmd send: disconnect: hdl 0x1, rsn:0x13
+W (24032) BT_BTM: btm_sec_clr_temp_auth_service() - no dev CB
+
+E (24035) BT_BTM: Device not found
+
+W (24038) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x16
+[024.61] W (24347) yg-b-ble: connect from unpermitted peer; encryption not started
+W (24364) BT_APPL: bta_dm_ble_smp_cback remove bond,rsn 86, BDA:0x68EE8F44BDB6
+W (24365) BT_BTC: btc_dm_ble_auth_cmpl_evt, remove bond in flash bd_addr: 68ee8f44bdb6
+W (24371) BT_HCI: hci cmd send: disconnect: hdl 0x1, rsn:0x13
+W (24377) BT_BTM: btm_sec_clr_temp_auth_service() - no dev CB
+
+E (24380) BT_BTM: Device not found
+
+W (24383) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x16

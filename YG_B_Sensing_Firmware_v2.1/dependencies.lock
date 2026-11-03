@@ -1,0 +1,81 @@
+dependencies:
+  espressif/cmake_utilities:
+    dependencies: []
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\espressif__cmake_utilities
+      type: local
+    version: 0.5.3
+  espressif/dl_fft:
+    dependencies:
+    - name: idf
+      version: '>=5.0'
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\dl_fft
+      type: local
+    version: 0.3.1
+  espressif/esp-dl:
+    dependencies:
+    - name: idf
+      version: '>=5.3'
+    - name: espressif/esp_new_jpeg
+      version: '>=0.6.1'
+    - name: espressif/dl_fft
+      override_path: ../dl_fft
+      version: '>=0.3.1'
+    - name: espressif/esp-dsp
+      version: '>=1.7.0'
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\esp-dl
+      type: local
+    targets:
+    - esp32
+    - esp32s3
+    - esp32p4
+    version: 3.2.4
+  espressif/esp-dsp:
+    dependencies: []
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\espressif__esp-dsp
+      type: local
+    version: 1.8.2
+  espressif/esp_cam_sensor:
+    dependencies: []
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\espressif__esp_cam_sensor
+      type: local
+    version: 2.2.0
+  espressif/esp_new_jpeg:
+    dependencies: []
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\espressif__esp_new_jpeg
+      type: local
+    version: 1.0.2
+  espressif/esp_sccb_intf:
+    dependencies: []
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\espressif__esp_sccb_intf
+      type: local
+    version: 0.0.9
+  espressif/usb_host_uvc:
+    dependencies: []
+    source:
+      path: D:\yuguang_review\YG_B_Sensing_Firmware_v2.1\components\espressif__usb_host_uvc
+      type: local
+    version: 2.5.2
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+direct_dependencies:
+- espressif/cmake_utilities
+- espressif/dl_fft
+- espressif/esp-dl
+- espressif/esp-dsp
+- espressif/esp_cam_sensor
+- espressif/esp_new_jpeg
+- espressif/esp_sccb_intf
+- espressif/usb_host_uvc
+- idf
+manifest_hash: 3e3f43037c03e4c84339997af10d495d6de5624b18e08d8d47385e057bd4f3df
+target: esp32s3
+version: 2.0.0

@@ -1,0 +1,20 @@
+{
+  "type": "wifi",
+  "basicConfig": {
+    "defaultData": true
+  },
+  "info": {
+    "displayName": "灵机智玩"
+  },
+  "data": {
+    "voiceControl_HandsAction": {
+      "key": "prop.6.4",
+      "value": 0
+    },
+
+    "voiceControl_Emotion": {
+      "key": "prop.6.3",
+      "value": 0
+    }
+  }
+}

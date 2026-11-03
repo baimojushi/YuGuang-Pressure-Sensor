@@ -1,0 +1,69 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2f00
+entry 0x403c8928
+I (27) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+I (27) boot: compile time Nov  1 2026 02:17:15
+I (27) boot: Multicore bootloader
+I (28) boot: chip revision: v0.2
+I (31) boot: efuse block revision: v1.4
+I (34) boot.esp32s3: Boot SPI Speed : 80MHz
+I (38) boot.esp32s3: SPI Mode       : DIO
+I (42) boot.esp32s3: SPI Flash Size : 2MB
+I (46) boot: Enabling RNG early entropy source...
+I (50) boot: Partition Table:
+I (53) boot: ## Label            Usage          Type ST Offset   Length
+I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+I (79) boot: End of partition table
+I (82) esp_image: segment 0: paddr=00010020 vaddr=3c090020 size=218dch (137436) map
+I (114) esp_image: segment 1: paddr=00031904 vaddr=3fc99c00 size=0419ch ( 16796) load
+I (117) esp_image: segment 2: paddr=00035aa8 vaddr=40374000 size=0a570h ( 42352) load
+I (127) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=840fch (540924) map
+I (223) esp_image: segment 4: paddr=000c4124 vaddr=4037e570 size=0b670h ( 46704) load
+I (233) esp_image: segment 5: paddr=000cf79c vaddr=600fe100 size=0001ch (    28) load
+I (242) boot: Loaded app from partition at offset 0x10000
+I (242) boot: Disabling RNG early entropy source...
+I (252) cpu_start: Multicore app
+I (261) cpu_start: Pro cpu start user code
+I (261) cpu_start: cpu freq: 160000000 Hz
+I (261) app_init: Application information:
+I (261) app_init: Project name:     yg_b_sensing_v21
+I (266) app_init: App version:      1
+I (269) app_init: Compile time:     Nov  1 2026 02:15:52
+I (274) app_init: ELF file SHA256:  93e5a42ff...
+I (279) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+I (284) efuse_init: Min chip rev:     v0.0
+I (287) efuse_init: Max chip rev:     v0.99 
+I (291) efuse_init: Chip rev:         v0.2
+I (295) heap_init: Initializing. RAM available for dynamic allocation:
+I (302) heap_init: At 3FCA5520 len 000441F0 (272 KiB): RAM
+I (307) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (312) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (317) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+I (323) spi_flash: detected chip: generic
+I (326) spi_flash: flash io: dio
+W (329) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (342) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (348) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (354) coexist: coex firmware version: e727207
+I (372) coexist: coexist rom version e7ae62f
+I (373) main_task: Started on CPU0
+I (374) main_task: Calling app_main()
+I (384) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (385) BLE_INIT: BT controller compile version [d74042a]
+I (388) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:b5:ae
+I (392) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+I (462) yg-b: v2.1 B sensor boot=789269122: radar GPIO18; no private-data uplink
+I (462) main_task: Returned from app_main()
+W (484) ld6002: first64 +0: 01 5A 6B 00 04 0A 14 D5 00 00 00 00 FF 01 5A 6C 
+W (484) ld6002: first64 +16: 00 04 0A 15 D3 00 00 00 00 FF 01 5A 6D 00 04 0A 
+W (487) ld6002: first64 +32: 16 D1 00 00 00 00 FF 01 5A 6E 00 04 0A 14 D0 00 
+W (494) ld6002: first64 +48: 00 00 00 FF 01 5A 6F 00 04 0A 15 D0 00 00 00 00 

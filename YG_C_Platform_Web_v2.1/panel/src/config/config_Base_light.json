@@ -1,0 +1,53 @@
+{
+  "type": "wifi",
+  "basicConfig": {
+    "defaultData": true
+  },
+  "info": {
+    "displayName": "智能灯"
+  },
+  "data": {
+    "light_OnOff": {
+      "key": "prop.2.1",
+      "value": false
+    },
+    "light_RGBOnOff": {
+      "key": "prop.8.1",
+      "value": false
+    },
+    "light_Brightness": {
+      "key": "prop.2.2",
+      "value": 100
+    },
+    "light_LightMode": {
+      "key": "prop.2.3",
+      "value": 0
+    },
+    "light_LightSwitching": {
+      "key": "prop.2.4",
+      "value": 1
+    },
+    "light_LightSelect": {
+      "key": "prop.2.5",
+      "value": 1
+    },
+    "light_BrightnessRatio": {
+      "key": "prop.2.6",
+      "value": 1
+    },
+    "light_BrightGrad": {
+      "key": "prop.2.7",
+      "value": 1
+    },
+    "light_DelayOff": {
+      "key": "prop.3.1",
+      "value": 1
+    },
+    "light_Reset": {
+      "key": "prop.3.2",
+      "value": 1
+    },
+    "light_Temperature": { "key": "prop.2.10", "value": 2700 },
+    "light_Color": { "key": "prop.8.3", "value": "rgb(142, 26, 26)" }
+  }
+}

@@ -1,0 +1,35 @@
+zip size: 3872565 bytes
+entries: 974
+uncompressed: 11.0 MB
+
+--- top-level ---
+      11.0 MB     974 files  YG_Local_LAN_v3
+
+--- root-level files ---
+
+--- non-node_modules tree (first 120) ---
+       144 B  FILE YG_Local_LAN_v3/.gitignore
+    10,886 B  FILE YG_Local_LAN_v3/README.md
+     3,466 B  FILE YG_Local_LAN_v3/docs/HARDWARE_AND_SAFETY.md
+     1,684 B  FILE YG_Local_LAN_v3/docs/LICENSE_REVIEW.md
+     2,590 B  FILE YG_Local_LAN_v3/docs/PROTOCOL.md
+     3,039 B  FILE YG_Local_LAN_v3/docs/VERIFICATION.md
+       355 B  FILE YG_Local_LAN_v3/pc_inference/.env.example
+     1,301 B  FILE YG_Local_LAN_v3/pc_inference/README.md
+     4,199 B  FILE YG_Local_LAN_v3/pc_inference/eyes.py
+     3,052 B  FILE YG_Local_LAN_v3/pc_inference/features.py
+     7,429 B  FILE YG_Local_LAN_v3/pc_inference/pose_backend.py
+     3,826 B  FILE YG_Local_LAN_v3/pc_inference/protocol.py
+     1,910 B  FILE YG_Local_LAN_v3/pc_inference/psychology.py
+       200 B  FILE YG_Local_LAN_v3/pc_inference/requirements-optional.txt
+       162 B  FILE YG_Local_LAN_v3/pc_inference/requirements.txt
+     4,176 B  FILE YG_Local_LAN_v3/pc_inference/respiration.py
+       602 B  FILE YG_Local_LAN_v3/pc_inference/run.py
+    11,985 B  FILE YG_Local_LAN_v3/pc_inference/server.py
+     1,926 B  FILE YG_Local_LAN_v3/pc_inference/settings.py
+       366 B  FILE YG_Local_LAN_v3/pc_inference/start_windows.ps1
+     2,644 B  FILE YG_Local_LAN_v3/pc_inference/tracking.py
+       112 B  FILE YG_Local_LAN_v3/sensor_esp32s3/CMakeLists.txt
+       888 B  FILE YG_Local_LAN_v3/sensor_esp32s3/README.md
+       242 B  FILE YG_Local_LAN_v3/sensor_esp32s3/partitions.csv
+       886 B  FILE YG_Local_LAN_v3/sensor_esp32s3/sdkconfig.defaults

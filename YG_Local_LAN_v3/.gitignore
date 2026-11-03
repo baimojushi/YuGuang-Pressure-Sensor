@@ -1,0 +1,12 @@
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+**/reports/
+**/models/
+**/dist/
+**/*.spec
+**/*.joblib
+*.env

@@ -1,0 +1,37 @@
+menu "YG Local LAN Sensor"
+    config YG_WIFI_SSID
+        string "2.4 GHz Wi-Fi SSID"
+        default "REPLACE_ME"
+    config YG_WIFI_PASSWORD
+        string "Wi-Fi password (stored in firmware; keep sdkconfig private)"
+        default "REPLACE_ME"
+    config YG_SERVER_URL
+        string "PC LAN POST URL (never public Internet)"
+        default "http://192.168.1.100:8000/v1/ingest"
+    config YG_DEVICE_ID
+        string "Device ID"
+        default "sensor01"
+    config YG_DEVICE_TOKEN
+        string "Device token (must equal PC config; keep secret)"
+        default "REPLACE_WITH_RANDOM_TOKEN"
+    config YG_UPLOAD_INTERVAL_MS
+        int "Image + radar upload interval ms"
+        default 1000
+        range 200 5000
+    config YG_SERVO_GPIO
+        int "Servo PWM GPIO (default 48, not camera CS GPIO4)"
+        default 48
+        range 0 48
+    config YG_SERVO_MIN_DEG
+        int "Servo physical safe minimum angle"
+        default 30
+        range 0 90
+    config YG_SERVO_MAX_DEG
+        int "Servo physical safe maximum angle"
+        default 150
+        range 90 180
+    config YG_SERVO_HOME_DEG
+        int "Servo home angle"
+        default 90
+        range 30 150
+endmenu

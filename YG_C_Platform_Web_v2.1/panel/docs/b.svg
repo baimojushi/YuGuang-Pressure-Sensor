@@ -1,0 +1,186 @@
+<svg width="1400" height="1200" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="1400" height="1200" fill="#f8f9fa" />
+
+    <!-- 标题 -->
+    <text x="700" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        text-anchor="middle" fill="#2c3e50">私有云H5模块依赖拓扑图</text>
+
+    <!-- 模块节点 -->
+    <!-- main入口 -->
+    <rect x="600" y="100" width="200" height="80" rx="10" fill="#e3f2fd" stroke="#2196f3"
+        stroke-width="2" />
+    <text x="700" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#1976d2">main.ts</text>
+    <text x="700" y="165" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">项目入口模块</text>
+
+    <!-- router -->
+    <rect x="600" y="220" width="200" height="80" rx="10" fill="#e8f5e9" stroke="#4caf50"
+        stroke-width="2" />
+    <text x="700" y="260" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#388e3c">router/index.ts</text>
+    <text x="700" y="285" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">路由管理模块</text>
+
+    <!-- views -->
+    <rect x="200" y="340" width="200" height="80" rx="10" fill="#fff3e0" stroke="#ff9800"
+        stroke-width="2" />
+    <text x="300" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#f57c00">views</text>
+    <text x="300" y="405" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">视图组件模块</text>
+
+    <!-- components -->
+    <rect x="450" y="340" width="200" height="80" rx="10" fill="#f3e5f5" stroke="#9c27b0"
+        stroke-width="2" />
+    <text x="550" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#7b1fa2">components</text>
+    <text x="550" y="405" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">公共组件模块</text>
+
+    <!-- stores/main -->
+    <rect x="700" y="340" width="200" height="80" rx="10" fill="#ffebee" stroke="#f44336"
+        stroke-width="2" />
+    <text x="800" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#d32f2f">stores/main</text>
+    <text x="800" y="405" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">设备SDK与状态</text>
+
+    <!-- stores/time -->
+    <rect x="950" y="340" width="200" height="80" rx="10" fill="#ffebee" stroke="#f44336"
+        stroke-width="2" />
+    <text x="1050" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#d32f2f">stores/time</text>
+    <text x="1050" y="405" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">定时任务管理</text>
+
+    <!-- stores/mode -->
+    <rect x="200" y="460" width="200" height="80" rx="10" fill="#ffebee" stroke="#f44336"
+        stroke-width="2" />
+    <text x="300" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#d32f2f">stores/mode</text>
+    <text x="300" y="525" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">灯具模式管理</text>
+
+    <!-- stores/inteScene -->
+    <rect x="450" y="460" width="200" height="80" rx="10" fill="#ffebee" stroke="#f44336"
+        stroke-width="2" />
+    <text x="550" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#d32f2f">stores/inteScene</text>
+    <text x="550" y="525" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">场景联动管理</text>
+
+    <!-- utils/api -->
+    <rect x="700" y="460" width="200" height="80" rx="10" fill="#e0f2f1" stroke="#00bcd4"
+        stroke-width="2" />
+    <text x="800" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#0097a7">utils/apis</text>
+    <text x="800" y="525" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">API定义模块</text>
+
+    <!-- utils/request -->
+    <rect x="950" y="460" width="200" height="80" rx="10" fill="#e0f2f1" stroke="#00bcd4"
+        stroke-width="2" />
+    <text x="1050" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#0097a7">utils/request</text>
+    <text x="1050" y="525" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">HTTP请求封装</text>
+
+    <!-- utils/common -->
+    <rect x="200" y="580" width="200" height="80" rx="10" fill="#e0f2f1" stroke="#00bcd4"
+        stroke-width="2" />
+    <text x="300" y="620" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#0097a7">utils/common</text>
+    <text x="300" y="645" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">通用工具函数</text>
+
+    <!-- i18n -->
+    <rect x="450" y="580" width="200" height="80" rx="10" fill="#fafafa" stroke="#9e9e9e"
+        stroke-width="2" />
+    <text x="550" y="620" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        text-anchor="middle" fill="#616161">i18n</text>
+    <text x="550" y="645" font-family="Arial, sans-serif" font-size="11" text-anchor="middle"
+        fill="#333">国际化模块</text>
+
+    <!-- 连接线箭头 -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+        </marker>
+    </defs>
+
+    <!-- main -->
+    <line x1="700" y1="180" x2="700" y2="220" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="600" y1="140" x2="500" y2="340" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="700" y1="140" x2="700" y2="340" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="140" x2="900" y2="340" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="750" y1="140" x2="850" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="650" y1="140" x2="550" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="140" x2="600" y2="580" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="140" x2="500" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="650" y1="140" x2="300" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+
+    <!-- router -->
+    <line x1="600" y1="260" x2="300" y2="340" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="700" y1="260" x2="550" y2="340" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="260" x2="800" y2="340" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+
+    <!-- views -->
+    <line x1="300" y1="420" x2="800" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="300" y1="420" x2="300" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="300" y1="420" x2="550" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="300" y1="420" x2="800" y2="340" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="300" y1="420" x2="550" y2="580" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="300" y1="420" x2="300" y2="580" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+
+    <!-- stores -->
+    <line x1="800" y1="420" x2="300" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="420" x2="550" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="420" x2="1050" y2="460" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="420" x2="300" y2="580" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="550" y1="420" x2="300" y2="580" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+
+    <!-- utils/apis -->
+    <line x1="800" y1="540" x2="1050" y2="540" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+    <line x1="800" y1="540" x2="300" y2="580" stroke="#666" stroke-width="2"
+        marker-end="url(#arrow)" />
+
+    <!-- 统计信息 -->
+    <rect x="400" y="700" width="600" height="180" rx="10" fill="#fff" stroke="#e0e0e0"
+        stroke-width="2" />
+    <text x="700" y="740" font-family="Arial, sans-serif" font-size="20" font-weight="bold"
+        text-anchor="middle" fill="#2c3e50">依赖统计概要</text>
+    <text x="700" y="775" font-family="Arial, sans-serif" font-size="14" text-anchor="middle"
+        fill="#333">总模块数: 12</text>
+    <text x="700" y="800" font-family="Arial, sans-serif" font-size="14" text-anchor="middle"
+        fill="#333">依赖边数: 32</text>
+    <text x="700" y="825" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        text-anchor="middle" fill="#27ae60">循环依赖数: 0</text>
+    <text x="700" y="855" font-family="Arial, sans-serif" font-size="12" text-anchor="middle"
+        fill="#666">无发现循环依赖关系</text>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "type": "wifi",
+  "basicConfig": { "defaultData": true },
+  "info": { "displayName": "奥普浴霸E372M" },
+  "data": {
+    "baseControl_Light": { "key": "prop.2.1", "value": false },
+    "modeControl_Mode": { "key": "prop.3.1", "value": 0 }
+  }
+}

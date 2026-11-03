@@ -1,0 +1,453 @@
+[0000.71] ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x135c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xea8
+load:0x403cb700,len:0x30dc
+entry 0x403c8940
+I (27) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
+I (27) boot: compile time Nov  1 2026 04:17:03
+I (27) boot: Multicore bootloader
+I (28) boot: chip revision: v0.2
+I (31) boot: efuse block revision: v1.4
+I (34) qio_mode: Enabling default flash chip QIO
+I (39) boot.esp32s3: Boot SPI Speed : 80MHz
+I (43) boot.esp32s3: SPI Mode       : QIO
+I (46) boot.esp32s3: SPI Flash Size : 16MB
+I (50) boot: Enabling RNG early entropy source...
+I (55) boot: Partition Table:
+I (57) boot: ## Label            Usage          Type ST Offset   Length
+I (64) boot:  0 nvs              WiFi data        01 02 00011000 0000c000
+I (70) boot:  1 otadata          OTA data         01 00 0001d000 00002000
+I (77) boot:  2 phy_init         RF data          01 01 0001f000 00001000
+I (83) boot:  3 ota_0            OTA app          00 10 00020000 003f0000
+I (90) boot:  4 ota_1            OTA app          00 11 00410000 003f0000
+I (96) boot:  5 lvgl             Unknown data     01 82 00800000 00010000
+I (103) boot:  6 coco_pose        Unknown data     01 40 00810000 00320000
+I (109) boot:  7 spiffs_data      Unknown data     01 82 00b30000 00100000
+I (116) boot:  8 model            Unknown data     01 82 00c30000 00300000
+I (123) boot: End of partition table
+I (126) esp_image: segment 0: paddr=00020020 vaddr=3c160020 size=66df0h (421360) map
+I (196) esp_image: segment 1: paddr=00086e18 vaddr=3fca5500 size=077a8h ( 30632) load
+I (202) esp_image: segment 2: paddr=0008e5c8 vaddr=40378000 size=01a50h (  6736) load
+I (203) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=153ed0h (1392336) map
+I (414) esp_image: segment 4: paddr=001e3ef8 vaddr=40379a50 size=1b9dch (113116) load
+I (436) esp_image: segment 5: paddr=001ff8dc vaddr=600fe100 size=0001ch (    28) load
+I (448) boot: Loaded app from partition at offset 0x20000
+I (448) boot: Disabling RNG early entropy source...
+W (458) flash HPM: HPM mode is optional feature that depends on flash model. Read Docs First!
+W (458) flash HPM: HPM mode with DC adjustment is disabled. Some flash models may not be supported. Read Docs First!
+W (465) flash HPM: High performance mode of this flash model hasn't been supported.
+I (473) MSPI Timing: Flash timing tuning index: 2
+I (477) octal_psram: vendor id    : 0x0d (AP)
+I (481) octal_psram: dev id       : 0x02 (generation 3)
+I (486) octal_psram: density      : 0x03 (64 Mbit)
+I (490) octal_psram: good-die     : 0x01 (Pass)
+I (495) octal_psram: Latency      : 0x01 (Fixed)
+I (499) octal_psram: VCC          : 0x01 (3V)
+I (503) octal_psram: SRF          : 0x01 (Fast Refresh)
+I (508) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+I (513) octal_psram: BurstLen     : 0x01 (32 Byte)
+I (517) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+I (522) octal_psram: DriveStrength: 0x00 (1/1)
+I (532) MSPI Timing: PSRAM timing tuning index: 2
+I (532) esp_psram: Found 8MB PSRAM device
+I (535) esp_psram: Speed: 120MHz
+I (557) mmu_psram: Read only data copied and mapped to SPIRAM
+I (635) mmu_psram: Instructions copied and mapped to SPIRAM
+I (635) cpu_start: Multicore app
+I (644) cpu_start: Pro cpu start user code
+I (644) cpu_start: cpu freq: 240000000 Hz
+I (644) app_init: Application information:
+I (644) app_init: Project name:     vb701n
+I (648) app_init: App version:      1
+I (651) app_init: Compile time:     Nov  1 2026 04:15:46
+I (656) app_init: ELF file SHA256:  54247684a...
+I (660) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+I (665) efuse_init: Min chip rev:     v0.0
+I (669) efuse_init: Max chip rev:     v0.99 
+I (673) efuse_init: Chip rev:         v0.2
+I (677) heap_init: Initializing. RAM available for dynamic allocation:
+I (683) heap_init: At 3FCB5880 len 00033E90 (207 KiB): RAM
+I (688) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (694) heap_init: A[0001.38] t 600FE11C len 00001ECC (7 KiB): RTCRAM
+I (699) esp_psram: Adding pool of 6323K of PSRAM memory to heap allocator
+I (706) spi_flash: detected chip: generic
+I (709) spi_flash: flash io: qio
+I (712) coexist: coex firmware version: e727207
+I (749) coexist: coexist rom version e7ae62f
+I (749) main_task: Started on CPU0
+I ([000063]<I> system KV init ret=0
+I (762) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+[000063]<I> init ok gpio0
+[000066]<I> init ok gpio1 leds 8
+I (767) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (776) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+[000085]<I> arbiter init
+[000087]<D> port 1 TX=40 RX=39 baud=2000000
+I (791) gpio: GPIO[38]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 
+[000100]<D> bind uart port 1
+[000102]<D> stop audio (0x0201)
+[000105]<D> tx ok cmd=0x0201 len=7 write=7
+[000109]<I> enc loop
+[000159]<I> uart rx first 1024
+[000160]<I> enc task stack=30720
+[000160]<D> open opus 20ms, chip pcm 16k
+[000160]<E> system KV get failed ret=-1 key=volume key_len=6
+[000163]<I> volume 80
+[000165]<I> qm_audio ready, opus 20ms
+[000251]<I> init done
+[000252]<E> system KV get failed ret=-1 key=course_cfg key_len=10
+[000252]<I> no valid flash data, key=course_cfg
+[000253]<I> iot event listener registered
+[000257]<I> down_register ret=0 (method=course)
+[000261]<I> init ok: synced=0 entries=0
+[000265]<I> dynreg env=2
+[000267]<I> saved wifi, skip ble
+I (970) pp: pp rom version: e7ae62f
+I (972) net80211: net80211 rom version: e7ae62f
+I (977) wifi:wifi driver task: 3fce223c, prio:23, stack:6144, core=0
+I (983) wifi:wifi firmware version: 79fa3f41ba
+I (987) wifi:wifi certification version: v7.0
+I (991) wifi:config NVS flash: disabled
+I (994) wifi:config nano formatting: enabled
+I (998) wifi:Init data frame dynamic rx buffer num: 32
+I (1003) wifi:Init static rx mgmt buffer num: 5
+I (1007) wifi:Init management short buffer num: 32
+I (1012) wifi:Init static tx buffer num: 8
+I (1016) wifi:Init tx cache buffer num: 32
+I (1020) wifi:Init static tx FG buffer num: 2
+I (1024) wifi:Init static rx buffer size: 1600
+I (1028) wifi:Init static rx buffer num: 10
+I (1032) wifi:Init dynamic rx buffer num: 32
+I (1036) wifi_init: rx ba win: 12
+I (1039) wifi_init: accept mbox: 6
+I (1042) wifi_init: tcpip mbox: 32
+I (1045) wifi_init: udp mbox: 16
+I (1048) wifi_init: tcp mbox: 6
+I (1051) wifi_init: tcp tx win: 5760
+I (1054) wifi_init: tcp rx win: 5760
+I (1057) wifi_init: tcp mss: 1440
+I (1060) wifi_init: WiFi/LWIP prefer SPIRAM
+I (1064) wifi_init: WiFi IRAM OP enabled
+I (1068) wifi_init: WiFi RX IRAM OP enabled
+I (1072) wifi_init: LWIP IRAM OP enabled
+W (1076) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+I (1084) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+I (1130) wifi:mode : sta (68:ee:8f:44:bd:b4)
+I (1131) wifi:enable tsf
+[000432]<I> wifi sta start
+[000433]<I> voice uplink opus rate=16000 ch=1
+[000434]<I> state idle -> ready
+[000436]<I> session created state=ready
+[000440]<E> system KV get failed ret=-1 key=qmalarm.meta key_len=12
+[000446]<I> ready, cloud=on
+[000449]<I> app init done: internal free=59215, largest=47104, psram free=6182796
+I (1155) main_task: Returned from app_main()
+[0001.72] I (1375) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+I (1376) wifi:state: init -> auth (0xb0)
+I (1393) wifi:state: auth -> assoc (0x0)
+I (1401) wifi:state: assoc -> run (0x10)
+I (1427) wifi:connected with INTERCITYHACK-NB-PLAYER-2.4G, aid = 7, channel 1, BW20, bssid = 5a:b4:bb:39:13:6e
+I (1427) wifi:security: WPA2-PSK, phy: bgn, rssi: -65
+I (1431) wifi:pm start, type: 1
+
+I (1434) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (1442) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+I (1494) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0002.20] [001179]<I> encoded 86 frames / 3302 bytes opus
+[001179]<I> request owner=0 prio=3 ok
+[001179]<I> play 1720 ms local
+[001180]<D> tx ok spk n=1 len=327 write=327 sum=0xE1
+[001252]<W> report failed -10
+[001277]<D> pcm lead silence 200 ms
+[001278]<I> play first opus 8
+[001278]<I> opus ready 16000 Hz mono 20 ms frame=640 bytes
+[001279]<I> downlink first pcm 640 bytes from opus 8
+[0003.70] [001558]<D> tx gate busy, flow pin 38 level 1
+[001660]<D> query version (0x020A)
+[001660]<D> tx ok cmd=0x020A len=8 write=8
+[001693]<D> version: 1.1.7
+[001761]<I> wifi got ip
+I (2460) esp_netif_handlers: sta ip: 10.20.0.141, mask: 255.255.254.0, gw: 10.20.0.1
+[001761]<I> network update state=1
+[001763]<D> iot event 4
+[001765]<E> dynreg request payload={"sn":"68EE8F44BDB6","pid":"11879","timestamp":"1763","signature":"<redacted>","nonce":30894} signature_len=40
+[001778]<I> tls connect start host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca=0 mtls=0
+[001787]<I> tls establish host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 ca_bytes=0 ca_type=bundle client_crt_bytes=0 client_crt_type=none client_key_bytes=0 client_key_type=none
+I (2570) wifi:<ba-add>idx:0 (ifx:0, 5a:b4:bb:39:13:6e), tid:3, ssn:1, winSize:64
+I (2748) esp-x509-crt-bundle: Certificate validated
+[002193]<D> volume 80 hw=24
+[002193]<D> set volume 24
+[002193]<D> tx ok cmd=0x0203 len=8 write=8
+[002193]<D> start record (0x0231)
+[002194]<D> tx ok cmd=0x0231 len=8 write=8
+[002197]<D> mic record start, pcm 16k
+[002206]<D> mic 512 bytes
+[002211]<I> uplink first opus 40 bytes from 640 pcm
+[002252]<W> report failed -10
+[002345]<I> transport connected host=cn-north-1-prod-testcloudserver.xjiangiot.com port=443 secure=1
+[002346]<D> request state reset timeout=10000 rx_buf=512 keep_alive=0 auth=0
+[002351]<I> tls write ok fd=52 wrote=208 requested=208
+[002369]<W> opus queue full, drop
+[002468]<I> local play done ret=-6 frames=86/86
+[002469]<I> release owner=0 done
+[002469]<I> playback done owner=0
+I (3375) wifi:<ba-add>idx:1 (ifx:0, 5a:b4:bb:39:13:6e), tid:0, ssn:16, winSize:64
+[002709]<I> response finished status=200 bytes=4564
+[002709]<I> close connection active=1 status=200
+[002710]<I> cleanup client
+[002710]<I> close connection active=0 status=200
+[002723]<I> dynreg did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883
+[002728]<I> reset marker already clear
+[002728]<I> start begin
+[002729]<I> reset_info.is_reset=0,0
+[002732]<I> cloud credential summary pid=11879 did=100000808 host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn host_len=50 port=8883
+[002744]<I> start done
+[002746]<I> network update state=1
+[002750]<D> iot event 4
+[002752]<I> iot start ok
+[002754]<I> cloud connecting
+[002757]<I> MQTT init success!
+[002760]<I> tls establish host=a2dz6zixcvuhrd.ats.iot.cn-north-1.amazonaws.com.cn port=8883 ca_bytes=1188 ca_type=certificate client_crt_bytes=1221 client_crt_type=certificate client_key_bytes=1676 client_key_type=rsa-private-key
+[0004.17] [003252]<W> report failed -10
+[0005.59] [004055]<D> start MQTT connection with parameters: clientid=11879_68EE8F44BDB6
+[004056]<I> tls write ok fd=52 wrote=32 requested=32
+[004252]<W> report failed -10
+[004274]<D> mqtt connect success!
+[004274]<D> mqtt connect success
+[004275]<I> mqtt subscribe success,topic= /11879/100000808/device/down
+[004276]<I> mqtt subscribe success,topic= /11879/100000808/cloud/set
+[004281]<I> mqtt subscribe success,topic= /11879/100000808/device/getReply
+[004288]<I> mqtt subscribe success,topic= /11879/100000808/cloud/get
+[004294]<I> mqtt subscribe success,topic= $aws/things/100000808/shadow/update
+[004350]<D> SUBACK
+[004350]<D> suback: 5, topic count: 5
+[004503]<I> cloud connected
+[004503]<I> down registered: chat
+[004503]<I> down registered: care
+[004503]<I> down registered: voice
+[004504]<I> down registered: player
+I (5206) BLE_INIT: BT controller compile version [d74042a]
+I (5212) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:bd:b6
+[004528]<I> GATT central started; peer pinned=0
+[004528]<I> ntp sync started
+[004528]<I> down registered: pomodoro
+[004529]<I> down_register ret=0 (method=course)
+[004534]<D> PUBLISH
+[004534]<D> publish devinfo topic_len=26 payload_len=175
+[004539]<D>         Packet Ident : 00000000
+[004543]<D>         Topic Length : 28
+[004546]<D>           Topic Name : /11879/100000808/device/down
+[004552]<D>     Payload Len/Room : 60 / 8112
+[004556]<D> The host IP 47.96.149.233, port is 123
+
+[004561]<D>       Receive Buflen : 8144
+[004564]<D> delivering msg ...
+[004567]<D> topic be matched
+[004570]<W> dev_topic: unhandled method=deviceStatusChange method_len=18
+[004577]<I> ntp synced, now=09:49:56
+W (5334) wifi:m f null
+
+W (5379) wifi:m f null
+
+[0005.83] [004888]<D> PUBLISH
+[004888]<D>         Packet Ident : 00000000
+[004888]<D>         Topic Length : 28
+[004888]<D>           Topic Name : /11879/100000808/device/down
+[004892]<D>     Payload Len/Room : 95 / 8112
+[004896]<D>       Receive Buflen : 8144
+[004900]<D> delivering msg ...
+[004903]<D> topic be matched
+[0006.42] W (5845) wifi:m f null
+
+W (5891) wifi:m f null
+
+W (6096) wifi:m f null
+
+W (6152) wifi:m f null
+
+W (6198) wifi:m f null
+
+[0006.71] 
+# 
+# W (6460) wifi:m f null
+
+W (6506) wifi:m f null
+
+[0010.10] [008982]<D> PUBLISH
+[008982]<D>         Packet Ident : 00000000
+[008982]<D>         Topic Length : 28
+[008982]<D>           Topic Name : /11879/100000808/device/down
+[008986]<D>     Payload Len/Room : 64 / 8112
+[008990]<D>       Receive Buflen : 8144
+[008994]<D> delivering msg ...
+[008997]<D> topic be matched
+[009000]<D> PUBLISH
+[009001]<D>         Packet Ident : 00000000
+[009005]<D>         Topic Length : 35
+[009009]<D>           Topic Name : $aws/things/100000808/shadow/update
+[009015]<D>     Payload Len/Room : 76 / 8105
+[009019]<D>       Receive Buflen : 8144
+[009023]<D> delivering msg ...
+[009026]<D> topic be matched
+[009029]<E> desired find failed!!
+W (9839) wifi:m f null
+
+W (9885) wifi:m f null
+
+[0010.32] status
+command 'status' not found
+
+# 
+# [0014.27] help
+====Build-in Commands====
+====Support six cmds once, seperate by ; ====
+help: 
+sysver: 
+reboot: reboot system
+time: system time
+
+====User Commands====
+alarm: alarm list|next|state|add <+N|HH:MM>|del <id>|on <id>|off <id>|close|snooze|cancel|clear|test
+pomodoro: pomodoro start|stop|pause|resume
+ygble: YG sensor BLE commissioning
+
+# 
+# [0018.23] selftest
+command 'selftest' not found
+
+# 
+# [0023.82] W (19822) wifi:m f null
+
+W (19924) wifi:m f null
+
+W (20027) wifi:m f null
+
+W (20129) wifi:m f null
+
+W (20231) wifi:m f null
+
+W (20334) wifi:m f null
+
+W (20539) wifi:m f null
+
+W (20641) wifi:m f null
+
+W (20743) wifi:m f null
+
+W (20846) wifi:m f null
+
+W (20948) wifi:m f null
+
+W (21051) wifi:m f null
+
+W (21153) wifi:m f null
+
+W (21256) wifi:m f null
+
+W (21359) wifi:m f null
+
+W (21460) wifi:m f null
+
+W (21563) wifi:m f null
+
+W (21665) wifi:m f null
+
+W (21767) wifi:m f null
+
+W (21870) wifi:m f null
+
+W (21972) wifi:m f null
+
+W (22075) wifi:m f null
+
+W (22177) wifi:m f null
+
+W (22280) wifi:m f null
+
+W (22382) wifi:m f null
+
+W (22484) wifi:m f null
+
+W (22587) wifi:m f null
+
+W (22689) wifi:m f null
+
+W (22791) wifi:m f null
+
+W (22894) wifi:m f null
+
+W (22996) wifi:m f null
+
+W (23201) wifi:m f null
+
+W (23305) wifi:m f null
+
+W (23406) wifi:m f null
+
+W (23508) wifi:m f null
+
+W (23611) wifi:m f null
+
+[0027.20] W (23918) wifi:m f null
+
+W (24020) wifi:m f null
+
+W (24123) wifi:m f null
+
+W (24225) wifi:m f null
+
+W (24327) wifi:m f null
+
+W (24430) wifi:m f null
+
+W (24532) wifi:m f null
+
+W (24635) wifi:m f null
+
+W (24737) wifi:m f null
+
+W (24840) wifi:m f null
+
+W (24943) wifi:m f null
+
+W (25044) wifi:m f null
+
+W (25149) wifi:m f null
+
+W (25249) wifi:m f null
+
+W (25352) wifi:m f null
+
+W (25454) wifi:m f null
+
+W (25659) wifi:m f null
+
+W (25761) wifi:m f null
+
+W (25863) wifi:m f null
+
+W (25966) wifi:m f null
+
+W (26068) wifi:m f null
+
+W (26171) wifi:m f null
+
+W (26274) wifi:m f null
+
+W (26375) wifi:m f null
+
+W (26479) wifi:m f null
+
+W (26683) wifi:m f null
+
+W (26785) wifi:m f null
+
+W (26889) wifi:m f null
+
+W (26990) wifi:m f null
+

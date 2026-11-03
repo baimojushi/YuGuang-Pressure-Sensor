@@ -1,0 +1,2 @@
+2026-11-01T14:18:42.487 [0006.22] W (123319) BT_HCI: hcif disc complete: hdl 0x1, rsn 0x8
+2026-11-01T14:18:43.030 [0006.77] W (123865) yg-b-ble: UNENCRYPTED DEBUG: fixed A whitelist matched; link authorized, not authenticated
