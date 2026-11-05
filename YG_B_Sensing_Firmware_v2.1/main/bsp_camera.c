@@ -18,6 +18,7 @@
 #include "freertos/task.h"
 
 #include <errno.h>
+#include <dirent.h>
 #include <fcntl.h>
 #include <inttypes.h>
 #include <linux/videodev2.h>
@@ -31,7 +32,7 @@
 
 #define CAM_BUF_NUM             2
 #define CAM_I2C_FREQ_HZ         50000  /* 50 kHz：排线接触裕量比 100 kHz 好得多 */
-#define CAM_INIT_RETRY          3      /* esp_video_init 失败路径会清理 I2C/SCCB，可安全重试 */
+#define CAM_INIT_RETRY          3      /* esp_video_init 探测失败是"软失败"（返回 OK），以 /dev 节点存在为准 */
 #define CAM_STREAM_PRIO         12
 #define CAM_STREAM_CORE         1
 #define CAM_DQBUF_POLL_MS       20
@@ -109,6 +110,42 @@ static void cam_teardown(void)
     }
 }
 
+/* esp_video 对"传感器探测失败"是软失败：内部只打日志、仍返回 ESP_OK，
+ * 但不会创建设备节点。仅看返回值会漏判并绕过重试循环，
+ * 所以这里以设备节点是否真的存在为准。 */
+static bool cam_device_node_ready(void)
+{
+    int fd = open(ESP_VIDEO_SPI_DEVICE_NAME, O_RDONLY | O_NONBLOCK);
+    if (fd < 0) {
+        return false;
+    }
+    close(fd);
+    return true;
+}
+
+/* 诊断：列出 /dev 下实际存在的 video* 节点。
+ * 若 esp_video 创建了编号不同的节点（如 video0），会在这里暴露。 */
+static void cam_log_video_nodes(void)
+{
+    DIR *d = opendir("/dev");
+    if (!d) {
+        ESP_LOGW(LOG_TAG, "opendir /dev failed");
+        return;
+    }
+    struct dirent *e;
+    int found = 0;
+    while ((e = readdir(d)) != NULL) {
+        if (strncmp(e->d_name, "video", 5) == 0) {
+            ESP_LOGW(LOG_TAG, "   /dev/%s exists", e->d_name);
+            found++;
+        }
+    }
+    closedir(d);
+    if (found == 0) {
+        ESP_LOGW(LOG_TAG, "   (no /dev/video* nodes at all)");
+    }
+}
+
 static esp_err_t cam_video_init(void)
 {
     /* 没有示波器时，把相机链路的驱动日志开到 DEBUG，让驱动自己报出卡点 */
@@ -162,12 +199,20 @@ static esp_err_t cam_video_init(void)
     esp_err_t err = ESP_FAIL;
     for (int attempt = 1; attempt <= CAM_INIT_RETRY; ++attempt) {
         err = esp_video_init(&cam_config);
-        if (err == ESP_OK) {
+        if (err == ESP_OK && cam_device_node_ready()) {
             ESP_LOGI(LOG_TAG, "video init ok on attempt %d/%d", attempt, CAM_INIT_RETRY);
             return ESP_OK;
         }
-        ESP_LOGW(LOG_TAG, "video init attempt %d/%d failed err=%d (%s)",
-                 attempt, CAM_INIT_RETRY, (int)err, esp_err_to_name(err));
+        if (err == ESP_OK) {
+            ESP_LOGW(LOG_TAG,
+                     "video init attempt %d/%d: esp_video_init OK but %s missing (sensor probe failed)",
+                     attempt, CAM_INIT_RETRY, ESP_VIDEO_SPI_DEVICE_NAME);
+            err = ESP_ERR_NOT_FOUND;
+        } else {
+            ESP_LOGW(LOG_TAG, "video init attempt %d/%d failed err=%d (%s)",
+                     attempt, CAM_INIT_RETRY, (int)err, esp_err_to_name(err));
+        }
+        cam_log_video_nodes();
         if (attempt < CAM_INIT_RETRY) {
             (void)esp_video_deinit();
             cam_pwdn_hold_low();
