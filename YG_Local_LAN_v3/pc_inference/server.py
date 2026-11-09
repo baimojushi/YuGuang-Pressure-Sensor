@@ -9,6 +9,8 @@ import os
 import time
 import hmac
 
+import base64
+
 from fastapi import FastAPI, HTTPException, Request, Header
 from fastapi.responses import HTMLResponse
 from starlette.concurrency import run_in_threadpool
@@ -44,6 +46,7 @@ class LocalProcessor:
         self.lock = Lock()
         self.reports_dir = Path(settings.reports_dir).resolve()
         self.reports_dir.mkdir(parents=True, exist_ok=True)
+        self.latest_image_ppm: str | None = None
 
     def _decode_frame(self, packet: SensorPacket):
         import cv2
@@ -79,13 +82,24 @@ class LocalProcessor:
             selected = None
             status = "model_unavailable"
             persons = []
+            image = None
             if self.pose.available:
                 try:
-                    persons = self.pose.detect(self._decode_frame(packet))
+                    image = self._decode_frame(packet)
+                    persons = self.pose.detect(image)
                     status = "ok"
                 except Exception as exc:
                     # Never move a motor if image decoding or model postprocessing fails.
                     status = f"model_error:{type(exc).__name__}"
+            if image is not None:
+                try:
+                    import cv2
+                    rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+                    h, w = rgb.shape[:2]
+                    ppm = f"P6\n{w} {h}\n255\n".encode("ascii") + rgb.tobytes()
+                    self.latest_image_ppm = base64.b64encode(ppm).decode("ascii")
+                except Exception:  # noqa: BLE001
+                    pass
             command, selected = s.tracking.decide(persons, packet.servo_angle_deg,
                                                    now, packet.boot_id, packet.frame_seq)
             if status != "ok":
@@ -124,6 +138,8 @@ class LocalProcessor:
                      "landmarks_coco17": person.landmarks if person else {},
                      "upper_body_only_supported": True},
             "respiration": respiration,
+            "image_ppm": self.latest_image_ppm,
+            "phase_wave": [[t, p] for t, p in list(s.respiration.raw)[-200:]],
             "posture_observations": posture,
             "eyes": eye,
             "fusion_features": features,
@@ -175,7 +191,14 @@ def create_app(settings: Settings | None = None, pose=None, eye=None, psychology
 
     @app.post("/v1/ingest")
     async def ingest(request: Request, x_device_token: str | None = Header(default=None)):
-        authorize(x_device_token)
+        client_ip = request.client.host if request.client else "?"
+        print(f"[INGEST] request from {client_ip}, token={'set' if x_device_token else 'MISSING'}", flush=True)
+        try:
+            authorize(x_device_token)
+        except HTTPException as exc:
+            print(f"[INGEST] 401 token mismatch from {client_ip}: expected={settings.device_token[:12]}... got={x_device_token[:12] if x_device_token else None}...", flush=True)
+            raise
+        print(f"[INGEST] token OK from {client_ip}, reading body...", flush=True)
         if request.headers.get("content-type", "").split(";")[0].strip() != "application/octet-stream":
             raise HTTPException(status_code=415, detail="binary octet-stream required")
         n = request.headers.get("content-length")
@@ -190,9 +213,13 @@ def create_app(settings: Settings | None = None, pose=None, eye=None, psychology
         try:
             packet = decode_packet(b"".join(pieces))
         except PacketError as exc:
+            print(f"[INGEST] 422 packet decode failed from {client_ip}: {exc}", flush=True)
             raise HTTPException(status_code=422, detail=str(exc)) from exc
         authorize(x_device_token, packet.device_id)
-        return await run_in_threadpool(processor.process, packet)
+        print(f"[INGEST] packet OK from {client_ip}, device={packet.device_id}, seq={packet.frame_seq}, len={size}", flush=True)
+        result = await run_in_threadpool(processor.process, packet)
+        print(f"[INGEST] done from {client_ip}, pose_status={result.get('pose_status')}, report_ready={result.get('report_ready')}", flush=True)
+        return result
 
     @app.get("/v1/report/{device_id}")
     async def latest_report(device_id: str, x_device_token: str | None = Header(default=None)):

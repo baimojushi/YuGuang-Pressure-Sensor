@@ -6,6 +6,7 @@
 #include "esp_wifi.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/event_groups.h"
+#include <stdlib.h>
 #include <string.h>
 
 static const char *TAG = "yg_wifi";
@@ -14,15 +15,28 @@ static EventGroupHandle_t s_events;
 
 static void on_wifi_event(void *arg, esp_event_base_t base, int32_t id, void *data)
 {
-    (void)arg; (void)data;
+    (void)arg;
     if (base == WIFI_EVENT && id == WIFI_EVENT_STA_DISCONNECTED) {
+        /* 打印断开原因码：201=NO_AP_FOUND(扫不到/5GHz) 15=4WAY_HANDSHAKE_TIMEOUT(密码/WPA3)
+         * 202=AUTH_FAIL 205=CONNECTION_FAIL；缺这个码就只能盲猜。 */
+        const wifi_event_sta_disconnected_t *d = (const wifi_event_sta_disconnected_t *)data;
         xEventGroupClearBits(s_events, WIFI_UP);
+        if (d) {
+            ESP_LOGW(TAG, "disconnected reason=%d rssi=%d ssid_len=%u; reconnecting",
+                     d->reason, d->rssi, (unsigned)d->ssid_len);
+        } else {
+            ESP_LOGW(TAG, "disconnected (no event data); reconnecting");
+        }
         esp_wifi_connect();
-        ESP_LOGW(TAG, "LAN disconnected; reconnecting");
     }
     if (base == IP_EVENT && id == IP_EVENT_STA_GOT_IP) {
+        const ip_event_got_ip_t *e = (const ip_event_got_ip_t *)data;
         xEventGroupSetBits(s_events, WIFI_UP);
-        ESP_LOGI(TAG, "LAN ready");
+        if (e) {
+            ESP_LOGI(TAG, "LAN ready ip=" IPSTR, IP2STR(&e->ip_info.ip));
+        } else {
+            ESP_LOGI(TAG, "LAN ready");
+        }
     }
 }
 
@@ -49,6 +63,35 @@ esp_err_t wifi_sta_start(void)
     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &conf));
     ESP_ERROR_CHECK(esp_wifi_start());
     ESP_ERROR_CHECK(esp_wifi_set_ps(WIFI_PS_NONE));
+
+    /* 诊断：主动扫描并列出所有可见 AP（Gate A 观测）。
+     * 用于定位 reason=201 NO_AP_FOUND 到底是"射频扫不到"还是"SSID 不匹配"。 */
+    {
+        wifi_scan_config_t scan_cfg = { .show_hidden = true };
+        esp_err_t se = esp_wifi_scan_start(&scan_cfg, true);
+        if (se != ESP_OK) {
+            ESP_LOGW(TAG, "scan start failed: %s", esp_err_to_name(se));
+        } else {
+            uint16_t ap_num = 0;
+            esp_wifi_scan_get_ap_num(&ap_num);
+            wifi_ap_record_t *aps = (ap_num > 0) ? calloc(ap_num, sizeof(*aps)) : NULL;
+            if (aps) {
+                uint16_t got = ap_num;
+                esp_wifi_scan_get_ap_records(&got, aps);
+                ESP_LOGW(TAG, "scan: %u APs visible; target ssid_len=%u",
+                         (unsigned)got, (unsigned)strlen(CONFIG_YG_WIFI_SSID));
+                for (uint16_t i = 0; i < got; i++) {
+                    ESP_LOGW(TAG, "  [%u] ssid='%s' rssi=%d auth=%d ch=%u",
+                             (unsigned)i, (char *)aps[i].ssid, aps[i].rssi,
+                             (int)aps[i].authmode, (unsigned)aps[i].primary);
+                }
+                free(aps);
+            } else {
+                ESP_LOGW(TAG, "scan: 0 APs visible");
+            }
+        }
+    }
+
     return esp_wifi_connect();
 }
 

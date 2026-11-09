@@ -1,6 +1,6 @@
 ESP-ROM:esp32s3-20210327
 Build:Mar 27 2021
-rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
 SPIWP:0xee
 mode:DIO, clock div:1
 load:0x3fce2810,len:0x15a0
@@ -9,61 +9,192 @@ load:0x403c8704,len:0xd20
 load:0x403cb700,len:0x2f00
 entry 0x403c8928
 I (27) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader
-I (27) boot: compile time Nov  1 2026 02:17:15
+I (27) boot: compile time Nov  7 2026 05:02:10
 I (27) boot: Multicore bootloader
 I (28) boot: chip revision: v0.2
 I (31) boot: efuse block revision: v1.4
 I (34) boot.esp32s3: Boot SPI Speed : 80MHz
 I (38) boot.esp32s3: SPI Mode       : DIO
-I (42) boot.esp32s3: SPI Flash Size : 2MB
+I (42) boot.esp32s3: SPI Flash Size : 16MB
 I (46) boot: Enabling RNG early entropy source...
 I (50) boot: Partition Table:
 I (53) boot: ## Label            Usage          Type ST Offset   Length
 I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
 I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
-I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+I (72) boot:  2 factory          factory app      00 00 00010000 00500000
 I (79) boot: End of partition table
-I (82) esp_image: segment 0: paddr=00010020 vaddr=3c090020 size=218dch (137436) map
-I (114) esp_image: segment 1: paddr=00031904 vaddr=3fc99c00 size=0419ch ( 16796) load
-I (117) esp_image: segment 2: paddr=00035aa8 vaddr=40374000 size=0a570h ( 42352) load
-I (127) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=840fch (540924) map
-I (223) esp_image: segment 4: paddr=000c4124 vaddr=4037e570 size=0b670h ( 46704) load
-I (233) esp_image: segment 5: paddr=000cf79c vaddr=600fe100 size=0001ch (    28) load
-I (242) boot: Loaded app from partition at offset 0x10000
-I (242) boot: Disabling RNG early entropy source...
-I (252) cpu_start: Multicore app
-I (261) cpu_start: Pro cpu start user code
-I (261) cpu_start: cpu freq: 160000000 Hz
-I (261) app_init: Application information:
-I (261) app_init: Project name:     yg_b_sensing_v21
-I (266) app_init: App version:      1
-I (269) app_init: Compile time:     Nov  1 2026 02:15:52
-I (274) app_init: ELF file SHA256:  93e5a42ff...
-I (279) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
-I (284) efuse_init: Min chip rev:     v0.0
-I (287) efuse_init: Max chip rev:     v0.99 
-I (291) efuse_init: Chip rev:         v0.2
-I (295) heap_init: Initializing. RAM available for dynamic allocation:
-I (302) heap_init: At 3FCA5520 len 000441F0 (272 KiB): RAM
-I (307) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
-I (312) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
-I (317) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
-I (323) spi_flash: detected chip: generic
-I (326) spi_flash: flash io: dio
-W (329) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
-I (342) sleep_gpio: Configure to isolate all GPIO pins in sleep state
-I (348) sleep_gpio: Enable automatic switching of GPIO sleep configuration
-I (354) coexist: coex firmware version: e727207
-I (372) coexist: coexist rom version e7ae62f
-I (373) main_task: Started on CPU0
-I (374) main_task: Calling app_main()
-I (384) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
-I (385) BLE_INIT: BT controller compile version [d74042a]
-I (388) BLE_INIT: Bluetooth MAC: 68:ee:8f:44:b5:ae
-I (392) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
-I (462) yg-b: v2.1 B sensor boot=789269122: radar GPIO18; no private-data uplink
-I (462) main_task: Returned from app_main()
-W (484) ld6002: first64 +0: 01 5A 6B 00 04 0A 14 D5 00 00 00 00 FF 01 5A 6C 
-W (484) ld6002: first64 +16: 00 04 0A 15 D3 00 00 00 00 FF 01 5A 6D 00 04 0A 
-W (487) ld6002: first64 +32: 16 D1 00 00 00 00 FF 01 5A 6E 00 04 0A 14 D0 00 
-W (494) ld6002: first64 +48: 00 00 00 FF 01 5A 6F 00 04 0A 15 D0 00 00 00 00 
+I (82) esp_image: segment 0: paddr=00010020 vaddr=3c0c0020 size=27164h (160100) map
+I (118) esp_image: segment 1: paddr=0003718c vaddr=3fc9ca00 size=0500ch ( 20492) load
+I (122) esp_image: segment 2: paddr=0003c1a0 vaddr=40374000 size=03e78h ( 15992) load
+I (126) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=b9ad0h (760528) map
+I (263) esp_image: segment 4: paddr=000f9af8 vaddr=40377e78 size=14ae8h ( 84712) load
+I (282) esp_image: segment 5: paddr=0010e5e8 vaddr=600fe100 size=0001ch (    28) load
+I (292) boot: Loaded app from partition at offset 0x10000
+I (292) boot: Disabling RNG early entropy source...
+I (302) octal_psram: vendor id    : 0x0d (AP)
+I (302) octal_psram: dev id       : 0x02 (generation 3)
+I (302) octal_psram: density      : 0x03 (64 Mbit)
+I (304) octal_psram: good-die     : 0x01 (Pass)
+I (309) octal_psram: Latency      : 0x01 (Fixed)
+I (313) octal_psram: VCC          : 0x01 (3V)
+I (317) octal_psram: SRF          : 0x01 (Fast Refresh)
+I (322) octal_psram: BurstType    : 0x01 (Hybrid Wrap)
+I (327) octal_psram: BurstLen     : 0x01 (32 Byte)
+I (331) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+I (337) octal_psram: DriveStrength: 0x00 (1/1)
+I (341) esp_psram: Found 8MB PSRAM device
+I (344) esp_psram: Speed: 40MHz
+I (348) cpu_start: Multicore app
+I (1081) esp_psram: SPI SRAM memory test OK
+I (1090) cpu_start: Pro cpu start user code
+I (1090) cpu_start: cpu freq: 160000000 Hz
+I (1090) app_init: Application information:
+I (1091) app_init: Project name:     yg_local_sensor
+I (1095) app_init: App version:      df2a603-dirty
+I (1100) app_init: Compile time:     Nov  7 2026 05:56:00
+I (1105) app_init: ELF file SHA256:  e35d41dbf...
+I (1109) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND
+I (1114) efuse_init: Min chip rev:     v0.0
+I (1118) efuse_init: Max chip rev:     v0.99 
+I (1122) efuse_init: Chip rev:         v0.2
+I (1126) heap_init: Initializing. RAM available for dynamic allocation:
+I (1133) heap_init: At 3FCAC3A8 len 0003D368 (244 KiB): RAM
+I (1138) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (1143) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (1148) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM
+I (1154) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator
+I (1161) spi_flash: detected chip: generic
+I (1164) spi_flash: flash io: dio
+I (1168) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (1174) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (1181) main_task: Started on CPU0
+I (1205) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations
+I (1206) main_task: Calling app_main()
+I (1225) yg_servo: servo ready GPIO48 angle 90.0 safe 30..150 deg
+I (1226) gpio: GPIO[41]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+I (1299) bsp_camera: PWDN GPIO41 pulsed then held low
+I (1299) bsp_camera: pins SDA=21 SCL=47 CS=4 SCLK=13 DATA0=8 PWDN=41 SPI_HOST=1
+I (1307) bf3901: Detected Camera sensor PID=0x3901
+I (1308) bsp_camera: video init ok on attempt 1/3
+I (1412) bsp_camera: format 240x320 fourcc=0x59565955
+I (1412) bsp_camera: buffers ready, STREAMON deferred
+I (1413) bsp_camera: frame export buffer 153600 bytes in PSRAM
+I (1416) bsp_camera: early init ok, wait for stream_start
+I (1429) spi_cam: Initializing SPI interface
+I (1432) bsp_camera: stream on, /dev/video3
+I (1432) bsp_camera: stream task in PSRAM, stack=6144
+I (1432) bsp_camera: stream task on core 1
+W (1434) bsp_camera: GPIO+PCNT probe begin: 1500 ms (VSYNC=4 PCLK=13 DATA0=8 pcnt=on)
+I (1437) pp: pp rom version: e7ae62f
+I (1450) net80211: net80211 rom version: e7ae62f
+I (1456) wifi:wifi driver task: 3fcc1e00, prio:23, stack:6656, core=0
+I (1470) wifi:wifi firmware version: 79fa3f41ba
+I (1471) wifi:wifi certification version: v7.0
+I (1471) wifi:config NVS flash: enabled
+I (1471) wifi:config nano formatting: disabled
+I (1476) wifi:Init data frame dynamic rx buffer num: 32
+I (1481) wifi:Init static rx mgmt buffer num: 5
+I (1485) wifi:Init management short buffer num: 32
+I (1489) wifi:Init dynamic tx buffer num: 32
+I (1493) wifi:Init static tx FG buffer num: 2
+I (1497) wifi:Init static rx buffer size: 1600
+I (1502) wifi:Init static rx buffer num: 10
+I (1505) wifi:Init dynamic rx buffer num: 32
+I (1512) wifi_init: rx ba win: 6
+I (1515) wifi_init: accept mbox: 6
+I (1515) wifi_init: tcpip mbox: 32
+I (1521) wifi_init: udp mbox: 6
+I (1521) wifi_init: tcp mbox: 6
+I (1524) wifi_init: tcp tx win: 5760
+I (1530) wifi_init: tcp rx win: 5760
+I (1533) wifi_init: tcp mss: 1440
+I (1536) wifi_init: WiFi IRAM OP enabled
+I (1539) wifi_init: WiFi RX IRAM OP enabled
+I (1548) phy_init: phy_version 700,8582a7fd,Feb 10 2025,20:13:11
+I (1590) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)
+I (1629) wifi:mode : sta (68:ee:8f:44:b5:ac)
+I (1630) wifi:enable tsf
+I (1635) wifi:Set ps type: 0, coexist: 0
+
+I (1659) bsp_camera: frame 1 good=1 empty=0 bytesused=153600 expect=153600 idx=0 dt=227 ms
+I (1690) bsp_camera: frame 2 good=2 empty=0 bytesused=153600 expect=153600 idx=1 dt=31 ms
+I (1729) bsp_camera: frame 3 good=3 empty=0 bytesused=153600 expect=153600 idx=0 dt=39 ms
+I (1770) bsp_camera: frame 4 good=4 empty=0 bytesused=153600 expect=153600 idx=1 dt=41 ms
+I (1809) bsp_camera: frame 5 good=5 empty=0 bytesused=153600 expect=153600 idx=0 dt=39 ms
+I (1848) bsp_camera: frame 6 good=6 empty=0 bytesused=153600 expect=153600 idx=1 dt=39 ms
+I (1889) bsp_camera: frame 7 good=7 empty=0 bytesused=153600 expect=153600 idx=0 dt=41 ms
+I (1927) bsp_camera: frame 8 good=8 empty=0 bytesused=153600 expect=153600 idx=1 dt=38 ms
+I (1967) bsp_camera: frame 9 good=9 empty=0 bytesused=153600 expect=153600 idx=0 dt=40 ms
+I (2007) bsp_camera: frame 10 good=10 empty=0 bytesused=153600 expect=153600 idx=1 dt=40 ms
+I (2798) bsp_camera: frame 30 good=30 empty=0 bytesused=153600 expect=153600 idx=1 dt=791 ms
+W (2935) bsp_camera: GPIO probe result: samples=455680 VSYNC edges=66 high=130/1000 level=1->1; PCLK(sw) edges=27714 high=285/1000 level=0->0; DATA0 edges=140874 high=337/1000 level=0->0
+W (2941) bsp_camera: PCLK PCNT result: edges=28642306 elapsed_us=1500110 avg=19093470 Hz (window average, expected MHz range)
+W (2952) bsp_camera: GPIO probe verdict: VSYNC and MHz-rate PCLK PRESENT; inspect SPI polarity/framing/DMA next
+I (3985) bsp_camera: frame 60 good=60 empty=0 bytesused=153600 expect=153600 idx=1 dt=1187 ms
+W (4063) yg_wifi: scan: 30 APs visible; target ssid_len=22
+W (4064) yg_wifi:   [0] ssid='“root”的 iPhone12' rssi=-36 auth=3 ch=6
+W (4065) yg_wifi:   [1] ssid='YJZG2019' rssi=-40 auth=4 ch=1
+W (4070) yg_wifi:   [2] ssid='YJZG2019' rssi=-47 auth=4 ch=6
+W (4075) yg_wifi:   [3] ssid='DIRECT-4A-HP Laser 1136w' rssi=-51 auth=3 ch=1
+W (4082) yg_wifi:   [4] ssid='YJZG2019' rssi=-52 auth=4 ch=6
+W (4088) yg_wifi:   [5] ssid='YJZG2019' rssi=-56 auth=4 ch=1
+W (4093) yg_wifi:   [6] ssid='TP-LINK_476A' rssi=-60 auth=4 ch=6
+W (4099) yg_wifi:   [7] ssid='YJZG2019' rssi=-60 auth=4 ch=11
+W (4104) yg_wifi:   [8] ssid='YJZG2019' rssi=-60 auth=4 ch=11
+W (4110) yg_wifi:   [9] ssid='YJZG2019' rssi=-63 auth=4 ch=1
+W (4115) yg_wifi:   [10] ssid='HP-Print-cc-LaserJet Pro MFP' rssi=-63 auth=3 ch=6
+W (4122) yg_wifi:   [11] ssid='TPTP' rssi=-64 auth=4 ch=1
+W (4127) yg_wifi:   [12] ssid='0000' rssi=-65 auth=4 ch=10
+W (4133) yg_wifi:   [13] ssid='DIRECT-e2-HP M208 LaserJet' rssi=-69 auth=3 ch=6
+W (4140) yg_wifi:   [14] ssid='' rssi=-70 auth=0 ch=11
+W (4144) yg_wifi:   [15] ssid='DINGZHE' rssi=-71 auth=4 ch=11
+W (4150) yg_wifi:   [16] ssid='DINGZHE01' rssi=-71 auth=6 ch=11
+W (4156) yg_wifi:   [17] ssid='DIRECT-2E-HP Laser 1008w' rssi=-72 auth=3 ch=1
+W (4162) yg_wifi:   [18] ssid='TP-LINK_6346' rssi=-73 auth=4 ch=1
+W (4168) yg_wifi:   [19] ssid='' rssi=-73 auth=4 ch=1
+W (4173) yg_wifi:   [20] ssid='CDN666' rssi=-73 auth=3 ch=7
+W (4178) yg_wifi:   [21] ssid='MERCURY' rssi=-74 auth=4 ch=1
+W (4184) yg_wifi:   [22] ssid='CDN666-2.4G' rssi=-74 auth=4 ch=7
+W (4189) yg_wifi:   [23] ssid='888' rssi=-74 auth=4 ch=8
+W (4194) yg_wifi:   [24] ssid='HUAWEI-1B9E5W' rssi=-75 auth=3 ch=6
+W (4200) yg_wifi:   [25] ssid='' rssi=-76 auth=0 ch=6
+W (4205) yg_wifi:   [26] ssid='ChinaNet-KTkP' rssi=-76 auth=4 ch=9
+W (4211) yg_wifi:   [27] ssid='HAO1401' rssi=-77 auth=4 ch=6
+W (4216) yg_wifi:   [28] ssid='SSWY' rssi=-78 auth=4 ch=11
+W (4222) yg_wifi:   [29] ssid='' rssi=-78 auth=4 ch=11
+I (4229) yg_sensor: LAN-only sensor ready: BF3901 + LD6002 GPIO18 + SG90 GPIO48
+I (4236) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (4242) wifi:state: init -> auth (0xb0)
+I (4247) main_task: Returned from app_main()
+I (4252) wifi:state: auth -> assoc (0x0)
+I (4263) wifi:state: assoc -> run (0x10)
+I (4346) wifi:connected with “root”的 iPhone12, aid = 1, channel 6, BW20, bssid = 82:d5:f9:91:aa:c5
+I (4347) wifi:security: WPA2-PSK, phy: bgn, rssi: -38
+I (4352) wifi:pm start, type: 0
+
+I (4353) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (4361) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (4370) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (5172) bsp_camera: frame 90 good=90 empty=0 bytesused=153600 expect=153600 idx=1 dt=1187 ms
+I (5482) esp_netif_handlers: sta ip: 172.20.10.9, mask: 255.255.255.240, gw: 172.20.10.1
+I (5483) yg_wifi: LAN ready ip=172.20.10.9
+I (6399) bsp_camera: frame 120 good=120 empty=0 bytesused=153600 expect=153600 idx=1 dt=1227 ms
+I (7586) bsp_camera: frame 150 good=150 empty=0 bytesused=153600 expect=153600 idx=1 dt=1187 ms
+I (8773) bsp_camera: frame 180 good=180 empty=0 bytesused=153600 expect=153600 idx=1 dt=1187 ms
+E (8790) esp-tls: [sock=54] select() timeout
+E (8791) transport_base: Failed to open a new connection: 32774
+E (8792) HTTP_CLIENT: Connection failed, sock < 0
+W (8794) yg_sensor: LAN post failed: ESP_ERR_HTTP_CONNECT; servo holds
+I (9960) bsp_camera: frame 210 good=210 empty=0 bytesused=153600 expect=153600 idx=1 dt=1187 ms
+I (11147) bsp_camera: frame 240 good=240 empty=0 bytesused=153600 expect=153600 idx=1 dt=1187 ms
+E (11345) esp-tls: [sock=54] select() timeout
+E (11347) transport_base: Failed to open a new connection: 32774
+E (11347) HTTP_CLIENT: Connection failed, sock < 0
+W (11349) yg_sensor: LAN post failed: ESP_ERR_HTTP_CONNECT; servo holds
+I (12374) bsp_camera: frame 270 good=270 empty=0 bytesused=153600 expect=153600 idx=1 dt=1227 ms
+I (13562) bsp_camera: frame 300 good=300 empty=0 bytesused=153600 expect=153600 idx=1 dt=1188 ms
+E (13890) esp-tls: [sock=54] select() timeout
+E (13891) transport_base: Failed to open a new connection: 32774
+E (13891) HTTP_CLIENT: Connection failed, sock < 0
+W (13894) yg_sensor: LAN post failed: ESP_ERR_HTTP_CONNECT; servo holds
+I (14788) bsp_camera: frame 330 good=330 empty=0 bytesused=153600 expect=153600 idx=1 dt=1226 ms

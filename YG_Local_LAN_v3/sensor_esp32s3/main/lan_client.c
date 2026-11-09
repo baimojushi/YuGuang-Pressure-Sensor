@@ -112,7 +112,7 @@ esp_err_t lan_client_upload(const yg_packet_t *p)
     u32le(head + 4, (uint32_t)meta_len);
     u32le(head + 8, (uint32_t)p->frame_len);
     esp_http_client_config_t conf = {
-        .url = CONFIG_YG_SERVER_URL, .timeout_ms = 2500,
+        .url = CONFIG_YG_SERVER_URL, .timeout_ms = 10000,
         .keep_alive_enable = true,
     };
     esp_http_client_handle_t client = esp_http_client_init(&conf);

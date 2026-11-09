@@ -4,6 +4,81 @@ Commercial users must verify the model weights' license independently.
 from __future__ import annotations
 from dataclasses import dataclass
 import os
+import cv2
+import numpy as np
+
+
+def _sigmoid(x):
+    return 1.0 / (1.0 + np.exp(-x))
+
+
+def _decode_pose_heads(outputs: dict, size: int) -> np.ndarray:
+    """Decode raw YOLO11n-pose heads (box/score/kpt per scale) into (N,56) pose-format
+    array in 640-pixel letterbox space: [cx,cy,w,h,conf,kx1,ky1,kv1,...,kx17,ky17,kv17].
+
+    outputs: dict name->numpy array from session.run (batched, batch=1).
+    Returns float32 (N,56); empty (0,56) when nothing detected.
+    """
+    groups = {}
+    for name, arr in outputs.items():
+        if arr.ndim == 4 and arr.shape[0] == 1:
+            c, hh, ww = arr.shape[1], arr.shape[2], arr.shape[3]
+            groups.setdefault((hh, ww), {})[c] = arr[0]
+
+    rows = []
+    for (hh, ww), g in sorted(groups.items()):
+        if not ({64, 1, 51} <= set(g.keys())):
+            continue
+        box = g[64]           # (64,H,W) = 4 dirs x 16 DFL bins
+        sc = g[1]             # (1,H,W)
+        kp = g[51]            # (51,H,W) = 17 kpts x 3 (x,y,v)
+        stride = size / hh
+
+        # DFL decode: 64 channels = 4 directions x 16 bins
+        b = box.reshape(4, 16, hh, ww)
+        p = np.exp(b - b.max(axis=1, keepdims=True))
+        p /= p.sum(axis=1, keepdims=True)
+        dist = (p * np.arange(16).reshape(1, 16, 1, 1)).sum(axis=1)  # (4,H,W)
+
+        gx, gy = np.meshgrid(np.arange(ww), np.arange(hh))
+        cx = (gx + 0.5) * stride
+        cy = (gy + 0.5) * stride
+        l, t, r, b2 = dist[0], dist[1], dist[2], dist[3]
+        x1 = cx - l * stride
+        y1 = cy - t * stride
+        x2 = cx + r * stride
+        y2 = cy + b2 * stride
+        ccx = (x1 + x2) / 2
+        ccy = (y1 + y2) / 2
+        bw = x2 - x1
+        bh = y2 - y1
+        conf = _sigmoid(sc[0])
+
+        # kp 通道布局: [kx0..kx16, ky0..ky16, kv0..kv16]（先全部x，再全部y，再全部score）
+        k = kp.reshape(3, 17, hh, ww)
+        kx = (_sigmoid(k[0]) * 2 - 0.5 + gx) * stride
+        ky = (_sigmoid(k[1]) * 2 - 0.5 + gy) * stride
+        kv = _sigmoid(k[2])
+
+        for yy in range(hh):
+            for xx in range(ww):
+                c = conf[yy, xx]
+                if c < 0.25:
+                    continue
+                rows.append(
+                    np.concatenate(
+                        [
+                            [ccx[yy, xx], ccy[yy, xx], bw[yy, xx], bh[yy, xx], c],
+                            kx[:, yy, xx],
+                            ky[:, yy, xx],
+                            kv[:, yy, xx],
+                        ]
+                    )
+                )
+    if not rows:
+        return np.zeros((0, 56), dtype=np.float32)
+    return np.stack(rows).astype(np.float32)
+
 
 COCO17 = (
     "nose", "left_eye", "right_eye", "left_ear", "right_ear",
@@ -11,6 +86,7 @@ COCO17 = (
     "left_wrist", "right_wrist", "left_hip", "right_hip", "left_knee",
     "right_knee", "left_ankle", "right_ankle",
 )
+
 
 @dataclass
 class Person:
@@ -70,13 +146,11 @@ class YoloPoseONNX:
         canvas[dh:dh + nh, dw:dw + nw] = resized
         rgb = cv2.cvtColor(canvas, cv2.COLOR_BGR2RGB)
         tensor = np.transpose(rgb.astype(np.float32) / 255., (2, 0, 1))[None]
-        raw = np.asarray(self.session.run(None, {self.input_name: tensor})[0])
-        # Ultralytics default pose head: [1,56,8400], sometimes [1,8400,56].
-        if raw.ndim != 3 or raw.shape[0] != 1:
-            raise ValueError("Unsupported pose output: expected [1,56,N] or [1,N,56]")
-        raw = raw[0]
-        if raw.shape[0] == 56:
-            raw = raw.T
+        outs = self.session.run(None, {self.input_name: tensor})
+        raw = _decode_pose_heads(
+            {self.session.get_outputs()[i].name: outs[i] for i in range(len(outs))},
+            self.size,
+        )
         if raw.ndim != 2 or raw.shape[1] != 56:
             raise ValueError(f"ONNX output shape incompatible with YOLO11 COCO pose: {raw.shape}")
         raw = raw[raw[:, 4] >= 0.35]
@@ -97,7 +171,9 @@ class YoloPoseONNX:
                  max(0., min(1., (y1 - dh) / scale / h)),
                  max(0., min(1., (x1 + bw - dw) / scale / w)),
                  max(0., min(1., (y1 + bh - dh) / scale / h)))
-            kpts = r[5:].reshape(17, 3)
+            # r[5:] 布局: [kx0..kx16, ky0..ky16, kv0..kv16]（先x后y后v）。
+            # reshape(3,17).T 才能把每个关键点的 (x,y,v) 对齐在同一行。
+            kpts = r[5:].reshape(3, 17).T
             landmarks = {}
             for name, (x, y, prob) in zip(COCO17, kpts):
                 landmarks[name] = {

@@ -55,18 +55,32 @@ def decode_packet(body: bytes) -> SensorPacket:
         raise PacketError("invalid device_id")
     if m.get("pixel_format") != "UYVY422":
         raise PacketError("unsupported pixel_format")
-    w, h = m.get("width"), m.get("height")
-    if not isinstance(w, int) or not isinstance(h, int) or (w, h) not in ALLOWED_DIMS:
+
+    def _as_int(v, field):
+        """cJSON emits numbers as doubles; accept int or float-valued numeric."""
+        if isinstance(v, bool):
+            raise PacketError(f"{field} must be number, not bool")
+        if isinstance(v, int):
+            return v
+        if isinstance(v, float) and v.is_integer():
+            return int(v)
+        raise PacketError(f"{field} must be an integer")
+
+    w = _as_int(m.get("width"), "width")
+    h = _as_int(m.get("height"), "height")
+    if (w, h) not in ALLOWED_DIMS:
         raise PacketError("unexpected image dimensions")
     if raw_len != w * h * 2:
         raise PacketError("UYVY byte count not equal to width*height*2")
-    boot, seq, stamp = (m.get(k) for k in ("boot_id", "frame_seq", "frame_timestamp_us"))
-    if not all(isinstance(v, int) and not isinstance(v, bool) and v >= 0 for v in (boot, seq, stamp)):
+    boot = _as_int(m.get("boot_id"), "boot_id")
+    seq = _as_int(m.get("frame_seq"), "frame_seq")
+    stamp = _as_int(m.get("frame_timestamp_us"), "frame_timestamp_us")
+    if boot < 0 or seq < 0 or stamp < 0:
         raise PacketError("invalid device monotonic time or sequence")
     if boot > 0xFFFFFFFF or seq > 0xFFFFFFFF:
         raise PacketError("sequence overflow")
     angle = m.get("servo_angle_deg")
-    if not isinstance(angle, (int, float)) or not (0 <= angle <= 180):
+    if not isinstance(angle, (int, float)) or isinstance(angle, bool) or not (0 <= angle <= 180):
         raise PacketError("invalid servo angle")
     radar = m.get("radar", {})
     if not isinstance(radar, dict):
@@ -79,8 +93,9 @@ def decode_packet(body: bytes) -> SensorPacket:
         if not (isinstance(sample, list) and len(sample) == 3):
             raise PacketError("bad phase sample")
         s_seq, t_us, phase = sample
-        if not (isinstance(s_seq, int) and 0 <= s_seq <= 0xFFFFFFFF and
-                isinstance(t_us, int) and t_us >= 0 and
+        s_seq = _as_int(s_seq, "sample_seq")
+        t_us = _as_int(t_us, "sample_ts")
+        if not (0 <= s_seq <= 0xFFFFFFFF and t_us >= 0 and
                 isinstance(phase, (int, float)) and -1e6 <= phase <= 1e6):
             raise PacketError("bad phase sample values")
         parsed.append((s_seq, t_us, float(phase)))
