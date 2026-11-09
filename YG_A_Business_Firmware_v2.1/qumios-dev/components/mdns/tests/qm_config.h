@@ -1,6 +1,0 @@
-#ifndef MDNS_TEST_CONFIG_H
-#define MDNS_TEST_CONFIG_H
-
-#define CONFIG_MDNS_PACKET_SIZE 1500
-
-#endif

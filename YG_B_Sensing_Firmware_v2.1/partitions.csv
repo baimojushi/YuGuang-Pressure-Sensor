@@ -1,8 +1,0 @@
-# B 板感知板分区表（16 MB flash）
-# nvs 保持 0x9000 / 24K，与既有 partitions_singleapp.csv 一致，BLE 绑定不因换表失效。
-# coco_pose 承载 YOLO11n-pose 模型（V1，3,103,472 B），按 3200K 预留，与 A 板同尺寸。
-# Name,   Type, SubType, Offset,   Size,     Flags
-nvs,       data, nvs,     0x9000,   0x6000,
-phy_init,  data, phy,     0xf000,   0x1000,
-factory,   app,  factory, 0x10000,  0x500000,
-coco_pose, data, 0x40,    0x510000, 0x320000,

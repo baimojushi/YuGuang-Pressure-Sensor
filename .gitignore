@@ -17,3 +17,8 @@
 # OS
 .DS_Store
 Thumbs.db
+
+# A/B/C 三端架构文件夹（不纳入本仓库版本控制）
+YG_A_Business_Firmware_v2.1/
+YG_B_Sensing_Firmware_v2.1/
+YG_C_Platform_Web_v2.1/

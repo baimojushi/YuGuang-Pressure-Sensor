@@ -1,7 +1,0 @@
-menu "kv"
-
-    config QM_KV_SUPPORT
-        bool "qm kv support"
-        default "n"
-        
-endmenu

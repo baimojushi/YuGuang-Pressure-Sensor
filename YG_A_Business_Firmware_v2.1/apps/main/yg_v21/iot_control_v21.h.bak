@@ -1,7 +1,0 @@
-#ifndef IOT_CONTROL_V21_H
-#define IOT_CONTROL_V21_H
-#include "qm_spec_api.h"
-#define YG_SIID 13
-int iot_control_v21_set(qm_spec_property_t *property);
-void iot_control_v21_report(void);
-#endif

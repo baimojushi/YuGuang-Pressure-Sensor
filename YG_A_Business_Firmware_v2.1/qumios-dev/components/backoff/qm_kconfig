@@ -1,9 +1,0 @@
-menu "backoff"
-
-    config QM_BACKOFF_SUPPORT
-        bool "qm backoff support"
-        default "n"
-
-        
-        
-endmenu
