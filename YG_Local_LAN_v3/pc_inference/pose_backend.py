@@ -54,11 +54,11 @@ def _decode_pose_heads(outputs: dict, size: int) -> np.ndarray:
         bh = y2 - y1
         conf = _sigmoid(sc[0])
 
-        # kp 通道布局: [kx0..kx16, ky0..ky16, kv0..kv16]（先全部x，再全部y，再全部score）
-        k = kp.reshape(3, 17, hh, ww)
-        kx = (_sigmoid(k[0]) * 2 - 0.5 + gx) * stride
-        ky = (_sigmoid(k[1]) * 2 - 0.5 + gy) * stride
-        kv = _sigmoid(k[2])
+        # kp 通道布局: [kx0, ky0, kv0, kx1, ky1, kv1, ...]（每个关键点的 x,y,v 交错，共 51 通道）
+        k = kp.reshape(17, 3, hh, ww)
+        kx = (_sigmoid(k[:, 0]) * 2 - 0.5 + gx[None, :, :]) * stride
+        ky = (_sigmoid(k[:, 1]) * 2 - 0.5 + gy[None, :, :]) * stride
+        kv = _sigmoid(k[:, 2])
 
         for yy in range(hh):
             for xx in range(ww):
@@ -69,9 +69,8 @@ def _decode_pose_heads(outputs: dict, size: int) -> np.ndarray:
                     np.concatenate(
                         [
                             [ccx[yy, xx], ccy[yy, xx], bw[yy, xx], bh[yy, xx], c],
-                            kx[:, yy, xx],
-                            ky[:, yy, xx],
-                            kv[:, yy, xx],
+                            # kx, ky, kv 各 (17,)，交错拼为 [kx0,ky0,kv0, kx1,ky1,kv1, ...] 共 51
+                            np.stack([kx[:, yy, xx], ky[:, yy, xx], kv[:, yy, xx]], axis=1).reshape(-1),
                         ]
                     )
                 )
@@ -171,9 +170,9 @@ class YoloPoseONNX:
                  max(0., min(1., (y1 - dh) / scale / h)),
                  max(0., min(1., (x1 + bw - dw) / scale / w)),
                  max(0., min(1., (y1 + bh - dh) / scale / h)))
-            # r[5:] 布局: [kx0..kx16, ky0..ky16, kv0..kv16]（先x后y后v）。
-            # reshape(3,17).T 才能把每个关键点的 (x,y,v) 对齐在同一行。
-            kpts = r[5:].reshape(3, 17).T
+            # r[5:] 布局: [kx0, ky0, kv0, kx1, ky1, kv1, ...]（每个关键点的 x,y,v 交错，共 51 通道）。
+            # reshape(17, 3) 把每个关键点的 (x,y,v) 对齐在同一行。
+            kpts = r[5:].reshape(17, 3)
             landmarks = {}
             for name, (x, y, prob) in zip(COCO17, kpts):
                 landmarks[name] = {

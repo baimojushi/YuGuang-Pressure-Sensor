@@ -14,6 +14,12 @@
 # Historical panel build artifacts
 /_flat_dist/
 
+# Session temp (agent tooling)
+.qwen/tmp/
+
+# ESP-IDF component-manager generated
+**/managed_components/
+
 # OS
 .DS_Store
 Thumbs.db
